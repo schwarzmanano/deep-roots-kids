@@ -1,0 +1,304 @@
+# ── GATE 1 PASSED — signed 2026-09-17, see plan/theology-review.md ──
+# All six decisions ruled and folded in below. `ruling:` fields record which
+# decision governs a page, so the reasoning travels with the work.
+#
+# Quoted text uses the World English Bible (public domain) — DECISION-4.
+# Page text is paraphrase unless `quote: true`.
+# `teaching:` is a line for the parent to read aloud, set smaller beneath the text.
+
+meta:
+  scope: "Genesis 1:1 - 2:3"
+  translation: "WEB (public domain)"
+  reading_level: "ages 4-7, one sentence per page, read aloud by an adult"
+  gate1_signed: "2026-09-17"
+
+pages:
+
+  - page: 3
+    ref: "Genesis 1:1-2"
+    title: "Before Anything"
+    text: "In the beginning, God made the heavens and the earth."
+    teaching: "Everything begins with God. Before there were people, or stars, or oceans, there was God — and one day, His Son will make it all new again."
+    scene: "Deep water filling the whole lower half of the page under a wide sky, the darkness just
+            beginning to yield in soft bands at the horizon. Fill the water with long rolling swells
+            drawn as a SMALL NUMBER of LARGE smooth wave bands — about five or six broad curved
+            shapes stacked down the page, each one a big open area a child can colour. Wide space
+            inside every shape. Absolutely NO fine parallel ripple lines, NO hatching, NO texture,
+            NO repeated thin strokes. A few large rounded clouds in the sky above. NO land, NO
+            shoreline, NO rocks — dry ground has not been made yet. No living thing of any kind.
+            No figure, no face, no hands, no light shaped like a person."
+    alt: "An empty expanse of still water beneath an open sky."
+    accept_ink_drift: true   # -51%: composition IS full (large wave bands + layered cloud),
+                             # ink reads low because the shapes are large and open, which is the
+                             # point for ages 4-7. Ruled 2026-09-18 after the unification pass.
+    ruling: "DECISION-1 — depict nothing standing in for the Spirit. No dove, no face, no hand,
+             no humanoid light. WLC 109. The absence itself carries the meaning."
+
+  - page: 5
+    ref: "Genesis 1:3-5"
+    title: "Day One — Light"
+    text: "God said, 'Let there be light!' And there was light."
+    teaching: "God spoke, and light came from the dark. Jesus is called the Light of the World — He shines even in our darkest days."
+    scene: "A wide sky divided — one side bright with broad radiating bands of light rising from the
+            horizon, the other side dark with a few large rounded cloud shapes. Below, deep water
+            filling the lower half, drawn as FOUR OR FIVE LARGE smooth wave bands — big open areas a
+            child can colour, with wide space inside each one. Absolutely NO fine parallel ripple
+            lines, NO hatching, NO texture, NO repeated thin strokes.
+            NO sun and NO moon anywhere — the lights are not made until the fourth day. NO land, NO
+            shoreline — dry ground has not been made yet. No living thing. No figure of any kind."
+    thicken_thin_strokes: true   # 6 strokes measured 1.59pt, under the 2pt floor — ruled: fix
+    alt: "A sky split between light and darkness above calm water."
+    ruling: "DECISION-1 — light is not shaped into a figure. No sun here; the sun comes on Day 4."
+
+  - page: 7
+    ref: "Genesis 1:6-8"
+    title: "Day Two — Sky"
+    text: "God made the sky, and put water below it and water above it."
+    teaching: "God gave the sky its shape and its place. He is a God of order, not confusion — everything He made, He made just right."
+    scene: "A full sky of large rounded layered clouds above, and deep water below filling the lower
+            half with rolling waves and ripple lines down to the bottom edge. A clear horizon band
+            separates the water above from the water below. Draw generously so the page is full.
+            NO land, NO shoreline, NO rocks — dry ground is not made until the next day. NO birds,
+            NO fish, NO creature of any kind — nothing living has been made yet."
+    alt: "Clouds above a broad expanse of water."
+
+  - page: 9
+    ref: "Genesis 1:9-10"
+    title: "Day Three — Land and Seas"
+    text: "God gathered the water together, and dry ground appeared."
+    teaching: "Dry land, safe and solid, out of the deep water. God still makes safe, solid ground for His children — through Jesus, our feet are set on the Rock."
+    scene: "Gentle hills and a curving shoreline meeting calm sea. Simple rounded rocks."
+    alt: "Rolling hills beside a calm sea."
+
+  - page: 11
+    ref: "Genesis 1:11-13"
+    title: "Day Three — Growing Things"
+    text: "God said, 'Let the land grow plants and trees!' And it was so."
+    teaching: "God made every plant and tree before there was anyone to eat from them. Jesus called Himself the true Bread — the food our hearts need most."
+    scene: "An orchard of growing things ONLY — no animals of any kind. Exactly TWO large rounded
+            fruit trees, each bearing only THREE big simple round fruits. One small cluster of
+            three large open flowers with broad petals. Two simple leafy plants on the ground.
+            That is all — nothing else. Gentle hills behind and a wide empty stretch of open
+            ground across the lower half of the page. Keep it sparse and uncluttered: few objects,
+            large shapes, generous white space. Absolutely NO animals: no lion, no elephant, no
+            rabbit, no tortoise, no birds, no fish, no creature of any kind — nothing has been
+            created yet but plants."
+    alt: "Trees bearing fruit among large flowers and leaves."
+    amended: "2026-09-18 — CONTENT ERROR fixed. The page previously carried p23's elephant/lion/
+              rabbit/tortoise cluster against the Day 3 vegetation verse — animals four days before
+              they were created. Caused by style-reference content bleed at first generation."
+
+  - page: 13
+    ref: "Genesis 1:14-18"
+    title: "Day Four — The Sun and the Moon"
+    text: "God made the sun to shine in the day, and the moon to shine at night."
+    teaching: "The sun and moon are not gods. They don't rule the sky — God does.
+               He simply put them there to serve us."
+    scene: "A large round sun high on one side and a crescent moon on the other, with several large
+            rounded clouds between them. Below, layered rolling hills carrying a few full rounded
+            trees, and a broad band of calm water across the foreground drawn as two or three large
+            smooth wave shapes. Fill the page from top to bottom. Draw with LARGE open shapes a child can colour — wide space inside every shape. Absolutely NO hatching, NO fine parallel lines, NO repeated thin strokes, NO texture.
+            NO animals, NO birds, NO fish — living creatures are not made until the days after this."
+    alt: "A sun and a crescent moon in the sky above hills."
+    ruling: "DECISION-2 — plain nouns for the child's vocabulary; Genesis 1's polemic against
+             sun and moon worship preserved in the teaching line for the parent to read aloud."
+
+  - page: 15
+    ref: "Genesis 1:16"
+    title: "Day Four — Stars"
+    text: "He made the stars too."
+    teaching: "God made the stars and calls each one by name. One day a new star led wise men to Jesus — the true Light the stars only pointed to."
+    scene: "A night sky filled with many large simple five-pointed stars of clearly varying size,
+            spread across the whole upper two thirds, with a few large rounded clouds among them.
+            Below, a landscape of layered rolling hills with several full rounded trees, and a band
+            of calm water across the foreground drawn as two or three large smooth wave shapes.
+            Fill the page from top to bottom. Draw with LARGE open shapes a child can colour — wide space inside every shape. Absolutely NO hatching, NO fine parallel lines, NO repeated thin strokes, NO texture.
+            NO animals, NO birds, NO fish — living creatures are not made until the days after this."
+    alt: "A sky of many stars above a quiet horizon."
+
+  - page: 17
+    ref: "Genesis 1:20-21"
+    title: "Day Five — Sea Creatures"
+    text: "God filled the seas with swimming creatures, great and small."
+    teaching: "God filled the sea and made it good. Later, Jesus walked right on top of it — the sea obeys the One who made it."
+    scene: "Large friendly whale, round fish, simple sea creatures among gentle waves."
+    alt: "A whale and fish swimming among waves."
+    note: "Pre-gate test image exists. Discard it — generated before style lock and it failed
+           the safe-area check (fish cropped at frame edge, waves running edge to edge)."
+
+  - page: 19
+    ref: "Genesis 1:21-23"
+    title: "Day Five — Birds"
+    text: "And God filled the sky with birds that fly."
+    teaching: "God gave the birds the whole sky to fly in. Jesus said God feeds every sparrow — and He loves us so much more."
+    scene: "Several large simple birds in flight among rounded clouds."
+    alt: "Birds flying among clouds."
+
+  - page: 21
+    ref: "Genesis 1:24-25"
+    title: "Day Six — Animals of the Land"
+    text: "God said, 'Let the land be filled with animals!' And it was so."
+    teaching: "God filled the land with living things, and it was good. One day, the Bible says, even the animals will live in peace — because Jesus is making all things new."
+    scene: "Gentle large animals — cattle, sheep, a deer — standing in open grass."
+    alt: "Farm and field animals standing in grass."
+    accept_thin_strokes: true   # 1 stroke at 1.59pt, 0.09% of ink — ruled 2026-09-17: noise, accept
+    ruling: "DECISION-3 — no dinosaurs. The book takes no position on an origins question that
+             divides faithful readers in good conscience. Common land animals only."
+
+  - page: 23
+    ref: "Genesis 1:24-25"
+    title: "Day Six — Wild Animals"
+    text: "He made every kind of creature that moves upon the ground."
+    teaching: "God made every creature, great and small, and gave each one its place. Nothing God makes is forgotten by Him — not even the smallest thing, not even you."
+    scene: "Lion, elephant, rabbit and tortoise together in open landscape. Calm, friendly, no threat."
+    alt: "A lion, elephant, rabbit and tortoise in an open landscape."
+    style_reference: true
+    note: "Chosen as the Gate 2 style-lock reference — four creatures at different scales is the
+           strongest single test of line-weight consistency, region closure and safe area."
+
+  - page: 25
+    ref: "Genesis 1:26-27"
+    title: "Day Six — People"
+    text: "God made people in his own image, and he loved them."
+    teaching: "Out of everything God made, only people were made in His image. Jesus is the perfect Image of God — and He came to make broken image-bearers new."
+    scene: "Two figures seen FROM BEHIND, at distance, small within a wide creation scene, faces
+            entirely unseen. They are at work — tending plants, reaching toward an animal — in the
+            act of the charge just given. Not posed, not static, not facing the viewer.
+            No birds anywhere in this scene. No flying creature of any kind.
+            HYBRID STYLE: the two human figures are drawn in the Deep Roots Kids flat-vector
+            character construction — circle head, simple rounded tunic, every limb a single thin
+            line, hands and feet plain ovals. The surrounding scene — plants, animals, ground,
+            trees, sky — stays in this book's naturalistic line style.
+            THE ONE CHANGE: the two figures must read clearly as one male and one female.
+            Differentiate them ONLY by build and by hair length and shape — the female figure has
+            longer, fuller hair reaching past the shoulder and a slighter build; the male figure
+            has short cropped hair and a squarer, broader build. Both still seen from behind with
+            no face visible. No glasses, no beads, no head wrap, no jewellery, no other markers."
+    figures: "DECISION-5"   # -> style.md "## Human figures — DECISION-5, global rule"
+    character_ref: "kids/_brand/character-ref-coloring.jpg"
+    base_ref: "kids/_brand/p25-base-hybrid.jpg"
+    alt: "Two small figures seen from behind, tending plants and animals in a wide landscape."
+    ruling: "DECISION-5 — the image of God is shown in what they DO, not what they look like.
+             Faces unseen means no bodily likeness is depicted, which sidesteps the Gen 2:25
+             clothing question entirely — there is no fall-state to get wrong. No visual
+             proximity to any depiction of God, consistent with DECISION-1."
+    amended: "2026-09-17 — birds removed from this scene. THEOLOGICAL, not style: DECISION-1
+              applied to this page. Nothing in Gen 1:26-28 places a bird beside the humans, and a
+              solitary spread-winged bird here risks reading as the Spirit, or blurring the
+              distinction the text draws between image-bearing humankind and every creature
+              'after its kind' that came before them."
+    amended_2: "2026-09-17 — figures differentiated as male and female. THEOLOGICAL: Gen 1:27 does
+                not stop at 'in his own image' — 'male and female he created them' is part of the
+                verse, not incidental to it, so the page should show it rather than two
+                interchangeable silhouettes. Differentiated by build and hair only; fixed cast
+                markers still excluded as anachronistic, per the earlier ruling."
+
+  - page: 27
+    ref: "Genesis 1:28-30"
+    title: "Day Six — A Good Gift"
+    text: "God blessed them, and gave them every plant and tree for food."
+    teaching: "God blessed the first man and woman and gave them everything they needed. Jesus is the true Bread from Heaven — He gives Himself so we are never truly hungry."
+    scene: "Two or three large simple fruit trees with a few big round fruits. One or two animals
+            grazing. Same two figures from behind, at distance, reaching up to pick a fruit.
+            Faces unseen. Open ground, plenty of empty space. No baskets, no woven objects,
+            no bunches of small fruit.
+            HYBRID STYLE: the two human figures use the Deep Roots Kids flat-vector construction —
+            circle head with a simple hair shape, one simple sleeveless garment with the hem at or
+            above the knee, every limb a single thin line, arms held away from the torso, hands and
+            feet plain ovals. One reads male (short cropped hair, broader squarer build), one reads
+            female (longer fuller hair past the shoulder, slighter build). Both from behind, faces
+            unseen. The scene — trees, fruit, animals, ground — stays naturalistic.
+            HANDS AND FEET, CRITICAL: every arm is ONE single thin line ending in a plain closed
+            OVAL MITTEN for the hand — no fingers, no thumbs, no blobs, no clenched shapes. Every
+            leg is ONE single thin line ending in a plain closed OVAL for the foot — no shoes, no
+            heels, no soles, no toes, no ankles. Hands and feet drawn identically as simple ovals
+            on the end of a single line, exactly as in the reference figures."
+    figures: "DECISION-5"   # -> style.md "## Human figures — DECISION-5, global rule"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+    base_ref: "kids/_brand/p27-base.jpg"
+    alt: "Fruit trees and plants with animals nearby and two small figures gathering fruit."
+    ruling: "DECISION-5 — figure treatment held consistent with p25."
+    amended_3: "2026-09-18 — flat-vector construction applied, matching p25. NOTE: the wardrobe
+                spec's collared shirt / kitenge wrap-dress distinction is deliberately NOT applied
+                here. Those are the modern family cast's markers, and p27 depicts the first man and
+                woman of Gen 1:28-30 — the same anachronism reasoning that excluded glasses, beads
+                and head wraps from p25. Figures are differentiated by build and hair only.
+                Flagged for the editor; reversible if ruled otherwise."
+    amended: "2026-09-17 — scene simplified after QA. Original read 'abundant... baskets of fruit'
+              and produced 13.2/13.0/9.7% ink against a 6.25% reference, with basket weave
+              violating the no-crosshatching rule. Style fix only; DECISION-5 untouched."
+
+  - page: 29
+    ref: "Genesis 1:31"
+    title: "Very Good"
+    text: "God saw everything that he had made, and behold, it was very good."
+    teaching: "God looked at everything He had made and said it was very good. Sin broke that goodness — but Jesus is making a new heaven and a new earth, and it will be very good again."
+    quote: true
+    thicken_thin_strokes: true   # 3 strokes at 1.59pt from the fish detailing
+    scene: "A wide panorama gathering the whole book together, deliberately DIFFERENT from the
+            wild-animals page. Foreground: the sea along the bottom with two or three large fish and
+            a whale breaking the surface. Middle: a shoreline and hills with a few animals seen in
+            NEW poses — one lying down resting, one drinking at the water, one walking away from the
+            viewer — not standing in a row facing forward. Sky: several birds in flight and a few
+            stars appearing at the top. No lion, no elephant, no tortoise. The sea and sky creatures
+            carry this page, with land animals secondary."
+    alt: "A wide landscape with sea creatures, birds, hills and resting animals."
+    amended: "2026-09-18 — recomposed so no two full-page illustrations read as the same drawing.
+              Sea and sky creatures lead; land animals in new poses and reduced."
+
+  - page: 31
+    ref: "Genesis 2:1-3"
+    title: "Day Seven — Rest"
+    text: "On the seventh day God rested, and he made that day holy."
+    teaching: "God rested on the seventh day, not because He was tired, but to bless it and make it holy. Jesus is our true rest — in Him, our tired hearts finally stop striving."
+    scene: "A quiet landscape at rest, drawn full and complete. Layered rolling hills with several
+            full rounded trees, a broad band of calm water across the foreground as two or three
+            large smooth wave shapes, large rounded clouds and a few stars appearing above. A few
+            animals RESTING — one lying down, one standing still, one asleep — and nothing moving
+            anywhere: no running, no flying, no activity of any kind. Stillness is the subject.
+            Fill the page from top to bottom. Draw with LARGE open shapes a child can colour — wide space inside every shape. Absolutely NO hatching, NO fine parallel lines, NO repeated thin strokes, NO texture."
+    alt: "A still, quiet landscape at rest."
+    ruling: "DECISION-6 — 'day' left plain, as Moses left it. No gloss, no position between
+             24-hour and framework readings. That conviction is formed in the home."
+
+  - page: 33
+    ref: "back matter"
+    title: "Closing Page"
+    text: ""
+    scene: ""
+    alt: ""
+    generate: false
+    back_matter: true
+    note: "Closing back-matter page. Text authored by the editor and inserted verbatim
+           2026-09-18. No illustration; no generated content of any kind on this page."
+    body: |
+      From Creation to Glory
+
+      Six days, and it was very good. On the seventh, God rested.
+
+      But the story was not finished — and it still isn't.
+
+      Genesis 1 opens with God speaking light into darkness. The last book of the Bible ends with a city that needs no sun, because the Lamb Himself is its light (Revelation 21:23). The light that broke on Day One was already pointing forward — to Jesus, the true Light of the world (John 1:9), who came into the darkness of a broken creation to shine again.
+
+      Everything God called good in this book was made through Him and for Him (Colossians 1:16). And when sin broke what was very good, God did not leave it broken. He sent His own Son — the true Image of God (Colossians 1:15) — to live the life we could not live, die the death we deserved, and rise on a new "first day," making all things new.
+
+      One day, the Bible promises, God will finish what He started here. A new heaven and a new earth (Revelation 21:1). And His people will rest — not for one day only, but forever — in Him (Hebrews 4:9–10).
+
+      Creation. Fall. Redemption. Glorification.
+
+      This book is Book One. The story is still being told — and by God's grace, so is yours.
+
+      For families: read this page together, and ask — where do you see Jesus in the story of creation?
+
+
+  - page: 35
+    ref: "back matter"
+    title: "About the Author"
+    text: ""
+    scene: ""
+    alt: ""
+    generate: false
+    back_matter: true
+    body_file: "kids/_brand/about-the-author.md"
+    note: "Standing cross-series back matter. Text is NOT stored here — it is read at build
+           time from the shared asset so every volume stays in sync. No generated content."

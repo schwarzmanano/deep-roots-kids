@@ -1,0 +1,20 @@
+book: made-like-him
+title: Made Like Him
+kdp_disclosure:
+  images: "AI-GENERATED — must be disclosed to KDP"
+  text: "AI-GENERATED — page text, teaching lines and closing page AI-drafted, human-reviewed and edited; must be disclosed to KDP"
+  translation: "none — WEB, public domain, not AI translated"
+  checkbox: Yes, some of this content is AI-generated -> select IMAGES and TEXT
+  note: Disclose on first publish AND on every republish or content edit.
+text_provenance:
+  scripture: "WEB, public domain — quoted (p5 Gen 2:7, p7 Gen 1:27), not generated"
+  page_text: "paraphrase of Scripture — AI-drafted, human-reviewed"
+  teaching_lines: "AI-drafted, human-reviewed"
+  closing_page: "AI-drafted, human-reviewed"
+  p33_footnote: "human-authored — editor's Gate 1 ruling D2, verbatim"
+  yahweh_line: "human-authored — editor's Gate 1 ruling D8, verbatim"
+  about_the_author: "human-authored (kids/_brand/about-the-author.md)"
+gate1_signed: '2026-09-27'
+style_lock_gate2: gen/p19/attempt-04.jpg   # -> art/style-lock.png
+wardrobe: character-bible v2.0
+pages: []   # filled per page at Gate 3 from gen/*/CHOSEN

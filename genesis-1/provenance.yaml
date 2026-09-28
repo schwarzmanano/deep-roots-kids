@@ -1,0 +1,182 @@
+book: genesis-1
+title: In the Beginning
+kdp_disclosure:
+  images: "AI-GENERATED \u2014 must be disclosed to KDP"
+  text: "AI-GENERATED \u2014 teaching lines and closing page AI-drafted, human-reviewed and edited; must be disclosed to KDP"
+  translation: "none \u2014 WEB, public domain, not AI translated"
+  checkbox: Yes, some of this content is AI-generated -> select IMAGES and TEXT
+  corrected: "2026-09-28 \u2014 text was recorded as human-authored; editor ruled teaching lines and closing text AI-drafted, human-reviewed. KDP counts AI-drafted text as AI-generated even after substantial human edits."
+text_provenance:
+  scripture: "WEB, public domain \u2014 quoted, not generated"
+  page_text: "paraphrase of Scripture \u2014 AI-drafted, human-reviewed"
+  teaching_lines: "AI-drafted, human-reviewed"
+  closing_page: "AI-drafted, human-reviewed"
+  about_the_author: "human-authored (kids/_brand/about-the-author.md)"
+  note: Disclose on first publish AND on every republish or content edit.
+gate1_signed: '2026-09-17'
+style_lock_gate2: gen/p23/attempt-03.jpg
+pages:
+- page: 3
+  ref: Genesis 1:1-2
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-05.jpg
+  attempts: 5
+  prompt_sha256: 42b08ddf0b2b6cc0
+  conditioning:
+  - art/p23.png
+- page: 5
+  ref: Genesis 1:3-5
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-05.jpg
+  attempts: 5
+  prompt_sha256: ebfaaec2e2544997
+  conditioning:
+  - art/p23.png
+- page: 7
+  ref: Genesis 1:6-8
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-03.jpg
+  attempts: 3
+  prompt_sha256: 7be2108f34f0b2df
+  conditioning:
+  - art/p23.png
+- page: 9
+  ref: Genesis 1:9-10
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-01.jpg
+  attempts: 1
+  prompt_sha256: 463781ab3c586fc5
+  conditioning:
+  - art/p23.png
+- page: 11
+  ref: Genesis 1:11-13
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-04.jpg
+  attempts: 5
+  prompt_sha256: 232fa4d2c4cfada4
+  conditioning:
+  - art/p23.png
+- page: 13
+  ref: Genesis 1:14-18
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-03.jpg
+  attempts: 3
+  prompt_sha256: 14c2015b095826da
+  conditioning:
+  - art/p23.png
+- page: 15
+  ref: Genesis 1:16
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-02.jpg
+  attempts: 3
+  prompt_sha256: e8e3a603164b723a
+  conditioning:
+  - art/p23.png
+- page: 17
+  ref: Genesis 1:20-21
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-01.jpg
+  attempts: 1
+  prompt_sha256: 6c4cc31d2912d3bc
+  conditioning:
+  - art/p23.png
+- page: 19
+  ref: Genesis 1:21-23
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-01.jpg
+  attempts: 1
+  prompt_sha256: a60eeb7270a8e455
+  conditioning:
+  - art/p23.png
+- page: 21
+  ref: Genesis 1:24-25
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-01.jpg
+  attempts: 1
+  prompt_sha256: aac3368b2e2b0e05
+  conditioning:
+  - art/p23.png
+- page: 23
+  ref: Genesis 1:24-25
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-03.jpg
+  attempts: 3
+  prompt_sha256: 8091a17a4beaaf4a
+  conditioning:
+  - art/p23.png
+- page: 25
+  ref: Genesis 1:26-27
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-17'
+  chosen_attempt: attempt-09.jpg
+  attempts: 10
+  prompt_sha256: 20d67a25c456cecc
+  conditioning:
+  - art/p23.png
+  - kids/_brand/character-ref-coloring.jpg
+  - kids/_brand/p25-base-hybrid.jpg
+- page: 27
+  ref: Genesis 1:28-30
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-08.jpg
+  attempts: 9
+  prompt_sha256: c183b5d9dc47776a
+  conditioning:
+  - art/p23.png
+  - kids/_brand/p25-figures-ref.jpg
+  - kids/_brand/p27-base.jpg
+- page: 29
+  ref: Genesis 1:31
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-03.jpg
+  attempts: 3
+  prompt_sha256: bf5c449c481a63e6
+  conditioning:
+  - art/p23.png
+- page: 31
+  ref: Genesis 2:1-3
+  model: gemini-3.1-flash-image
+  resolution: 1k
+  generated: '2026-09-18'
+  chosen_attempt: attempt-03.jpg
+  attempts: 3
+  prompt_sha256: 15932758cf463e9c
+  conditioning:
+  - art/p23.png
+- page: 33
+  ref: back matter
+  model: null
+  note: editor-authored text; no generated content
+series_line: 'Deep Roots Kids: Creation to Glorification, Book One.'
+cover:
+  art: cover/front-art-v2-01.jpg
+  model: gemini-3.1-flash-image
+  resolution: 4K
+  logo: _brand/logo/dr-kids-logo.png (alpha-keyed from supplied JPG; mark unaltered)

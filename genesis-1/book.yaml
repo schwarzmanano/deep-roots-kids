@@ -1,0 +1,39 @@
+# ── Deep Roots Kids — Book 001 ──
+slug: genesis-1
+title: "In the Beginning"
+subtitle: "A Coloring Book of Creation"
+series_line: "Deep Roots Kids: Creation to Glorification, Book One."
+scripture_scope: "Genesis 1:1 – 2:3"
+checked_against: "Genesis 1"   # copyright-page review line (layout.py)
+age_band: "4-7"
+
+print:
+  trim: "8.5x11"
+  page_count: 36          # + About the Author leaf (p35/p36); even, KDP min 24
+  bleed: false
+  ink: "black"           # CONFIRMED B&W throughout: no colour text, vector or raster
+  paper: "white"
+  single_sided: true      # art on recto only — blank verso stops marker bleed-through
+
+# Derived from single_sided + front matter. Do not hand-edit.
+layout:
+  front_matter: [1, 2]    # p1 title, p2 copyright + AI disclosure
+  art_pages: [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
+  blank_versos: [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]
+  back_matter: [33, 35]   # p33 closing page; p35 About the Author (shared series asset)
+  illustration_count: 15
+
+margins:                  # KDP 24-150pp band, no bleed
+  gutter_in: 0.375
+  outside_in: 0.5         # 0.25 is KDP minimum; 0.5 for comfort
+  top_in: 0.5
+  bottom_in: 0.5
+
+generation:
+  style_lock: art/p23.png   # Gate 2 reference, sent with every request
+  model: gemini-3.1-flash-image
+  resolution: "1k"
+  aspect_ratio: "3:4"
+  measured_cost_per_image_usd: 0.0878   # observed, not the headline 1K figure
+  budgeted_attempts_per_page: 2.5
+  budgeted_total_usd: 3.29

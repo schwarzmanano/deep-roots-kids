@@ -1,0 +1,356 @@
+# ── GATE 1 PASSED — signed 2026-09-27, see plan/theology-review.md ──
+# All twelve decisions ruled and folded in below. `ruling:` fields record which decision
+# governs a page, so the reasoning travels with the work.
+#
+# Sources (Track 2 of the album, saved as series assets 2026-09-27):
+#   kids/_brand/album/lyrics.md          § "2. Made Like Him"
+#   kids/_brand/album/teaching-script.md § "Track 2 — Made Like Him"
+#   kids/_brand/album/music-style.md     § "2. Made Like Him"  — joyful, confident,
+#     empowering; "kids celebrating their God-given identity as image-bearers". That is the
+#     book's register: every page is an image-bearer DOING something, never posing.
+#
+# Doctrinal spine — WSC Q.10: "God created man male and female, after his own image, in
+# knowledge, righteousness, and holiness, with dominion over the creatures." Pages 9-19
+# walk those four in the song's own words: love, think, choose, walk with God / rule.
+#
+# Arc (follows the song's verse 1 -> verse 2 -> bridge, and the teaching script's turn
+# from Adam and Eve to "every single person you'll ever meet"):
+#   p3-p11   IN THE BEGINNING — the first man and woman (Genesis 1-2), DECISION-5 treatment
+#   p13-p19  AND YOU TOO — what the image is, shown in the family cast doing it
+#   p21-p27  EVERY PERSON — why every life matters (Ps 139, Acts 17, James 3, Ps 8)
+#   p29-p31  FOR HIS GLORY — the image's purpose, and Christ the true Image (text only)
+#
+# Translation: WEB (genesis-1 DECISION-4). Page text is paraphrase unless `quote: true`.
+# Quotes keep WEB's "Yahweh" (guardrails §6); first appearance is p5, with the fixed line.
+# Style: FLAT-VECTOR throughout — brand-spec reserves the naturalistic mode for Book One.
+
+meta:
+  scope: "Genesis 1:26-28; 2:7, 15, 19-22 (stops before 2:16)"
+  translation: "WEB (public domain)"
+  reading_level: "ages 4-7, one sentence per page, read aloud by an adult"
+  gate1_signed: "2026-09-27"
+
+pages:
+
+  # ── IN THE BEGINNING ──────────────────────────────────────────────────────────
+
+  - page: 3
+    ref: "Genesis 1:26"
+    title: "Something Brand New"
+    text: "Then God said, 'Let us make people like us.'"
+    teaching: "God had made the sky, the sea, the plants and every animal. But He saved the most amazing thing for last. Before the first person ever breathed, God had already planned to make you."
+    scene: "The whole finished creation, wide and full, with NO people in it — a garden landscape
+            waiting. Large rounded trees, a winding river, gentle hills, a few animals grazing
+            in the distance, large rounded clouds. Open ground in the centre foreground, empty,
+            as if a space has been kept. No figure of any kind. No face, hands or light-shape in
+            the sky."
+    density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    alt: "A wide, peaceful garden with animals and a river, and an open space in the middle."
+    ruling: "DECISION-9 — 'Let us' left plain; no plural claim in the teaching line."
+
+  - page: 5
+    ref: "Genesis 2:7"
+    title: "Made from the Dust"
+    text: "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+    quote: true             # WEB Gen 2:7 — verified against ebible.org/eng-web 2026-09-27
+    teaching: "Yahweh is God's own special name — the name He gave His people to call Him. Our bodies came from the ground, but our life came from God."
+    scene: "One small figure seen FROM BEHIND, at distance, standing at the edge of the garden at
+            first light, looking out over it — the moment just after.
+            Open ground at his feet. Nothing above him: no hands, no face, no breath or wind
+            shape coming from the sky, no beam of light pointing at him."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"   # genesis-1 first-couple construction
+    density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    alt: "A small figure seen from behind, standing at the edge of a garden at sunrise."
+    ruling: "DECISION-1 — the moment after, not the forming; nothing implying a divine actor.
+             DECISION-2 — first-couple treatment. DECISION-8 / guardrails §6 — first appearance
+             of 'Yahweh' in this book; fixed teaching line opens the caption."
+
+  - page: 7
+    ref: "Genesis 1:27; 2:22"
+    title: "Male and Female"
+    text: "God created man in his own image. In God's image he created him; male and female he created them."
+    quote: true             # WEB Gen 1:27 — verified against ebible.org/eng-web 2026-09-27
+    teaching: "God made the first man, and then He made the first woman and brought her to him. Two different people, both made in God's image — and God said it was very good."
+    scene: "The man and the woman seen FROM BEHIND, at distance, side by side at the edge of a
+            river, one pointing out across the water. Male and female read by build and hair
+            ONLY, exactly per genesis-1 p25. Composition must differ from genesis-1 p25 and
+            p27: no tending plants, no fruit, no reaching toward an animal."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"   # genesis-1 first-couple construction
+    density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    alt: "A man and a woman seen from behind, standing together beside a river."
+    ruling: "DECISION-2 — genesis-1 DECISION-5 carried; simple garments as a disclosed print
+             convention (p33 footnote); Eve's creation shown as result only, no sleep, no rib."
+
+  - page: 9
+    ref: "Genesis 2:19-20"
+    title: "Naming the Animals"
+    text: "God brought the animals to the man, and he gave each one its name."
+    teaching: "God can think and know, and He made us able to think and learn too. Adam looked carefully at every creature and gave it just the right name."
+    scene: "The man FROM BEHIND, at mid-distance, arm raised toward a line of animals walking
+            past — a giraffe, a camel, a goat, a bear, a hen — each clearly a different kind.
+            Animals sized and simplified to flat-vector detail. No lion, no elephant, no
+            tortoise (genesis-1 p23's cast)."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"   # genesis-1 first-couple construction
+    alt: "A man seen from behind, pointing toward a line of different animals."
+    ruling: "DECISION-2."
+
+  - page: 11
+    ref: "Genesis 2:15; 1:28"
+    title: "Tending the Garden"
+    text: "God put the man and woman in the garden to work it and take care of it."
+    teaching: "Work was God's good gift before anything ever went wrong. When we take care of what God made, we are doing what we were made for."
+    scene: "The man and woman FROM BEHIND at mid-distance, planting a young tree together — one
+            holding the sapling upright, one pressing soil around it with a simple digging
+            stick. A watering path from the river. Generic fruit trees only; no single
+            central or special tree."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"   # genesis-1 first-couple construction
+    alt: "A man and woman seen from behind, planting a young tree together."
+    ruling: "DECISION-2; DECISION-12 — generic trees only, no tree of knowledge, no command."
+
+  # ── AND YOU TOO ───────────────────────────────────────────────────────────────
+
+  - page: 13
+    ref: "1 John 4:19"
+    title: "Made to Love"
+    text: "God is love, and He made us able to love."
+    teaching: "We love because God loved us first. When you hug someone, share with them or forgive them, you are showing a little picture of what God is like."
+    scene: "The family cast (character-bible, fully faced): Father lifting Son up in a hug, Mother
+            and Daughter 3 embracing beside them, the dog jumping at their feet. Arms held away
+            from torsos per bible construction rules. Indoor-outdoor doorstep setting."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved collared shirt and full-length trousers"
+      Mother: "short-sleeved wrap dress to mid-calf; head wrap"
+      Daughter3: "short-sleeved dress with a hem band, to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+    alt: "A family hugging on their doorstep while the dog jumps beside them."
+    ruling: "DECISION-3 — faced, mid-shot, action named. DECISION-4 — no mirror."
+
+  - page: 15
+    ref: "Colossians 3:10"
+    title: "Made to Think and Know"
+    text: "God knows everything, and He made us able to think and learn."
+    teaching: "God gave you a mind so you could learn about His world — and most of all, so you could know Him. That's why we read His Word together."
+    scene: "Father on a bench reading an open Bible, Daughter 2 beside him following along with
+            her finger, Son leaning on his knee, looking up at the page. Large simple book shape,
+            no legible text on its pages."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved round-neck t-shirt and full-length trousers"
+      Daughter2: "short-sleeved A-line dress to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+    alt: "A father reading the Bible with two children."
+    ruling: "DECISION-3."
+
+  - page: 17
+    ref: "Ephesians 4:24"
+    title: "Made to Choose What Is Right"
+    text: "God is good, and He made us able to choose what is good."
+    teaching: "Adam and Eve could choose to trust God. Today, we need God's help to choose what is right — and He gives it. Jesus always chose right, for us."
+    scene: "Daughter 3 holding out one of two large round fruits to Son, who reaches for it —
+            sharing. Simple table or picnic cloth, two plates, the dog watching."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Daughter3: "sleeveless sundress to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+    alt: "A girl sharing a piece of fruit with her little brother."
+    ruling: "DECISION-10 — the gift stated; Adam then vs. God's help now; Christ's obedience for us."
+
+  - page: 19
+    ref: "Genesis 1:28; Psalm 8:6"
+    title: "Made to Care for God's World"
+    text: "God put us in charge of His world, to take care of it for Him."
+    teaching: "God is the true King of everything. He gave people a job: to look after His world like good helpers look after the King's garden."
+    scene: "The whole family in a vegetable garden: Mother watering with a can, Daughter 1 and
+            Father digging a row, Daughter 2 carrying a basket held out from her body, Son
+            holding a small plant up to show, Daughter 3 pulling up one big carrot with both
+            hands, the dog digging beside them. All six family members appear. Big simple
+            leaves, large vegetables. Plain smooth basket shape with no weave pattern.
+            FRAMING (Gate 2 fixes): the garden ground ends in rounded bushes well inside the
+            left and right edges — NO horizon or ground line running edge to edge. Every
+            vegetable, pumpkin and cloud sits wholly inside the frame, none cut off. Water from
+            the can shown as three or four LARGE drops, no fine spray lines."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    style_reference: true
+    thicken_thin_strokes: true   # Gate 2: 2 strokes at 1.59pt on the locked attempt
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved t-shirt and knee-length shorts"
+      Mother: "short-sleeved straight dress to mid-calf; head wrap"
+      Daughter1: "short-sleeved t-shirt and full-length trousers"
+      Daughter2: "short-sleeved A-line dress to the knee"
+      Daughter3: "short-sleeved dress with a hem band, to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+    alt: "A family working together in a vegetable garden with their dog."
+    note: "Proposed Gate 2 style-lock candidate: all six cast members, an animal and plants in
+           one frame is the hardest single test of limb construction, face consistency, region
+           closure and safe area."
+    ruling: "DECISION-3."
+
+  # ── EVERY PERSON ──────────────────────────────────────────────────────────────
+
+  - page: 21
+    ref: "Psalm 139:13-14"
+    title: "Planned on Purpose"
+    text: "God made you on purpose — you are not an accident."
+    teaching: "Before you were born, God knew you and made you with care. The Bible says you are 'fearfully and wonderfully made.'"
+    scene: "A newborn baby being welcomed: the baby's own mother (NOT a cast member — high round
+            bun, no head wrap) holds the swaddled baby in both arms, the baby's father (short
+            beard) beside her. The family cast gathers round to welcome them — Daughter 3 on
+            tiptoe to peek, Son holding out a small flower, Mother and Father smiling, arms away
+            from the torso. The baby is small, simple and unnamed. Outdoor doorstep, one tree."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: ["family", "outside-cast"]
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved collared shirt and full-length trousers"
+      Mother: "short-sleeved wrap dress to mid-calf; head wrap"
+      Daughter3: "sleeveless sundress to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+      VisitingMother: "short-sleeved plain straight dress to mid-calf, NO wrap, NO tie, NO hem band; hair in one high round bun"
+      VisitingFather: "short-sleeved round-neck t-shirt and full-length trousers; short beard"
+      Baby: "newborn wrapped in a plain swaddling blanket, only the small round face showing"
+    alt: "A family welcoming a newborn baby held by its mother."
+    ruling: "DECISION-7 — a baby welcomed and held, unnamed, not a cast member; no seventh-child
+             lock-in. Same child ages across p21 (infant) -> p23 (toddler) -> p25 (young child),
+             with their own parents. Guardrails §5: no cast markers on the visiting family."
+
+  - page: 23
+    ref: "Acts 17:26; Genesis 9:6"
+    title: "Every Person"
+    text: "Every person, in every nation, is made in God's image."
+    teaching: "Your mom, your dad, your friends, the person you've never met — every one of them carries God's image. That's why every person matters."
+    scene: "A busy, friendly street market: the family among many neighbours — an old man with a
+            walking stick, a woman in a wheelchair, children of different heights, people with
+            many different hairstyles (braids, straight, curly, covered, short). The family members here are Mother, Daughter
+            1, Daughter 2 and Son, walking together. Among them, the child from p21 is now a TODDLER with two small round hair puffs, walking and holding
+            the hand of their mother (high round bun). All neighbours built with the SAME flat-vector construction as the cast but
+            carrying NO cast marker (no glasses+locs, no bead-braids, no head-wrap-over-blonde).
+            Simple stall shapes with large round fruits."
+    figures: ["family", "outside-cast"]
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Mother: "short-sleeved straight dress to mid-calf; head wrap"
+      Daughter1: "short-sleeved t-shirt and full-length trousers"
+      Daughter2: "short-sleeved A-line dress to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+      VisitingMother: "short-sleeved plain straight dress to mid-calf, NO wrap, NO tie; high round bun"
+      Toddler: "short-sleeved romper with short legs; two small round hair puffs"
+    alt: "A street market full of many different people, young and old."
+    ruling: "DECISION-6 — no printed colour words; diversity shown visually (guardrails §5).
+             DECISION-7 — p21's child, now a toddler."
+
+  - page: 25
+    ref: "James 3:9-10"
+    title: "That's Why We Are Kind"
+    text: "Because every person is made like God, we treat every person with kindness."
+    teaching: "The Bible says we can't praise God with our mouths and then say unkind things about people made like Him. Kind words honour God's image in others."
+    scene: "Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door
+            open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs,
+            about Son's height — wave together. The same street on another day."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: ["family", "outside-cast"]
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Daughter1: "short-sleeved t-shirt and knee-length skirt"
+      Daughter2: "short-sleeved A-line dress to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+      YoungChild: "short-sleeved t-shirt and shorts; two round hair puffs"
+      OldMan: "short-sleeved plain shirt and full-length trousers; walking stick"
+    alt: "Children helping an old man carry his shopping."
+    ruling: "DECISION-6; DECISION-7 — p21's child, now a young child."
+
+  - page: 27
+    ref: "Psalm 8:4-6"
+    title: "Only People"
+    text: "God made animals wonderful — but only people are made in His image."
+    teaching: "Your dog can play and your cat can purr, and God made them good. But only people were made to know God, talk to Him and love Him back."
+    scene: "Son kneeling on the grass with hands folded in prayer, eyes closed, the family dog
+            lying beside him with its head on its paws. A cat curled on a step nearby. Quiet
+            evening; large simple moon and a few stars."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Son: "short-sleeved t-shirt and shorts"
+    density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    alt: "A little boy praying on the grass while his dog lies beside him."
+    ruling: "DECISION-5 — printed positively; no monkey or ape on the page. Audio unchanged."
+
+  # ── FOR HIS GLORY ─────────────────────────────────────────────────────────────
+
+  - page: 29
+    ref: "Isaiah 43:7; Matthew 5:16"
+    title: "Made for His Glory"
+    text: "God made us to shine His light, so everyone can see how good He is."
+    teaching: "Jesus said, 'Let your light shine,' so people see the good things you do and praise your Father in heaven. That's what we were made for."
+    scene: "The whole family singing and dancing in their living room — the song is a dance
+            song — arms out, the dog mid-jump. On a table, a simple oil lamp on a stand with a
+            small flame (Matt 5:15). NO rays, glow or light coming from any person."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved collared shirt and full-length trousers"
+      Mother: "short-sleeved wrap dress to mid-calf; head wrap"
+      Daughter1: "short-sleeved t-shirt and knee-length skirt"
+      Daughter2: "short-sleeved A-line dress to the knee"
+      Daughter3: "short-sleeved dress with a hem band, to the knee"
+      Son: "short-sleeved t-shirt and shorts"
+    alt: "A family singing and dancing together beside a lamp."
+    ruling: "DECISION-4 — 'show His light' is the lamp, never radiance from a person."
+
+  - page: 31
+    ref: "Colossians 1:15; 3:10"
+    title: "The Perfect Image"
+    text: "Jesus is the perfect image of God, and He makes us new."
+    teaching: "Sin smudged God's image in us, like a scratched mirror. But Jesus is God's perfect Image — and when we trust Him, He makes us new, more and more like Him."
+    scene: "Evening worship: the family sitting close on the floor around a large open Bible,
+            Mother pointing to the page, the lamp from p29 burning low, a window showing stars.
+            No cross, no light-shape, no symbol standing for Christ — Christ is carried by the
+            text alone (theology-guardrails §2)."
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    figures: "family"
+    outfits:               # character-bible v2.0 — tested vocabulary only
+      Father: "short-sleeved pyjama top and pyjama trousers"
+      Mother: "short-sleeved nightgown to the ankle; head wrap"
+      Daughter1: "short-sleeved pyjama top and pyjama trousers"
+      Daughter2: "short-sleeved nightgown to mid-calf"
+      Daughter3: "short-sleeved nightgown to the knee"
+      Son: "short-sleeved pyjama top and pyjama shorts"
+    alt: "A family gathered around an open Bible in the evening."
+    ruling: "DECISION-11 — Christ in text only, no symbol before Book Six (guardrails §1-§2)."
+
+  # ── BACK MATTER ───────────────────────────────────────────────────────────────
+
+  - page: 33
+    ref: "back matter"
+    title: "Closing Page"
+    text: ""
+    scene: ""
+    alt: ""
+    generate: false
+    back_matter: true
+    body: null
+    footnote: "For modesty in this children's edition, Adam and Eve are shown in simple garments.
+               Scripture tells us they were unashamed and without clothing before sin entered
+               the world (Genesis 2:25) — the picture reflects a publishing choice for young
+               readers, not a claim about what the text says."
+    ruling: "DECISION-2 — clothing convention disclosed in back matter, verbatim as ruled."
+    note: "Editor-authored, inserted verbatim — as genesis-1 p33. Not drafted by the pipeline.
+           Suggested thread only (editor's call): the bridge chant 'Image of God! That's who we
+           are!' -> Christ the true Image (Col 1:15) -> Book Three's honest turn ('God made a
+           world that was good and bright...')."
+
+  - page: 35
+    ref: "back matter"
+    title: "About the Author"
+    text: ""
+    scene: ""
+    alt: ""
+    generate: false
+    back_matter: true
+    body_file: "kids/_brand/about-the-author.md"

@@ -1,0 +1,38 @@
+Black and white line art for a children's coloring book page, ages 4-7.
+
+SCENE: Two or three large simple fruit trees with a few big round fruits. One or two animals grazing. Same two figures from behind, at distance, reaching up to pick a fruit. Faces unseen. Open ground, plenty of empty space. No baskets, no woven objects, no bunches of small fruit. HYBRID STYLE: the two human figures use the Deep Roots Kids flat-vector construction — circle head with a simple hair shape, one simple sleeveless garment with the hem at or above the knee, every limb a single thin line, arms held away from the torso, hands and feet plain ovals. One reads male (short cropped hair, broader squarer build), one reads female (longer fuller hair past the shoulder, slighter build). Both from behind, faces unseen. The scene — trees, fruit, animals, ground — stays naturalistic. HANDS AND FEET, CRITICAL: every arm is ONE single thin line ending in a plain closed OVAL MITTEN for the hand — no fingers, no thumbs, no blobs, no clenched shapes. Every leg is ONE single thin line ending in a plain closed OVAL for the foot — no shoes, no heels, no soles, no toes, no ankles. Hands and feet drawn identically as simple ovals on the end of a single line, exactly as in the reference figures.
+
+STYLE — follow exactly:
+- Black and white line art for a children's coloring book page, ages 4 to 7.
+- Pure black outlines on a pure white background. No grey.
+- Thick, bold, confident, uniform line weight suitable for crayons.
+- Every shape a fully CLOSED region so colour cannot leak out.
+- Large simple shapes, few objects, generous open space inside each shape.
+- Flat front-on storybook composition, centered.
+
+DO NOT INCLUDE:
+Style:
+- NO shading, hatching, crosshatching, stippling, gradients, solid black fills, texture.
+- NO text, letters, numbers, signature, or border frame.
+Theological — DECISION-1, non-negotiable, WLC 109:
+- NO depiction of God in any form. No face in the sky. No hands reaching from
+  clouds. No rays of light arranged into a figure. No dove standing in for the
+  Spirit. No radiant humanoid shape. No eye. No throne.
+- Where God acts in the text, depict only the RESULT of the act — the light, the
+  water, the creatures — never an actor performing it.
+Scope:
+- NO serpent, no fruit being taken, no fall imagery. The book ends at Gen 2:3.
+
+HUMAN FIGURES — follow exactly:
+Humans appear on p25 and p27 only, and in one treatment:
+- Seen from behind, at distance, small within a wide scene.
+- Faces entirely unseen. No frontal view, no profile, no facial features.
+- At work — tending, reaching, gathering. Never posed, never static, never
+  facing the viewer.
+- No bodily detail that would raise the clothing question. Simple covered forms.
+- Never in visual proximity to anything that could read as a depiction of God.
+
+FRAMING:
+- All meaningful content within the inner 85% of frame.
+- No element touching or crossing the frame edge.
+- No horizontal line running unbroken edge to edge.

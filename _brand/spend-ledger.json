@@ -1,0 +1,414 @@
+{
+  "total_usd": 8.0487,
+  "entries": [
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] probe: day5 test call",
+      "usd": 0.0878,
+      "calls": 1,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p23 style reference x3",
+      "usd": 0.265,
+      "calls": 3,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p25 unconditioned x2",
+      "usd": 0.1816,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p25 conditioned x2",
+      "usd": 0.1803,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] batch 13 pages",
+      "usd": 1.126,
+      "calls": 13,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p27 reroll x2",
+      "usd": 0.1779,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p27 after scene amendment x2",
+      "usd": 0.1755,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p25 hybrid x2",
+      "usd": 0.178,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p25 bleed/hair fix x2",
+      "usd": 0.1788,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] p25 male/female x2",
+      "usd": 0.1897,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cast sheet v1 x2",
+      "usd": 0.186,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cast sheet v2 x2",
+      "usd": 0.1821,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] figures construction ref x2",
+      "usd": 0.1743,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cast sheet v3 x2",
+      "usd": 0.1852,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cast sheet v4 x2",
+      "usd": 0.1947,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cast sheet v5 x2",
+      "usd": 0.2315,
+      "calls": 2,
+      "book": "_brand",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] 4K probe",
+      "usd": 0.1704,
+      "calls": 1,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-17T00:00:00Z",
+      "label": "[historical] cover front art 4K x2",
+      "usd": 0.3625,
+      "calls": 2,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-18T07:21:55.785Z",
+      "label": "p11 attempt-2",
+      "usd": 0.0907,
+      "book": "genesis-1",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-18T07:22:04.890Z",
+      "label": "p11 attempt-3",
+      "usd": 0.0854,
+      "book": "genesis-1",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-18T07:22:22.712Z",
+      "label": "p27 attempt-6",
+      "usd": 0.0889,
+      "book": "genesis-1",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-18T07:22:33.182Z",
+      "label": "p27 attempt-7",
+      "usd": 0.0911,
+      "book": "genesis-1",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-18T07:22:43.011Z",
+      "label": "p29 attempt-2",
+      "usd": 0.0917,
+      "book": "genesis-1",
+      "page": 29
+    },
+    {
+      "ts": "2026-09-18T07:22:52.286Z",
+      "label": "p29 attempt-3",
+      "usd": 0.0859,
+      "book": "genesis-1",
+      "page": 29
+    },
+    {
+      "ts": "2026-09-18T07:24:06.236Z",
+      "label": "p11 attempt-4",
+      "usd": 0.0852,
+      "book": "genesis-1",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-18T07:24:15.440Z",
+      "label": "p11 attempt-5",
+      "usd": 0.0826,
+      "book": "genesis-1",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-18T07:28:34.739Z",
+      "label": "cover: front-art-v2-1",
+      "usd": 0.1802,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-18T07:28:58.577Z",
+      "label": "cover: front-art-v2-2",
+      "usd": 0.1798,
+      "book": "genesis-1",
+      "attributed": "2026-09-28 migration"
+    },
+    {
+      "ts": "2026-09-18T07:58:41.198Z",
+      "label": "p27 attempt-8",
+      "usd": 0.0971,
+      "book": "genesis-1",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-18T07:58:53.915Z",
+      "label": "p27 attempt-9",
+      "usd": 0.0943,
+      "book": "genesis-1",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-18T08:13:45.130Z",
+      "label": "p3 attempt-2",
+      "usd": 0.085,
+      "book": "genesis-1",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-18T08:13:53.758Z",
+      "label": "p3 attempt-3",
+      "usd": 0.0917,
+      "book": "genesis-1",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-18T08:14:02.015Z",
+      "label": "p5 attempt-2",
+      "usd": 0.0859,
+      "book": "genesis-1",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-18T08:14:11.999Z",
+      "label": "p5 attempt-3",
+      "usd": 0.0867,
+      "book": "genesis-1",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-18T08:14:21.239Z",
+      "label": "p7 attempt-2",
+      "usd": 0.0884,
+      "book": "genesis-1",
+      "page": 7
+    },
+    {
+      "ts": "2026-09-18T08:14:29.732Z",
+      "label": "p7 attempt-3",
+      "usd": 0.0839,
+      "book": "genesis-1",
+      "page": 7
+    },
+    {
+      "ts": "2026-09-18T08:15:26.470Z",
+      "label": "p3 attempt-4",
+      "usd": 0.0904,
+      "book": "genesis-1",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-18T08:15:35.905Z",
+      "label": "p3 attempt-5",
+      "usd": 0.0885,
+      "book": "genesis-1",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-18T08:15:45.734Z",
+      "label": "p5 attempt-4",
+      "usd": 0.0914,
+      "book": "genesis-1",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-18T08:15:53.791Z",
+      "label": "p5 attempt-5",
+      "usd": 0.0872,
+      "book": "genesis-1",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-18T08:16:44.852Z",
+      "label": "p13 attempt-2",
+      "usd": 0.0863,
+      "book": "genesis-1",
+      "page": 13
+    },
+    {
+      "ts": "2026-09-18T08:16:54.125Z",
+      "label": "p13 attempt-3",
+      "usd": 0.0875,
+      "book": "genesis-1",
+      "page": 13
+    },
+    {
+      "ts": "2026-09-18T08:17:05.180Z",
+      "label": "p15 attempt-2",
+      "usd": 0.0909,
+      "book": "genesis-1",
+      "page": 15
+    },
+    {
+      "ts": "2026-09-18T08:17:14.806Z",
+      "label": "p15 attempt-3",
+      "usd": 0.0872,
+      "book": "genesis-1",
+      "page": 15
+    },
+    {
+      "ts": "2026-09-18T08:17:24.912Z",
+      "label": "p31 attempt-2",
+      "usd": 0.0936,
+      "book": "genesis-1",
+      "page": 31
+    },
+    {
+      "ts": "2026-09-18T08:17:33.987Z",
+      "label": "p31 attempt-3",
+      "usd": 0.0921,
+      "book": "genesis-1",
+      "page": 31
+    },
+    {
+      "ts": "2026-09-26T23:50:34.200Z",
+      "label": "p19 attempt-1",
+      "usd": 0.09,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-26T23:50:43.134Z",
+      "label": "p19 attempt-2",
+      "usd": 0.0988,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-26T23:50:52.420Z",
+      "label": "p19 attempt-3",
+      "usd": 0.0949,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-26T23:51:00.640Z",
+      "label": "p19 attempt-4",
+      "usd": 0.0933,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-28T17:28:38.963Z",
+      "label": "ref: wardrobe-test-warm-1",
+      "usd": 0.0947,
+      "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:28:49.780Z",
+      "label": "ref: wardrobe-test-longtrousers-1",
+      "usd": 0.1013,
+      "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:29:00.256Z",
+      "label": "ref: wardrobe-test-cold-1",
+      "usd": 0.0937,
+      "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:29:10.728Z",
+      "label": "ref: wardrobe-test-sleep-1",
+      "usd": 0.0962,
+      "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:29:20.766Z",
+      "label": "ref: wardrobe-test-baby-1",
+      "usd": 0.0902,
+      "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:30:19.563Z",
+      "label": "ref: wardrobe-test-longsleeve-1",
+      "usd": 0.0987,
+      "book": "_brand"
+    }
+  ],
+  "by_book": {
+    "genesis-1": 5.9431,
+    "_brand": 1.7286,
+    "made-like-him": 0.377
+  }
+}

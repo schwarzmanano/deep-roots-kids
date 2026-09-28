@@ -1,0 +1,131 @@
+# KDP Listing Reference — In the Beginning
+
+Everything needed for the KDP dashboard in one place. Figures marked **CONFIRMED**
+were read from the built files, not from a running tally.
+
+Last rebuilt: 2026-09-18 (About the Author leaf added; cover spine rebuilt to match)
+
+---
+
+## Book setup
+
+| Field | Value |
+|---|---|
+| Title | In the Beginning |
+| Subtitle (Amazon field) | A Christian Coloring Book of Creation \| Deep Roots Kids, Creation to Glorification Book One \| Genesis 1:1-2:3, Ages 4-7 |
+| Cover subtitle (print only) | Deep Roots Kids · Book One |
+| Series | Creation to Glorification, Book One |
+| Age range | 4–7 |
+| Trim size | 8.5" × 11" (large trim) |
+| Bleed | No bleed (interior) |
+| Interior ink | **Black & White** on white paper |
+| **Final page count** | **36 — CONFIRMED from the built PDF** |
+| Page count parity | **EVEN** — KDP will not insert an unplanned blank page |
+| Back matter | p33 closing page, p35 About the Author (shared series asset) |
+| KDP B&W large-trim band | 24–108 pages → **in range**, flat $2.84 print cost |
+| Target list price | $9.99 |
+
+Indicative royalty at $9.99 (US, 60% rate): 9.99 × 0.60 = 5.99 − 2.84 print = **~$3.15/copy**.
+Verify against KDP's own calculator at upload; this is arithmetic, not a quote.
+
+## Files
+
+| File | Notes |
+|---|---|
+| `out/interior.pdf` | 36pp, 8.5×11 exact, no bleed, all fonts embedded, art is vector, all ink true black |
+| `out/cover.pdf` | Full wrap 17.331" × 11.25", spine 0.0811" blank, art 415 DPI |
+
+Cover stays **full colour**. Only the interior is Black & White.
+
+## AI content disclosure
+
+On the Content Details page, check "Yes, some of this content is AI-generated",
+then select **Images** and **Text**. _(Corrected 2026-09-28 — was "Images only".)_
+
+- **Images — AI-GENERATED.** Disclose. Generated with Gemini 3.1 Flash Image, then
+  reviewed, selected, post-processed and vectorised by a human editor.
+- **Text — AI-GENERATED.** Disclose. Scripture is the World English Bible (public domain),
+  quoted, not generated. The page text, teaching lines and closing page were drafted with AI
+  and reviewed and edited by the editor — KDP counts AI-drafted text as AI-generated even
+  after substantial human edits.
+- **Translation — none.** No AI translation used.
+
+Re-disclose on every republish or content edit, not just the first upload.
+Per-page model, resolution, conditioning images and prompt hashes are in `provenance.yaml`.
+
+## Categories
+
+> ⚠️ **NOT SUPPLIED — DO NOT UPLOAD AS-IS.** The five categories from the publishing
+> critique document were never pasted into the thread (the message that referenced them
+> ended before the list). The five below are my own reasonable guesses, NOT the
+> critique's. Replace them with the critique's list before upload.
+
+1. Books › Children's Books › Activities, Crafts & Games › Activity Books › Coloring Books
+2. Books › Children's Books › Religions › Christianity › Bible Stories
+3. Books › Christian Books & Bibles › Children's & Teens › Activity Books
+4. Books › Children's Books › Religions › Christianity › Early Learning
+5. Books › Crafts, Hobbies & Home › Crafts & Hobbies › Coloring Books for Grown-Ups › Animals
+
+KDP's picker wording shifts. Confirm exact current names in the live picker at upload.
+
+## Backend keywords (7 slots)
+
+> ⚠️ **NOT SUPPLIED — same gap as above.** The ten keywords from the critique were not
+> pasted. KDP provides **seven** keyword slots, not ten, so the critique's ten will need
+> triaging to seven regardless. Placeholders below are mine, not the critique's.
+
+1. christian coloring book for kids
+2. genesis creation coloring book
+3. bible coloring book ages 4-7
+4. sunday school coloring activity
+5. creation story kids activity book
+6. toddler bible coloring pages
+7. christian preschool gift
+
+## Description — DRAFT, for the editor to finalise
+
+> Customer-facing copy. Drafted to the critique's structure (faith-promise opening →
+> concrete specifics → AI-disclosure trust note). Wording is the editor's to settle.
+
+---
+
+**Before there was anything, there was God.**
+
+*In the Beginning* walks children through the seven days of creation exactly as Genesis
+tells it — light divided from darkness, sky and sea, growing things, sun and moon and
+stars, birds and fish, the animals, and people made in God's own image. Every page is a
+full-page picture to colour, and every page ends with one short line pointing from
+creation to Christ.
+
+**What's inside**
+
+- 15 full-page illustrations, one per scene, printed on one side only so markers and
+  crayons don't bleed through to the next picture
+- Thick, bold outlines and large open shapes, drawn for small hands still learning to
+  stay inside the lines
+- Scripture from the World English Bible, with a short teaching line on every page for
+  the adult reading alongside
+- A closing page for families — "where do you see Jesus in the story of creation?"
+- 8.5" × 11", ages 4–7
+
+**Book One of Creation to Glorification**, a Deep Roots Kids series that follows the
+Bible's whole story from the first day to the new heaven and the new earth.
+
+**A note on how this book was made:** the illustrations were generated with the
+assistance of AI, then reviewed, selected and prepared for print by a human editor. The
+scripture text and every teaching line were written and reviewed by a person, and each
+page was checked against Genesis 1 before printing.
+
+---
+
+## Pre-upload checklist
+
+- [ ] Replace categories with the critique's five
+- [ ] Replace keywords with the critique's ten, triaged to seven slots
+- [ ] Editor finalises the description wording
+- [ ] Upload `interior.pdf`, confirm KDP reports **36 pages**
+- [ ] Upload `cover.pdf`, confirm the previewer accepts the wrap
+- [ ] Set interior to **Black & White**, paper **white**, trim **8.5 × 11**
+- [ ] Tick AI disclosure → **Images** and **Text**
+- [ ] Confirm royalty against KDP's live calculator at $9.99
+- [ ] Order a physical proof and have a 4–7 year old colour it

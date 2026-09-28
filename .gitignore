@@ -1,0 +1,26 @@
+# ── Deep Roots Kids — independently-versioned nested repo (see ../.gitignore) ──
+
+# secrets — API keys never enter git history
+.env
+.env.*
+!.env.example
+
+# environments, dependencies, caches
+.venv*/
+node_modules/
+__pycache__/
+
+# raw generation attempts — heavy, backed up OUTSIDE git (see README.md "Backups")
+**/gen/
+
+# regenerable build outputs (interior.pdf / cover.pdf rebuild from art + layout)
+**/out/
+
+# cover candidates — only the chosen art is tracked
+**/cover/*
+!genesis-1/cover/front-art-v2-01.jpg
+
+# rejects and cruft
+**/REJECTED-*
+.DS_Store
+~$*
