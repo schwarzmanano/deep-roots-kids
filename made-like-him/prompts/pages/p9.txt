@@ -1,0 +1,50 @@
+Black and white line art for a children's coloring book page, ages 4-7.
+
+SCENE: The man FROM BEHIND, at mid-distance, arm raised toward a line of animals walking past — a giraffe, a camel, a goat, a bear, a hen — each clearly a different kind. Animals sized and simplified to flat-vector detail. No lion, no elephant, no tortoise (genesis-1 p23's cast).
+
+STYLE — follow exactly:
+- Black and white line art for a children's coloring book page, ages 4 to 7.
+- Deep Roots Kids flat-vector style for the WHOLE page: figures, animals, plants, buildings
+  and objects all built from simple geometric shapes at one matching level of detail.
+- Pure black outlines on a pure white background. No grey.
+- Thick, bold, confident, uniform line weight suitable for crayons.
+- Every shape a fully CLOSED region so colour cannot leak out.
+- Large simple shapes, few objects, generous open space inside each shape.
+- Flat front-on storybook composition, centered.
+
+DO NOT INCLUDE:
+Style:
+- NO shading, hatching, crosshatching, stippling, gradients, solid black fills, texture.
+- NO text, letters, numbers, words, names, labels, captions, signature, or border frame.
+- NO naturalistic or realistic rendering of anything — no fur texture, no bark texture,
+  no feathers drawn stroke by stroke.
+Theological — theology-guardrails §0-§3, non-negotiable, WLC 109:
+- NO depiction of God in any form. No face in the sky. No hands reaching from clouds.
+  No rays of light arranged into a figure. No dove. No radiant humanoid shape. No eye.
+  No throne. No giant figure over the world.
+- NO figure of Christ, and NO symbol standing for Him: no cross, no crown, no empty tomb,
+  no shepherd's staff, no nail-marked hands, no halo.
+- Where God acts in the text, depict only the RESULT of the act, never an actor.
+- NO mirror, NO reflection of a person in water or glass.
+- NO light, glow, sparkle or rays coming from any person. A lamp is only a lamp.
+- NO angels, NO wings on any person.
+Scope — the book ends at Gen 2:22:
+- NO serpent, no fruit being taken, no fall imagery.
+- NO single central, special or glowing tree in any garden scene.
+
+HUMAN FIGURES — follow exactly:
+Pages 5-11 — the first man and woman. genesis-1 DECISION-5, carried unchanged:
+- Seen from behind, at distance, small within a wide scene.
+- Faces entirely unseen. No frontal view, no profile, no facial features.
+- At work or in motion — planting, pointing, walking. Never posed, never facing the viewer.
+- One reads male (short cropped hair, broader squarer build), one reads female (longer
+  fuller hair past the shoulder, slighter build). No other markers of any kind.
+- One plain simple sleeveless garment each, hem at or above the knee, un-tailored — no
+  collar, no buttons, no wrap, no tie, no pattern, no fur or skin texture.
+- Every arm and leg one single thin line; hands and feet plain closed ovals.
+- Never in visual proximity to anything that could read as a depiction of God.
+
+FRAMING:
+- All meaningful content within the inner 85% of frame.
+- No element touching or crossing the frame edge.
+- No horizontal line running unbroken edge to edge.

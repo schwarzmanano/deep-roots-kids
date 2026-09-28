@@ -43,7 +43,8 @@ pages:
             waiting. Large rounded trees, a winding river, gentle hills, a few animals grazing
             in the distance, large rounded clouds. Open ground in the centre foreground, empty,
             as if a space has been kept. No figure of any kind. No face, hands or light-shape in
-            the sky."
+            the sky. Wild plants, trees and grass ONLY — NO vegetables, crops, garden beds or
+            rows (Gen 2:5: no plant of the field yet, and no man to work the ground)."
     density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
     alt: "A wide, peaceful garden with animals and a river, and an open space in the middle."
     ruling: "DECISION-9 — 'Let us' left plain; no plural claim in the teaching line."
@@ -57,7 +58,9 @@ pages:
     scene: "One small figure seen FROM BEHIND, at distance, standing at the edge of the garden at
             first light, looking out over it — the moment just after.
             Open ground at his feet. Nothing above him: no hands, no face, no breath or wind
-            shape coming from the sky, no beam of light pointing at him."
+            shape coming from the sky, no beam of light pointing at him. The figure is SMALL —
+            no more than a quarter of the page height — in the lower middle of a wide landscape.
+            NO animals of any kind, NO vegetables or crops on this page."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"   # genesis-1 first-couple construction
     density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
@@ -153,14 +156,18 @@ pages:
     title: "Made to Choose What Is Right"
     text: "God is good, and He made us able to choose what is good."
     teaching: "Adam and Eve could choose to trust God. Today, we need God's help to choose what is right — and He gives it. Jesus always chose right, for us."
-    scene: "Daughter 3 holding out one of two large round fruits to Son, who reaches for it —
-            sharing. Simple table or picnic cloth, two plates, the dog watching."
+    scene: "Daughter 3 handing her big round ball to Son, who reaches out for it — sharing her
+            toy. A grassy yard, a small toy box beside her, the dog watching. NO fruit and NO food
+            anywhere on this page."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
     outfits:               # character-bible v2.0 — tested vocabulary only
       Daughter3: "sleeveless sundress to the knee"
       Son: "short-sleeved t-shirt and shorts"
-    alt: "A girl sharing a piece of fruit with her little brother."
+    alt: "A girl sharing her ball with her little brother."
+    amended: "2026-09-28 — round 1 drew a girl handing a boy an apple: the Eve/Adam picture, one
+              book before Book Three, against this book's no-fruit-taken scope rule. Plan error,
+              not a model error. Scene changed to sharing a toy; page text unchanged."
     ruling: "DECISION-10 — the gift stated; Adam then vs. God's help now; Christ's obedience for us."
 
   - page: 19
@@ -176,7 +183,8 @@ pages:
             FRAMING (Gate 2 fixes): the garden ground ends in rounded bushes well inside the
             left and right edges — NO horizon or ground line running edge to edge. Every
             vegetable, pumpkin and cloud sits wholly inside the frame, none cut off. Water from
-            the can shown as three or four LARGE drops, no fine spray lines."
+            the can shown as three or four LARGE drops, no fine spray lines. Mother's wavy hair
+            clearly visible below her head wrap. Every person has a face: eyes and a smile."
     character_ref: "kids/_brand/cast-sheet.jpg"
     style_reference: true
     thicken_thin_strokes: true   # Gate 2: 2 strokes at 1.59pt on the locked attempt
@@ -229,7 +237,8 @@ pages:
     scene: "A busy, friendly street market: the family among many neighbours — an old man with a
             walking stick, a woman in a wheelchair, children of different heights, people with
             many different hairstyles (braids, straight, curly, covered, short). The family members here are Mother, Daughter
-            1, Daughter 2 and Son, walking together. Among them, the child from p21 is now a TODDLER with two small round hair puffs, walking and holding
+            1, Daughter 2 and Son, walking together. NO garden, NO vegetables, NO dog. Among them,
+            EXACTLY ONE toddler with hair puffs — the child from p21 is now a TODDLER with two small round hair puffs, walking and holding
             the hand of their mother (high round bun). All neighbours built with the SAME flat-vector construction as the cast but
             carrying NO cast marker (no glasses+locs, no bead-braids, no head-wrap-over-blonde).
             Simple stall shapes with large round fruits."
@@ -253,7 +262,9 @@ pages:
     teaching: "The Bible says we can't praise God with our mouths and then say unkind things about people made like Him. Kind words honour God's image in others."
     scene: "Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door
             open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs,
-            about Son's height — wave together. The same street on another day."
+            about Son's height — wave together. The same street on another day. Daughter 2 is
+            the ONLY person on the page with round glasses and braids; Daughter 1 the only one
+            with locs and glasses. Every person has a face: eyes and a smile."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: ["family", "outside-cast"]
     outfits:               # character-bible v2.0 — tested vocabulary only
@@ -311,7 +322,9 @@ pages:
     scene: "Evening worship: the family sitting close on the floor around a large open Bible,
             Mother pointing to the page, the lamp from p29 burning low, a window showing stars.
             No cross, no light-shape, no symbol standing for Christ — Christ is carried by the
-            text alone (theology-guardrails §2)."
+            text alone (theology-guardrails §2). ALL SIX family members present, including
+            Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The
+            Bible's pages are blank — no pictures in the book."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
     outfits:               # character-bible v2.0 — tested vocabulary only

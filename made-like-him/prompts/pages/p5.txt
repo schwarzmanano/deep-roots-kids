@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: One small figure seen FROM BEHIND, at distance, standing at the edge of the garden at first light, looking out over it — the moment just after. Open ground at his feet. Nothing above him: no hands, no face, no breath or wind shape coming from the sky, no beam of light pointing at him.
+SCENE: One small figure seen FROM BEHIND, at distance, standing at the edge of the garden at first light, looking out over it — the moment just after. Open ground at his feet. Nothing above him: no hands, no face, no breath or wind shape coming from the sky, no beam of light pointing at him. The figure is SMALL — no more than a quarter of the page height — in the lower middle of a wide landscape. NO animals of any kind, NO vegetables or crops on this page.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -18,6 +18,9 @@ Style:
 - NO text, letters, numbers, words, names, labels, captions, signature, or border frame.
 - NO naturalistic or realistic rendering of anything — no fur texture, no bark texture,
   no feathers drawn stroke by stroke.
+- NO objects carried over from the style reference: no vegetables, pumpkins, cabbages,
+  carrots, watering can, garden tools or dog UNLESS the SCENE itself names them.
+- NO blank faces: every cast and outside-cast person seen from the front has eyes and a smile.
 Theological — theology-guardrails §0-§3, non-negotiable, WLC 109:
 - NO depiction of God in any form. No face in the sky. No hands reaching from clouds.
   No rays of light arranged into a figure. No dove. No radiant humanoid shape. No eye.

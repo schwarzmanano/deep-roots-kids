@@ -28,6 +28,9 @@ Style:
 - NO text, letters, numbers, words, names, labels, captions, signature, or border frame.
 - NO naturalistic or realistic rendering of anything — no fur texture, no bark texture,
   no feathers drawn stroke by stroke.
+- NO objects carried over from the style reference: no vegetables, pumpkins, cabbages,
+  carrots, watering can, garden tools or dog UNLESS the SCENE itself names them.
+- NO blank faces: every cast and outside-cast person seen from the front has eyes and a smile.
 
 Theological — theology-guardrails §0-§3, non-negotiable, WLC 109:
 - NO depiction of God in any form. No face in the sky. No hands reaching from clouds.

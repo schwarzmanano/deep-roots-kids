@@ -1,5 +1,5 @@
 {
-  "total_usd": 8.0487,
+  "total_usd": 10.8671,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -404,11 +404,221 @@
       "label": "ref: wardrobe-test-longsleeve-1",
       "usd": 0.0987,
       "book": "_brand"
+    },
+    {
+      "ts": "2026-09-28T17:35:49.183Z",
+      "label": "p3 attempt-1",
+      "usd": 0.0836,
+      "book": "made-like-him",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-28T17:35:59.160Z",
+      "label": "p3 attempt-2",
+      "usd": 0.0886,
+      "book": "made-like-him",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-28T17:36:11.660Z",
+      "label": "p5 attempt-1",
+      "usd": 0.0988,
+      "book": "made-like-him",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-28T17:36:23.569Z",
+      "label": "p5 attempt-2",
+      "usd": 0.1027,
+      "book": "made-like-him",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-28T17:36:33.996Z",
+      "label": "p7 attempt-1",
+      "usd": 0.0929,
+      "book": "made-like-him",
+      "page": 7
+    },
+    {
+      "ts": "2026-09-28T17:36:45.490Z",
+      "label": "p7 attempt-2",
+      "usd": 0.0901,
+      "book": "made-like-him",
+      "page": 7
+    },
+    {
+      "ts": "2026-09-28T17:36:55.403Z",
+      "label": "p9 attempt-1",
+      "usd": 0.0907,
+      "book": "made-like-him",
+      "page": 9
+    },
+    {
+      "ts": "2026-09-28T17:37:04.664Z",
+      "label": "p9 attempt-2",
+      "usd": 0.0912,
+      "book": "made-like-him",
+      "page": 9
+    },
+    {
+      "ts": "2026-09-28T17:37:16.071Z",
+      "label": "p11 attempt-1",
+      "usd": 0.0949,
+      "book": "made-like-him",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-28T17:37:23.734Z",
+      "label": "p11 attempt-2",
+      "usd": 0.0934,
+      "book": "made-like-him",
+      "page": 11
+    },
+    {
+      "ts": "2026-09-28T17:37:36.983Z",
+      "label": "p13 attempt-1",
+      "usd": 0.0956,
+      "book": "made-like-him",
+      "page": 13
+    },
+    {
+      "ts": "2026-09-28T17:37:49.250Z",
+      "label": "p13 attempt-2",
+      "usd": 0.095,
+      "book": "made-like-him",
+      "page": 13
+    },
+    {
+      "ts": "2026-09-28T17:37:59.792Z",
+      "label": "p15 attempt-1",
+      "usd": 0.0955,
+      "book": "made-like-him",
+      "page": 15
+    },
+    {
+      "ts": "2026-09-28T17:38:08.362Z",
+      "label": "p15 attempt-2",
+      "usd": 0.0918,
+      "book": "made-like-him",
+      "page": 15
+    },
+    {
+      "ts": "2026-09-28T17:38:18.597Z",
+      "label": "p17 attempt-1",
+      "usd": 0.0884,
+      "book": "made-like-him",
+      "page": 17
+    },
+    {
+      "ts": "2026-09-28T17:38:29.345Z",
+      "label": "p17 attempt-2",
+      "usd": 0.0919,
+      "book": "made-like-him",
+      "page": 17
+    },
+    {
+      "ts": "2026-09-28T17:38:45.131Z",
+      "label": "p19 attempt-5",
+      "usd": 0.0955,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-28T17:38:54.492Z",
+      "label": "p19 attempt-6",
+      "usd": 0.0963,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-28T17:39:03.065Z",
+      "label": "p21 attempt-1",
+      "usd": 0.094,
+      "book": "made-like-him",
+      "page": 21
+    },
+    {
+      "ts": "2026-09-28T17:39:15.723Z",
+      "label": "p21 attempt-2",
+      "usd": 0.1013,
+      "book": "made-like-him",
+      "page": 21
+    },
+    {
+      "ts": "2026-09-28T17:39:28.658Z",
+      "label": "p23 attempt-1",
+      "usd": 0.0916,
+      "book": "made-like-him",
+      "page": 23
+    },
+    {
+      "ts": "2026-09-28T17:39:38.170Z",
+      "label": "p23 attempt-2",
+      "usd": 0.0971,
+      "book": "made-like-him",
+      "page": 23
+    },
+    {
+      "ts": "2026-09-28T17:39:48.043Z",
+      "label": "p25 attempt-1",
+      "usd": 0.0901,
+      "book": "made-like-him",
+      "page": 25
+    },
+    {
+      "ts": "2026-09-28T17:39:58.133Z",
+      "label": "p25 attempt-2",
+      "usd": 0.0962,
+      "book": "made-like-him",
+      "page": 25
+    },
+    {
+      "ts": "2026-09-28T17:40:08.030Z",
+      "label": "p27 attempt-1",
+      "usd": 0.0917,
+      "book": "made-like-him",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-28T17:40:20.151Z",
+      "label": "p27 attempt-2",
+      "usd": 0.0916,
+      "book": "made-like-him",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-28T17:40:29.485Z",
+      "label": "p29 attempt-1",
+      "usd": 0.1004,
+      "book": "made-like-him",
+      "page": 29
+    },
+    {
+      "ts": "2026-09-28T17:40:38.913Z",
+      "label": "p29 attempt-2",
+      "usd": 0.0998,
+      "book": "made-like-him",
+      "page": 29
+    },
+    {
+      "ts": "2026-09-28T17:40:49.470Z",
+      "label": "p31 attempt-1",
+      "usd": 0.0942,
+      "book": "made-like-him",
+      "page": 31
+    },
+    {
+      "ts": "2026-09-28T17:41:00.422Z",
+      "label": "p31 attempt-2",
+      "usd": 0.0935,
+      "book": "made-like-him",
+      "page": 31
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
-    "made-like-him": 0.377
+    "made-like-him": 3.1954
   }
 }
