@@ -95,13 +95,21 @@ The series prints the World English Bible (genesis-1 DECISION-4). Where WEB rend
 divine name **"Yahweh"**, quotations **keep "Yahweh" exactly as WEB has it** — never
 substitute "the LORD," and never switch to a WEB variant edition to avoid it.
 
-At the name's **first appearance in each book**, that page's teaching line carries, verbatim:
-
-> "Yahweh is God's own special name — the name He gave His people to call Him."
+At the name's **first appearance in each book**, that page's teaching line must first
+explain the name. Requirement (a pointer, not wording): *Yahweh is God's own covenant name,
+given to His people.* The author writes the line in each book (authorship-policy §8).
 
 (Each book is read on its own by a family, so the line is due once per book, not once per
-series.) Book-authored paraphrase may say "God"; the rule governs quotation. Scripture
+series.) _Amended 2026-09-29: this rule previously fixed an AI-originated sentence to be
+printed verbatim; superseded by authorship-policy §6/§8._ Book-authored paraphrase may say "God"; the rule governs quotation. Scripture
 quoted in the album's teaching script (ESV) is re-quoted in WEB on every printed page.
+
+## §7 — Authorship (ruled 2026-09-29)
+
+All reader-facing prose in every book is governed by
+[authorship-policy.md](authorship-policy.md): AI never authors, rewrites or polishes prose
+for publication; every text unit is registered in the book's `provenance.yaml`; a release
+build refuses any unit that is AI-drafted, draft, unregistered or unresolved.
 
 ## Amendments
 
@@ -109,3 +117,6 @@ quoted in the album's teaching script (ESV) is re-quoted in WEB on every printed
   and §4 consolidated from genesis-1 Gate 1 rulings so they no longer need restating.
 - 2026-09-27 — §5 (outside-cast figures) and §6 (Yahweh in WEB quotations) ruled by the
   editor at made-like-him Gate 1 (D6, D8) as standing series rules.
+- 2026-09-29 — §7 added: reference to authorship-policy.md (editor ruling).
+- 2026-09-29 — §6 fixed wording replaced by a requirement: the ruled sentence was AI-originated;
+  per authorship-policy §6/§8 the author writes the line (editor ruling, same date).

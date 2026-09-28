@@ -6,7 +6,12 @@ series_line: "Deep Roots Kids: Creation to Glorification, Book Two."
 album_track: 2            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "2."
 scripture_scope: "Genesis 1:26-28; 2:7, 15, 19-22 — with Ps 8, Ps 139, Acts 17:26, James 3:9, Col 1:15; 3:10"
 age_band: "4-7"
-checked_against: "the Scriptures it teaches"   # copyright-page review line (layout.py)
+print_ai_note: false      # series default — authorship-policy §3. No AI note on any printed page.
+
+copyright_page:           # same pipeline-set lines as genesis-1 — registered ai-drafted
+  - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
+  - "Scripture quotations are from the World English Bible, which is in the public domain."
+# cover: not started — Gate 3 first. Its text units are added when the cover stage begins.
 
 # Standing governance, read — never restated — by this book:
 governed_by:

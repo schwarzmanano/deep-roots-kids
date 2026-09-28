@@ -1,5 +1,5 @@
 {
-  "total_usd": 10.8671,
+  "total_usd": 12.1845,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -614,11 +614,109 @@
       "usd": 0.0935,
       "book": "made-like-him",
       "page": 31
+    },
+    {
+      "ts": "2026-09-28T22:24:05.619Z",
+      "label": "p3 attempt-3",
+      "usd": 0.0832,
+      "book": "made-like-him",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-28T22:24:13.655Z",
+      "label": "p3 attempt-4",
+      "usd": 0.0853,
+      "book": "made-like-him",
+      "page": 3
+    },
+    {
+      "ts": "2026-09-28T22:24:21.574Z",
+      "label": "p5 attempt-3",
+      "usd": 0.0886,
+      "book": "made-like-him",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-28T22:24:30.086Z",
+      "label": "p5 attempt-4",
+      "usd": 0.0916,
+      "book": "made-like-him",
+      "page": 5
+    },
+    {
+      "ts": "2026-09-28T22:24:42.229Z",
+      "label": "p17 attempt-3",
+      "usd": 0.0971,
+      "book": "made-like-him",
+      "page": 17
+    },
+    {
+      "ts": "2026-09-28T22:24:51.104Z",
+      "label": "p17 attempt-4",
+      "usd": 0.0929,
+      "book": "made-like-him",
+      "page": 17
+    },
+    {
+      "ts": "2026-09-28T22:25:01.836Z",
+      "label": "p19 attempt-7",
+      "usd": 0.0993,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-28T22:25:11.632Z",
+      "label": "p19 attempt-8",
+      "usd": 0.1002,
+      "book": "made-like-him",
+      "page": 19
+    },
+    {
+      "ts": "2026-09-28T22:25:22.393Z",
+      "label": "p23 attempt-3",
+      "usd": 0.1065,
+      "book": "made-like-him",
+      "page": 23
+    },
+    {
+      "ts": "2026-09-28T22:25:30.642Z",
+      "label": "p23 attempt-4",
+      "usd": 0.095,
+      "book": "made-like-him",
+      "page": 23
+    },
+    {
+      "ts": "2026-09-28T22:25:39.273Z",
+      "label": "p25 attempt-3",
+      "usd": 0.0921,
+      "book": "made-like-him",
+      "page": 25
+    },
+    {
+      "ts": "2026-09-28T22:25:48.589Z",
+      "label": "p25 attempt-4",
+      "usd": 0.0882,
+      "book": "made-like-him",
+      "page": 25
+    },
+    {
+      "ts": "2026-09-28T22:25:58.002Z",
+      "label": "p31 attempt-3",
+      "usd": 0.0936,
+      "book": "made-like-him",
+      "page": 31
+    },
+    {
+      "ts": "2026-09-28T22:26:07.647Z",
+      "label": "p31 attempt-4",
+      "usd": 0.1038,
+      "book": "made-like-him",
+      "page": 31
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
-    "made-like-him": 3.1954
+    "made-like-him": 4.5128
   }
 }

@@ -1,18 +1,354 @@
 book: genesis-1
 title: In the Beginning
-kdp_disclosure:
-  images: "AI-GENERATED \u2014 must be disclosed to KDP"
-  text: "AI-GENERATED \u2014 teaching lines and closing page AI-drafted, human-reviewed and edited; must be disclosed to KDP"
-  translation: "none \u2014 WEB, public domain, not AI translated"
-  checkbox: Yes, some of this content is AI-generated -> select IMAGES and TEXT
-  corrected: "2026-09-28 \u2014 text was recorded as human-authored; editor ruled teaching lines and closing text AI-drafted, human-reviewed. KDP counts AI-drafted text as AI-generated even after substantial human edits."
-text_provenance:
-  scripture: "WEB, public domain \u2014 quoted, not generated"
-  page_text: "paraphrase of Scripture \u2014 AI-drafted, human-reviewed"
-  teaching_lines: "AI-drafted, human-reviewed"
-  closing_page: "AI-drafted, human-reviewed"
-  about_the_author: "human-authored (kids/_brand/about-the-author.md)"
-  note: Disclose on first publish AND on every republish or content edit.
+disclosure: computed by scripts/disclosure.py from text_units + images below — never hand-edited
+images:
+  interior:
+    source: AI-generated (many images)
+    model: gemini-3.1-flash-image
+    editing: 'extensive — per editor 2026-09-29: selection, threshold, frame strip, stroke thickening,
+      vectorisation'
+  cover:
+    source: AI-generated
+    model: gemini-3.1-flash-image (4K)
+    editing: 'extensive — per editor 2026-09-29: crop, composite with typography and logo'
+translation: none
+text_units:
+- id: book.title
+  page: p1, cover
+  kind: title
+  author: null
+  draft: true
+  sha: 93158db90e8c
+  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  recorded: '2026-09-29'
+- id: book.series_line
+  page: p1, back cover
+  kind: series-line
+  author: null
+  draft: true
+  sha: 62a74a34caf0
+  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  recorded: '2026-09-29'
+- id: book.subtitle
+  page: p1, cover
+  kind: subtitle
+  author: null
+  draft: true
+  sha: 9b6db95535ba
+  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  recorded: '2026-09-29'
+- id: book.scripture_scope
+  page: p1, back cover
+  kind: scripture-reference
+  author: public-domain
+  draft: false
+  sha: 95056a79eb30
+  source: factual Scripture citation, not prose
+  recorded: '2026-09-29'
+- id: p2.copyright.1
+  page: p2
+  kind: copyright-page
+  author: ai-drafted
+  draft: true
+  sha: b050e2d85878
+  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
+  recorded: '2026-09-29'
+- id: p2.copyright.2
+  page: p2
+  kind: copyright-page
+  author: ai-drafted
+  draft: true
+  sha: 2c2bad7675d1
+  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
+  recorded: '2026-09-29'
+- id: p3.text
+  page: p3
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 2b6713c870d3
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p3.teaching
+  page: p3
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 52e7fc8efa93
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p5.text
+  page: p5
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 8eb3aa9c296d
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p5.teaching
+  page: p5
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: a49ef7b356bd
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p7.text
+  page: p7
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: b77808646659
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p7.teaching
+  page: p7
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 7d2f1bc50e17
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p9.text
+  page: p9
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 92e2b696d317
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p9.teaching
+  page: p9
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: d73d5b7e6a2d
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p11.text
+  page: p11
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: fbbe8fb5e402
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p11.teaching
+  page: p11
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 192e8dbe7206
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p13.text
+  page: p13
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 5bdf3054cc7b
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p13.teaching
+  page: p13
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 660cdeb50798
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p15.text
+  page: p15
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: c8eabd640ad9
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p15.teaching
+  page: p15
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 3dd1739f1485
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p17.text
+  page: p17
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: c1fbf4df86bf
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p17.teaching
+  page: p17
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 1fa42501388d
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p19.text
+  page: p19
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 487d83bee366
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p19.teaching
+  page: p19
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: c5bf3e9efea8
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p21.text
+  page: p21
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: e296741f6dbd
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p21.teaching
+  page: p21
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: b02efb6a58ae
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p23.text
+  page: p23
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 6a6917a43be8
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p23.teaching
+  page: p23
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: b81ba7371340
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p25.text
+  page: p25
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 4e2b98531c94
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p25.teaching
+  page: p25
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: ef0fb9be2fab
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p27.text
+  page: p27
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 3e2ce6f9db90
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p27.teaching
+  page: p27
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: 45be9b574978
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p29.text
+  page: p29
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 368ddc9383d8
+  source: WEB, quoted verbatim (checked against ebible.org/eng-web)
+  recorded: '2026-09-29'
+- id: p29.teaching
+  page: p29
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: c55e9cc34d69
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p31.text
+  page: p31
+  kind: page-text
+  author: ai-drafted
+  draft: true
+  sha: 56dbf734d73c
+  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
+  recorded: '2026-09-29'
+- id: p31.teaching
+  page: p31
+  kind: teaching
+  author: ai-drafted
+  draft: true
+  sha: a6cce09ba6cf
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p33.body
+  page: p33
+  kind: closing
+  author: ai-drafted
+  draft: true
+  sha: 980241b1c58a
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: p35.body
+  page: p35
+  kind: about-the-author
+  author: ai-drafted
+  draft: true
+  sha: bbf677546f96
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: cover.series_short
+  page: cover
+  kind: series-line
+  author: ai-drafted
+  draft: true
+  sha: dbf60832e182
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated (cover copy)'
+  recorded: '2026-09-29'
+- id: cover.back_blurb
+  page: back cover
+  kind: back-cover-blurb
+  author: ai-drafted
+  draft: true
+  sha: 11e1f0bb310e
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: cover.spec.1
+  page: back cover
+  kind: back-cover-spec
+  author: ai-drafted
+  draft: true
+  sha: 6b6583337811
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
+- id: cover.spec.2
+  page: back cover
+  kind: back-cover-spec
+  author: ai-drafted
+  draft: true
+  sha: d8412ca32902
+  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
+  recorded: '2026-09-29'
 gate1_signed: '2026-09-17'
 style_lock_gate2: gen/p23/attempt-03.jpg
 pages:

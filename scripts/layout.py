@@ -15,11 +15,30 @@ from reportlab.pdfbase.ttfonts import TTFont
 import reportlab
 
 from bookarg import book_dir
+import textunits
 BOOK = book_dir()
+# --release: authorship-policy §11 release guard, no proof stamp.
+# Anything else is a PROOF, stamped on every page. --out <path> writes elsewhere (testing).
+RELEASE = "--release" in sys.argv
+OUT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else f"{BOOK}/out/interior.pdf"
+PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0  # pt per inch
 
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
 plan = yaml.safe_load(open(f"{BOOK}/plan/pages.yaml"))
+
+if cfg.get("print_ai_note", False):
+    raise SystemExit("print_ai_note is true, but there is no author-supplied wording for it — "
+                     "authorship-policy §3. The pipeline will not write one.")
+_probs = textunits.check(BOOK)
+if RELEASE and _probs:
+    print(f"\n  ⛔ RELEASE REFUSED — {len(_probs)} problem(s) across {len({w for w, _ in _probs})} text unit(s), authorship-policy §11:\n")
+    for where, why in _probs:
+        print(f"    {where}: {why}")
+    raise SystemExit(1)
+if not RELEASE:
+    print(f"  PROOF build — every page stamped '{PROOF_STAMP}'. "
+          f"{len({w for w, _ in _probs})} text unit(s) would block a release (disclosure.py / --release for detail).")
 pages = {p["page"]: p for p in plan["pages"]}
 
 PW, PH = 8.5 * IN, 11 * IN
@@ -114,7 +133,8 @@ def wrap(c, text, font, size, maxw):
     if cur: lines.append(cur)
     return lines
 
-c = canvas.Canvas(f"{BOOK}/out/interior.pdf", pagesize=(PW, PH),
+os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
+c = canvas.Canvas(OUT, pagesize=(PW, PH),
                   initialFontName="Lora", initialFontSize=13)
 c.setTitle(cfg["title"]); c.setAuthor("Deep Roots Kids"); c.setSubject(cfg["scripture_scope"])
 
@@ -152,18 +172,11 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
         y = PH - TOP - 9 - 5 - 30
         c.setFillColor(STORYBOOK_NAVY)
         c.setFont("Baloo2", 11); c.drawString(tx, y, cfg["title"]); y -= 20
-        body = [
-            "Copyright (c) 2026 Deep Roots Kids. All rights reserved.",
-            "",
-            "Scripture quotations are from the World English Bible, which is in the public domain.",
-            "",
-            "A note on how this book was made: the illustrations in this book were generated with "
-            "the assistance of artificial intelligence, then reviewed, selected and prepared for "
-            "print by a human editor. The teaching text was drafted with the assistance of "
-            "artificial intelligence and reviewed and edited by a human editor; Scripture is "
-            "quoted from the World English Bible. Every page was checked against "
-            f"{cfg['checked_against']} before printing.",
-        ]
+        # Copyright page: registered text units only (book.yaml copyright_page).
+        # No AI note — authorship-policy §3.
+        body = []
+        for line in cfg.get("copyright_page") or []:
+            body += [line, ""]
         c.setFont("Lora", 9)
         for para in body:
             if not para: y -= 10; continue
@@ -174,14 +187,11 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
         botanical_border(c, cx, BOTTOM, PW - right, PH - TOP, STORYBOOK_NAVY)
         # Body is either inline (book-specific) or read from a shared series asset,
         # so standing back matter stays in one place across every volume.
-        if pg.get("body_file"):
-            raw = open(pg["body_file"], encoding="utf-8").read()
-            marker = "<!-- BODY -->"
-            if marker not in raw:
-                raise SystemExit(f"{pg['body_file']}: missing {marker}")
-            body = raw.split(marker, 1)[1]
-        else:
-            body = pg["body"]
+        body = textunits.body_of(pg)
+        if body is None:
+            # Empty slot awaiting the author's text. Proof only — the release guard refuses
+            # to reach this line. A production marker, not prose.
+            body = "[ awaiting author's text ]"
         paras = [ln.strip() for ln in body.strip().split("\n") if ln.strip()]
         y = PH - TOP - 46
         c.setFillColor(STORYBOOK_NAVY); c.setFont("Baloo2", 20)
@@ -236,8 +246,11 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
             c.setFillColor(STORYBOOK_NAVY)
             c.setFont("Lora", 8)
             c.drawRightString(PW - right, BOTTOM + 4, str(pno))
+    if not RELEASE:
+        c.setFillColor(STORYBOOK_NAVY); c.setFont("Lora", 7)
+        c.drawCentredString(PW/2, BOTTOM + 3, PROOF_STAMP)
     c.showPage()
 
 c.save()
 print(f"  interior.pdf written — {cfg['print']['page_count']} pages, "
-      f"{os.path.getsize(f'{BOOK}/out/interior.pdf')/1024:.0f} KB")
+      f"{os.path.getsize(OUT)/1024:.0f} KB  -> {OUT}{'  [RELEASE]' if RELEASE else '  [PROOF]'}")

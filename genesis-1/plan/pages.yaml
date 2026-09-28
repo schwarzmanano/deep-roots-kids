@@ -231,7 +231,9 @@ pages:
   - page: 29
     ref: "Genesis 1:31"
     title: "Very Good"
-    text: "God saw everything that he had made, and behold, it was very good."
+    text: "God saw everything that he had made, and, behold, it was very good."
+    quote_amended: "2026-09-29 — comma after 'and' restored to match WEB Gen 1:31 verbatim
+                    (ebible.org/eng-web). Quotation corrected to source; not an authorship change."
     teaching: "God looked at everything He had made and said it was very good. Sin broke that goodness — but Jesus is making a new heaven and a new earth, and it will be very good again."
     quote: true
     thicken_thin_strokes: true   # 3 strokes at 1.59pt from the fish detailing
@@ -269,8 +271,10 @@ pages:
     alt: ""
     generate: false
     back_matter: true
-    note: "Closing back-matter page. Text authored by the editor and inserted verbatim
-           2026-09-18. No illustration; no generated content of any kind on this page."
+    note: "Closing back-matter page. No illustration."
+    provenance_corrected: "2026-09-29 — this note previously read 'Text authored by the editor
+                           and inserted verbatim'. The editor has ruled the existing closing text
+                           AI-originated (authorship-policy §5): see provenance.yaml p33.body."
     body: |
       From Creation to Glory
 

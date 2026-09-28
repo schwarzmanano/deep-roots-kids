@@ -4,8 +4,23 @@ title: "In the Beginning"
 subtitle: "A Coloring Book of Creation"
 series_line: "Deep Roots Kids: Creation to Glorification, Book One."
 scripture_scope: "Genesis 1:1 – 2:3"
-checked_against: "Genesis 1"   # copyright-page review line (layout.py)
 age_band: "4-7"
+print_ai_note: false      # series default — authorship-policy §3. No AI note on any printed page.
+
+# Reader-facing text formerly hardcoded in layout.py / cover.py, moved here verbatim so every
+# line is a registered text unit (provenance.yaml). Wording is the author's to supply.
+copyright_page:
+  - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
+  - "Scripture quotations are from the World English Bible, which is in the public domain."
+cover:
+  series_short: "Deep Roots Kids · Book One"
+  back_blurb: >-
+    In the beginning, God made everything — light and sky, land and sea, birds and fish and
+    every living thing, and people made in his own image. Colour your way through the seven
+    days of creation, one page at a time.
+  spec_lines:
+    - "15 full-page illustrations to colour"
+    - "Ages 4–7 · Scripture from the World English Bible"
 
 print:
   trim: "8.5x11"

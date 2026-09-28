@@ -16,9 +16,23 @@ sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from badge import draw_badge
 
 from bookarg import book_dir
+import textunits
 BOOK = book_dir()
+RELEASE = "--release" in sys.argv          # authorship-policy §11 — same guard as layout.py
+OUT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else f"{BOOK}/out/cover.pdf"
+PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
+if "cover" not in cfg:
+    raise SystemExit(f"{BOOK}/book.yaml has no cover: block — cover text units not registered yet")
+COV = cfg["cover"]
+if any(COV.get(k) is None for k in ("series_short", "back_blurb")) or cfg.get("subtitle") is None:
+    raise SystemExit("cover text incomplete — awaiting the author's text (see plan/my-words.md)")
+_probs = textunits.check(BOOK)
+if RELEASE and _probs:
+    print(f"\n  ⛔ RELEASE REFUSED — {len(_probs)} problem(s) across {len({w for w, _ in _probs})} text unit(s), authorship-policy §11:\n")
+    for where, why in _probs: print(f"    {where}: {why}")
+    raise SystemExit(1)
 PAGES = cfg["print"]["page_count"]
 
 # Primary Palette
@@ -67,7 +81,7 @@ def wrap_text(c, text, font, size, maxw):
     if cur: out.append(cur)
     return out
 
-c = canvas.Canvas(f"{BOOK}/out/cover.pdf", pagesize=(W, H), initialFontName="Lora")
+c = canvas.Canvas(OUT, pagesize=(W, H), initialFontName="Lora")
 c.setTitle(f'{cfg["title"]} — cover'); c.setAuthor("Deep Roots Kids")
 
 # Parchment Cream across the whole wrap, bleed included
@@ -97,12 +111,12 @@ c.drawCentredString(FX, title_y, cfg["title"])
 
 # Descriptor — what Amazon shoppers actually need to see on the thumbnail.
 c.setFillColor(GOLD); c.setFont("Baloo2", 30)
-c.drawCentredString(FX, title_y - 38, "A Coloring Book of Creation")
+c.drawCentredString(FX, title_y - 38, cfg["subtitle"])
 
 # Series line, short form. "Creation to Glorification" and the Genesis
 # reference now live on the back cover only.
 c.setFillColor(NAVY); c.setFont("Lora", 13)
-c.drawCentredString(FX, title_y - 64, "Deep Roots Kids · Book One")
+c.drawCentredString(FX, title_y - 64, COV["series_short"])
 
 
 # ── SPINE ── blank: 34pp gives 0.077", far under KDP's 100-page threshold for text
@@ -110,16 +124,13 @@ c.drawCentredString(FX, title_y - 64, "Deep Roots Kids · Book One")
 BX = (BACK_L + BACK_R) / 2
 c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
 
-blurb = ("In the beginning, God made everything — light and sky, land and sea, "
-         "birds and fish and every living thing, and people made in his own image. "
-         "Colour your way through the seven days of creation, one page at a time.")
+blurb = " ".join(COV["back_blurb"].split())
 
 # Compose the back panel as one block centred in the space between the logo and
 # the barcode band, rather than top-aligned with a gap underneath.
 body_w = TRIM_W - 2*SAFE - 0.6*IN
 blurb_lines = wrap_text(c, blurb, "Lora", 12.5, body_w)
-spec_lines = ["15 full-page illustrations to colour",
-              "Ages 4–7 · Scripture from the World English Bible"]
+spec_lines = list(COV.get("spec_lines") or [])
 block_h = len(blurb_lines)*18 + 14 + len(spec_lines)*16 + 10 + 34
 
 region_top = H - BLEED - SAFE - LW - 40
@@ -139,6 +150,10 @@ c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
 c.setFillColor(NAVY); c.setFont("LoraIt", 11)
 c.drawCentredString(BX, y, cfg["scripture_scope"])
 
+if not RELEASE:   # proof stamp inside the barcode band's clear zone, on both panels
+    c.setFillColor(NAVY); c.setFont("Lora", 9)
+    for x in (BX, FX):
+        c.drawCentredString(x, BLEED + SAFE, PROOF_STAMP)
 c.save()
 print(f"  cover.pdf — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
 print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

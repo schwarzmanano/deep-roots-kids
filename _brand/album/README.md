@@ -40,5 +40,5 @@ are recorded in that book's `plan/theology-review.md`.
 - **Translation.** The teaching script quotes the **ESV**; the series prints **WEB**
   (genesis-1 DECISION-4). Printed pages re-quote in WEB; the audio keeps ESV.
 - **WEB renders the divine name "Yahweh"** from Gen 2:4 on. RULED 2026-09-27 — keep it as WEB
-  has it, with a fixed teaching line at its first appearance in each book:
-  theology-guardrails.md §6.
+  has it; at its first appearance in each book the teaching line explains the name, in the
+  author's own words (theology-guardrails.md §6, amended 2026-09-29).
