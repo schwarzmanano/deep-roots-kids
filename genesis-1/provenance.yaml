@@ -16,26 +16,26 @@ text_units:
 - id: book.title
   page: p1, cover
   kind: title
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 93158db90e8c
-  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  source: editor confirmation in chat 2026-09-29 ('All are mine')
   recorded: '2026-09-29'
 - id: book.series_line
   page: p1, back cover
   kind: series-line
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 62a74a34caf0
-  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  source: editor confirmation in chat 2026-09-29 ('All are mine')
   recorded: '2026-09-29'
 - id: book.subtitle
   page: p1, cover
   kind: subtitle
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 9b6db95535ba
-  source: ORIGIN NOT RECORDED — confirm who supplied it; unresolved until then
+  source: editor confirmation in chat 2026-09-29 ('All are mine')
   recorded: '2026-09-29'
 - id: book.scripture_scope
   page: p1, back cover

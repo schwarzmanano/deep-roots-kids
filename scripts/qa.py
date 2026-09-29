@@ -61,8 +61,15 @@ for d in sorted(glob.glob(f"{book}/gen/p*/"), key=lambda p: int(p.rstrip('/').sp
                      min_pt=sw["min_pt"], thin_count=sw["thin_count"], thin_ink_pct=sw["thin_ink_pct"],
                      frame=r["frame_removed"], midtone=r["midtone_pct"], src=os.path.basename(src)))
 
-_ref_pg = next(p["page"] for p in _plan["pages"] if p.get("style_reference"))
-ref = next(r for r in rows if r["page"] == _ref_pg)["ink"]
+# Drift is measured against the Gate 2 style lock when the book has one (the ruled reference);
+# otherwise against the page marked style_reference.
+_lock = (_cfg.get("generation") or {}).get("style_lock")
+if _lock and os.path.exists(f"{book}/{_lock}"):
+    ref = float((np.array(Image.open(f"{book}/{_lock}").convert("L")) < 128).mean() * 100)
+    print(f"\n  drift reference: Gate 2 lock {_lock}")
+else:
+    _ref_pg = next(p["page"] for p in _plan["pages"] if p.get("style_reference"))
+    ref = next(r for r in rows if r["page"] == _ref_pg)["ink"]
 print(f"\n  reference ink = {ref:.2f}%   (drift flagged beyond ±50%)\n")
 print(f"  stroke floor = {STROKE_FLOOR_PT:.1f}pt at final trim\n")
 print(f"  {'pg':>3} {'ink%':>6} {'drift':>7} {'minPt':>6} {'edge-ink%':>10} {'frame':>6} {'midtone':>8}  flags")

@@ -46,6 +46,7 @@ pages:
             the sky. Wild plants, trees and grass ONLY — NO vegetables, crops, garden beds or
             rows (Gen 2:5: no plant of the field yet, and no man to work the ground)."
     density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
     alt: "A wide, peaceful garden with animals and a river, and an open space in the middle."
     ruling: "DECISION-9 — 'Let us' left plain; no plural claim in the teaching line."
 
@@ -175,16 +176,16 @@ pages:
     title: "Made to Care for God's World"
     text: "God put us in charge of His world, to take care of it for Him."
     teaching: "God is the true King of everything. He gave people a job: to look after His world like good helpers look after the King's garden."
-    scene: "The whole family in a vegetable garden: Mother watering with a can, Daughter 1 and
-            Father digging a row, Daughter 2 carrying a basket held out from her body, Son
-            holding a small plant up to show, Daughter 3 pulling up one big carrot with both
-            hands, the dog digging beside them. All six family members appear. Big simple
-            leaves, large vegetables. Plain smooth basket shape with no weave pattern.
-            FRAMING (Gate 2 fixes): the garden ground ends in rounded bushes well inside the
-            left and right edges — NO horizon or ground line running edge to edge. Every
-            vegetable, pumpkin and cloud sits wholly inside the frame, none cut off. Water from
-            the can shown as three or four LARGE drops, no fine spray lines. Mother's wavy hair
-            clearly visible below her head wrap. Every person has a face: eyes and a smile."
+    scene: "The whole family in a small vegetable garden: Mother watering with a can, Daughter 1
+            and Father digging a row, Daughter 2 carrying a plain smooth basket held out from her
+            body, Son holding a small plant up to show, Daughter 3 pulling up one big carrot with
+            both hands, the dog digging beside them. All six family members appear. Only a FEW
+            vegetables — three or four leafy plants and at most two pumpkins — all in the MIDDLE
+            band of the page, between the people. The bottom fifth of the page is plain open
+            grass with nothing on it. Nothing touches or crosses any page edge: every plant,
+            pumpkin and cloud sits wholly inside the frame with white space around it. No
+            horizon line running edge to edge. Water from the can as three or four LARGE drops.
+            Mother's wavy hair clearly visible below her head wrap. Every person has a face."
     character_ref: "kids/_brand/cast-sheet.jpg"
     style_reference: true
     thicken_thin_strokes: true   # Gate 2: 2 strokes at 1.59pt on the locked attempt
@@ -196,6 +197,7 @@ pages:
       Daughter2: "short-sleeved A-line dress to the knee"
       Daughter3: "short-sleeved dress with a hem band, to the knee"
       Son: "short-sleeved t-shirt and shorts"
+    # round 4 (editor ruling 2026-09-29): re-scened with fewer vegetables; base_ref edit of a8 kept the crops
     alt: "A family working together in a vegetable garden with their dog."
     note: "Proposed Gate 2 style-lock candidate: all six cast members, an animal and plants in
            one frame is the hardest single test of limb construction, face consistency, region
@@ -234,23 +236,26 @@ pages:
     title: "Every Person"
     text: "Every person, in every nation, is made in God's image."
     teaching: "Your mom, your dad, your friends, the person you've never met — every one of them carries God's image. That's why every person matters."
-    scene: "A busy, friendly street market: the family among many neighbours — an old man with a
-            walking stick, a woman in a wheelchair, children of different heights, people with
-            many different hairstyles (braids, straight, curly, covered, short). The family members here are Mother, Daughter
-            1, Daughter 2 and Son, walking together. NO garden, NO vegetables, NO dog. Among them,
-            EXACTLY ONE toddler with hair puffs — the child from p21 is now a TODDLER with two small round hair puffs, walking and holding
-            the hand of their mother (high round bun). All neighbours built with the SAME flat-vector construction as the cast but
-            carrying NO cast marker (no glasses+locs, no bead-braids, no head-wrap-over-blonde).
-            Simple stall shapes with large round fruits."
+    scene: "A small, friendly street market with two simple fruit stalls. The family members here
+            are Mother, Daughter 2 and Son, walking together in the middle. Around
+            them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman
+            in a wheelchair; a tall man with short straight hair; the visiting mother with one
+            high round bun, holding the hand of EXACTLY ONE toddler with two small round hair
+            puffs (the child from p21). No other children. The neighbours have plain hairstyles —
+            short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a
+            head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog."
     figures: ["family", "outside-cast"]
-    character_ref: "kids/_brand/cast-sheet.jpg"
+    # character_ref removed round 3: the cast sheet leaked family markers onto strangers twice
     outfits:               # character-bible v2.0 — tested vocabulary only
       Mother: "short-sleeved straight dress to mid-calf; head wrap"
-      Daughter1: "short-sleeved t-shirt and full-length trousers"
       Daughter2: "short-sleeved A-line dress to the knee"
       Son: "short-sleeved t-shirt and shorts"
       VisitingMother: "short-sleeved plain straight dress to mid-calf, NO wrap, NO tie; high round bun"
       Toddler: "short-sleeved romper with short legs; two small round hair puffs"
+    amended: "2026-09-29 — editor ruling: attempt-06 accepted; Daughter 1 is not at the market
+              (she appears on p25). Rounds 1-3 failed on reference bleed and family markers on
+              strangers; cast sheet dropped for this page."
+    thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
     alt: "A street market full of many different people, young and old."
     ruling: "DECISION-6 — no printed colour words; diversity shown visually (guardrails §5).
              DECISION-7 — p21's child, now a toddler."
@@ -273,6 +278,7 @@ pages:
       Son: "short-sleeved t-shirt and shorts"
       YoungChild: "short-sleeved t-shirt and shorts; two round hair puffs"
       OldMan: "short-sleeved plain shirt and full-length trousers; walking stick"
+    thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
     alt: "Children helping an old man carry his shopping."
     ruling: "DECISION-6; DECISION-7 — p21's child, now a young child."
 
@@ -334,6 +340,7 @@ pages:
       Daughter2: "short-sleeved nightgown to mid-calf"
       Daughter3: "short-sleeved nightgown to the knee"
       Son: "short-sleeved pyjama top and pyjama shorts"
+    thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
     alt: "A family gathered around an open Bible in the evening."
     ruling: "DECISION-11 — Christ in text only, no symbol before Book Six (guardrails §1-§2)."
 

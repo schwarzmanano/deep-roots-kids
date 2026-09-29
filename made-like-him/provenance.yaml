@@ -13,11 +13,10 @@ text_units:
 - id: book.title
   page: p1, cover
   kind: title
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: ad3880855bd9
-  source: wording supplied in the editor's brief (album Track 2 title) — ORIGIN NOT RECORDED — confirm
-    who supplied it; unresolved until then
+  source: editor confirmation in chat 2026-09-29 ('All are mine'); album Track 2 title
   recorded: '2026-09-29'
 - id: book.series_line
   page: p1, back cover
