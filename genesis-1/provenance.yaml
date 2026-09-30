@@ -312,20 +312,22 @@ text_units:
 - id: p35.heading
   page: p35
   kind: heading
-  author: ai-drafted
-  draft: true
+  author: human
+  draft: false
   sha: 2513f4156d8c
-  source: page label from the pipeline's About file; author to confirm or supply
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed (shared About
+    the Author)
   recorded: '2026-09-30'
 - id: p35.body
   page: p35
   kind: about-the-author
-  author: null
-  draft: true
-  sha: d51708755dd7
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: bea33593ef67
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed (shared About
+    the Author)
   recorded: '2026-09-30'
 - id: cover.series_short
   page: cover

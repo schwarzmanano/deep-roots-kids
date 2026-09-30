@@ -12,6 +12,10 @@ copyright_page:           # author-supplied 2026-09-30, verbatim
   - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 # cover: not started — Gate 3 first. Its text units are added when the cover stage begins.
+# Cover specs for the cover stage — two wraps, because the spines differ (36 pp, white paper):
+cover_targets:
+  kdp:  {bleed_in: 0.125, spine_in: 0.0811, spine_formula: "pages x 0.002252", spine_text: false}  # KDP: no spine text under 79 pp
+  lulu: {bleed_in: 0.125, spine_in: 0.1411, spine_formula: "pages / 444 + 0.06", safety_in: 0.5, spine_text: false}  # Lulu: none at <=80 pp
 
 # Standing governance, read — never restated — by this book:
 governed_by:
@@ -19,7 +23,8 @@ governed_by:
   - kids/_brand/character-bible.md
   - kids/_brand/brand-spec.md
 
-print:                    # identical to genesis-1
+print:                    # identical to genesis-1; built for two printers (layout.py --target)
+  targets: [kdp, lulu]      # kdp 8.5x11 no bleed; lulu 8.75x11.25 (0.125in bleed), same content
   trim: "8.5x11"
   page_count: 36
   bleed: false
@@ -34,8 +39,8 @@ layout:                   # identical to genesis-1
   back_matter: [33, 35]   # p33 closing page (editor-authored); p35 About the Author (shared)
   illustration_count: 15
 
-margins:
-  gutter_in: 0.375
+margins:                  # KDP + Lulu: Lulu safety margin is 0.5in on ALL sides (gutter too)
+  gutter_in: 0.5
   outside_in: 0.5
   top_in: 0.5
   bottom_in: 0.5

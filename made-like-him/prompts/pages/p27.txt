@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: Son kneeling on the grass with hands folded in prayer, eyes closed, the family dog lying beside him with its head on its paws. A cat curled on a step nearby. Quiet evening; large simple moon and a few stars.
+SCENE: Son kneels upright on the grass, back straight, eyes closed, praying: his two forearms are single lines angled up to meet in front of his chest, his hands two plain ovals touching, elbows held out from his body so the arms make an open diamond shape. The family dog lies beside him, head on its paws; a cat curls on a step nearby. Quiet evening; a large simple moon and a few stars. NO vegetables, NO pumpkins, NO cabbages, NO garden plants.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -57,7 +57,7 @@ HUMAN FIGURES — follow exactly:
   Never a close-up portrait. Never lined up facing the viewer.
 
 OUTFITS — each person wears exactly this, and nothing else:
-- Son: short-sleeved t-shirt and shorts
+- Son: sleeveless t-shirt and shorts
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.

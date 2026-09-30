@@ -7,8 +7,11 @@ import os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bookarg import book_dir
 BOOK = book_dir()
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
-PDF = f"{BOOK}/out/interior.pdf"
 IN = 72.0
+TARGET = sys.argv[sys.argv.index("--target") + 1] if "--target" in sys.argv else "kdp"
+PDF = f"{BOOK}/out/interior{'' if TARGET == 'kdp' else '-lulu'}.pdf"
+BLEED = 0.125*IN if TARGET == "lulu" else 0.0   # Lulu: 0.125in bleed on all files
+print(f"  target: {TARGET}  ({PDF})")
 M = cfg["margins"]
 fails, warns = [], []
 
@@ -18,14 +21,16 @@ print(f"  pages: {n}")
 if n != cfg["print"]["page_count"]: fails.append(f"page count {n} != {cfg['print']['page_count']}")
 if n % 2: fails.append("page count is odd — KDP requires even")
 if n < 24: fails.append("below KDP 24-page minimum for this trim")
+if TARGET == "lulu" and n < 32: fails.append("below Lulu 32-page paperback minimum")
 
 # trim size, exact
 bad = []
 for i, pg in enumerate(rd.pages, 1):
     w = float(pg.mediabox.width); h = float(pg.mediabox.height)
-    if abs(w - 8.5*IN) > 0.01 or abs(h - 11*IN) > 0.01:
+    if abs(w - 8.5*IN - 2*BLEED) > 0.01 or abs(h - 11*IN - 2*BLEED) > 0.01:
         bad.append(f"p{i} {w/IN:.3f}x{h/IN:.3f}in")
-print(f"  trim: {'all 8.500x11.000 in' if not bad else 'MISMATCH ' + ', '.join(bad[:3])}")
+print(f"  page: {'all %.3fx%.3f in' % (8.5+2*BLEED/IN, 11+2*BLEED/IN) if not bad else 'MISMATCH ' + ', '.join(bad[:3])}"
+      f"{'  (8.5x11 trim + 0.125in bleed)' if BLEED else '  (8.5x11 trim, no bleed)'}")
 if bad: fails.append(f"{len(bad)} page(s) not 8.5x11")
 
 # font embedding
@@ -60,6 +65,11 @@ else:
 # margins: measure actual ink on every page
 gut, out = M["gutter_in"]*IN, M["outside_in"]*IN
 top, bot = M["top_in"]*IN, M["bottom_in"]*IN
+if TARGET == "lulu":   # Lulu safety margin: 0.5in inside trim on every side, gutter included
+    SAFE = 0.5*IN
+    if min(gut, out, top, bot) < SAFE - 0.01:
+        fails.append(f"margins below Lulu's 0.5in safety margin (gutter {gut/IN}in)")
+# measure against the TRIM box: shift every coordinate by the bleed
 viol = []
 for i, p in enumerate(doc, 1):
     r = p.get_bbox() if hasattr(p, "get_bbox") else None
@@ -73,7 +83,8 @@ for i, p in enumerate(doc, 1):
     recto = i % 2 == 1
     L = gut if recto else out
     R = out if recto else gut
-    W, H = p.rect.width, p.rect.height
+    x0, x1, y0, y1 = x0 - BLEED, x1 - BLEED, y0 - BLEED, y1 - BLEED
+    W, H = p.rect.width - 2*BLEED, p.rect.height - 2*BLEED
     if x0 < L - 0.5: viol.append(f"p{i} left {x0/IN:.3f}in < {L/IN:.3f}in")
     if x1 > W - R + 0.5: viol.append(f"p{i} right {(W-x1)/IN:.3f}in < {R/IN:.3f}in")
     if y0 < top - 0.5: viol.append(f"p{i} top {y0/IN:.3f}in")
@@ -81,6 +92,28 @@ for i, p in enumerate(doc, 1):
 print(f"  margins: {'all within gutter %.3f\" / outside %.3f\"' % (M['gutter_in'], M['outside_in']) if not viol else 'VIOLATIONS'}")
 for v in viol[:6]: print(f"    {v}")
 if viol: fails.append(f"{len(viol)} margin violation(s)")
+
+# colour + transparency — black-ink interior: K-only, no RGB, no transparency
+import re as _re, zlib as _z
+rgb_pages, trans, img_cs = [], [], set()
+ink_black = cfg["print"].get("ink", "black") == "black"
+for i, p in enumerate(doc, 1):
+    ops = p.read_contents().decode("latin-1")
+    if _re.search(r"(?<![\w.])(rg|RG|sc|SC|scn|SCN)\b", ops): rgb_pages.append(i)
+    for img in p.get_images(full=True):
+        img_cs.add(img[5])
+        if img[1]: trans.append(f"p{i} soft mask")
+for x in range(1, doc.xref_length()):
+    try: obj = doc.xref_object(x)
+    except Exception: continue
+    if _re.search(r"/(ca|CA)\s+0?\.\d", obj) or "/SMask" in obj and "/SMask /None" not in obj:
+        trans.append(f"xref {x}")
+print(f"  colour: {'K-only, no RGB operators' if not rgb_pages else 'RGB on pages ' + str(rgb_pages[:8])}"
+      f"; images {sorted(img_cs) or 'none'}")
+print(f"  transparency: {'none' if not trans else ', '.join(sorted(set(trans))[:4])}")
+if ink_black and rgb_pages: fails.append(f"RGB colour operators on {len(rgb_pages)} page(s) — black-ink interior must be K-only")
+if ink_black and any(cs not in ("DeviceGray",) for cs in img_cs): fails.append(f"non-grayscale image(s): {sorted(img_cs)}")
+if trans: fails.append("transparency present — Lulu requires it flattened")
 
 print()
 if fails:

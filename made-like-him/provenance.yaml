@@ -21,22 +21,20 @@ text_units:
 - id: book.series_line
   page: p1, back cover
   kind: series-line
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 7351b9596d7a
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: book.subtitle
   page: p1, cover
   kind: subtitle
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: b7113baadae4
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: book.scripture_scope
   page: p1, back cover
@@ -49,42 +47,38 @@ text_units:
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: b050e2d85878
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p2.copyright.2
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 4092fb0ccb13
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p3.text
   page: p3
   kind: page-text
-  author: null
-  draft: true
-  sha: 6e3985ca52db
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 1b814c75312b
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p3.teaching
   page: p3
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 26cd1ba3d11b
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p5.text
   page: p5
@@ -97,12 +91,11 @@ text_units:
 - id: p5.teaching
   page: p5
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 7c24a68a823f
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p7.text
   page: p7
@@ -115,290 +108,272 @@ text_units:
 - id: p7.teaching
   page: p7
   kind: teaching
-  author: null
-  draft: true
-  sha: b055ce33e125
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: b282466b1768
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p9.text
   page: p9
   kind: page-text
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 2fa9a08dc2ee
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: null
-  draft: true
-  sha: 9d52b87e62f3
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 11efa952cb66
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p11.text
   page: p11
   kind: page-text
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: f0f334f9dd69
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p11.teaching
   page: p11
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 4bc470103a96
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p13.text
   page: p13
   kind: page-text
-  author: null
-  draft: true
-  sha: 7f2f7f8a6593
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 0a122cd3b6d7
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p13.teaching
   page: p13
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 12b99ae1e52d
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p15.text
   page: p15
   kind: page-text
-  author: null
-  draft: true
-  sha: dfbc23513105
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: f10305055d43
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p15.teaching
   page: p15
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 64c3f736a698
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p17.text
   page: p17
   kind: page-text
-  author: null
-  draft: true
-  sha: d022791f19f1
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: ea13b3f06d52
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p17.teaching
   page: p17
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 33a570338e25
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p19.text
   page: p19
   kind: page-text
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 58a59006b833
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p19.teaching
   page: p19
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 4382a24dcd3a
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p21.text
   page: p21
   kind: page-text
-  author: null
-  draft: true
-  sha: f35b4081e757
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 851a9aefc672
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p21.teaching
   page: p21
   kind: teaching
-  author: null
-  draft: true
-  sha: f8b975e6ce07
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 5f57feb2a355
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p23.text
   page: p23
   kind: page-text
-  author: null
-  draft: true
-  sha: bf6d881c91e8
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 22707620fc7f
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p23.teaching
   page: p23
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 32e4bcede4f3
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p25.text
   page: p25
   kind: page-text
-  author: null
-  draft: true
-  sha: 800c02602b75
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 719ff1c4087e
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p25.teaching
   page: p25
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 05be13068a05
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p27.text
   page: p27
   kind: page-text
-  author: null
-  draft: true
-  sha: 37ed7e006e63
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 15e783a9e0de
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 7a356f6dd42d
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p29.text
   page: p29
   kind: page-text
-  author: null
-  draft: true
-  sha: 3b1c6e1dab8a
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: 8457f4f48820
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p29.teaching
   page: p29
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 5cbedf114c92
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p31.text
   page: p31
   kind: page-text
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: dbe0e9489c6b
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p31.teaching
   page: p31
   kind: teaching
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: cbf4bb83f10f
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
+  recorded: '2026-09-30'
+- id: p33.heading
+  page: p33
+  kind: heading
+  author: human
+  draft: false
+  sha: 9440fb8cc34b
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p33.body
   page: p33
   kind: closing
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 934d38eb3c60
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p33.footnote
   page: p33
   kind: footnote
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 55fc04edeeae
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p35.heading
   page: p35
   kind: heading
-  author: ai-drafted
-  draft: true
+  author: human
+  draft: false
   sha: 2513f4156d8c
-  source: page label from the pipeline's About file; author to confirm or supply
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 - id: p35.body
   page: p35
   kind: about-the-author
-  author: null
-  draft: true
-  sha: d51708755dd7
-  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
-    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
-    (policy §4, §10)
+  author: human
+  draft: false
+  sha: bea33593ef67
+  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
+    Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
 gate1_signed: '2026-09-27'
 style_lock_gate2: gen/p19/attempt-04.jpg

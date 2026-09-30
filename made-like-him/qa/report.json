@@ -61,39 +61,39 @@
   },
   {
     "page": 13,
-    "ink": 10.233369291621718,
-    "stroke": 5,
-    "margin": 10.066024079370123,
-    "min_pt": 2.2466666666666666,
+    "ink": 9.622195985832349,
+    "stroke": 6,
+    "margin": 7.295870847562869,
+    "min_pt": 2.45985401459854,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
-    "frame": false,
+    "frame": true,
     "midtone": 0.0,
-    "src": "attempt-01.jpg"
+    "src": "attempt-05.jpg"
   },
   {
     "page": 15,
-    "ink": 8.278766630708379,
-    "stroke": 5,
-    "margin": 17.26546906187625,
+    "ink": 7.928712693275799,
+    "stroke": 4,
+    "margin": 6.934487578339871,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-02.jpg"
+    "src": "attempt-04.jpg"
   },
   {
     "page": 17,
-    "ink": 7.788295577130529,
-    "stroke": 5,
-    "margin": 14.85369252206224,
+    "ink": 8.24685364976627,
+    "stroke": 4,
+    "margin": 17.10123370373611,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-03.jpg"
+    "src": "attempt-06.jpg"
   },
   {
     "page": 19,
@@ -121,15 +121,15 @@
   },
   {
     "page": 23,
-    "ink": 8.744156778137361,
-    "stroke": 3.0,
-    "margin": 10.331632653061225,
-    "min_pt": 2.2466666666666666,
+    "ink": 11.032052134592366,
+    "stroke": 4,
+    "margin": 11.422656448625286,
+    "min_pt": 2.3795233892321273,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
-    "frame": false,
+    "frame": true,
     "midtone": 0.0,
-    "src": "attempt-06.jpg"
+    "src": "attempt-08.jpg"
   },
   {
     "page": 25,
@@ -145,15 +145,15 @@
   },
   {
     "page": 27,
-    "ink": 9.04608705286613,
-    "stroke": 5.0,
-    "margin": 15.210781866860282,
-    "min_pt": 2.6840780353247697,
+    "ink": 8.511275454403416,
+    "stroke": 6.0,
+    "margin": 8.127713920817369,
+    "min_pt": 2.760274389807433,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": true,
     "midtone": 0.0,
-    "src": "attempt-01.jpg"
+    "src": "attempt-04.jpg"
   },
   {
     "page": 29,
@@ -169,14 +169,14 @@
   },
   {
     "page": 31,
-    "ink": 9.061129090255305,
-    "stroke": 4,
-    "margin": 6.832026117768841,
+    "ink": 10.116864437252787,
+    "stroke": 4.0,
+    "margin": 9.555415086388537,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-03.jpg"
+    "src": "attempt-07.jpg"
   }
 ]

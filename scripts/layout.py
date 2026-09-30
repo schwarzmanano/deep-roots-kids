@@ -9,7 +9,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from badge import draw_badge
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
-from reportlab.lib.colors import black, HexColor
+from reportlab.lib.colors import HexColor, CMYKColor
+from PIL import Image
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 import reportlab
@@ -20,7 +21,13 @@ BOOK = book_dir()
 # --release: authorship-policy §11 release guard, no proof stamp.
 # Anything else is a PROOF, stamped on every page. --out <path> writes elsewhere (testing).
 RELEASE = "--release" in sys.argv
-OUT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else f"{BOOK}/out/interior.pdf"
+# --target kdp (default): 8.5x11, no bleed.  --target lulu: same layout on an 8.75x11.25 page
+# (0.125in bleed each side, Lulu requires bleed on all files); trim-relative positions identical.
+TARGET = sys.argv[sys.argv.index("--target") + 1] if "--target" in sys.argv else "kdp"
+if TARGET not in ("kdp", "lulu"):
+    raise SystemExit(f"--target must be kdp or lulu, not {TARGET}")
+OUT = (sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv
+       else f"{BOOK}/out/interior{'' if TARGET == 'kdp' else '-lulu'}.pdf")
 PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0  # pt per inch
 
@@ -41,7 +48,8 @@ if not RELEASE:
           f"{len({w for w, _ in _probs})} text unit(s) would block a release (disclosure.py / --release for detail).")
 pages = {p["page"]: p for p in plan["pages"]}
 
-PW, PH = 8.5 * IN, 11 * IN
+PW, PH = 8.5 * IN, 11 * IN            # TRIM — every coordinate below is trim-relative
+BLEED = 0.125 * IN if TARGET == "lulu" else 0.0
 M = cfg["margins"]
 GUTTER, OUTSIDE = M["gutter_in"] * IN, M["outside_in"] * IN
 TOP, BOTTOM = M["top_in"] * IN, M["bottom_in"] * IN
@@ -58,8 +66,12 @@ pdfmetrics.registerFont(TTFont("LoraIt", f"{FD}/Lora-Italic.ttf"))
 # KDP screens colour to grey, which would wash out the captions on every page.
 # The cover, which prints full colour, keeps the palette.
 MONO = cfg["print"].get("ink", "black") == "black"
-STORYBOOK_NAVY = HexColor("#000000") if MONO else HexColor("#2E4257")
-ROOTS_GOLD     = HexColor("#000000") if MONO else HexColor("#D9A441")
+# Black is K-only (C0 M0 Y0 K100): solid black ink with no other colours (Lulu; KDP B&W).
+# RGB black would be converted to a four-ink rich black at the printer.
+K100  = CMYKColor(0, 0, 0, 1)
+PAPER = CMYKColor(0, 0, 0, 0)
+STORYBOOK_NAVY = K100 if MONO else HexColor("#2E4257")
+ROOTS_GOLD     = K100 if MONO else HexColor("#D9A441")
 LOGO_INTERIOR  = ("kids/_brand/logo/dr-kids-logo-gray.png" if MONO
                   else "kids/_brand/logo/dr-kids-logo.png")
 
@@ -86,7 +98,7 @@ def draw_svg(c, path_svg, x0, y0, w, h):
             for i in range(0, len(n), 6):
                 p.curveTo(X(n[i]), Y(n[i+1]), X(n[i+2]), Y(n[i+3]), X(n[i+4]), Y(n[i+5]))
         elif cmd == "Z": p.close()
-    c.setFillColor(black)   # line art is always pure K
+    c.setFillColor(K100)    # line art is always pure K
     c.drawPath(p, stroke=0, fill=1, fillMode=1)   # 1 = even-odd
     return vw * s / IN, vh * s / IN
 
@@ -114,7 +126,7 @@ def botanical_border(c, x0, y0, x1, y1, ink):
 
     mid = (x0 + x1) / 2
     # break the rule so the motif sits in clear space
-    c.setFillColor(HexColor("#FFFFFF")); c.setStrokeColor(HexColor("#FFFFFF"))
+    c.setFillColor(PAPER); c.setStrokeColor(PAPER)
     for yy in (y1, y0):
         c.rect(mid-26, yy-3.5, 52, 7, stroke=0, fill=1)
         c.rect(mid-26, (yy+5 if yy==y0 else yy-5)-3.5, 52, 7, stroke=0, fill=1)
@@ -134,7 +146,15 @@ def wrap(c, text, font, size, maxw):
     return lines
 
 os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
-c = canvas.Canvas(OUT, pagesize=(PW, PH),
+# Flatten the interior logo: no alpha (Lulu: transparency must be flattened), grayscale
+# (B&W images in grayscale). Written beside the output, never over the brand asset.
+_logo = Image.open(LOGO_INTERIOR)
+if _logo.mode in ("RGBA", "LA", "P"):
+    _bg = Image.new("RGBA", _logo.size, (255, 255, 255, 255))
+    _logo = Image.alpha_composite(_bg, _logo.convert("RGBA"))
+LOGO_FLAT = os.path.join(os.path.dirname(OUT) or ".", "_logo-interior-flat.png")
+_logo.convert("L" if MONO else "RGB").save(LOGO_FLAT)
+c = canvas.Canvas(OUT, pagesize=(PW + 2*BLEED, PH + 2*BLEED),
                   initialFontName="Lora", initialFontSize=13)
 c.setTitle(cfg["title"]); c.setAuthor("Deep Roots Kids"); c.setSubject(cfg["scripture_scope"])
 
@@ -143,13 +163,14 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
     left = GUTTER if recto else OUTSIDE       # binding side
     right = OUTSIDE if recto else GUTTER
     cx, cw = left, PW - left - right
+    c.translate(BLEED, BLEED)                 # lulu: shift the trim box inside the bleed
 
     if pno == 1:
         botanical_border(c, cx, BOTTOM, PW - right, PH - TOP, STORYBOOK_NAVY)
         logo_w = 1.15*IN
-        c.drawImage(ImageReader(LOGO_INTERIOR),
+        c.drawImage(ImageReader(LOGO_FLAT),
                     PW/2 - logo_w/2, PH*0.60 + 56, width=logo_w, height=logo_w,
-                    mask="auto", preserveAspectRatio=True)
+                    preserveAspectRatio=True)
         c.setFillColor(STORYBOOK_NAVY)
         c.setFont("Baloo2", 34)
         c.drawCentredString(PW/2, PH*0.60, cfg["title"])

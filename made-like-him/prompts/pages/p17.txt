@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: Daughter 3 handing her big round ball to Son, who reaches out for it — sharing her toy. A grassy yard, a small toy box beside her, the dog watching. NO fruit and NO food anywhere on this page.
+SCENE: Daughter 3 holds her big round ball out at full arm's length with BOTH arms straight out in front of her; Son stands facing her reaching out with BOTH straight arms to take it — sharing her toy. A grassy yard, a small toy box, the dog watching. NO fruit and NO food anywhere on this page.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -58,7 +58,7 @@ HUMAN FIGURES — follow exactly:
 
 OUTFITS — each person wears exactly this, and nothing else:
 - Daughter 3: sleeveless sundress to the knee
-- Son: short-sleeved t-shirt and shorts
+- Son: sleeveless t-shirt and shorts
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.

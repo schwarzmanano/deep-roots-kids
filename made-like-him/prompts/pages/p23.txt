@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: A small, friendly street market with two simple fruit stalls. The family members here are Mother, Daughter 2 and Son, walking together in the middle. Around them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman in a wheelchair; a tall man with short straight hair; the visiting mother with one high round bun, holding the hand of EXACTLY ONE toddler with two small round hair puffs (the child from p21). No other children. The neighbours have plain hairstyles — short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog.
+SCENE: A small, friendly street market with two simple fruit stalls. The family members here are Mother, Daughter 2 and Son, walking together in the middle, holding hands at arm's length — two straight single-line arms meeting at plain oval hands. Around them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman in a wheelchair; a tall man with short straight hair; the visiting mother with one high round bun, holding the hand of EXACTLY ONE toddler with two small round hair puffs (the child from p21). No other children. Everyone's arms swing OUT from the body as single lines. The neighbours have plain hairstyles — short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -69,11 +69,11 @@ Neighbours, strangers and the visiting family — theology-guardrails §5:
   child with two round hair puffs once hair shows.
 
 OUTFITS — each person wears exactly this, and nothing else:
-- Mother: short-sleeved straight dress to mid-calf; head wrap
-- Daughter 2: short-sleeved A-line dress to the knee
-- Son: short-sleeved t-shirt and shorts
-- Visiting Mother: short-sleeved plain straight dress to mid-calf, NO wrap, NO tie; high round bun
-- Toddler: short-sleeved romper with short legs; two small round hair puffs
+- Mother: sleeveless straight dress to mid-calf; head wrap
+- Daughter 2: sleeveless A-line dress to the knee
+- Son: sleeveless t-shirt and shorts
+- Visiting Mother: sleeveless plain straight dress to mid-calf, NO wrap, NO tie; high round bun
+- Toddler: sleeveless romper with short legs; two small round hair puffs
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.

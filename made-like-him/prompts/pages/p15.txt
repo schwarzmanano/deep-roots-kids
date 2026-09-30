@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: Father on a bench reading an open Bible, Daughter 2 beside him following along with her finger, Son leaning on his knee, looking up at the page. Large simple book shape, no legible text on its pages.
+SCENE: Father sits on a bench with a large open Bible lying flat across his knees (no legible text); he points at the page with one straight single-line arm, the other arm resting out on the bench back. Daughter 2 sits beside him pointing at the page with one straight arm. Son stands in front of the bench, leaning in, both arms held out to the sides. Nobody holds or hugs — arms are single lines away from the body.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -57,9 +57,9 @@ HUMAN FIGURES — follow exactly:
   Never a close-up portrait. Never lined up facing the viewer.
 
 OUTFITS — each person wears exactly this, and nothing else:
-- Father: short-sleeved round-neck t-shirt and full-length trousers
-- Daughter 2: short-sleeved A-line dress to the knee
-- Son: short-sleeved t-shirt and shorts
+- Father: sleeveless round-neck top and knee-length shorts
+- Daughter 2: sleeveless A-line dress to the knee
+- Son: sleeveless t-shirt and shorts
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.

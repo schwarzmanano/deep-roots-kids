@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: Evening worship: the family sitting close on the floor around a large open Bible, Mother pointing to the page, the lamp from p29 burning low, a window showing stars. No cross, no light-shape, no symbol standing for Christ — Christ is carried by the text alone (theology-guardrails §2). ALL SIX family members present, including Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The Bible's pages are blank — no pictures in the book.
+SCENE: Evening worship: the whole family KNEELS upright in a circle on a rug around a large open Bible lying flat on the floor — nobody sits cross-legged. Mother points to the page with one straight single-line arm; the others rest their arms out on their knees as single lines. A lamp on a low table burns low; a window shows stars. No cross, no light-shape, no symbol standing for Christ — Christ is carried by the text alone (theology-guardrails §2). ALL SIX family members present, including Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The Bible's pages are blank — no pictures in the book.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -57,12 +57,12 @@ HUMAN FIGURES — follow exactly:
   Never a close-up portrait. Never lined up facing the viewer.
 
 OUTFITS — each person wears exactly this, and nothing else:
-- Father: short-sleeved pyjama top and pyjama trousers
-- Mother: short-sleeved nightgown to the ankle; head wrap
-- Daughter 1: short-sleeved pyjama top and pyjama trousers
-- Daughter 2: short-sleeved nightgown to mid-calf
-- Daughter 3: short-sleeved nightgown to the knee
-- Son: short-sleeved pyjama top and pyjama shorts
+- Father: sleeveless pyjama vest and pyjama shorts
+- Mother: sleeveless nightgown to the ankle; head wrap
+- Daughter 1: sleeveless pyjama vest and pyjama shorts
+- Daughter 2: sleeveless nightgown to mid-calf
+- Daughter 3: sleeveless nightgown to the knee
+- Son: sleeveless pyjama vest and pyjama shorts
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.

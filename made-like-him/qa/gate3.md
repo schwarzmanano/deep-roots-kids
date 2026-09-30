@@ -31,3 +31,14 @@ used; v2.0 short sleeves combined with contact poses (hug, hold, sit) defeat it.
 ## Editor text 2026-09-30
 35 units inserted verbatim (byte-checked); registered UNRESOLVED pending confirmation that
 no AI tool drafted or polished them. No FIT PROBLEM (art height moves ≤16pt).
+
+## 2026-09-30 — text final, limbs fixed, dual-printer interiors
+- Text: all units the author's own (confirmed); requested edits only (quotes removed, God's
+  pronouns capitalised, p23/p29/p35 wording, p33 heading "Be encouraged!"). Disclosure TEXT: None.
+- p27 keeps "you are not a monkey" — editor override of D5, recorded in pages.yaml.
+- Limbs: editor-approved sleeveless tops, knee hems, open-arm poses on p13 p15 p17 p23 p27 p31
+  (past the $6 checkpoint by instruction). Picks: p13 a5, p15 a4, p17 a6, p23 a8, p27 a4, p31 a7.
+  Notes: p15 includes Mother (not in the scene); p27 Son stands rather than kneels.
+- Interiors: out/interior.pdf (KDP, 8.5x11 no bleed) and out/interior-lulu.pdf (Lulu, 8.75x11.25,
+  0.125 bleed). Both: gutter 0.5 (Lulu safety), K-only black, grayscale flattened logo, no
+  transparency, 36 pp. Both preflights PASSED. Spend made-like-him $6.7667.

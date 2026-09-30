@@ -37,7 +37,7 @@ pages:
   - page: 3
     ref: "Genesis 1:26"
     title: "Something Brand New"
-    text: "\"God made the sky, the sea, the plants, and the animals, but He saved the most amazing thing for last. And friends... it's you.\""
+    text: "God made the sky, the sea, the plants, and the animals, but He saved the most amazing thing for last. And friends... it's you."
     teaching: "God made people last, as the crown of His creation. Before you took your first breath, God lovingly and intentionally planned you."
     scene: "The whole finished creation, wide and full, with NO people in it — a garden landscape
             waiting. Large rounded trees, a winding river, gentle hills, a few animals grazing
@@ -75,7 +75,7 @@ pages:
     title: "Male and Female"
     text: "God created man in his own image. In God's image he created him; male and female he created them."
     quote: true             # WEB Gen 1:27 — verified against ebible.org/eng-web 2026-09-27
-    teaching: "\"We’re not the same as God — we're not Gods — but made to show a little picture of who he is, everywhere we go.\""
+    teaching: "We’re not the same as God — we're not Gods — but made to show a little picture of who He is, everywhere we go."
     scene: "The man and the woman seen FROM BEHIND, at distance, side by side at the edge of a
             river, one pointing out across the water. Male and female read by build and hair
             ONLY, exactly per genesis-1 p25. Composition must differ from genesis-1 p25 and
@@ -91,7 +91,7 @@ pages:
     ref: "Genesis 2:19-20"
     title: "Naming the Animals"
     text: "God brought the animals to the man, and he gave them their names."
-    teaching: "\"God knows all things — and he made you able to think and learn and know the world.\""
+    teaching: "God knows all things — and He made you able to think and learn and know the world."
     scene: "The man FROM BEHIND, at mid-distance, arm raised toward a line of animals walking
             past — a giraffe, a camel, a goat, a bear, a hen — each clearly a different kind.
             Animals sized and simplified to flat-vector detail. No lion, no elephant, no
@@ -120,51 +120,51 @@ pages:
   - page: 13
     ref: "1 John 4:19"
     title: "Made to Love"
-    text: "\"Because God is Love and he can love — he made you able to love too.\""
+    text: "Because God is Love and He can love — He made you able to love too."
     teaching: "We are able to love because He loved us first. When we show love in ordinary ways, we reflect Him to the world like a mirror image."
-    scene: "The family cast (character-bible, fully faced): Father lifting Son up in a hug, Mother
-            and Daughter 3 embracing beside them, the dog jumping at their feet. Arms held away
-            from torsos per bible construction rules. Indoor-outdoor doorstep setting."
+    scene: "The family cast on their doorstep: Father and Mother crouch with BOTH arms stretched wide open to welcome Son and Daughter 3, who run toward them with both arms stretched out; the dog jumps beside them. Nobody wraps their arms around anyone — every arm is a straight or gently bent single line held OUT from the body, ending in a plain oval hand. Simple door, step and one potted plant."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Father: "short-sleeved collared shirt and full-length trousers"
-      Mother: "short-sleeved wrap dress to mid-calf; head wrap"
-      Daughter3: "short-sleeved dress with a hem band, to the knee"
-      Son: "short-sleeved t-shirt and shorts"
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
+      Father: "sleeveless collared shirt and knee-length shorts"
+      Mother: "sleeveless wrap dress to mid-calf; head wrap"
+      Daughter3: "sleeveless dress with a hem band, to the knee"
+      Son: "sleeveless t-shirt and shorts"
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A family hugging on their doorstep while the dog jumps beside them."
     ruling: "DECISION-3 — faced, mid-shot, action named. DECISION-4 — no mirror."
 
   - page: 15
     ref: "Colossians 3:10"
     title: "Made to Think and Know"
-    text: "\"God knows all things — and he made you able to think and learn and know.\""
+    text: "God knows all things — and He made you able to think and learn and know."
     teaching: "God gave you a mind so you could know Him. We learn about His character and His promises when we read His Word together."
-    scene: "Father on a bench reading an open Bible, Daughter 2 beside him following along with
-            her finger, Son leaning on his knee, looking up at the page. Large simple book shape,
-            no legible text on its pages."
+    scene: "Father sits on a bench with a large open Bible lying flat across his knees (no legible text); he points at the page with one straight single-line arm, the other arm resting out on the bench back. Daughter 2 sits beside him pointing at the page with one straight arm. Son stands in front of the bench, leaning in, both arms held out to the sides. Nobody holds or hugs — arms are single lines away from the body."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Father: "short-sleeved round-neck t-shirt and full-length trousers"
-      Daughter2: "short-sleeved A-line dress to the knee"
-      Son: "short-sleeved t-shirt and shorts"
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
+      Father: "sleeveless round-neck top and knee-length shorts"
+      Daughter2: "sleeveless A-line dress to the knee"
+      Son: "sleeveless t-shirt and shorts"
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A father reading the Bible with two children."
     ruling: "DECISION-3."
 
   - page: 17
     ref: "Ephesians 4:24"
     title: "Made to Choose What Is Right"
-    text: "\"God can choose whatever He wants to do — and He made you able to choose, too.\""
+    text: "God can choose whatever He wants to do — and He made you able to choose, too."
     teaching: "Adam had true freedom in innocence, but sin broke us. Now we rely completely on God's grace. Christ obeyed perfectly for us, giving us the ability to choose what is right."
-    scene: "Daughter 3 handing her big round ball to Son, who reaches out for it — sharing her
-            toy. A grassy yard, a small toy box beside her, the dog watching. NO fruit and NO food
-            anywhere on this page."
+    scene: "Daughter 3 holds her big round ball out at full arm's length with BOTH arms straight out in front of her; Son stands facing her reaching out with BOTH straight arms to take it — sharing her toy. A grassy yard, a small toy box, the dog watching. NO fruit and NO food anywhere on this page."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
-    outfits:               # character-bible v2.0 — tested vocabulary only
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
       Daughter3: "sleeveless sundress to the knee"
-      Son: "short-sleeved t-shirt and shorts"
+      Son: "sleeveless t-shirt and shorts"
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A girl sharing her ball with her little brother."
     amended: "2026-09-28 — round 1 drew a girl handing a boy an apple: the Eve/Adam picture, one
               book before Book Three, against this book's no-fruit-taken scope rule. Plan error,
@@ -209,8 +209,8 @@ pages:
   - page: 21
     ref: "Psalm 139:13-14"
     title: "Planned on Purpose"
-    text: "\"You were not made by accident. You were not a surprise.\""
-    teaching: "\"Before you were even born, God planned you, on purpose, to carry a little piece of his likeness into the world.\""
+    text: "You were not made by accident. You were not a surprise."
+    teaching: "Before you were even born, God planned you, on purpose, to carry a little piece of His likeness into the world."
     scene: "A newborn baby being welcomed: the baby's own mother (NOT a cast member — high round
             bun, no head wrap) holds the swaddled baby in both arms, the baby's father (short
             beard) beside her. The family cast gathers round to welcome them — Daughter 3 on
@@ -234,28 +234,23 @@ pages:
   - page: 23
     ref: "Acts 17:26; Genesis 9:6"
     title: "Every Person"
-    text: "\"It means every single person you'll ever meet — your mom, your dad, your brother, your sister, your friend at school, even someone you've never met\""
+    text: "It means every single person you'll ever meet is special — your mom, your dad, your brother, your sister, your friend at school, even someone you've never met"
     teaching: "Every single person in every nation holds immense value and dignity, because each one uniquely carries the image of God."
-    scene: "A small, friendly street market with two simple fruit stalls. The family members here
-            are Mother, Daughter 2 and Son, walking together in the middle. Around
-            them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman
-            in a wheelchair; a tall man with short straight hair; the visiting mother with one
-            high round bun, holding the hand of EXACTLY ONE toddler with two small round hair
-            puffs (the child from p21). No other children. The neighbours have plain hairstyles —
-            short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a
-            head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog."
+    scene: "A small, friendly street market with two simple fruit stalls. The family members here are Mother, Daughter 2 and Son, walking together in the middle, holding hands at arm's length — two straight single-line arms meeting at plain oval hands. Around them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman in a wheelchair; a tall man with short straight hair; the visiting mother with one high round bun, holding the hand of EXACTLY ONE toddler with two small round hair puffs (the child from p21). No other children. Everyone's arms swing OUT from the body as single lines. The neighbours have plain hairstyles — short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog."
     figures: ["family", "outside-cast"]
     # character_ref removed round 3: the cast sheet leaked family markers onto strangers twice
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Mother: "short-sleeved straight dress to mid-calf; head wrap"
-      Daughter2: "short-sleeved A-line dress to the knee"
-      Son: "short-sleeved t-shirt and shorts"
-      VisitingMother: "short-sleeved plain straight dress to mid-calf, NO wrap, NO tie; high round bun"
-      Toddler: "short-sleeved romper with short legs; two small round hair puffs"
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
+      Mother: "sleeveless straight dress to mid-calf; head wrap"
+      Daughter2: "sleeveless A-line dress to the knee"
+      Son: "sleeveless t-shirt and shorts"
+      VisitingMother: "sleeveless plain straight dress to mid-calf, NO wrap, NO tie; high round bun"
+      Toddler: "sleeveless romper with short legs; two small round hair puffs"
     amended: "2026-09-29 — editor ruling: attempt-06 accepted; Daughter 1 is not at the market
               (she appears on p25). Rounds 1-3 failed on reference bleed and family markers on
               strangers; cast sheet dropped for this page."
     thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A street market full of many different people, young and old."
     ruling: "DECISION-6 — no printed colour words; diversity shown visually (guardrails §5).
              DECISION-7 — p21's child, now a toddler."
@@ -263,7 +258,7 @@ pages:
   - page: 25
     ref: "James 3:9-10"
     title: "That's Why We Are Kind"
-    text: "\"That's why we treat people with kindness. That's why every person matters.\""
+    text: "That's why we treat people with kindness. That's why every person matters."
     teaching: "We cannot bless God and curse the people He made. Treating others with kindness and respect honors the image of God that they bear."
     scene: "Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door
             open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs,
@@ -285,16 +280,20 @@ pages:
   - page: 27
     ref: "Psalm 8:4-6"
     title: "Only People"
-    text: "\"You are not like your puppy, or cat and you are not a monkey!\""
+    text: "You are not like your puppy, or cat and you are not a monkey!"
     teaching: "God made animals good, but only human beings are uniquely made to know God, speak to Him, and love Him in a covenant relationship."
-    scene: "Son kneeling on the grass with hands folded in prayer, eyes closed, the family dog
-            lying beside him with its head on its paws. A cat curled on a step nearby. Quiet
-            evening; large simple moon and a few stars."
+    scene: "Son kneels upright on the grass, back straight, eyes closed, praying: his two forearms are single lines angled up to meet in front of his chest, his hands two plain ovals touching, elbows held out from his body so the arms make an open diamond shape. The family dog lies beside him, head on its paws; a cat curls on a step nearby. Quiet evening; a large simple moon and a few stars. NO vegetables, NO pumpkins, NO cabbages, NO garden plants."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Son: "short-sleeved t-shirt and shorts"
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
+      Son: "sleeveless t-shirt and shorts"
     density: sparse        # Gate 2 ruling — lock is the busiest page; exempt from low-ink drift
+    ruling_amended: "2026-09-30 — EDITOR OVERRIDE of Gate 1 D5: the author keeps the line 'you are
+                     not a monkey' in print (and so sets aside the genesis-1 DECISION-3 caution for
+                     this page). Recorded here; theology-review.md left unedited so its signature
+                     timestamp still gates generation."
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A little boy praying on the grass while his dog lies beside him."
     ruling: "DECISION-5 — printed positively; no monkey or ape on the page. Audio unchanged."
 
@@ -303,7 +302,7 @@ pages:
   - page: 29
     ref: "Isaiah 43:7; Matthew 5:16"
     title: "Made for His Glory"
-    text: "\"to know God, to love others, and to shine a little bit of his glory everywhere you go.\""
+    text: "You were made to know God, to love others, and to shine a little bit of His glory everywhere you go."
     teaching: "You were made for His glory. When you do good deeds, you are like a lamp shining light so that your Father in heaven is praised."
     scene: "The whole family singing and dancing in their living room — the song is a dance
             song — arms out, the dog mid-jump. On a table, a simple oil lamp on a stand with a
@@ -325,22 +324,19 @@ pages:
     title: "The Perfect Image"
     text: "Christ is the perfect Image, and He is making us new."
     teaching: "Sin cracked our reflection, but the image is not lost. Jesus Christ is the exact image of the Father, and through His grace, He is renewing us to look like Him."
-    scene: "Evening worship: the family sitting close on the floor around a large open Bible,
-            Mother pointing to the page, the lamp from p29 burning low, a window showing stars.
-            No cross, no light-shape, no symbol standing for Christ — Christ is carried by the
-            text alone (theology-guardrails §2). ALL SIX family members present, including
-            Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The
-            Bible's pages are blank — no pictures in the book."
+    scene: "Evening worship: the whole family KNEELS upright in a circle on a rug around a large open Bible lying flat on the floor — nobody sits cross-legged. Mother points to the page with one straight single-line arm; the others rest their arms out on their knees as single lines. A lamp on a low table burns low; a window shows stars. No cross, no light-shape, no symbol standing for Christ — Christ is carried by the text alone (theology-guardrails §2). ALL SIX family members present, including Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The Bible's pages are blank — no pictures in the book."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Father: "short-sleeved pyjama top and pyjama trousers"
-      Mother: "short-sleeved nightgown to the ankle; head wrap"
-      Daughter1: "short-sleeved pyjama top and pyjama trousers"
-      Daughter2: "short-sleeved nightgown to mid-calf"
-      Daughter3: "short-sleeved nightgown to the knee"
-      Son: "short-sleeved pyjama top and pyjama shorts"
+    outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
+      Father: "sleeveless pyjama vest and pyjama shorts"
+      Mother: "sleeveless nightgown to the ankle; head wrap"
+      Daughter1: "sleeveless pyjama vest and pyjama shorts"
+      Daughter2: "sleeveless nightgown to mid-calf"
+      Daughter3: "sleeveless nightgown to the knee"
+      Son: "sleeveless pyjama vest and pyjama shorts"
     thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
+    amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
+                    tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
     alt: "A family gathered around an open Bible in the evening."
     ruling: "DECISION-11 — Christ in text only, no symbol before Book Six (guardrails §1-§2)."
 
@@ -354,7 +350,7 @@ pages:
     alt: ""
     generate: false
     back_matter: true
-    heading: null                        # author supplied no title for this page
+    heading: "Be encouraged!"             # author-supplied 2026-09-30
     body: "You are made like Him—created on purpose, for a purpose. Though sin broke our reflection, Jesus, the true Image of God, came to fix what we could not. Through faith in Him, you are invited into God's family to know Him, to love others, and to shine a little bit of His glory everywhere you go."
     footnote: "Adam and Eve are drawn with clothes in this book as a publishing convention for young readers. However, Genesis 2:25 tells us that before the fall, they were completely naked and unashamed."
     ruling: "DECISION-2 — clothing convention disclosed in back matter, verbatim as ruled."
