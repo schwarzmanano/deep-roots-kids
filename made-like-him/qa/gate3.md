@@ -42,3 +42,12 @@ no AI tool drafted or polished them. No FIT PROBLEM (art height moves ≤16pt).
 - Interiors: out/interior.pdf (KDP, 8.5x11 no bleed) and out/interior-lulu.pdf (Lulu, 8.75x11.25,
   0.125 bleed). Both: gutter 0.5 (Lulu safety), K-only black, grayscale flattened logo, no
   transparency, 36 pp. Both preflights PASSED. Spend made-like-him $6.7667.
+
+## 2026-09-30 — hands/feet consistency audit (editor request)
+Standard (character bible): hands and feet plain closed ovals — no fingers, no thumb.
+Pass: p5 p7 p9 p11 p27 (and p17 after fix). Fail: thumb-bump mittens on p13 p19 p21 p23 p25
+p29; pointing index fingers + thumb mittens on p15 p31. Feet: ovals throughout.
+generate.mjs --edit-chosen added (edit the chosen image, plan untouched). One edit each, $0.85:
+only p17 fixed (-> attempt-08, accepted). Others reproduced the hands; p19 regressed (rejected).
+ROOT CAUSE: _brand/cast-sheet.jpg draws thumb-bump mittens; every family page is conditioned
+on it. p25-figures-ref.jpg (first-couple pages) draws plain ovals. Spend $7.6179.

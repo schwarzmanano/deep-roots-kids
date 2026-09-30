@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: The whole family in a small vegetable garden: Mother watering with a can, Daughter 1 and Father digging a row, Daughter 2 carrying a plain smooth basket held out from her body, Son holding a small plant up to show, Daughter 3 pulling up one big carrot with both hands, the dog digging beside them. All six family members appear. Only a FEW vegetables — three or four leafy plants and at most two pumpkins — all in the MIDDLE band of the page, between the people. The bottom fifth of the page is plain open grass with nothing on it. Nothing touches or crosses any page edge: every plant, pumpkin and cloud sits wholly inside the frame with white space around it. No horizon line running edge to edge. Water from the can as three or four LARGE drops. Mother's wavy hair clearly visible below her head wrap. Every person has a face.
+SCENE: THE ONE CHANGE: redraw EVERY person's hands as small plain closed ovals — no thumbs, no thumb bump, no fingers, no pointing finger, no knuckles; where a hand points at or holds something, the plain oval simply touches it. Redraw every foot as a plain closed oval — no shoe, heel, sole or toes. Arms and legs stay single thin lines. Keep everything else exactly as it is in reference C — every person, pose, face, hair, glasses, beads, head wrap, clothing, object, animal, background and the whole composition. Scene for context: The whole family in a small vegetable garden: Mother watering with a can, Daughter 1 and Father digging a row, Daughter 2 carrying a plain smooth basket held out from her body, Son holding a small plant up to show, Daughter 3 pulling up one big carrot with both hands, the dog digging beside them. All six family members appear. Only a FEW vegetables — three or four leafy plants and at most two pumpkins — all in the MIDDLE band of the page, between the people. The bottom fifth of the page is plain open grass with nothing on it. Nothing touches or crosses any page edge: every plant, pumpkin and cloud sits wholly inside the frame with white space around it. No horizon line running edge to edge. Water from the can as three or four LARGE drops. Mother's wavy hair clearly visible below her head wrap. Every person has a face.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -43,8 +43,13 @@ HUMAN FIGURES — follow exactly:
 - Dog: small, floppy ears. Cat: plain and simple.
 - Draw ONLY the family members the SCENE names.
 - Every family member has a simple face: two dot eyes and a small curved smile line.
-- Every arm and leg one single thin line; arms held away from the body with white space
-  between arm and torso; hands and feet plain closed ovals, no fingers, no shoes.
+- STICK-FIGURE CONSTRUCTION, exactly as the figures in the style reference (reference A):
+  every arm and leg is ONE thin single line, the same weight as the outline — even when
+  hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
+  bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
+- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
+  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
 - No hats, hoods or caps — hair, glasses, beads and the head wrap always visible.

@@ -51,8 +51,22 @@ console.log(`     gen/ files predating signature: none\n`);
 
 const book = readYaml(path.join(bookDir, 'book.yaml'));
 const plan = readYaml(path.join(bookDir, 'plan', 'pages.yaml'));
-const page = plan.pages.find(p => p.page === pageNo);
-if (!page) { console.error(`page ${pageNo} not in plan`); process.exit(2); }
+const planPage = plan.pages.find(p => p.page === pageNo);
+if (!planPage) { console.error(`page ${pageNo} not in plan`); process.exit(2); }
+// --edit-chosen "<change>": correct the CHOSEN image in place of re-rolling the scene. The
+// chosen image is sent as the composition base; SCENE becomes the one change plus a lock on
+// everything else. The plan itself is not modified.
+const editChosen = args.includes('--edit-chosen') ? args[args.indexOf('--edit-chosen') + 1] : null;
+let page = planPage;
+if (editChosen) {
+  const chosen = path.join(bookDir, 'gen', `p${pageNo}`, 'CHOSEN');
+  if (!fs.existsSync(chosen)) { console.error(`  --edit-chosen: p${pageNo} has no CHOSEN`); process.exit(2); }
+  page = { ...planPage,
+    base_ref: path.relative(ROOT, fs.realpathSync(chosen)),
+    scene: `THE ONE CHANGE: ${editChosen} Keep everything else exactly as it is in reference C — ` +
+           `every person, pose, face, hair, glasses, beads, head wrap, clothing, object, animal, ` +
+           `background and the whole composition. Scene for context: ${planPage.scene}` };
+}
 if (page.placeholder || page.generate === false) {
   console.error(`\n  ⛔ page ${pageNo} is a HELD placeholder — no content may be generated for it.`);
   console.error(`     ${(page.note || '').split('\n')[0].trim()}\n`);
