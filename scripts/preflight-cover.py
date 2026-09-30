@@ -62,6 +62,17 @@ print(f"  text in safe area ({SAFE/IN:.2f}in): {'yes' if not out else f'{len(out
 for b in out[:4]: print(f"    outside: {b[4].strip()[:50]!r}")
 if out: fails.append(f"{len(out)} text block(s) outside the {SAFE/IN:.2f}in safe area")
 
+# colour + transparency (Lulu: flattened; editor brief: CMYK throughout when cover.color = cmyk)
+import re as _re
+cs={doc.xref_get_key(i[0],"ColorSpace")[1] for i in pg.get_images(full=True)}
+smask=[i for i in pg.get_images(full=True) if i[1]]
+ops=pg.read_contents().decode("latin-1")
+rgb_ops=len(_re.findall(r"(?<![\w.])(rg|RG)\b",ops))
+print(f"  colour: images {sorted(cs)}; RGB operators {rgb_ops}; transparency {'none' if not smask else len(smask)}")
+if smask: fails.append("transparent image(s) — Lulu requires transparency flattened")
+if (cfg.get("cover") or {}).get("color")=="cmyk" and (cs-{"/DeviceCMYK"} or rgb_ops):
+    fails.append("cover.color is cmyk but RGB content remains")
+
 print()
 if fails:
     print(f"  ❌ COVER PREFLIGHT FAILED — {len(fails)} issue(s)")

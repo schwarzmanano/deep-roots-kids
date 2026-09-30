@@ -109,15 +109,15 @@
   },
   {
     "page": 21,
-    "ink": 10.560589715929522,
-    "stroke": 4.0,
-    "margin": 14.165820642978003,
-    "min_pt": 2.2466666666666666,
+    "ink": 10.0353101908867,
+    "stroke": 5.0,
+    "margin": 12.854277821924548,
+    "min_pt": 2.3241379310344827,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
-    "frame": false,
+    "frame": true,
     "midtone": 0.0,
-    "src": "attempt-02.jpg"
+    "src": "attempt-06.jpg"
   },
   {
     "page": 23,

@@ -32,9 +32,8 @@ text_units:
   kind: subtitle
   author: human
   draft: false
-  sha: b7113baadae4
-  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
-    Author is human authored. It's mine and confirmed'); edits applied only as instructed
+  sha: a344553ce5df
+  source: author's own words, cover brief in chat 2026-09-30, inserted verbatim
   recorded: '2026-09-30'
 - id: book.scripture_scope
   page: p1, back cover
@@ -378,10 +377,10 @@ text_units:
 - id: cover.series_short
   page: cover
   kind: series-line
-  author: null
-  draft: true
-  sha: null
-  source: empty slot created 2026-09-30 at cover stage; awaiting the author's text
+  author: human
+  draft: false
+  sha: e82cc1008f39
+  source: author's own words, cover brief in chat 2026-09-30, inserted verbatim
   recorded: '2026-09-30'
 - id: cover.back_blurb
   page: back cover

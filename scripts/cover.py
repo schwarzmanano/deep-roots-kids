@@ -7,7 +7,8 @@ Geometry: [bleed][back 8.5"][spine][front 8.5"][bleed] x (11" + bleed top/bottom
 import os, yaml
 from PIL import Image
 from reportlab.pdfgen import canvas
-from reportlab.lib.colors import HexColor
+from reportlab.lib.colors import HexColor, CMYKColor
+from PIL import ImageCms
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -45,6 +46,15 @@ PAGES = cfg["print"]["page_count"]
 # Primary Palette
 CREAM = HexColor("#F7EEDD"); GOLD = HexColor("#D9A441")
 NAVY  = HexColor("#2E4257"); GREEN = HexColor("#4C7A5A")
+CMYK_OUT = (cfg.get("cover") or {}).get("color") == "cmyk"
+if CMYK_OUT:   # convert the palette through the same ICC transform as the art
+    _SRGB = ImageCms.ImageCmsProfile("/System/Library/ColorSync/Profiles/sRGB Profile.icc")
+    _CMYK = ImageCms.ImageCmsProfile("/System/Library/ColorSync/Profiles/Generic CMYK Profile.icc")
+    _XF = ImageCms.buildTransform(_SRGB, _CMYK, "RGB", "CMYK", renderingIntent=ImageCms.Intent.PERCEPTUAL)
+    def _cmyk(hexc):
+        px = Image.new("RGB", (1, 1), hexc); c_, m_, y_, k_ = ImageCms.applyTransform(px, _XF).getpixel((0, 0))
+        return CMYKColor(c_/255, m_/255, y_/255, k_/255)
+    CREAM, GOLD, NAVY, GREEN = (_cmyk(h) for h in ("#F7EEDD", "#D9A441", "#2E4257", "#4C7A5A"))
 
 FD = "kids/_brand/fonts"
 pdfmetrics.registerFont(TTFont("Baloo2", f"{FD}/Baloo2.ttf"))
@@ -102,42 +112,89 @@ c.setFillColor(CREAM); c.rect(0, 0, W, H, stroke=0, fill=1)
 art_src = f"{BOOK}/{COV.get('front_art', 'cover/front-art-v2-01.jpg')}"
 art_w = FRONT_R - FRONT_L + BLEED
 art = crop_to(art_src, art_w, H)
-tmp = f"{BOOK}/cover/_front-placed.jpg"; art.save(tmp, quality=96)
+tmp = f"{BOOK}/cover/_front-placed.jpg"
+LOGO_SRC = "kids/_brand/logo/dr-kids-logo.png"
+LW = 0.85 * IN
+if CMYK_OUT:
+    # Flatten: composite the alpha logo INTO the front art (no transparency in the PDF), then
+    # convert the whole panel to CMYK through one ICC transform.
+    _lg = Image.open(LOGO_SRC).convert("RGBA")
+    _ppi = art.width / art_w                          # art pixels per point
+    _lpx = int(LW * _ppi); _lg = _lg.resize((_lpx, _lpx), Image.LANCZOS)
+    _x = int((FRONT_L + TRIM_W/2 - LW/2 - FRONT_L) * _ppi)
+    _y = int((BLEED + SAFE) * _ppi)                   # PIL y-down from the top edge
+    art = art.convert("RGBA"); art.alpha_composite(_lg, (_x, _y)); art = art.convert("RGB")
+    art = ImageCms.applyTransform(art, _XF)
+art.save(tmp, quality=96)
 c.drawImage(ImageReader(tmp), FRONT_L, 0, width=art_w, height=H, mask=None)
 
 FX = (FRONT_L + FRONT_R) / 2
-logo = ImageReader("kids/_brand/logo/dr-kids-logo.png")   # alpha-keyed
-LW = 0.85 * IN
-c.drawImage(logo, FX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
+logo = ImageReader(LOGO_SRC)   # alpha-keyed
+if CMYK_OUT:   # back-panel logo: flattened onto cream, CMYK, no alpha
+    _lg = Image.open(LOGO_SRC).convert("RGBA")
+    _bg = Image.new("RGBA", _lg.size, "#F7EEDD"); _bg.alpha_composite(_lg)
+    _bp = f"{BOOK}/cover/_logo-back-cmyk.jpg"
+    ImageCms.applyTransform(_bg.convert("RGB"), _XF).save(_bp, quality=96)
+    logo = ImageReader(_bp)
+else:
+    c.drawImage(logo, FX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
 
-# Title: the dominant element after the scene. Auto-fit to the safe width and
-# sized so it survives Amazon's ~150px-wide thumbnail.
-max_w = TRIM_W - 2*SAFE - 0.35*IN
-size = 74
-while c.stringWidth(cfg["title"], "Baloo2", size) > max_w and size > 30:
-    size -= 1
-title_y = H - BLEED - SAFE - LW - size - 14
-c.setFillColor(NAVY); c.setFont("Baloo2", size)
-c.drawCentredString(FX, title_y, cfg["title"])
+if COV.get("layout") == "v2":
+    # v2 hierarchy (editor cover brief 2026-09-30): logo top · title upper-middle · art ·
+    # subtitle + series badge at the bottom. Title set in capitals as a display style
+    # (wording unchanged). Solid shapes only — no transparency (Lulu).
+    max_w = TRIM_W - 2*SAFE - 0.2*IN
+    ttl = cfg["title"].upper()
+    size = 96
+    while c.stringWidth(ttl, "Baloo2", size) > max_w and size > 30: size -= 1
+    title_y = H - BLEED - SAFE - LW - 0.25*IN - size*0.8
+    c.setFillColor(NAVY); c.setFont("Baloo2", size); c.drawCentredString(FX, title_y, ttl)
+    # bottom panel: cream rounded plate holding subtitle, then the gold series badge
+    sub = cfg.get("subtitle") or AWAIT
+    ss = 30
+    while c.stringWidth(sub, "Baloo2", ss) > max_w - 0.5*IN and ss > 14: ss -= 1
+    badge = COV.get("series_short") or AWAIT
+    bs = 15
+    bw = c.stringWidth(badge, "Baloo2", bs) + 0.5*IN; bh = bs + 14
+    plate_w = max(c.stringWidth(sub, "Baloo2", ss) + 0.6*IN, bw + 0.4*IN)
+    plate_h = ss + bh + 0.55*IN
+    py = BLEED + SAFE
+    c.setFillColor(CREAM); c.roundRect(FX - plate_w/2, py, plate_w, plate_h, 14, stroke=0, fill=1)
+    c.setFillColor(NAVY); c.setFont("Baloo2", ss)
+    c.drawCentredString(FX, py + plate_h - 0.2*IN - ss*0.8, sub)
+    c.setFillColor(GOLD); c.roundRect(FX - bw/2, py + 0.18*IN, bw, bh, bh/2, stroke=0, fill=1)
+    c.setFillColor(NAVY); c.setFont("Baloo2", bs)
+    c.drawCentredString(FX, py + 0.18*IN + (bh - bs*0.7)/2, badge)
+else:
+    # Title: the dominant element after the scene. Auto-fit to the safe width and
+    # sized so it survives Amazon's ~150px-wide thumbnail.
+    max_w = TRIM_W - 2*SAFE - 0.35*IN
+    size = 74
+    while c.stringWidth(cfg["title"], "Baloo2", size) > max_w and size > 30:
+        size -= 1
+    title_y = H - BLEED - SAFE - LW - size - 14
+    c.setFillColor(NAVY); c.setFont("Baloo2", size)
+    c.drawCentredString(FX, title_y, cfg["title"])
 
-# Descriptor — what Amazon shoppers actually need to see on the thumbnail.
-c.setFillColor(GOLD); c.setFont("Baloo2", 30)
-_sub = cfg.get("subtitle") or AWAIT
-_ss = 30
-while c.stringWidth(_sub, "Baloo2", _ss) > max_w and _ss > 16: _ss -= 1   # layout fit, wording untouched
-c.setFont("Baloo2", _ss)
-c.drawCentredString(FX, title_y - 38, _sub)
+    # Descriptor — what Amazon shoppers actually need to see on the thumbnail.
+    c.setFillColor(GOLD); c.setFont("Baloo2", 30)
+    _sub = cfg.get("subtitle") or AWAIT
+    _ss = 30
+    while c.stringWidth(_sub, "Baloo2", _ss) > max_w and _ss > 16: _ss -= 1   # layout fit, wording untouched
+    c.setFont("Baloo2", _ss)
+    c.drawCentredString(FX, title_y - 38, _sub)
 
-# Series line, short form. "Creation to Glorification" and the Genesis
-# reference now live on the back cover only.
-c.setFillColor(NAVY); c.setFont("Lora", 13)
-c.drawCentredString(FX, title_y - 64, COV.get("series_short") or AWAIT)
+    # Series line, short form. "Creation to Glorification" and the Genesis
+    # reference now live on the back cover only.
+    c.setFillColor(NAVY); c.setFont("Lora", 13)
+    c.drawCentredString(FX, title_y - 64, COV.get("series_short") or AWAIT)
 
 
 # ── SPINE ── blank: 34pp gives 0.077", far under KDP's 100-page threshold for text
 # ── BACK ──
 BX = (BACK_L + BACK_R) / 2
-c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
+c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW,
+            mask=None if CMYK_OUT else "auto", preserveAspectRatio=True)
 
 blurb = " ".join(COV["back_blurb"].split()) if COV.get("back_blurb") else AWAIT
 
@@ -165,10 +222,19 @@ c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
 c.setFillColor(NAVY); c.setFont("LoraIt", 11)
 c.drawCentredString(BX, y, cfg["scripture_scope"])
 
-if not RELEASE:   # proof stamp just ABOVE the barcode band (the band itself must stay clear)
+# --concept-png <path>: clean front-panel PREVIEW image for review (never a PDF; the PDF
+# written alongside is deleted). Proof PDFs always carry the stamp.
+CONCEPT = sys.argv[sys.argv.index("--concept-png") + 1] if "--concept-png" in sys.argv else None
+if not RELEASE and not CONCEPT:   # proof stamp just ABOVE the barcode band (the band itself must stay clear)
     c.setFillColor(NAVY); c.setFont("Lora", 9)
     for x in (BX, FX):
         c.drawCentredString(x, BLEED + BAR_BAND_H + 4, PROOF_STAMP)
 c.save()
+if CONCEPT:
+    import pymupdf
+    _p = pymupdf.open(OUT)[0]
+    _clip = pymupdf.Rect(FRONT_L, 0, W, H)   # pymupdf is y-down; full height
+    _p.get_pixmap(dpi=150, clip=_clip).save(CONCEPT)
+    os.remove(OUT); print(f"  concept preview -> {CONCEPT} (PDF discarded)"); raise SystemExit(0)
 print(f"  {os.path.basename(OUT)} [{TARGET}{'' if RELEASE else ', PROOF'}] — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
 print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

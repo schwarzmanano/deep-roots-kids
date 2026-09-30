@@ -1,7 +1,7 @@
 # ── Deep Roots Kids — Book 002 ──
 slug: made-like-him
 title: "Made Like Him"
-subtitle: "A coloring book about being created in the image of God"
+subtitle: "Created in the Image of God Coloring Book"   # author-supplied 2026-09-30 (cover brief)
 series_line: "Deep Roots Kids · Creation to Glorification · Book Two"
 album_track: 2            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "2."
 scripture_scope: "Genesis 1:26-28; 2:7, 15, 19-22 — with Ps 8, Ps 139, Acts 17:26, James 3:9, Col 1:15; 3:10"
@@ -13,8 +13,10 @@ copyright_page:           # author-supplied 2026-09-30, verbatim
   - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them (authorship-policy §1.1)
-  front_art: cover/front-art-v2-01.jpg   # 2026-09-30 editor: modern modest clothing; Father in trousers
-  series_short: null      # front-cover series tag
+  front_art: cover/front-art-v4-02.jpg   # 2026-09-30 editor cover brief: 5 children interacting with creation
+  layout: v2              # logo top · title upper-middle · art · subtitle + series badge at bottom
+  color: cmyk             # art converted sRGB -> Generic CMYK (ICC); all cover type set in CMYK
+  series_short: "CREATION TO GLORIFICATION • BOOK TWO"   # author-supplied 2026-09-30 (cover brief)
   back_blurb: null        # back-cover blurb, 60-100 words
   spec_lines: []          # back-cover spec lines (e.g. illustration count, ages, translation)
 # Cover specs for the cover stage — two wraps, because the spines differ (36 pp, white paper):
