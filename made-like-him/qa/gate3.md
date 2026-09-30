@@ -55,3 +55,14 @@ Editor ruling: thumb-bump mittens are the family/outside-cast standard (characte
 first couple keeps ovals; no separate/pointing fingers for anyone. Pointing fingers fixed:
 p15 -> attempt-07, p31 -> attempt-10. Audit now clean against v2.1 on all 15 pages.
 Both interiors rebuilt; both preflights PASSED. Spend $7.9828.
+
+## 2026-09-30 — limb consistency audit (editor request)
+Standard: every arm/leg below clothing is one thin single line (bible construction rules).
+Pass: p5 p7 p9 p11 p13 p21 p23 p29, and p17/p25 in the main. Tube (double-line) limbs remain:
+p15 (Father's arms/legs, Mother's legs), p19 (Mother, Father legs), p25 (old man's arm/legs,
+Daughter 1's arm), p27 (Son's forearms in the praying pose), p31 (seated/kneeling arms).
+Edit-in-place attempt, 1 each, $0.55: none fixed. p19 regressed (vegetable bleed, crops at
+edge), p27 thicker arms, p31 pointing finger returned. All rejected; current picks kept.
+Pattern: tubes appear on adults, on seated/kneeling figures and on the praying pose, the
+same poses that failed before. Editing an image keeps its own limb drawing.
+Spend $8.5339 of $10 cap.

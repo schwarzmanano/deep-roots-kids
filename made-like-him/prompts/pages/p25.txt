@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: THE ONE CHANGE: redraw EVERY person's hands as small plain closed ovals — no thumbs, no thumb bump, no fingers, no pointing finger, no knuckles; where a hand points at or holds something, the plain oval simply touches it. Redraw every foot as a plain closed oval — no shoe, heel, sole or toes. Arms and legs stay single thin lines. Keep everything else exactly as it is in reference C — every person, pose, face, hair, glasses, beads, head wrap, clothing, object, animal, background and the whole composition. Scene for context: Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs, about Son's height — wave together. The same street on another day. Daughter 2 is the ONLY person on the page with round glasses and braids; Daughter 1 the only one with locs and glasses. Every person has a face: eyes and a smile.
+SCENE: THE ONE CHANGE: the ONLY defect is limbs drawn as tubes. Redraw EVERY arm and EVERY leg below the clothing as ONE single thin line, the same weight as the outline — replace any limb drawn with two parallel lines or as a rounded fleshy shape with a single line. Keep the same pose angles, the same mitten hands and oval feet. Keep everything else exactly as it is in reference C — every person, pose, face, hair, glasses, beads, head wrap, clothing, object, animal, background and the whole composition. Scene for context: Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs, about Son's height — wave together. The same street on another day. Daughter 2 is the ONLY person on the page with round glasses and braids; Daughter 1 the only one with locs and glasses. Every person has a face: eyes and a smile.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -47,8 +47,9 @@ HUMAN FIGURES — follow exactly:
   every arm and leg is ONE thin single line, the same weight as the outline — even when
   hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
   bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
-- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
-  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Hands are small mittens with ONE small thumb bump, exactly as on the cast sheet — NO
+  separate fingers, NO pointing index finger, NO knuckle or nail lines. To show a page or
+  object, the whole mitten hand rests on it. Feet are plain closed ovals, no shoes.
 - Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
@@ -59,8 +60,8 @@ HUMAN FIGURES — follow exactly:
 HUMAN FIGURES — follow exactly:
 Neighbours, strangers and the visiting family — theology-guardrails §5:
 - Same STICK-FIGURE construction as the family: simple face, every limb ONE thin single
-  line (never a fleshy or shaped limb), plain oval hands and feet with NO fingers, arms away
-  from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
+  line (never a fleshy or shaped limb), mitten hands with one small thumb bump and NO separate
+  fingers, plain oval feet, arms away from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
 - They carry NONE of the family's markers: no round glasses, no locs, no beaded braids,
   no head wrap over wavy hair. Nor the family's signature garments: no wrap-dress with a
   tie, no dress with a hem band.
