@@ -153,7 +153,12 @@ if _logo.mode in ("RGBA", "LA", "P"):
     _bg = Image.new("RGBA", _logo.size, (255, 255, 255, 255))
     _logo = Image.alpha_composite(_bg, _logo.convert("RGBA"))
 LOGO_FLAT = os.path.join(os.path.dirname(OUT) or ".", "_logo-interior-flat.png")
-_logo.convert("L" if MONO else "RGB").save(LOGO_FLAT)
+# Resample to 300 ppi at its printed size (1.15 in on the title page): Lulu flags raster
+# images above 600 ppi and suggests 200-600.
+LOGO_PPI = 300
+_px = round(1.15 * LOGO_PPI)
+_logo = _logo.resize((_px, round(_px * _logo.height / _logo.width)), Image.LANCZOS)
+_logo.convert("L" if MONO else "RGB").save(LOGO_FLAT, dpi=(LOGO_PPI, LOGO_PPI))
 c = canvas.Canvas(OUT, pagesize=(PW + 2*BLEED, PH + 2*BLEED),
                   initialFontName="Lora", initialFontSize=13)
 c.setTitle(cfg["title"]); c.setAuthor("Deep Roots Kids"); c.setSubject(cfg["scripture_scope"])

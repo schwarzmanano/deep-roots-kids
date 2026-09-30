@@ -59,6 +59,9 @@ if raster:
     worst = min(r[3] for r in raster)
     print(f"  raster images: {len(raster)} (lowest {worst:.0f} DPI)")
     if worst < 300: fails.append(f"raster image below 300 DPI ({worst:.0f})")
+    best = max(r[3] for r in raster)
+    print(f"  raster images: highest {best:.0f} DPI")
+    if best > 600: fails.append(f"raster image above 600 ppi ({best:.0f}) — Lulu suggests 200-600")
 else:
     print("  raster images: none — art is vector, DPI floor does not apply")
 
