@@ -13,17 +13,8 @@
 >     body_file: "kids/_brand/about-the-author.md"
 >
 > Editing this file updates every volume on its next rebuild. Do not fork per book.
-> Everything below the BODY marker is rendered verbatim; the first line is the heading.
+> Everything below the BODY marker is rendered verbatim. The heading is a separate unit
+> (`heading:` on each book's p35), not part of this file.
 
 <!-- BODY -->
-About the Author
-
-Schwarz is a Bible teacher and pastor-theologian with more than a decade of ministry across East Africa, the United Kingdom, and the United States. He holds a Master of Divinity from Westminster Theological Seminary and trained in biblical exegesis and pastoral ministry at the Cornhill Training Course in London.
-
-He has served as a national teaching-ministry leader and assistant pastor in Kampala, Uganda, training pastors and discipling university students across the country, and has led youth and children's ministry in churches in both London and Kampala.
-
-Schwarz now lives in Germany with his wife and children, where Deep Roots Kids grew out of a simple desire: to teach his own children and now yours that every story in the Bible points to Jesus.
-
-Creation to Glorification is his family's invitation to yours, to open Scripture together from the very first page.
-
-— Schwarz Martin Manano
+Schwarz Martin Manano is the creator of Deep Roots Kids, driven by a passion to teach rich, redemptive-historical biblical truths to the next generation. Holding a Master of Divinity from Westminster Theological Seminary (USA) and training from the Cornhill Training Course in London, he has spent over a decade serving in children, youth and pastoral ministry across East Africa, the UK, and the US. He previously led teaching, training ministries and served as an assistant pastor in Kampala, Uganda, and now lives in Germany with his wife and children. Deep Roots Kids began out of a desire to help families get rooted in Christ as they discover how the whole Bible points to Jesus.

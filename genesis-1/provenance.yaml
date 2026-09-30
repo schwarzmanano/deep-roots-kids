@@ -309,14 +309,24 @@ text_units:
   sha: 980241b1c58a
   source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
   recorded: '2026-09-29'
+- id: p35.heading
+  page: p35
+  kind: heading
+  author: ai-drafted
+  draft: true
+  sha: 2513f4156d8c
+  source: page label from the pipeline's About file; author to confirm or supply
+  recorded: '2026-09-30'
 - id: p35.body
   page: p35
   kind: about-the-author
-  author: ai-drafted
+  author: null
   draft: true
-  sha: bbf677546f96
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: d51708755dd7
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: cover.series_short
   page: cover
   kind: series-line

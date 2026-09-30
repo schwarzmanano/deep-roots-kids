@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: A small, friendly street market with two simple fruit stalls. The family members here are Mother, Daughter 1, Daughter 2 and Son, walking together in the middle. Around them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman in a wheelchair; a tall man with short straight hair; the visiting mother with one high round bun, holding the hand of EXACTLY ONE toddler with two small round hair puffs (the child from p21). No other children. The neighbours have plain hairstyles — short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog.
+SCENE: A small, friendly street market with two simple fruit stalls. The family members here are Mother, Daughter 2 and Son, walking together in the middle. Around them, exactly FIVE neighbours and no more: an old man with a walking stick; a woman in a wheelchair; a tall man with short straight hair; the visiting mother with one high round bun, holding the hand of EXACTLY ONE toddler with two small round hair puffs (the child from p21). No other children. The neighbours have plain hairstyles — short, straight, curly or a bun — and NONE wear glasses, locs, braids, beads or a head wrap. NO garden, NO vegetables, NO watering can, NO tools, NO dog.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -43,8 +43,13 @@ HUMAN FIGURES — follow exactly:
 - Dog: small, floppy ears. Cat: plain and simple.
 - Draw ONLY the family members the SCENE names.
 - Every family member has a simple face: two dot eyes and a small curved smile line.
-- Every arm and leg one single thin line; arms held away from the body with white space
-  between arm and torso; hands and feet plain closed ovals, no fingers, no shoes.
+- STICK-FIGURE CONSTRUCTION, exactly as the figures in the style reference (reference A):
+  every arm and leg is ONE thin single line, the same weight as the outline — even when
+  hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
+  bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
+- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
+  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
 - No hats, hoods or caps — hair, glasses, beads and the head wrap always visible.
@@ -53,8 +58,9 @@ HUMAN FIGURES — follow exactly:
 
 HUMAN FIGURES — follow exactly:
 Neighbours, strangers and the visiting family — theology-guardrails §5:
-- Same construction as the family: simple face, single-line limbs, oval hands and feet,
-  arms away from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
+- Same STICK-FIGURE construction as the family: simple face, every limb ONE thin single
+  line (never a fleshy or shaped limb), plain oval hands and feet with NO fingers, arms away
+  from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
 - They carry NONE of the family's markers: no round glasses, no locs, no beaded braids,
   no head wrap over wavy hair. Nor the family's signature garments: no wrap-dress with a
   tie, no dress with a hem band.
@@ -64,7 +70,6 @@ Neighbours, strangers and the visiting family — theology-guardrails §5:
 
 OUTFITS — each person wears exactly this, and nothing else:
 - Mother: short-sleeved straight dress to mid-calf; head wrap
-- Daughter 1: short-sleeved t-shirt and full-length trousers
 - Daughter 2: short-sleeved A-line dress to the knee
 - Son: short-sleeved t-shirt and shorts
 - Visiting Mother: short-sleeved plain straight dress to mid-calf, NO wrap, NO tie; high round bun

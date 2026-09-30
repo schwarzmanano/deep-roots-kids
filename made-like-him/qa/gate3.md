@@ -19,3 +19,15 @@ raster (interior logo) at 764 DPI; margins within 0.375" gutter / 0.5" outside.
 `layout.py --release` refuses: 69 problems across 35 units. Every non-Scripture unit except
 the title is ai-drafted or empty, pending your words (`plan/my-words.md`, 35 units).
 The p33 closing page prints "[ awaiting author's text ]" in the proof.
+
+## Gate 3 rework — limb drift (editor flag 2026-09-30)
+Editor flagged volumetric limbs / fingers on p13 p15 p17 p23 p27 p31. Style contract
+strengthened (stick-figure construction tied to the Gate 2 lock). One attempt each, $0.557:
+none fixed it — hugging, holding and seated poses still render limbs as shapes; p27 also
+regained reference bleed. Current picks kept. Spend $5.6557; checkpoint $6 prevents a proper
+second round. Diagnosis: the v1 fix (sleeveless + arms held out) is what the Gate 2 lock
+used; v2.0 short sleeves combined with contact poses (hug, hold, sit) defeat it.
+
+## Editor text 2026-09-30
+35 units inserted verbatim (byte-checked); registered UNRESOLVED pending confirmation that
+no AI tool drafted or polished them. No FIT PROBLEM (art height moves ≤16pt).

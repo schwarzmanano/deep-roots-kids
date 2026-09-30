@@ -43,8 +43,13 @@ HUMAN FIGURES — follow exactly:
 - Dog: small, floppy ears. Cat: plain and simple.
 - Draw ONLY the family members the SCENE names.
 - Every family member has a simple face: two dot eyes and a small curved smile line.
-- Every arm and leg one single thin line; arms held away from the body with white space
-  between arm and torso; hands and feet plain closed ovals, no fingers, no shoes.
+- STICK-FIGURE CONSTRUCTION, exactly as the figures in the style reference (reference A):
+  every arm and leg is ONE thin single line, the same weight as the outline — even when
+  hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
+  bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
+- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
+  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
 - No hats, hoods or caps — hair, glasses, beads and the head wrap always visible.

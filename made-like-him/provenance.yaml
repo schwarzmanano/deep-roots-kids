@@ -21,19 +21,23 @@ text_units:
 - id: book.series_line
   page: p1, back cover
   kind: series-line
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 0c308fe4ec88
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 7351b9596d7a
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: book.subtitle
   page: p1, cover
   kind: subtitle
-  author: ai-drafted
+  author: null
   draft: true
-  sha: c3cf1d43314b
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: b7113baadae4
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: book.scripture_scope
   page: p1, back cover
   kind: scripture-reference
@@ -45,35 +49,43 @@ text_units:
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
-  author: ai-drafted
+  author: null
   draft: true
   sha: b050e2d85878
-  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
-  recorded: '2026-09-29'
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p2.copyright.2
   page: p2
   kind: copyright-page
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 2c2bad7675d1
-  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
-  recorded: '2026-09-29'
+  sha: 4092fb0ccb13
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p3.text
   page: p3
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 938d1ebb20ca
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 6e3985ca52db
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p3.teaching
   page: p3
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: e1a599cb36c6
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 26cd1ba3d11b
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p5.text
   page: p5
   kind: scripture-quote
@@ -85,12 +97,13 @@ text_units:
 - id: p5.teaching
   page: p5
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: d805057e8e14
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated (contains the Yahweh requirement,
-    guardrails §6)'
-  recorded: '2026-09-29'
+  sha: 7c24a68a823f
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p7.text
   page: p7
   kind: scripture-quote
@@ -102,227 +115,291 @@ text_units:
 - id: p7.teaching
   page: p7
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: d4ad6f06d0a7
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: b055ce33e125
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p9.text
   page: p9
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: d7298f5eff43
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 2fa9a08dc2ee
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 9c6de8217abb
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 9d52b87e62f3
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p11.text
   page: p11
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 0ef977972227
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: f0f334f9dd69
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p11.teaching
   page: p11
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: bd4b1c951840
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 4bc470103a96
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p13.text
   page: p13
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 7b66bcbf55d3
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 7f2f7f8a6593
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p13.teaching
   page: p13
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 4ab086b83b38
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 12b99ae1e52d
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p15.text
   page: p15
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 7f3b1ff2046a
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: dfbc23513105
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p15.teaching
   page: p15
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: e2e9ca57dda2
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 64c3f736a698
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p17.text
   page: p17
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: ff569a70ab9f
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: d022791f19f1
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p17.teaching
   page: p17
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: a3dc7d500297
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 33a570338e25
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p19.text
   page: p19
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 0f9b44bfc050
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 58a59006b833
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p19.teaching
   page: p19
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 707d96a64241
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 4382a24dcd3a
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p21.text
   page: p21
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: d6bae3dac95f
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: f35b4081e757
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p21.teaching
   page: p21
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 6ec77bb7079b
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: f8b975e6ce07
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p23.text
   page: p23
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 0446c05ffa31
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: bf6d881c91e8
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p23.teaching
   page: p23
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: fb78bdd2b01f
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 32e4bcede4f3
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p25.text
   page: p25
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 593a3ef73c18
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 800c02602b75
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p25.teaching
   page: p25
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 2be14b686a39
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 05be13068a05
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p27.text
   page: p27
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 52efd2c66c77
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 37ed7e006e63
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 9d7a33e05876
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 7a356f6dd42d
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p29.text
   page: p29
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 1b05b0cb0382
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: 3b1c6e1dab8a
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p29.teaching
   page: p29
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: b0eca87c3361
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: 5cbedf114c92
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p31.text
   page: p31
   kind: page-text
-  author: ai-drafted
+  author: null
   draft: true
-  sha: feb41b490fbf
-  source: drafted by the AI pipeline at Stage 1 (2026-09-27)
-  recorded: '2026-09-29'
+  sha: dbe0e9489c6b
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p31.teaching
   page: p31
   kind: teaching
-  author: ai-drafted
+  author: null
   draft: true
-  sha: 103871b3a544
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: cbf4bb83f10f
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p33.body
   page: p33
   kind: closing
   author: null
   draft: true
-  sha: null
-  source: EMPTY — awaiting the author's text
-  recorded: '2026-09-29'
+  sha: 934d38eb3c60
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 - id: p33.footnote
   page: p33
   kind: footnote
+  author: null
+  draft: true
+  sha: 55fc04edeeae
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
+- id: p35.heading
+  page: p35
+  kind: heading
   author: ai-drafted
   draft: true
-  sha: 1ffba1460707
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated (D2 footnote)'
-  recorded: '2026-09-29'
+  sha: 2513f4156d8c
+  source: page label from the pipeline's About file; author to confirm or supply
+  recorded: '2026-09-30'
 - id: p35.body
   page: p35
   kind: about-the-author
-  author: ai-drafted
+  author: null
   draft: true
-  sha: bbf677546f96
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  sha: d51708755dd7
+  source: supplied by the editor 2026-09-30, inserted verbatim; the covering note says 'with all your
+    text corrections applied' — awaiting confirmation that no AI tool drafted, reworded or polished it
+    (policy §4, §10)
+  recorded: '2026-09-30'
 gate1_signed: '2026-09-27'
 style_lock_gate2: gen/p19/attempt-04.jpg
 wardrobe: character-bible v2.0

@@ -54,6 +54,8 @@ def units(book):
         n = pg["page"]
         if pg.get("back_matter"):
             kind = "about-the-author" if "about-the-author" in (pg.get("body_file") or "") else "closing"
+            if pg.get("heading") is not None:
+                add(f"p{n}.heading", f"p{n}", "heading", pg["heading"])
             add(f"p{n}.body", f"p{n}", kind, body_of(pg))
             if pg.get("footnote") is not None:
                 add(f"p{n}.footnote", f"p{n}", "footnote", " ".join(pg["footnote"].split()))

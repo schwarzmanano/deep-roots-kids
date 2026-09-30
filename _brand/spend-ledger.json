@@ -1,5 +1,5 @@
 {
-  "total_usd": 12.7705,
+  "total_usd": 13.3274,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -754,11 +754,53 @@
       "usd": 0.0971,
       "book": "made-like-him",
       "page": 19
+    },
+    {
+      "ts": "2026-09-30T01:03:00.737Z",
+      "label": "p13 attempt-3",
+      "usd": 0.0933,
+      "book": "made-like-him",
+      "page": 13
+    },
+    {
+      "ts": "2026-09-30T01:03:09.925Z",
+      "label": "p15 attempt-3",
+      "usd": 0.0895,
+      "book": "made-like-him",
+      "page": 15
+    },
+    {
+      "ts": "2026-09-30T01:03:17.293Z",
+      "label": "p17 attempt-5",
+      "usd": 0.0898,
+      "book": "made-like-him",
+      "page": 17
+    },
+    {
+      "ts": "2026-09-30T01:03:26.866Z",
+      "label": "p23 attempt-7",
+      "usd": 0.0972,
+      "book": "made-like-him",
+      "page": 23
+    },
+    {
+      "ts": "2026-09-30T01:03:35.482Z",
+      "label": "p27 attempt-3",
+      "usd": 0.094,
+      "book": "made-like-him",
+      "page": 27
+    },
+    {
+      "ts": "2026-09-30T01:03:43.306Z",
+      "label": "p31 attempt-5",
+      "usd": 0.0931,
+      "book": "made-like-him",
+      "page": 31
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
-    "made-like-him": 5.0988
+    "made-like-him": 5.6557
   }
 }

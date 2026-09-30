@@ -303,6 +303,7 @@ pages:
     alt: ""
     generate: false
     back_matter: true
+    heading: "About the Author"          # page label, separate unit from the body
     body_file: "kids/_brand/about-the-author.md"
     note: "Standing cross-series back matter. Text is NOT stored here — it is read at build
            time from the shared asset so every volume stays in sync. No generated content."

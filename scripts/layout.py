@@ -193,11 +193,17 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
             # to reach this line. A production marker, not prose.
             body = "[ awaiting author's text ]"
         paras = [ln.strip() for ln in body.strip().split("\n") if ln.strip()]
+        # A page with a `heading:` key has its heading as a separate text unit (null = no
+        # heading). Without the key (legacy, genesis-1 p33) the body's first line is the heading.
+        heading = pg["heading"] if "heading" in pg else paras.pop(0)
         y = PH - TOP - 46
-        c.setFillColor(STORYBOOK_NAVY); c.setFont("Baloo2", 20)
-        c.drawCentredString(PW/2, y, paras[0]); y -= 34
+        if heading:
+            c.setFillColor(STORYBOOK_NAVY); c.setFont("Baloo2", 20)
+            c.drawCentredString(PW/2, y, heading); y -= 34
+        else:
+            y -= 10
         body_w = cw - 0.7*IN
-        for para in paras[1:]:
+        for para in paras:
             italic = para.startswith("For families:") or para.startswith("—")
             font, size, lead = ("LoraIt", 10.5, 14) if italic else ("Lora", 10.5, 14)
             c.setFont(font, size)

@@ -70,8 +70,13 @@ The Deep Roots Kids family cast. Faces and fixed markers copied from the cast sh
 - Dog: small, floppy ears. Cat: plain and simple.
 - Draw ONLY the family members the SCENE names.
 - Every family member has a simple face: two dot eyes and a small curved smile line.
-- Every arm and leg one single thin line; arms held away from the body with white space
-  between arm and torso; hands and feet plain closed ovals, no fingers, no shoes.
+- STICK-FIGURE CONSTRUCTION, exactly as the figures in the style reference (reference A):
+  every arm and leg is ONE thin single line, the same weight as the outline — even when
+  hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
+  bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
+- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
+  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
 - No hats, hoods or caps — hair, glasses, beads and the head wrap always visible.
@@ -81,8 +86,9 @@ The Deep Roots Kids family cast. Faces and fixed markers copied from the cast sh
 ## Human figures — outside-cast
 
 Neighbours, strangers and the visiting family — theology-guardrails §5:
-- Same construction as the family: simple face, single-line limbs, oval hands and feet,
-  arms away from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
+- Same STICK-FIGURE construction as the family: simple face, every limb ONE thin single
+  line (never a fleshy or shaped limb), plain oval hands and feet with NO fingers, arms away
+  from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
 - They carry NONE of the family's markers: no round glasses, no locs, no beaded braids,
   no head wrap over wavy hair. Nor the family's signature garments: no wrap-dress with a
   tie, no dress with a hem band.
