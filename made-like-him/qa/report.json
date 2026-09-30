@@ -73,15 +73,15 @@
   },
   {
     "page": 15,
-    "ink": 7.928712693275799,
+    "ink": 8.229593671341243,
     "stroke": 4,
-    "margin": 6.934487578339871,
+    "margin": 7.885927922444899,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-04.jpg"
+    "src": "attempt-07.jpg"
   },
   {
     "page": 17,
@@ -169,14 +169,14 @@
   },
   {
     "page": 31,
-    "ink": 10.116864437252787,
-    "stroke": 4.0,
-    "margin": 9.555415086388537,
+    "ink": 10.141675656238764,
+    "stroke": 4,
+    "margin": 9.593023255813954,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-07.jpg"
+    "src": "attempt-10.jpg"
   }
 ]

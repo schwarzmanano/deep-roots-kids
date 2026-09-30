@@ -51,3 +51,7 @@ generate.mjs --edit-chosen added (edit the chosen image, plan untouched). One ed
 only p17 fixed (-> attempt-08, accepted). Others reproduced the hands; p19 regressed (rejected).
 ROOT CAUSE: _brand/cast-sheet.jpg draws thumb-bump mittens; every family page is conditioned
 on it. p25-figures-ref.jpg (first-couple pages) draws plain ovals. Spend $7.6179.
+Editor ruling: thumb-bump mittens are the family/outside-cast standard (character-bible v2.1);
+first couple keeps ovals; no separate/pointing fingers for anyone. Pointing fingers fixed:
+p15 -> attempt-07, p31 -> attempt-10. Audit now clean against v2.1 on all 15 pages.
+Both interiors rebuilt; both preflights PASSED. Spend $7.9828.

@@ -74,8 +74,9 @@ The Deep Roots Kids family cast. Faces and fixed markers copied from the cast sh
   every arm and leg is ONE thin single line, the same weight as the outline — even when
   hugging, holding, carrying, reaching, kneeling or praying. A bent arm is one line that
   bends at the elbow. NEVER a fleshy, rounded, two-sided or shaped arm or leg.
-- Hands and feet are small plain closed ovals: NO fingers, NO thumbs, NO knuckle or nail
-  lines — praying hands are two ovals touching; a held object sits against a plain oval.
+- Hands are small mittens with ONE small thumb bump, exactly as on the cast sheet — NO
+  separate fingers, NO pointing index finger, NO knuckle or nail lines. To show a page or
+  object, the whole mitten hand rests on it. Feet are plain closed ovals, no shoes.
 - Arms held away from the body with white space between arm and torso.
 - Short sleeves end at the upper arm; the arm below is one single thin line. Trousers are
   slim straight leg shapes with the foot oval below. No long sleeves, no coats.
@@ -87,8 +88,8 @@ The Deep Roots Kids family cast. Faces and fixed markers copied from the cast sh
 
 Neighbours, strangers and the visiting family — theology-guardrails §5:
 - Same STICK-FIGURE construction as the family: simple face, every limb ONE thin single
-  line (never a fleshy or shaped limb), plain oval hands and feet with NO fingers, arms away
-  from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
+  line (never a fleshy or shaped limb), mitten hands with one small thumb bump and NO separate
+  fingers, plain oval feet, arms away from the body. Plain short-sleeved everyday clothes, or as named in OUTFITS.
 - They carry NONE of the family's markers: no round glasses, no locs, no beaded braids,
   no head wrap over wavy hair. Nor the family's signature garments: no wrap-dress with a
   tie, no dress with a hem band.
