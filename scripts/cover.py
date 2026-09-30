@@ -196,26 +196,47 @@ BX = (BACK_L + BACK_R) / 2
 c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW,
             mask=None if CMYK_OUT else "auto", preserveAspectRatio=True)
 
-blurb = " ".join(COV["back_blurb"].split()) if COV.get("back_blurb") else AWAIT
+_bparas = [ " ".join(x.split()) for x in COV["back_blurb"].split("\n") if x.strip() ] if COV.get("back_blurb") else [AWAIT]
+# A first paragraph ending in "?" is set as a lead line (Baloo 2); wording untouched.
+lead = _bparas.pop(0) if len(_bparas) > 1 and _bparas[0].endswith("?") else None
+blurb = " ".join(_bparas)
 
 # Compose the back panel as one block centred in the space between the logo and
 # the barcode band, rather than top-aligned with a gap underneath.
 body_w = TRIM_W - 2*SAFE - 0.6*IN
 blurb_lines = wrap_text(c, blurb, "Lora", 12.5, body_w)
+_bw = body_w     # no one-word last line (widow): narrow the measure, never the words
+while len(blurb_lines) > 1 and len(blurb_lines[-1].split()) < 2 and _bw > body_w * 0.8:
+    _bw -= 6; blurb_lines = wrap_text(c, blurb, "Lora", 12.5, _bw)
 spec_lines = list(COV.get("spec_lines") or [])
-block_h = len(blurb_lines)*18 + 14 + len(spec_lines)*16 + 10 + 34
+lead_lines = wrap_text(c, lead, "Baloo2", 20, body_w) if lead else []
+block_h = len(lead_lines)*26 + (10 if lead else 0) + len(blurb_lines)*18 + 14 + len(spec_lines)*16 + 10 + 34
 
 region_top = H - BLEED - SAFE - LW - 40
 region_bot = BLEED + BAR_BAND_H + 0.15*IN
 y = region_bot + (region_top - region_bot + block_h) / 2
 
+c.setFillColor(NAVY); c.setFont("Baloo2", 20)
+for ln in lead_lines:
+    c.drawCentredString(BX, y, ln); y -= 26
+if lead: y -= 10
 c.setFillColor(NAVY); c.setFont("Lora", 12.5)
 for ln in blurb_lines:
     c.drawCentredString(BX, y, ln); y -= 18
 y -= 14
 c.setFillColor(GREEN); c.setFont("Lora", 11)
+def _tick(x, yb, sz):   # vector check mark: none of the brand fonts has U+2713
+    c.saveState(); c.setStrokeColor(GREEN); c.setLineWidth(sz*0.13); c.setLineCap(1); c.setLineJoin(1)
+    p = c.beginPath(); p.moveTo(x, yb + sz*0.38); p.lineTo(x + sz*0.30, yb + sz*0.08); p.lineTo(x + sz*0.78, yb + sz*0.72)
+    c.drawPath(p, stroke=1, fill=0); c.restoreState()
 for ln in spec_lines:
-    c.drawCentredString(BX, y, ln); y -= 16
+    if ln.startswith("\u2713"):
+        rest = ln[1:].lstrip(); tw = c.stringWidth(rest, "Lora", 11); gap = 11*0.95
+        x0 = BX - (tw + gap)/2
+        _tick(x0, y - 1, 11); c.drawString(x0 + gap, y, rest)
+    else:
+        c.drawCentredString(BX, y, ln)
+    y -= 16
 y -= 10
 c.setFillColor(GOLD); c.setFont("Lora", 11.5)
 c.drawCentredString(BX, y, cfg["series_line"]); y -= 18

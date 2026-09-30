@@ -1,0 +1,74 @@
+# Listing Reference — Made Like Him (KDP + Lulu Direct)
+
+Book Two, Deep Roots Kids · Creation to Glorification. Figures marked **CONFIRMED** were read
+from the release files on 2026-09-30. Items marked **YOUR CALL** are decisions, not facts.
+
+## Book details (both platforms)
+
+| Field | Value | Source |
+|---|---|---|
+| Title | Made Like Him | author |
+| Subtitle | Created in the Image of God Coloring Book | author |
+| Series | Creation to Glorification, Book Two | author (series badge) |
+| Author / contributor | Schwarz Martin Manano | About the Author |
+| Language | English | |
+| Age range | 4–7 | author (back cover) |
+| Page count | **36 — CONFIRMED**, even | release interior |
+| Interior | Black & White (K-only), white paper, 15 single-sided illustrations | |
+| Trim | 8.5 × 11 in | |
+
+## Description (both platforms) — the author's back-cover text, verbatim
+
+> What does it mean to be made in God's image?
+>
+> God created a beautiful world, and He made people to be the crown of His creation. Join these children as they explore the outdoors and learn how every person is uniquely designed to reflect God's love, creativity, and care. You are made like Him—on purpose, for a purpose—to know God, to love others, and to shine a little bit of His glory everywhere you go!
+
+## Keywords and categories — **YOUR CALL** (suggestions, not prose)
+
+Keywords (KDP allows 7): christian coloring book for kids · image of god kids · bible coloring
+book ages 4-7 · genesis coloring book · sunday school coloring activity · christian homeschool
+preschool · deep roots kids.
+
+Categories / BISAC to check in each platform's picker (names change; confirm live):
+Juvenile Nonfiction › Religious › Christian › Activity Books; Juvenile Nonfiction › Activity
+Books › Coloring; Juvenile Nonfiction › Religious › Christian › Early Readers.
+
+## AI content disclosure
+
+<!-- disclosure:begin -->
+<!-- disclosure:end -->
+
+---
+
+## Amazon KDP
+
+| Field | Value |
+|---|---|
+| Interior file | `out/interior.pdf` — **8.5 × 11.0 in, no bleed — CONFIRMED** |
+| Cover file | `out/cover.pdf` — **17.331 × 11.25 in**, spine 0.0811 in (blank), CMYK, 415 DPI — CONFIRMED |
+| Bleed setting | No bleed (interior) |
+| Ink / paper | Black & white, white paper |
+| Cover finish | **YOUR CALL** — matte or glossy (Book One: check what you chose) |
+| ISBN | **YOUR CALL** — KDP's free ISBN can be used **only on Amazon**; for Lulu retail you need a different ISBN (or your own ISBN for both) |
+| Price | **YOUR CALL** — Book One was set at $9.99; verify royalty in KDP's calculator |
+
+Checklist: upload both files · confirm KDP reports 36 pages · previewer accepts the cover ·
+answer the AI questions from the block above · order a physical proof before publishing.
+
+## Lulu Direct
+
+| Field | Value |
+|---|---|
+| Format | Paperback, perfect bound, US Letter 8.5 × 11 in |
+| Interior colour / paper | Standard Black & White, 60# white — **YOUR CALL** (the spine below assumes Lulu's standard formula) |
+| Interior file | `out/interior-lulu.pdf` — **8.75 × 11.25 in, 0.125 in bleed all sides — CONFIRMED** |
+| Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine 0.1411 in (pages/444 + 0.06), blank, 0.5 in safety — CONFIRMED |
+| Cover finish | **YOUR CALL** — matte or gloss |
+| ISBN | Not required for Lulu Direct store sales; required if you also enable Lulu's retail distribution |
+| Price | **YOUR CALL** |
+
+Checklist: after uploading the interior, download Lulu's generated cover template and confirm
+its spine width matches 0.1411 in (Lulu's paper choice can change it) · upload cover ·
+review Lulu's file-check report · order a proof copy.
+
+Minimum page counts: KDP 24 (met); Lulu paperback 32 (met, 36).

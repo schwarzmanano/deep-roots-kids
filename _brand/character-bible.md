@@ -1,6 +1,6 @@
 # Deep Roots Kids — Character Bible
 
-**Version 2.1 — 2026-09-30.** See [Changelog](#changelog). Book One (genesis-1) was built
+**Version 2.2 — 2026-09-30.** See [Changelog](#changelog). Book One (genesis-1) was built
 under v1.0; its assets and `cast-sheet.jpg` are untouched by v2.0.
 
 Flat-vector cast, clean black outline, minimal geometric shapes (circle heads, simple
@@ -91,7 +91,9 @@ clean (Father's trousers on `cast-sheet.jpg` and on the Gate 2 lock are this);
 - **Limbs**: every arm and leg is a single continuous line, one stroke — never two
   parallel lines forming a tube/capsule, never a filled sleeve or trouser silhouette.
   This has been the single most common defect across generations.
-- **Hands** (v2.1): the family cast and outside-cast figures have **mitten hands with one
+- **Hands** (v2.2, editor's wording): "Characters must normally use simplified single-stroke
+  hands without individually articulated fingers. A single simplified pointing gesture may be
+  used when required for storytelling." Detail (v2.1): the family cast and outside-cast figures have **mitten hands with one
   small thumb bump**, exactly as drawn on `cast-sheet.jpg` — no separate fingers, no pointing
   index finger, no knuckles. The first man and woman (DECISION-5 pages) keep **plain closed
   ovals**, as on `p25-figures-ref.jpg`.
@@ -170,6 +172,11 @@ wardrobe notes and the construction rules can both be honoured at once.
 See `kids/_brand/brand-spec.md` for the governing colour/font/wardrobe spec.
 
 ## Changelog
+
+- **v2.2 — 2026-09-30.** Editor ruling at made-like-him cover approval, verbatim:
+  "Characters must normally use simplified single-stroke hands without individually
+  articulated fingers. A single simplified pointing gesture may be used when required for
+  storytelling." Supersedes v2.1's blanket ban on pointing fingers.
 
 - **v2.1 — 2026-09-30.** Hands standardised to what the canonical cast sheet draws (editor
   ruling, made-like-him Gate 3 audit): family and outside-cast figures use mitten hands with one

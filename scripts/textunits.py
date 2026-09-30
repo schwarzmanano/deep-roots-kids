@@ -70,7 +70,7 @@ def units(book):
     if cov is not None:
         add("cover.series_short", "cover", "series-line", cov.get("series_short"))
         add("cover.back_blurb", "back cover", "back-cover-blurb",
-            " ".join(cov["back_blurb"].split()) if cov.get("back_blurb") else None)
+            cov.get("back_blurb"))
         for i, line in enumerate(cov.get("spec_lines") or []):
             add(f"cover.spec.{i+1}", "back cover", "back-cover-spec", line)
     return out

@@ -17,8 +17,11 @@ cover:                    # text slots EMPTY until the author supplies them (aut
   layout: v2              # logo top · title upper-middle · art · subtitle + series badge at bottom
   color: cmyk             # art converted sRGB -> Generic CMYK (ICC); all cover type set in CMYK
   series_short: "CREATION TO GLORIFICATION • BOOK TWO"   # author-supplied 2026-09-30 (cover brief)
-  back_blurb: null        # back-cover blurb, 60-100 words
-  spec_lines: []          # back-cover spec lines (e.g. illustration count, ages, translation)
+  back_blurb: "What does it mean to be made in God's image?\nGod created a beautiful world, and He made people to be the crown of His creation. Join these children as they explore the outdoors and learn how every person is uniquely designed to reflect God's love, creativity, and care. You are made like Him—on purpose, for a purpose—to know God, to love others, and to shine a little bit of His glory everywhere you go!"   # author-supplied 2026-09-30, verbatim
+  spec_lines:              # author-supplied 2026-09-30, verbatim; one line split at each ✓ for layout
+    - "✓ 15 full-page illustrations"
+    - "✓ Biblical teaching for ages 4–7"
+    - "✓ Scripture from the World English Bible"
 # Cover specs for the cover stage — two wraps, because the spines differ (36 pp, white paper):
 cover_targets:
   kdp:  {bleed_in: 0.125, spine_in: 0.0811, spine_formula: "pages x 0.002252", spine_text: false}  # KDP: no spine text under 79 pp

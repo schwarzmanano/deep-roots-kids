@@ -7,7 +7,10 @@ images:
     model: gemini-3.1-flash-image
     editing: 'extensive — per editor 2026-09-29: selection, threshold, frame strip, stroke thickening,
       vectorisation'
-  cover: not started (after Gate 3)
+  cover:
+    source: AI-generated (front art front-art-v4-02, gemini-3.1-flash-image 4K)
+    editing: extensive — crop, logo composite, ICC conversion to CMYK, typography and layout added by
+      the pipeline
 translation: none
 text_units:
 - id: book.title
@@ -385,10 +388,34 @@ text_units:
 - id: cover.back_blurb
   page: back cover
   kind: back-cover-blurb
-  author: null
-  draft: true
-  sha: null
-  source: empty slot created 2026-09-30 at cover stage; awaiting the author's text
+  author: human
+  draft: false
+  sha: 6854166d6690
+  source: author's own words, supplied in chat 2026-09-30, inserted verbatim
+  recorded: '2026-09-30'
+- id: cover.spec.1
+  page: back cover
+  kind: back-cover-spec
+  author: human
+  draft: false
+  sha: a7ffc3741b30
+  source: author's own words, supplied in chat 2026-09-30, inserted verbatim
+  recorded: '2026-09-30'
+- id: cover.spec.2
+  page: back cover
+  kind: back-cover-spec
+  author: human
+  draft: false
+  sha: 7ac4c4cad24e
+  source: author's own words, supplied in chat 2026-09-30, inserted verbatim
+  recorded: '2026-09-30'
+- id: cover.spec.3
+  page: back cover
+  kind: back-cover-spec
+  author: human
+  draft: false
+  sha: 2e18815e92d8
+  source: author's own words, supplied in chat 2026-09-30, inserted verbatim
   recorded: '2026-09-30'
 gate1_signed: '2026-09-27'
 style_lock_gate2: gen/p19/attempt-04.jpg
