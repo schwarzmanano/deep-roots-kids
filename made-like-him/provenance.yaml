@@ -375,6 +375,22 @@ text_units:
   source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
     Author is human authored. It's mine and confirmed'); edits applied only as instructed
   recorded: '2026-09-30'
+- id: cover.series_short
+  page: cover
+  kind: series-line
+  author: null
+  draft: true
+  sha: null
+  source: empty slot created 2026-09-30 at cover stage; awaiting the author's text
+  recorded: '2026-09-30'
+- id: cover.back_blurb
+  page: back cover
+  kind: back-cover-blurb
+  author: null
+  draft: true
+  sha: null
+  source: empty slot created 2026-09-30 at cover stage; awaiting the author's text
+  recorded: '2026-09-30'
 gate1_signed: '2026-09-27'
 style_lock_gate2: gen/p19/attempt-04.jpg
 wardrobe: character-bible v2.0

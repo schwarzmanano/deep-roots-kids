@@ -19,15 +19,22 @@ from bookarg import book_dir
 import textunits
 BOOK = book_dir()
 RELEASE = "--release" in sys.argv          # authorship-policy §11 — same guard as layout.py
-OUT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else f"{BOOK}/out/cover.pdf"
+# --target kdp (default) | lulu — the wraps differ in spine width and safety margin.
+TARGET = sys.argv[sys.argv.index("--target") + 1] if "--target" in sys.argv else "kdp"
+if TARGET not in ("kdp", "lulu"): raise SystemExit(f"--target must be kdp or lulu, not {TARGET}")
+OUT = (sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv
+       else f"{BOOK}/out/cover{'' if TARGET == 'kdp' else '-lulu'}.pdf")
+AWAIT = "[ awaiting author's text ]"      # proof-only marker for an empty text slot — not prose
 PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
 if "cover" not in cfg:
     raise SystemExit(f"{BOOK}/book.yaml has no cover: block — cover text units not registered yet")
 COV = cfg["cover"]
-if any(COV.get(k) is None for k in ("series_short", "back_blurb")) or cfg.get("subtitle") is None:
-    raise SystemExit("cover text incomplete — awaiting the author's text (see plan/my-words.md)")
+_missing = [k for k in ("series_short", "back_blurb") if COV.get(k) is None]
+if cfg.get("subtitle") is None: _missing.append("subtitle")
+if _missing and RELEASE:
+    raise SystemExit(f"cover text incomplete ({', '.join(_missing)}) — awaiting the author's text")
 _probs = textunits.check(BOOK)
 if RELEASE and _probs:
     print(f"\n  ⛔ RELEASE REFUSED — {len(_probs)} problem(s) across {len({w for w, _ in _probs})} text unit(s), authorship-policy §11:\n")
@@ -46,8 +53,12 @@ pdfmetrics.registerFont(TTFont("LoraIt", f"{FD}/Lora-Italic.ttf"))
 
 BLEED  = 0.125 * IN
 TRIM_W, TRIM_H = 8.5 * IN, 11 * IN
-SPINE  = PAGES * 0.002252 * IN          # white paper, per KDP
-SAFE   = 0.25 * IN                       # keep text this far inside trim
+if TARGET == "kdp":
+    SPINE = PAGES * 0.002252 * IN        # white paper, per KDP
+    SAFE  = 0.25 * IN                    # keep text this far inside trim
+else:
+    SPINE = (PAGES / 444 + 0.06) * IN    # Lulu paperback formula (Book Creation Guide p13)
+    SAFE  = 0.5 * IN                     # Lulu safety margin, all sides
 W = BLEED + TRIM_W + SPINE + TRIM_W + BLEED
 H = BLEED + TRIM_H + BLEED
 
@@ -88,7 +99,7 @@ c.setTitle(f'{cfg["title"]} — cover'); c.setAuthor("Deep Roots Kids")
 c.setFillColor(CREAM); c.rect(0, 0, W, H, stroke=0, fill=1)
 
 # ── FRONT ── art bleeds off the right, top and bottom
-art_src = f"{BOOK}/cover/front-art-v2-01.jpg"
+art_src = f"{BOOK}/{COV.get('front_art', 'cover/front-art-v2-01.jpg')}"
 art_w = FRONT_R - FRONT_L + BLEED
 art = crop_to(art_src, art_w, H)
 tmp = f"{BOOK}/cover/_front-placed.jpg"; art.save(tmp, quality=96)
@@ -111,12 +122,16 @@ c.drawCentredString(FX, title_y, cfg["title"])
 
 # Descriptor — what Amazon shoppers actually need to see on the thumbnail.
 c.setFillColor(GOLD); c.setFont("Baloo2", 30)
-c.drawCentredString(FX, title_y - 38, cfg["subtitle"])
+_sub = cfg.get("subtitle") or AWAIT
+_ss = 30
+while c.stringWidth(_sub, "Baloo2", _ss) > max_w and _ss > 16: _ss -= 1   # layout fit, wording untouched
+c.setFont("Baloo2", _ss)
+c.drawCentredString(FX, title_y - 38, _sub)
 
 # Series line, short form. "Creation to Glorification" and the Genesis
 # reference now live on the back cover only.
 c.setFillColor(NAVY); c.setFont("Lora", 13)
-c.drawCentredString(FX, title_y - 64, COV["series_short"])
+c.drawCentredString(FX, title_y - 64, COV.get("series_short") or AWAIT)
 
 
 # ── SPINE ── blank: 34pp gives 0.077", far under KDP's 100-page threshold for text
@@ -124,7 +139,7 @@ c.drawCentredString(FX, title_y - 64, COV["series_short"])
 BX = (BACK_L + BACK_R) / 2
 c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
 
-blurb = " ".join(COV["back_blurb"].split())
+blurb = " ".join(COV["back_blurb"].split()) if COV.get("back_blurb") else AWAIT
 
 # Compose the back panel as one block centred in the space between the logo and
 # the barcode band, rather than top-aligned with a gap underneath.
@@ -150,10 +165,10 @@ c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
 c.setFillColor(NAVY); c.setFont("LoraIt", 11)
 c.drawCentredString(BX, y, cfg["scripture_scope"])
 
-if not RELEASE:   # proof stamp inside the barcode band's clear zone, on both panels
+if not RELEASE:   # proof stamp just ABOVE the barcode band (the band itself must stay clear)
     c.setFillColor(NAVY); c.setFont("Lora", 9)
     for x in (BX, FX):
-        c.drawCentredString(x, BLEED + SAFE, PROOF_STAMP)
+        c.drawCentredString(x, BLEED + BAR_BAND_H + 4, PROOF_STAMP)
 c.save()
-print(f"  cover.pdf — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
+print(f"  {os.path.basename(OUT)} [{TARGET}{'' if RELEASE else ', PROOF'}] — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
 print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

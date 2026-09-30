@@ -589,3 +589,38 @@
 **MY TEXT:**
 
 
+
+---
+
+## Cover text (added 2026-09-30, cover stage)
+
+### `cover.series_short` — series-line · front cover
+- **Pointer:** very short front-cover series tag: brand + book number (Book One used a short "brand · Book One" form)
+- **Soft target:** one short line
+- **Fit:** prints under the subtitle in Lora 13pt on an 8in-wide line
+
+**MY TEXT:**
+
+
+
+### `cover.back_blurb` — back-cover-blurb · back cover
+- **Pointer:** what the book is, for whom (ages 4–7), what the child does with it (colours 15 pages); theme: every person made in God's image, Christ the true Image
+- **From your Dad Teaching Script:**
+
+> "You are made like him — on purpose, for a purpose — to know God, to love others, and to shine a little bit of his glory everywhere you go."  
+> — Dad Teaching Script, Track 2 ¶8 (`_brand/album/teaching-script.md`)
+
+- **Soft target:** 60–100 words
+
+**MY TEXT:**
+
+
+
+### `cover.spec.N` — back-cover-spec · back cover (optional)
+- **Pointer:** short fact lines, e.g. number of illustrations, age band, Scripture translation (Book One had two)
+- **Soft target:** 1–3 short lines
+
+**MY TEXT:**
+
+
+

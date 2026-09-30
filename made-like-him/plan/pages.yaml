@@ -204,21 +204,22 @@ pages:
     title: "Planned on Purpose"
     text: "You were not made by accident. You were not a surprise."
     teaching: "Before you were even born, God planned you, on purpose, to carry a little piece of His likeness into the world."
-    scene: "A newborn baby being welcomed: the baby's own mother (NOT a cast member — high round
+    scene: "LIMB RULE FIRST: every adult and child is a STICK FIGURE below the clothes — each leg below the shorts or hem is ONE thin line ending in an oval foot, each arm below the sleeveless top is ONE thin line ending in a mitten hand; NO leg or arm drawn with two lines. A newborn baby being welcomed: the baby's own mother (NOT a cast member — high round
             bun, no head wrap) holds the swaddled baby in both arms, the baby's father (short
             beard) beside her. The family cast gathers round to welcome them — Daughter 3 on
             tiptoe to peek, Son holding out a small flower, Mother and Father smiling, arms away
-            from the torso. The baby is small, simple and unnamed. Outdoor doorstep, one tree."
+            from the torso. The baby is small, simple and unnamed. Outdoor doorstep, one tree. Everyone stands upright, arms held slightly out from the body, every arm and leg ONE single thin line."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: ["family", "outside-cast"]
-    outfits:               # character-bible v2.0 — tested vocabulary only
-      Father: "short-sleeved collared shirt and full-length trousers"
-      Mother: "short-sleeved wrap dress to mid-calf; head wrap"
+    outfits:               # 2026-09-30 limb audit: sleeveless + knee hems (single-line limbs)
+      Father: "sleeveless collared shirt and knee-length shorts"
+      Mother: "sleeveless wrap dress to the knee; head wrap"
       Daughter3: "sleeveless sundress to the knee"
-      Son: "short-sleeved t-shirt and shorts"
-      VisitingMother: "short-sleeved plain straight dress to mid-calf, NO wrap, NO tie, NO hem band; hair in one high round bun"
-      VisitingFather: "short-sleeved round-neck t-shirt and full-length trousers; short beard"
+      Son: "sleeveless t-shirt and shorts"
+      VisitingMother: "sleeveless plain straight dress to the knee, NO wrap, NO tie, NO hem band; hair in one high round bun"
+      VisitingFather: "sleeveless round-neck top and knee-length shorts; short beard"
       Baby: "newborn wrapped in a plain swaddling blanket, only the small round face showing"
+    amended_limbs2: "2026-09-30 — limb audit: sleeveless + knee hems; every arm and leg one single line."
     alt: "A family welcoming a newborn baby held by its mother."
     ruling: "DECISION-7 — a baby welcomed and held, unnamed, not a cast member; no seventh-child
              lock-in. Same child ages across p21 (infant) -> p23 (toddler) -> p25 (young child),

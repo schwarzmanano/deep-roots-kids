@@ -70,3 +70,12 @@ Editor ruling: re-scene + cap raised to $12 (book.yaml spend_cap_usd). Standing 
 sleeveless + knee hems. Picks: p15 a10, p19 a16, p25 a07, p27 a08 (Son now arms raised in
 praise, not praying hands), p31 a13 (family stands at a table). Rejected: p25 a08 (printed
 text), p27 a07 (face on the moon), p31 a12 (Mother missing). Spend $9.4634 of $12.
+
+## 2026-09-30 — p21 limbs; covers started
+p21: re-scened sleeveless/knee hems, 3 rounds ($0.47). a06 fixes limbs but hides Mother's hair
+(marker); edit of a06 reproduced the style lock (rejected). Stopped per fail-twice rule;
+p21 left at a02 pending editor ruling.
+Covers: cover.py --target kdp|lulu (Lulu spine pages/444+0.06 = 0.1411in, 0.5in safety),
+front art front-art-02 (4K, conditioned on cast sheet; front-art-01 rejected: long sleeves).
+Both covers PREFLIGHT PASSED (proof). Cover text slots empty, awaiting author.
+Spend $10.3064 of $12.
