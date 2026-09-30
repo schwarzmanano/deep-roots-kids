@@ -13,7 +13,7 @@ copyright_page:           # author-supplied 2026-09-30, verbatim
   - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them (authorship-policy §1.1)
-  front_art: cover/front-art-02.jpg   # 2026-09-30, full colour, 4K, conditioned on cast-sheet.jpg
+  front_art: cover/front-art-v2-01.jpg   # 2026-09-30 editor: modern modest clothing; Father in trousers
   series_short: null      # front-cover series tag
   back_blurb: null        # back-cover blurb, 60-100 words
   spec_lines: []          # back-cover spec lines (e.g. illustration count, ages, translation)

@@ -1,5 +1,5 @@
 {
-  "total_usd": 17.9781,
+  "total_usd": 18.3687,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1130,11 +1130,23 @@
       "label": "cover: front-art-2",
       "usd": 0.1889,
       "book": "made-like-him"
+    },
+    {
+      "ts": "2026-09-30T03:00:46.507Z",
+      "label": "cover: front-art-v2-1",
+      "usd": 0.1996,
+      "book": "made-like-him"
+    },
+    {
+      "ts": "2026-09-30T03:01:17.273Z",
+      "label": "cover: front-art-v2-2",
+      "usd": 0.191,
+      "book": "made-like-him"
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
-    "made-like-him": 10.3064
+    "made-like-him": 10.697
   }
 }
