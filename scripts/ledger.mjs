@@ -30,12 +30,19 @@ export function record(label, usd, meta = {}) {
 }
 
 /** Cap and checkpoint for one book, from .env (defaults: $10 cap, $6 checkpoint). */
-export function limits(env = {}) {
-  return { cap: Number(env.KIDS_SPEND_CAP_USD ?? 10), checkpoint: Number(env.KIDS_SPEND_CHECKPOINT_USD ?? 6) };
+export function limits(env = {}, book) {
+  // Per-book override: book.yaml `spend_cap_usd` (an editor ruling) beats the .env default.
+  let cap = Number(env.KIDS_SPEND_CAP_USD ?? 10);
+  const by = book && path.join(ROOT, 'kids', book, 'book.yaml');
+  if (by && fs.existsSync(by)) {
+    const m = fs.readFileSync(by, 'utf8').match(/^spend_cap_usd:\s*([\d.]+)/m);
+    if (m) cap = Number(m[1]);
+  }
+  return { cap, checkpoint: Number(env.KIDS_SPEND_CHECKPOINT_USD ?? 6) };
 }
 
 export function report(book, env = {}) {
-  const { cap, checkpoint } = limits(env);
+  const { cap, checkpoint } = limits(env, book);
   return `ledger: ${book} $${total(book).toFixed(4)} of $${cap.toFixed(2)} cap ` +
          `(checkpoint $${checkpoint.toFixed(2)}) — series $${total().toFixed(4)}`;
 }
@@ -46,7 +53,7 @@ export function report(book, env = {}) {
  *   KIDS_PAST_CHECKPOINT=<book-slug> node scripts/kids/generate.mjs ...
  */
 export function assertHeadroom(book, aboutToSpend = 0, env = {}) {
-  const { cap, checkpoint } = limits(env);
+  const { cap, checkpoint } = limits(env, book);
   const t = total(book);
   if (t + aboutToSpend > cap) {
     console.error(`\n  ⛔ PER-BOOK SPEND CAP — ${book}: $${t.toFixed(2)} spent of $${cap.toFixed(2)}.`);

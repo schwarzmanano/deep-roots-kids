@@ -66,3 +66,7 @@ edge), p27 thicker arms, p31 pointing finger returned. All rejected; current pic
 Pattern: tubes appear on adults, on seated/kneeling figures and on the praying pose, the
 same poses that failed before. Editing an image keeps its own limb drawing.
 Spend $8.5339 of $10 cap.
+Editor ruling: re-scene + cap raised to $12 (book.yaml spend_cap_usd). Standing poses,
+sleeveless + knee hems. Picks: p15 a10, p19 a16, p25 a07, p27 a08 (Son now arms raised in
+praise, not praying hands), p31 a13 (family stands at a table). Rejected: p25 a08 (printed
+text), p27 a07 (face on the moon), p31 a12 (Mother missing). Spend $9.4634 of $12.

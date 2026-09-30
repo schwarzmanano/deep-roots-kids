@@ -140,7 +140,7 @@ pages:
     title: "Made to Think and Know"
     text: "God knows all things — and He made you able to think and learn and know."
     teaching: "God gave you a mind so you could know Him. We learn about His character and His promises when we read His Word together."
-    scene: "Father sits on a bench with a large open Bible lying flat across his knees (no legible text); he points at the page with one straight single-line arm, the other arm resting out on the bench back. Daughter 2 sits beside him pointing at the page with one straight arm. Son stands in front of the bench, leaning in, both arms held out to the sides. Nobody holds or hugs — arms are single lines away from the body."
+    scene: "Father STANDS in front of the bench holding a large open Bible out in front of him with both arms straight, the book at chest height (no legible text). Daughter 2 stands on his left and Son stands on his right, both looking at the page, each with one arm held out straight to the side and the other resting a mitten hand on the edge of the book. Everyone standing upright, legs straight and apart. The family dog sits on the grass. A park bench behind them, trees and clouds."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
     outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
@@ -149,6 +149,7 @@ pages:
       Son: "sleeveless t-shirt and shorts"
     amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
                     tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
+    amended_limbs2: "2026-09-30 — limb audit: re-scened to standing poses, sleeveless + knee hems (editor-approved)."
     alt: "A father reading the Bible with two children."
     ruling: "DECISION-3."
 
@@ -176,28 +177,20 @@ pages:
     title: "Made to Care for God's World"
     text: "God gave people dominion so they could care for His world on His behalf."
     teaching: "God is the true King over everything. He made people to serve as stewards and caretakers, looking after His beautiful garden."
-    scene: "The whole family in a small vegetable garden: Mother watering with a can, Daughter 1
-            and Father digging a row, Daughter 2 carrying a plain smooth basket held out from her
-            body, Son holding a small plant up to show, Daughter 3 pulling up one big carrot with
-            both hands, the dog digging beside them. All six family members appear. Only a FEW
-            vegetables — three or four leafy plants and at most two pumpkins — all in the MIDDLE
-            band of the page, between the people. The bottom fifth of the page is plain open
-            grass with nothing on it. Nothing touches or crosses any page edge: every plant,
-            pumpkin and cloud sits wholly inside the frame with white space around it. No
-            horizon line running edge to edge. Water from the can as three or four LARGE drops.
-            Mother's wavy hair clearly visible below her head wrap. Every person has a face."
+    scene: "The whole family working in a small vegetable garden, EVERYONE STANDING upright: Mother holds a watering can out at arm's length; Father and Daughter 1 each hold a spade with both arms straight out in front; Daughter 2 holds a plain smooth basket out to one side at arm's length; Son holds a small plant up high with one straight arm; Daughter 3 holds one big carrot up with one straight arm; the dog sits beside Son. Only three or four leafy plants and one pumpkin, all in the MIDDLE band between the people. The bottom fifth of the page is plain open grass. Nothing touches any page edge. No horizon line running edge to edge. Mother's wavy hair visible below her head wrap. Every person has a face."
     character_ref: "kids/_brand/cast-sheet.jpg"
     style_reference: true
     thicken_thin_strokes: true   # Gate 2: 2 strokes at 1.59pt on the locked attempt
     figures: "family"
     outfits:               # character-bible v2.0 — tested vocabulary only
-      Father: "short-sleeved t-shirt and knee-length shorts"
-      Mother: "short-sleeved straight dress to mid-calf; head wrap"
-      Daughter1: "short-sleeved t-shirt and full-length trousers"
-      Daughter2: "short-sleeved A-line dress to the knee"
-      Daughter3: "short-sleeved dress with a hem band, to the knee"
-      Son: "short-sleeved t-shirt and shorts"
+      Father: "sleeveless t-shirt and knee-length shorts"
+      Mother: "sleeveless straight dress to mid-calf; head wrap"
+      Daughter1: "sleeveless t-shirt and knee-length shorts"
+      Daughter2: "sleeveless A-line dress to the knee"
+      Daughter3: "sleeveless dress with a hem band, to the knee"
+      Son: "sleeveless t-shirt and shorts"
     # round 4 (editor ruling 2026-09-29): re-scened with fewer vegetables; base_ref edit of a8 kept the crops
+    amended_limbs2: "2026-09-30 — limb audit: re-scened to standing poses, sleeveless + knee hems (editor-approved)."
     alt: "A family working together in a vegetable garden with their dog."
     note: "Proposed Gate 2 style-lock candidate: all six cast members, an animal and plants in
            one frame is the hardest single test of limb construction, face consistency, region
@@ -260,20 +253,17 @@ pages:
     title: "That's Why We Are Kind"
     text: "That's why we treat people with kindness. That's why every person matters."
     teaching: "We cannot bless God and curse the people He made. Treating others with kindness and respect honors the image of God that they bear."
-    scene: "Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door
-            open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs,
-            about Son's height — wave together. The same street on another day. Daughter 2 is
-            the ONLY person on the page with round glasses and braids; Daughter 1 the only one
-            with locs and glasses. Every person has a face: eyes and a smile."
+    scene: "The same street on another day. Daughter 1 walks beside the old man (a neighbour seen on p23), carrying his large shopping bag for him in one straight arm held out from her body; the old man walks with his walking stick in one straight arm. Daughter 2 stands holding a door open with one straight arm. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs, about Son's height — wave together with arms raised high. Everyone standing or walking upright. Daughter 2 is the ONLY person with round glasses and braids; Daughter 1 the only one with locs and glasses. Every person has a face."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: ["family", "outside-cast"]
     outfits:               # character-bible v2.0 — tested vocabulary only
-      Daughter1: "short-sleeved t-shirt and knee-length skirt"
-      Daughter2: "short-sleeved A-line dress to the knee"
-      Son: "short-sleeved t-shirt and shorts"
-      YoungChild: "short-sleeved t-shirt and shorts; two round hair puffs"
-      OldMan: "short-sleeved plain shirt and full-length trousers; walking stick"
+      Daughter1: "sleeveless t-shirt and knee-length skirt"
+      Daughter2: "sleeveless A-line dress to the knee"
+      Son: "sleeveless t-shirt and shorts"
+      YoungChild: "sleeveless t-shirt and shorts; two round hair puffs"
+      OldMan: "sleeveless plain shirt and knee-length shorts; walking stick"
     thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
+    amended_limbs2: "2026-09-30 — limb audit: re-scened to standing poses, sleeveless + knee hems (editor-approved)."
     alt: "Children helping an old man carry his shopping."
     ruling: "DECISION-6; DECISION-7 — p21's child, now a young child."
 
@@ -282,7 +272,7 @@ pages:
     title: "Only People"
     text: "You are not like your puppy, or cat and you are not a monkey!"
     teaching: "God made animals good, but only human beings are uniquely made to know God, speak to Him, and love Him in a covenant relationship."
-    scene: "Son kneels upright on the grass, back straight, eyes closed, praying: his two forearms are single lines angled up to meet in front of his chest, his hands two plain ovals touching, elbows held out from his body so the arms make an open diamond shape. The family dog lies beside him, head on its paws; a cat curls on a step nearby. Quiet evening; a large simple moon and a few stars. NO vegetables, NO pumpkins, NO cabbages, NO garden plants."
+    scene: "Son stands on the grass at evening, looking up at the sky with a big smile, BOTH arms raised high and wide in praise, arms straight like a Y. The family dog lies beside him with its head on its paws; a cat curls on a step nearby. A large simple moon and a few stars. NO vegetables, NO pumpkins, NO garden plants."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
     outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
@@ -294,6 +284,7 @@ pages:
                      timestamp still gates generation."
     amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
                     tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
+    amended_limbs2: "2026-09-30 — limb audit: re-scened to standing poses, sleeveless + knee hems (editor-approved)."
     alt: "A little boy praying on the grass while his dog lies beside him."
     ruling: "DECISION-5 — printed positively; no monkey or ape on the page. Audio unchanged."
 
@@ -324,7 +315,7 @@ pages:
     title: "The Perfect Image"
     text: "Christ is the perfect Image, and He is making us new."
     teaching: "Sin cracked our reflection, but the image is not lost. Jesus Christ is the exact image of the Father, and through His grace, He is renewing us to look like Him."
-    scene: "Evening worship: the whole family KNEELS upright in a circle on a rug around a large open Bible lying flat on the floor — nobody sits cross-legged. Mother points to the page with one straight single-line arm; the others rest their arms out on their knees as single lines. A lamp on a low table burns low; a window shows stars. No cross, no light-shape, no symbol standing for Christ — Christ is carried by the text alone (theology-guardrails §2). ALL SIX family members present, including Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. The Bible's pages are blank — no pictures in the book."
+    scene: "Evening worship: the whole family STANDS around a low table on which a large open Bible lies flat (blank pages, no pictures). Mother rests one mitten hand flat on the page; everyone else stands upright with arms held out slightly from the body. A lamp on a side table burns low; a window shows stars. ALL SIX family members present, including Daughter 3 with beaded braids. Mother's wavy hair visible below her head wrap. No cross, no light-shape, no symbol standing for Christ — Christ is carried by the text alone (theology-guardrails §2). The family dog and cat sit on the rug."
     character_ref: "kids/_brand/cast-sheet.jpg"
     figures: "family"
     outfits:               # 2026-09-30 editor-approved: sleeveless, knee hems — stick limbs (v1 technique)
@@ -337,6 +328,7 @@ pages:
     thicken_thin_strokes: true   # QA 2026-09-29: strokes at 1.59pt under the 2pt floor — post fix, as genesis-1
     amended_limbs: "2026-09-30 — editor Gate 3 flag: volumetric limbs/fingers. Editor approved sleeveless
                     tops, knee hems and open-arm poses (no hugging/holding/cross-legged)."
+    amended_limbs2: "2026-09-30 — limb audit: re-scened to standing poses, sleeveless + knee hems (editor-approved)."
     alt: "A family gathered around an open Bible in the evening."
     ruling: "DECISION-11 — Christ in text only, no symbol before Book Six (guardrails §1-§2)."
 

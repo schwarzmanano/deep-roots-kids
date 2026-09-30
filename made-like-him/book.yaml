@@ -6,6 +6,7 @@ series_line: "Deep Roots Kids · Creation to Glorification · Book Two"
 album_track: 2            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "2."
 scripture_scope: "Genesis 1:26-28; 2:7, 15, 19-22 — with Ps 8, Ps 139, Acts 17:26, James 3:9, Col 1:15; 3:10"
 age_band: "4-7"
+spend_cap_usd: 12          # editor ruling 2026-09-30: raised from $10 for the limb re-scene
 print_ai_note: false      # series default — authorship-policy §3. No AI note on any printed page.
 
 copyright_page:           # author-supplied 2026-09-30, verbatim

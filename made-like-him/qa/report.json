@@ -73,15 +73,15 @@
   },
   {
     "page": 15,
-    "ink": 8.229593671341243,
+    "ink": 8.340165408126573,
     "stroke": 4,
-    "margin": 7.885927922444899,
+    "margin": 10.6224744218038,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-07.jpg"
+    "src": "attempt-10.jpg"
   },
   {
     "page": 17,
@@ -97,15 +97,15 @@
   },
   {
     "page": 19,
-    "ink": 6.717997123336929,
-    "stroke": 4.0,
-    "margin": 1.4384225837733002,
+    "ink": 6.982470334412081,
+    "stroke": 3.0,
+    "margin": 4.266829990302659,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-12.jpg"
+    "src": "attempt-16.jpg"
   },
   {
     "page": 21,
@@ -133,27 +133,27 @@
   },
   {
     "page": 25,
-    "ink": 6.9885832434376125,
-    "stroke": 3,
-    "margin": 11.475239823697175,
+    "ink": 6.767259978425027,
+    "stroke": 3.0,
+    "margin": 9.174792911817132,
     "min_pt": 2.2466666666666666,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "midtone": 0.0,
-    "src": "attempt-04.jpg"
+    "src": "attempt-07.jpg"
   },
   {
     "page": 27,
-    "ink": 8.511275454403416,
-    "stroke": 6.0,
-    "margin": 8.127713920817369,
-    "min_pt": 2.760274389807433,
+    "ink": 4.882236605537576,
+    "stroke": 5,
+    "margin": 5.617977528089887,
+    "min_pt": 2.5118496947247637,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
-    "frame": true,
+    "frame": false,
     "midtone": 0.0,
-    "src": "attempt-04.jpg"
+    "src": "attempt-08.jpg"
   },
   {
     "page": 29,
@@ -169,14 +169,14 @@
   },
   {
     "page": 31,
-    "ink": 10.141675656238764,
-    "stroke": 4,
-    "margin": 9.593023255813954,
-    "min_pt": 2.2466666666666666,
+    "ink": 9.713381311576356,
+    "stroke": 4.0,
+    "margin": 8.16067820781999,
+    "min_pt": 2.3241379310344827,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
-    "frame": false,
+    "frame": true,
     "midtone": 0.0,
-    "src": "attempt-10.jpg"
+    "src": "attempt-13.jpg"
   }
 ]

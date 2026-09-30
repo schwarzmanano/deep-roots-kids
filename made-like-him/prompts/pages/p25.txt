@@ -1,6 +1,6 @@
 Black and white line art for a children's coloring book page, ages 4-7.
 
-SCENE: THE ONE CHANGE: the ONLY defect is limbs drawn as tubes. Redraw EVERY arm and EVERY leg below the clothing as ONE single thin line, the same weight as the outline — replace any limb drawn with two parallel lines or as a rounded fleshy shape with a single line. Keep the same pose angles, the same mitten hands and oval feet. Keep everything else exactly as it is in reference C — every person, pose, face, hair, glasses, beads, head wrap, clothing, object, animal, background and the whole composition. Scene for context: Daughter 1 helping the old man (a neighbour seen on p23) carry a large bag, Daughter 2 holding a door open for them. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs, about Son's height — wave together. The same street on another day. Daughter 2 is the ONLY person on the page with round glasses and braids; Daughter 1 the only one with locs and glasses. Every person has a face: eyes and a smile.
+SCENE: The same street on another day. Daughter 1 walks beside the old man (a neighbour seen on p23), carrying his large shopping bag for him in one straight arm held out from her body; the old man walks with his walking stick in one straight arm. Daughter 2 stands holding a door open with one straight arm. Son and the child from p21 — now a YOUNG CHILD, two round hair puffs, about Son's height — wave together with arms raised high. Everyone standing or walking upright. Daughter 2 is the ONLY person with round glasses and braids; Daughter 1 the only one with locs and glasses. Every person has a face.
 
 STYLE — follow exactly:
 - Black and white line art for a children's coloring book page, ages 4 to 7.
@@ -70,11 +70,11 @@ Neighbours, strangers and the visiting family — theology-guardrails §5:
   child with two round hair puffs once hair shows.
 
 OUTFITS — each person wears exactly this, and nothing else:
-- Daughter 1: short-sleeved t-shirt and knee-length skirt
-- Daughter 2: short-sleeved A-line dress to the knee
-- Son: short-sleeved t-shirt and shorts
-- Young Child: short-sleeved t-shirt and shorts; two round hair puffs
-- Old Man: short-sleeved plain shirt and full-length trousers; walking stick
+- Daughter 1: sleeveless t-shirt and knee-length skirt
+- Daughter 2: sleeveless A-line dress to the knee
+- Son: sleeveless t-shirt and shorts
+- Young Child: sleeveless t-shirt and shorts; two round hair puffs
+- Old Man: sleeveless plain shirt and knee-length shorts; walking stick
 
 FRAMING:
 - All meaningful content within the inner 85% of frame.
