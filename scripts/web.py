@@ -14,7 +14,12 @@ Checks never touch the network — a missing chapter is a FAIL that names the fe
 
 A unit passes when its printed text appears VERBATIM inside the WEB text of the verses its
 page cites (`quote_ref:` if the page sets one, else `ref:`). Quoting part of a verse is
-allowed; changing any character inside the quoted span is not.
+allowed; changing any character inside the quoted span is not — except exactly the two
+conventions of theology-guardrails §8 (ruled 2026-10-01), each allowed once, at the very end:
+  1. one added curly closing quote ” when the WEB speech continues past the quoted verse
+     (the quote ends at a verse end, with a “ still open and no ” in the WEB there);
+  2. a final period standing for the WEB's semicolon or comma, when the quotation ends the
+     page text.
 """
 import html, json, os, re, sys, urllib.request
 
@@ -72,6 +77,35 @@ def passages(ref):
     return out
 
 
+def _matches(text, web, verse_ends):
+    """Verbatim, or verbatim under exactly the two §8 conventions (each at most once, at the end)."""
+    if text and text in web:
+        return True
+    core, added_quote = text, False
+    if core.endswith("”"):                                  # convention 1
+        core, added_quote = core[:-1], True
+    cands = [core]
+    if core.endswith("."):                                  # convention 2
+        cands += [core[:-1] + ";", core[:-1] + ","]
+    for i, c in enumerate(cands):
+        if not c:
+            continue
+        start = web.find(c)
+        while start != -1:
+            end = start + len(c)                            # index just past the quoted span
+            ok = True
+            if added_quote:
+                after = web[end:end + 1]
+                open_q = c.count("“") > c.count("”")
+                ok = open_q and end in verse_ends and after != "”"
+            if ok and i > 0 and web[end:end + 1] == "”":    # dropped punctuation sat inside a quote
+                ok = added_quote                            # ...only fine if the ” is the added one
+            if ok:
+                return True
+            start = web.find(c, start + 1)
+    return False
+
+
 def check(book):
     """[(unit id, problem)] for every public-domain QUOTATION that is not verbatim WEB."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -89,14 +123,21 @@ def check(book):
             if vs is None:
                 missing.append(f"{code} {ch}")
                 continue
-            spans.append(" ".join(vs[v] for v in range(a, b + 1) if v in vs))
+            txt = " ".join(vs[v] for v in range(a, b + 1) if v in vs)
+            # character offsets where a verse ends inside this passage (for convention 1)
+            ends, pos = set(), -1
+            for v in range(a, b + 1):
+                if v in vs:
+                    pos += len(vs[v]) + 1
+                    ends.add(pos)
+            spans.append((txt, ends))
         if missing:
             bad.append((u["id"], f"WEB not cached for {', '.join(missing)} — run: web.py fetch <CODE> <CH>"))
         elif not spans:
             bad.append((u["id"], f"no Scripture reference to check against (ref: {ref!r})"))
-        elif not any(u["text"] and u["text"] in s for s in spans):
+        elif not any(_matches(u["text"] or "", s, ends) for s, ends in spans):
             bad.append((u["id"], f"NOT VERBATIM WEB ({ref})\n        printed: {u['text']!r}\n"
-                                 + "".join(f"        WEB    : {s!r}\n" for s in spans).rstrip()))
+                                 + "".join(f"        WEB    : {s!r}\n" for s, _ in spans).rstrip()))
     return bad
 
 

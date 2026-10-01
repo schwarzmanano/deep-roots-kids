@@ -3,7 +3,7 @@
 # it in plan/my-words.md (authorship-policy §1.1, §1.4). Nothing here is wording for print.
 slug: we-broke-it-all
 title: "We Broke It All"   # author-supplied 2026-10-01, verbatim
-subtitle: "A Deep Roots Kids Coloring Book — Lesson 3"   # author-supplied 2026-10-01, verbatim
+subtitle: "A Deep Roots Kids Coloring Book"   # author-supplied 2026-10-01, verbatim
 author: "Deep Roots"      # KDP/Lulu author field (editor ruling 2026-10-01). Not printed on the cover.
 series_line: "Deep Roots Kids · Creation to Glorification · Book Three"   # author-supplied 2026-10-01, verbatim
 album_track: 3            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "3."
@@ -20,7 +20,7 @@ cover:                    # text slots EMPTY until the author supplies them
   front_art: null
   layout: v2              # match Books One/Two series identity; NO front-cover author line (ruling 2026-10-01)
   color: cmyk
-  series_short: "Deep Roots Kids · Book 3"   # author-supplied 2026-10-01, verbatim
+  series_short: "CREATION TO GLORIFICATION • BOOK THREE"   # author-supplied 2026-10-01, verbatim
   back_blurb: "In \"We Broke It All,\" young readers ages 4 to 7 trace the story of the Fall from Genesis 3. Through 15 coloring pages, children learn the honest truth about sin and its consequences. But they also discover the most important truth of all: God didn't leave us in our mess, and He already had a plan to fix what we broke."   # author-supplied 2026-10-01, verbatim
   spec_lines:              # author-supplied 2026-10-01, verbatim
     - "15 pages to colour"

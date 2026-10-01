@@ -33,12 +33,13 @@ We Broke It All
 - **Soft target:** short descriptor
 - **Current status:** `unresolved` (draft: true) — empty slot, Stage 1 2026-10-01
 - **From your Dad Teaching Script:** no directly relevant passage in this track
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-A Deep Roots Kids Coloring Book — Lesson 3
+A Deep Roots Kids Coloring Book
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -124,12 +125,13 @@ Scripture quotations are from the World English Bible (WEB), which is in the pub
 > God made a world that was good and bright  
 > We were made to trust Him, walk in His light  
 > — Track 3 lyrics, lines 118–119 (`_brand/album/lyrics.md`)
+- **You said you will revise p3, p5 (Yahweh line) and p19 — re-confirm any line you keep unchanged.**
 
 **MY TEXT:**
 
 God made a world that was good and bright. We were made to trust Him, walk in His light.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
 
 ---
 
@@ -146,13 +148,13 @@ God made a world that was good and bright. We were made to trust Him, walk in Hi
 
 > "God gave them one simple rule"  
 > — Dad Teaching Script, Track 3, line 44 (`_brand/album/teaching-script.md`)
-
+- **You said you will revise p3, p5 (Yahweh line) and p19 — re-confirm any line you keep unchanged.**
 
 **MY TEXT:**
 
 God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
 
 ---
 
@@ -170,13 +172,14 @@ God made everything good, and He made Adam and Eve in his image, on purpose, to 
 
 **WEB (verbatim, ebible.org/eng-web, 2026-10-01) — to quote only if you choose:**
 
-> Gen 3:1 (WEB) — Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?”  
+> Gen 3:1 (WEB) — Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?”
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?” (WEB)
+Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?”
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -193,12 +196,13 @@ Now the serpent was more subtle than any animal of the field which Yahweh God ha
 
 
 **YAHWEH LINE due here if this page prints the first WEB quotation containing the name (F2).** Requirement (pointer only): Yahweh is God's own covenant name, given to His people.
+- **You said you will revise p3, p5 (Yahweh line) and p19 — re-confirm any line you keep unchanged.**
 
 **MY TEXT:**
 
 A long time ago, the first people God made — Adam and Eve — had a choice. God’s special covenant name is used here: Yahweh.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
 
 ---
 
@@ -213,13 +217,14 @@ A long time ago, the first people God made — Adam and Eve — had a choice. Go
 **WEB (verbatim, ebible.org/eng-web, 2026-10-01) — to quote only if you choose:**
 
 > Gen 3:4 (WEB) — The serpent said to the woman, “You won’t really die,  
-> Gen 3:5 (WEB) — for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”  
+> Gen 3:5 (WEB) — for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-The serpent said to the woman, “You won’t really die, for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.” (WEB)
+The serpent said to the woman, “You won’t really die, for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -301,13 +306,14 @@ They said, "No, we'll do it our own way instead." They turned away from God. The
 
 **WEB (verbatim, ebible.org/eng-web, 2026-10-01) — to quote only if you choose:**
 
-> Gen 3:7 (WEB) — Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves.  
+> Gen 3:7 (WEB) — Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves.
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves. (WEB)
+Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -343,13 +349,14 @@ For the very first time, they felt shame. They tried to fix it and hide what the
 
 > Gen 3:8 (WEB) — They heard Yahweh God’s voice walking in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh God among the trees of the garden.  
 > Gen 3:9 (WEB) — Yahweh God called to the man, and said to him, “Where are you?”  
-> Gen 3:10 (WEB) — The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.”  
+> Gen 3:10 (WEB) — The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.”
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.” (WEB)
+Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.”
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -427,13 +434,14 @@ Just like Adam and Eve, when we do wrong things, we want to hide them. But God w
 
 > Gen 3:11 (WEB) — God said, “Who told you that you were naked? Have you eaten from the tree that I commanded you not to eat from?”  
 > Gen 3:12 (WEB) — The man said, “The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.”  
-> Gen 3:13 (WEB) — Yahweh God said to the woman, “What have you done?” The woman said, “The serpent deceived me, and I ate.”  
+> Gen 3:13 (WEB) — Yahweh God said to the woman, “What have you done?” The woman said, “The serpent deceived me, and I ate.”
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-The man said, “The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.” The woman said, “The serpent deceived me, and I ate.” (WEB)
+The man said, “The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.” Yahweh God said to the woman, “What have you done?” The woman said, “The serpent deceived me, and I ate.”
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -463,13 +471,13 @@ Instead of admitting they were wrong, the man blamed the woman, and the woman bl
 
 > "Why do people fight? Do you fight sometimes? All the time?"  
 > — Dad Teaching Script, Track 3, line 42 (`_brand/album/teaching-script.md`)
-
+- **You said you will revise p3, p5 (Yahweh line) and p19 — re-confirm any line you keep unchanged.**
 
 **MY TEXT:**
 
 Why do people fight? Do you fight sometimes? All the time?
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
 
 ---
 
@@ -483,13 +491,13 @@ Why do people fight? Do you fight sometimes? All the time?
 
 > "Why do people fight? Do you fight sometimes? All the time?"  
 > — Dad Teaching Script, Track 3, line 42 (`_brand/album/teaching-script.md`)
-
+- **You said you will revise p3, p5 (Yahweh line) and p19 — re-confirm any line you keep unchanged.**
 
 **MY TEXT:**
 
 We point fingers and blame our friends and family too. But if we confess what we did wrong, God is faithful to forgive us.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
 
 ---
 
@@ -503,13 +511,14 @@ We point fingers and blame our friends and family too. But if we confess what we
 
 **WEB (verbatim, ebible.org/eng-web, 2026-10-01) — to quote only if you choose:**
 
-> Gen 3:14 (WEB) — Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.  
+> Gen 3:14 (WEB) — Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life." (WEB)
+Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.”
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -667,13 +676,13 @@ Every person, big and small. Me and you—we’re all born wrong. We can’t fix
 
 > "Did you notice that word "all"?"  
 > — Dad Teaching Script, Track 3, line 46 (`_brand/album/teaching-script.md`)
-
+- **BLOCKED 2026-10-01: the Romans quotation must be WEB, curly quotes — you will say 3:23 or 3:23-24.**
 
 **MY TEXT:**
 
 "For all have sinned and fall short of the glory of God." (Romans 3:23, ESV) Did you notice that word "all"? Everyone has turned to their own way.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** blocked: awaiting your WEB Romans quotation
 
 ---
 
@@ -688,13 +697,14 @@ Every person, big and small. Me and you—we’re all born wrong. We can’t fix
 **WEB (verbatim, ebible.org/eng-web, 2026-10-01) — to quote only if you choose:**
 
 > Gen 3:20 (WEB) — The man called his wife Eve because she would be the mother of all the living.  
-> Gen 3:21 (WEB) — Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.  
+> Gen 3:21 (WEB) — Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Yahweh God made garments of animal skins for Adam and for his wife, and clothed them. (WEB)
+Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 
@@ -852,12 +862,13 @@ About the Author
 - **Soft target:** one short line
 - **Current status:** `unresolved` (draft: true) — empty slot, Stage 1 2026-10-01
 - **From your Dad Teaching Script:** no directly relevant passage in this track
+- **Changed 2026-10-01 by your ruling — check and confirm.**
 
 **MY TEXT:**
 
-Deep Roots Kids · Book 3
+CREATION TO GLORIFICATION • BOOK THREE
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
 
 ---
 

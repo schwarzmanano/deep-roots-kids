@@ -111,6 +111,23 @@ All reader-facing prose in every book is governed by
 for publication; every text unit is registered in the book's `provenance.yaml`; a release
 build refuses any unit that is AI-drafted, draft, unregistered or unresolved.
 
+## §8 — Scripture quotation conventions (ruled 2026-10-01)
+
+Quoted Scripture prints exactly as the World English Bible publishes it — wording, lowercase
+pronouns for God, and the WEB's own quote marks and apostrophes. The author's own prose may
+capitalise divine pronouns; this rule governs quotation only. No on-page translation tags
+(e.g. "(WEB)") in this series; the copyright page names the WEB.
+
+Exactly two departures from the WEB text are permitted, and nothing more:
+
+1. A quotation may end with **one added curly closing quote mark** (”) when the WEB speech
+   continues past the quoted verse.
+2. A quotation may **drop the WEB's final semicolon or comma when it ends the page text**,
+   ending instead with a period.
+
+No other change to Scripture wording or punctuation. Enforced by `scripts/web.py` (text QA
+and every release guard).
+
 ## Amendments
 
 - 2026-09-27 — File created. §1 and §2 ruled by the editor (Schwarz Martin Manano). §0, §3
@@ -120,3 +137,5 @@ build refuses any unit that is AI-drafted, draft, unregistered or unresolved.
 - 2026-09-29 — §7 added: reference to authorship-policy.md (editor ruling).
 - 2026-09-29 — §6 fixed wording replaced by a requirement: the ruled sentence was AI-originated;
   per authorship-policy §6/§8 the author writes the line (editor ruling, same date).
+- 2026-10-01 — §8 added: WEB fidelity and the two permitted quotation conventions; no
+  on-page translation tags (editor ruling, Book Three text review).

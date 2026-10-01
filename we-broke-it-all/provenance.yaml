@@ -29,8 +29,8 @@ text_units:
   kind: subtitle
   author: human
   draft: false
-  sha: 7308e4b1c02e
-  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
+  sha: 928bb655d338
+  source: author's words; changed by the author's ruling in chat 2026-10-01 ('Lesson 3' removed)
   recorded: '2026-10-01'
 - id: book.scripture_scope
   page: p1, back cover
@@ -77,8 +77,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: e87f8475a089
-  source: WEB Genesis 3:1, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: 2118e1b5aa79
+  source: WEB verbatim; '(WEB)' tag removed by ruling 2026-10-01 (guardrails §8)
   recorded: '2026-10-01'
 - id: p5.teaching
   page: p5
@@ -93,8 +93,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: 4035e65e64bc
-  source: WEB Genesis 3:4-5, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: 817e1dbbbd90
+  source: WEB verbatim; '(WEB)' tag removed by ruling 2026-10-01 (guardrails §8)
   recorded: '2026-10-01'
 - id: p7.teaching
   page: p7
@@ -125,8 +125,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: 59cdb7b1933b
-  source: WEB Genesis 3:7, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: 874cba501943
+  source: WEB verbatim; '(WEB)' tag removed by ruling 2026-10-01 (guardrails §8)
   recorded: '2026-10-01'
 - id: p11.teaching
   page: p11
@@ -141,8 +141,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: ee464ac38e2c
-  source: WEB Genesis 3:9-10, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: f1df3e8d4a63
+  source: WEB verbatim; '(WEB)' tag removed by ruling 2026-10-01 (guardrails §8)
   recorded: '2026-10-01'
 - id: p13.teaching
   page: p13
@@ -173,8 +173,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: a8ea79aa183e
-  source: WEB Genesis 3:12-13, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: 79d317628183
+  source: 'complete WEB Gen 3:12-13 verbatim (ruling 2026-10-01: no omission in 3:13)'
   recorded: '2026-10-01'
 - id: p17.teaching
   page: p17
@@ -205,8 +205,8 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: 48be40632841
-  source: WEB Genesis 3:14, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: 05d8313163d2
+  source: WEB Gen 3:14 verbatim + one added curly ” (guardrails §8 convention 1, ruling 2026-10-01)
   recorded: '2026-10-01'
 - id: p21.teaching
   page: p21
@@ -259,18 +259,19 @@ text_units:
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: human
-  draft: false
+  author: null
+  draft: true
   sha: b26ac48f5df6
-  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
+  source: 'BLOCKED 2026-10-01 by ruling: Romans quotation must be WEB with curly quotes; author to say
+    whether 3:23 or 3:23-24'
   recorded: '2026-10-01'
 - id: p29.text
   page: p29
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: 78299b862f98
-  source: WEB Genesis 3:21, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
+  sha: d6aadfda6f1b
+  source: WEB verbatim; '(WEB)' tag removed by ruling 2026-10-01 (guardrails §8)
   recorded: '2026-10-01'
 - id: p29.teaching
   page: p29
@@ -342,8 +343,9 @@ text_units:
   kind: series-line
   author: human
   draft: false
-  sha: 3dd80f31a740
-  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
+  sha: c978fc1712a4
+  source: author's words; changed by the author's ruling in chat 2026-10-01 (same pattern as Book Two,
+    supplied verbatim)
   recorded: '2026-10-01'
 - id: cover.back_blurb
   page: back cover
