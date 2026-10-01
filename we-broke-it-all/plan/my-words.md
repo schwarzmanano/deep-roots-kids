@@ -39,7 +39,7 @@ We Broke It All
 
 A Deep Roots Kids Coloring Book
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -131,7 +131,7 @@ Scripture quotations are from the World English Bible (WEB), which is in the pub
 
 God made a world that was good and bright. We were made to trust Him, walk in His light.
 
-**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -154,7 +154,7 @@ God made a world that was good and bright. We were made to trust Him, walk in Hi
 
 God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust.
 
-**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -179,7 +179,7 @@ God made everything good, and He made Adam and Eve in his image, on purpose, to 
 
 Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?”
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -202,7 +202,7 @@ Now the serpent was more subtle than any animal of the field which Yahweh God ha
 
 A long time ago, the first people God made — Adam and Eve — had a choice. God’s special covenant name is used here: Yahweh.
 
-**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -224,7 +224,7 @@ A long time ago, the first people God made — Adam and Eve — had a choice. Go
 
 The serpent said to the woman, “You won’t really die, for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -313,7 +313,7 @@ They said, "No, we'll do it our own way instead." They turned away from God. The
 
 Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves.
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -356,7 +356,7 @@ For the very first time, they felt shame. They tried to fix it and hide what the
 
 Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.”
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -441,7 +441,7 @@ Just like Adam and Eve, when we do wrong things, we want to hide them. But God w
 
 The man said, “The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.” Yahweh God said to the woman, “What have you done?” The woman said, “The serpent deceived me, and I ate.”
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -477,7 +477,7 @@ Instead of admitting they were wrong, the man blamed the woman, and the woman bl
 
 Why do people fight? Do you fight sometimes? All the time?
 
-**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -497,7 +497,7 @@ Why do people fight? Do you fight sometimes? All the time?
 
 We point fingers and blame our friends and family too. But if we confess what we did wrong, God is faithful to forgive us.
 
-**MY TEXT STATUS:** awaiting your revision (ruling 2026-10-01)
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -518,7 +518,7 @@ We point fingers and blame our friends and family too. But if we confess what we
 
 Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.”
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -676,13 +676,12 @@ Every person, big and small. Me and you—we’re all born wrong. We can’t fix
 
 > "Did you notice that word "all"?"  
 > — Dad Teaching Script, Track 3, line 46 (`_brand/album/teaching-script.md`)
-- **BLOCKED 2026-10-01: the Romans quotation must be WEB, curly quotes — you will say 3:23 or 3:23-24.**
 
 **MY TEXT:**
 
-"For all have sinned and fall short of the glory of God." (Romans 3:23, ESV) Did you notice that word "all"? Everyone has turned to their own way.
+“For all have sinned, and fall short of the glory of God.” Did you notice that word “all”? Everyone has turned to their own way.
 
-**MY TEXT STATUS:** blocked: awaiting your WEB Romans quotation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -704,7 +703,7 @@ Every person, big and small. Me and you—we’re all born wrong. We can’t fix
 
 Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -868,7 +867,7 @@ About the Author
 
 CREATION TO GLORIFICATION • BOOK THREE
 
-**MY TEXT STATUS:** changed per ruling 2026-10-01: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 

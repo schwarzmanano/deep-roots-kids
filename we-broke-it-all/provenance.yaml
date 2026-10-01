@@ -259,11 +259,11 @@ text_units:
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: null
-  draft: true
-  sha: b26ac48f5df6
-  source: 'BLOCKED 2026-10-01 by ruling: Romans quotation must be WEB with curly quotes; author to say
-    whether 3:23 or 3:23-24'
+  author: human
+  draft: false
+  sha: 8b9630ea0468
+  source: author's own words with an embedded Rom 3:23 quotation, supplied in chat 2026-10-01 (worksheet,
+    status confirmed); inserted verbatim
   recorded: '2026-10-01'
 - id: p29.text
   page: p29

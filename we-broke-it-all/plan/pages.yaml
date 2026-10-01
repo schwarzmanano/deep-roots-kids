@@ -1,4 +1,4 @@
-# ── STAGE 1 — NOT SIGNED. Generation is blocked until plan/theology-review.md reads SIGNED. ──
+# ── GATE 1 PASSED — signed 2026-10-01 (plan/theology-review.md). Rulings folded in below as `ruling:`. ──
 #
 # Book Three, "We Broke It All" — album Track 3. Plan only: scenes, references, alt-text,
 # density. Every `text:` and `teaching:` is null — the author writes them in plan/my-words.md
@@ -31,14 +31,14 @@
 # matched EXACTLY to made-like-him p5-p11; guardrails §5 for non-cast figures; family cast per
 # character-bible v2.2; WEB only; "Yahweh" kept, with the author's line at first appearance.
 #
-# `pending:` names the Gate 1 decision(s) a scene depends on. Where a scene describes a
-# baseline, it is the decision-neutral part only; the ruling will amend it.
+# `ruling:` names the Gate 1 decision(s) each scene follows (signed 2026-10-01). Scenes were
+# amended from the Stage 1 baselines to the rulings; no `pending:` remains.
 
 meta:
   scope: "Genesis 3:1-14, 16-24 (3:15 excluded — Book Four)"
   translation: "WEB (public domain)"
   reading_level: "ages 4-7, read aloud by an adult"
-  gate1_signed: null
+  gate1_signed: "2026-10-01"
   yahweh_first_appearance: "Gen 3:1 is the first WEB verse in scope containing 'Yahweh'. The
     author's Yahweh line is due on whichever page FIRST prints a WEB quotation containing the
     name — p5 if p5 quotes 3:1 (see F2)."
@@ -52,15 +52,12 @@ pages:
     title: "One Good Rule"
     text: "God made a world that was good and bright. We were made to trust Him, walk in His light."
     teaching: "God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust."
-    scene: "The garden in full brightness, wide: rounded trees, the river, animals at rest, the
-            man and the woman FROM BEHIND at mid-distance tending plants together (made-like-him
-            p11 construction). Two trees stand somewhere in the middle distance among others —
-            not glowing, not haloed, not larger than the rest. No serpent yet. No fruit taken."
+    scene: "The garden in full brightness, wide: rounded trees bearing fruit, the river, animals at rest, the man and the woman FROM BEHIND at mid-distance tending plants together (made-like-him p11 construction). In the middle distance, among the other trees and looking like them, stand two trees: the tree of knowledge carries the SAME fruit as its neighbours (D2); the tree of life is far off and small (F10). Neither glows, neither is haloed, neither is larger than the rest. No serpent. No fruit taken."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A bright garden where a man and a woman tend plants among many trees."
-    pending: ["D2 (fruit/tree drawing)", "F1 (whether 2:16-17 is in scope)"]
+    ruling: "D2 Option D; F1 IN (2:16-17, references and pictures only); F10 tree of life drawn, kept distant."
 
   - page: 5
     ref: "Genesis 3:1"
@@ -69,15 +66,12 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:1"
     teaching: "A long time ago, the first people God made — Adam and Eve — had a choice. God’s special covenant name is used here: Yahweh."
-    scene: "The woman FROM BEHIND at mid-distance near the tree in the middle of the garden.
-            The serpent on or beside the tree, turned toward her. Daylight, calm. The serpent
-            is the only creature drawn with any attention; other animals absent from this
-            page. Nothing frightening in composition: no looming, no shadow over her."
+    scene: "The woman FROM BEHIND at mid-distance near the tree in the middle of the garden, which carries the same fruit as the trees around it. The serpent — a plain flat-vector snake: smooth body, simple head in profile, one plain round eye, no fangs, no tongue — on a low branch, leaning toward her; its closeness is what reads as 'subtle'. Daylight, calm. No other animals. No looming, no shadow over her."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A woman in a garden, and a serpent on a tree speaking to her."
-    pending: ["D1 (serpent)", "D2 (tree/fruit)", "F2 (Yahweh first appearance)"]
+    ruling: "D1 Option A (plain snake, plain eye; posture carries 'subtle'); D2 Option D."
 
   - page: 7
     ref: "Genesis 3:4-5"
@@ -86,28 +80,24 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:4-5"
     teaching: "The serpent lied. He told them they could be like God if they disobeyed, even though God had already made them to be like Him!"
-    scene: "Closer than p5 but still from behind the woman: she looks up at the tree's fruit;
-            the serpent coils on a low branch between her and the fruit. The man stands a little
-            way off, also from behind (3:6 'her husband with her'). No hand on the fruit yet."
+    scene: "Closer than p5 but still from behind the woman: she looks up at the fruit; the plain serpent (as p5) coils on a low branch between her and the fruit. The man stands a little way off, also from behind (3:6 'her husband with her'). No hand on the fruit yet. The fruit matches the neighbouring trees."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A woman looking up at fruit on a tree while a serpent watches from a branch."
-    pending: ["D1", "D2", "F6 (\"like God\" — Book Two echo)"]
+    ruling: "D1 Option A; D2 Option D; F6 pointer used in text."
 
   - page: 9
     ref: "Genesis 3:6"
     title: "We Said No"
     text: "But we said “No,” we chose our own way. We turned from God—we didn’t obey."
     teaching: "They said, \"No, we'll do it our own way instead.\" They turned away from God. They wanted to lead, they wanted control, but sin broke our world—and it hurt our souls."
-    scene: "The moment of taking, shown at distance and from behind: the woman's single-line arm
-            reaches to a low branch; the man stands beside her. The fruit is small in the frame.
-            No bite, no mouth, no faces. The serpent is gone from the branch or barely visible."
+    scene: "The moment of taking, at distance and from behind: the woman's single-line arm reaches to a low branch; the man stands beside her. The fruit is small in the frame and matches the other trees. No bite, no mouth, no faces. NO serpent on this page."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A woman reaching to pick fruit from a tree, with a man beside her."
-    pending: ["D2"]
+    ruling: "D2 Option D; D1 — serpent appears on p5, p7, p17 and p21 only."
 
   # ── HIDING AND BLAMING ───────────────────────────────────────────────────────────
 
@@ -118,14 +108,12 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:7"
     teaching: "For the very first time, they felt shame. They tried to fix it and hide what they had done by making their own coverings."
-    scene: "The man and the woman FROM BEHIND, turned away from each other, heads down, sitting
-            or crouching apart beside a large fig tree with big simple lobed leaves. Body
-            language carries the shame: turned away, small, apart (D5)."
+    scene: "The man and the woman FROM BEHIND, turned away from each other, heads down, sitting apart beside a large fig tree with big simple lobed leaves. They wear their usual plain garments — NO leaves worn, NO leaf aprons, nothing held. Shame is carried by body language only: turned away, small, apart."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman sitting apart and turned away from each other under a fig tree."
-    pending: ["D3 (fig leaves vs existing garments)", "D5 (shame)"]
+    ruling: "D3 Option C (shame shown, leaves not worn); D5 Option A (body language only)."
 
   - page: 13
     ref: "Genesis 3:8-10"
@@ -134,35 +122,24 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:9-10"
     teaching: "Why do we sometimes feel afraid? When they sinned, Adam and Eve were so scared that they tried to hide from God’s presence. But God came looking for them."
-    scene: "Eden at dusk ('the cool of the day'): long low sun shown as a plain half-circle on
-            the horizon (no rays, no face), wind lines through the treetops, leaves blowing.
-            The man and the woman partly hidden behind tree trunks and bushes in the middle
-            distance, peeking. NOTHING ELSE in the garden — no figure, no footprints, no hand,
-            no light-shape, no voice-lines from the sky. The presence is shown only by its
-            effect: the couple hiding, the moving trees (DECISION-1)."
+    scene: "Eden in the cool of the day: wind lines through the treetops, leaves blowing. The man and the woman partly hidden behind tree trunks in the middle distance, heads down, turned away. NOTHING ELSE in the garden — no figure, no footprints, no hand, no light-shape, no voice-lines from the sky. The presence is shown only by its effect: the couple hiding, the moving trees (DECISION-1). Mood carried by their posture, not by darkness."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A garden at sunset with wind in the trees and two people hiding behind them."
-    pending: ["D5", "F3 (WEB 3:8 reads 'voice walking')"]
+    ruling: "D5 Option A; DECISION-1; F3 — 3:8 not quoted."
 
   - page: 15
-    ref: "Genesis 3:7-10 applied; Psalm 32:5"
-    title: "We Hide Too"
+    ref: "Genesis 3:10"
+    title: "I Was Afraid"
     text: "It's why we sometimes disobey and fight, even when we know better."
     teaching: "Just like Adam and Eve, when we do wrong things, we want to hide them. But God wants us to confess our sins to Him, not hide them in the dark."
-    scene: "PENDING D6. Baseline if D6 approves family pages: an ordinary indoor moment — a
-            family cast child (named by the D6 ruling) beside a broken household object (a
-            plant pot cracked in two, soil spilled), pushing it behind a sofa or curtain. The
-            dog watches. Small, ordinary wrongdoing; nothing frightening, nothing humiliating,
-            no adult looming. If D6 rules NO: this page becomes first-couple 3:10 ('I was
-            afraid') or the page count is re-planned at Gate 1."
-    figures: "family"
-    character_ref: "kids/_brand/cast-sheet.jpg"
-    outfits: "PENDING D6 — sleeveless top / knee hems only (character-bible v2.0 tested vocabulary)"
+    scene: "First-couple page (3:10, 'I was afraid'): the man FROM BEHIND at mid-distance, crouched low behind a bush, small in the frame; the woman behind a tree nearby. Trees and wind lines as p13. No figure, nothing in the sky."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
-    alt: "A child hiding a broken plant pot behind the sofa while the dog watches."
-    pending: ["D6", "D5"]
+    alt: "A man and a woman hiding behind a bush and a tree."
+    ruling: "D6 Option B — p15 is a first-couple page; D5 Option A."
 
   - page: 17
     ref: "Genesis 3:11-13"
@@ -171,33 +148,26 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:12-13"   # 2026-10-01 ruling: complete WEB 3:13 (no omission)
     teaching: "Instead of admitting they were wrong, the man blamed the woman, and the woman blamed the serpent. Sin makes it so easy to point fingers at everyone else."
-    scene: "The chain of blame, at distance, from behind/three-quarter behind: the man's single
-            pointing arm toward the woman; the woman's single pointing arm toward the serpent on
-            the ground; the serpent turned away. One pointing gesture each (bible v2.2: allowed
-            when the story needs it). Dusk light as p13. No figure they are speaking to —
-            they face an empty space among the trees (DECISION-1)."
+    scene: "The chain of blame, at distance, from behind/three-quarter behind: the man's single pointing arm toward the woman; the woman's single pointing arm toward the plain serpent on the ground (as p5); the serpent turned away. One pointing gesture each (bible v2.2). Trees and wind lines as p13. They face an empty space among the trees — no figure (DECISION-1)."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man pointing at a woman, and the woman pointing at a serpent."
-    pending: ["D1", "D6 (how blame is drawn)"]
+    ruling: "D1 Option A; D6."
 
   - page: 19
-    ref: "Genesis 3:12-13 applied; 1 John 1:9"
+    ref: "Genesis 3:12-13 applied"
     title: "We Blame Too"
     text: "Why do people fight? Do you fight sometimes? All the time?"
     teaching: "We point fingers and blame our friends and family too. But if we confess what we did wrong, God is faithful to forgive us."
-    scene: "PENDING D6. Baseline if D6 approves: the SAME scene and outfits as p15 (one scene
-            across p15 -> p19, character-bible v2.0) — a parent crouches at the child's height
-            beside the broken pot, calm and open-armed; the child points toward the dog (or a
-            sibling, per ruling). The dog looks puzzled. The parent's posture is patient, not
-            angry. No tears drawn large, no shouting lines."
+    scene: "The family application (D6 Option B): indoors, a plant pot lying cracked in two with soil spilled on the floor. Son (4) stands beside it, one straight single-line arm pointing at the family dog; the dog sits looking puzzled. No adult on the page, nobody shouting, no tears, no punishment, no resolution shown. Small, ordinary wrongdoing; nothing frightening or humiliating."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
-    outfits: "PENDING D6 — identical to p15"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
     density: sparse
-    alt: "A parent kneeling calmly by a broken pot while a child points at the dog."
-    pending: ["D6"]
+    alt: "A little boy beside a broken plant pot, pointing at the puzzled dog."
+    ruling: "D6 Option B — Son (4), blame directed at the dog, resolution left open; F19."
 
   # ── WHAT BROKE ───────────────────────────────────────────────────────────────────
 
@@ -208,49 +178,42 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:14"
     teaching: "Because God is perfectly good, He had to judge their sin. He started with the serpent who told the lie."
-    scene: "The serpent alone, on the ground among dust and small stones, moving away across bare
-            earth at the garden's edge. No people on this page. NOTHING from 3:15: no woman, no
-            heel, no foot, no child, no crushed head, no seed, no light, no path."
+    scene: "The plain serpent (as p5) alone, on the ground among small stones, moving away across bare earth at the garden's edge. No people on this page. NOTHING from 3:15: no woman, no heel, no foot, no child, no crushed head, no seed, no light, no path."
     figures: []
     density: sparse
     alt: "A serpent crawling away across dusty ground."
-    pending: ["D1", "F11 (3:15 boundary)"]
+    ruling: "D1 Option A; F11."
 
   - page: 23
     ref: "Genesis 3:17-19 (and 3:16)"
     title: "Thorns and Hard Work"
     text: "Now there’s sadness, pain, and fear. Broken hearts and lots of tears."
     teaching: "Because the ground was cursed, work became hard. It's why the world has sickness, and sadness, and things that just are not the way they're supposed to be."
-    scene: "PENDING D7. Baseline: outside the garden, hard ground. The man FROM BEHIND at
-            mid-distance working stony ground with a simple digging stick, thistle and thorn
-            plants around the edge of his plot, the sun high. The woman per D7 ruling."
+    scene: "Outside the garden, hard ground. The man and the woman FROM BEHIND at mid-distance working the ground together with simple digging sticks; thistle and thorn plants all around the edge of their plot; the sun high as a plain circle. NO sweat drops, NO dust clouds. Nothing of 3:16a (no pregnancy, no childbirth)."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A man digging hard, stony ground surrounded by thorny plants."
-    pending: ["D7", "D9", "F4 (3:16b)"]
+    ruling: "D7 — thorns and thistles yes; sweat omitted; dust omitted; 3:16a omitted; woman working alongside. D9 Option A — death in the text only."
 
   - page: 25
     ref: "Romans 8:20-22; Genesis 3:19 (pointer)"
     title: "Not How It's Supposed to Be"
     text: "Fighting, sickness, wrong and right. Nothing’s the same—it’s not how it’s supposed to be."
     teaching: "This might sound like a sad thing to talk about, and it is very sad. But friends, we don't have to be afraid. The whole creation is waiting in hope!"
-    scene: "PENDING D9. Baseline — the song's verse 2 ('sadness, pain and fear... sickness') as
-            ordinary family life, gently: a family cast child in bed with a blanket, a parent
-            sitting beside with a cup; through the window a garden with a wilted flower and a
-            broken fence. Care is the centre of the picture, not the illness."
+    scene: "The song's verse 2 as ordinary family life, gently: a family cast child in bed under a blanket, a parent sitting beside with a cup. Through the window a garden with a broken fence. Care is the centre of the picture, not the illness. NO wilting or dying plants, nothing that stands for death (D9 is text-only on p23)."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits: "PENDING — sleepwear from tested vocabulary (sleeveless pyjama vest/shorts, nightgown)"
     density: sparse
     alt: "A parent caring for a child who is sick in bed."
-    pending: ["D9"]
+    ruling: "D9 Option A — no visual sign of death."
 
   - page: 27
     ref: "Isaiah 53:6a; Romans 3:23; Romans 5:12"
     title: "All of Us"
     text: "Every person, big and small. Me and you—we’re all born wrong. We can’t fix this on our own. We need help to bring us home."
-    teaching: "\"For all have sinned and fall short of the glory of God.\" (Romans 3:23, ESV) Did you notice that word \"all\"? Everyone has turned to their own way."
+    teaching: "“For all have sinned, and fall short of the glory of God.” Did you notice that word “all”? Everyone has turned to their own way."
     scene: "Rolling hills with a flock of sheep scattered and wandering in different directions,
             each turned its own way; one sheep caught in a thorn bush. No shepherd, no staff,
             no person of any kind (a shepherd's staff is guardrails §1 vocabulary for Christ —
@@ -258,7 +221,7 @@ pages:
     figures: []
     density: sparse
     alt: "Sheep wandering off in every direction across the hills."
-    pending: ["F8 (Isa 53:6b)", "F12 ('born wrong')"]
+    ruling: "F8 — Isa 53:6a only; F12 — lyric echo (author)."
 
   # ── NOT THE END ──────────────────────────────────────────────────────────────────
 
@@ -269,30 +232,24 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:21"
     teaching: "Even after He judged them, God’s care continued. Eve was given a beautiful name, and God gave them real garments to wear."
-    scene: "PENDING D3 / D4. Baseline: the man and the woman FROM BEHIND at mid-distance,
-            standing together, wearing new garments that differ visibly from their Book Two
-            garments (per D3/D4 ruling). Morning light as a plain half-circle. No actor, no
-            hands, no animal, no carcass, no needle or tool."
+    scene: "The gift (D4 Option B): two plain garments folded on a flat rock in morning light (the sun as a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND, approaching the rock. The garments differ from their usual plain tunics — heavier, with irregular edges, no fur texture. No actor, no hands, no light-shape, no animal, no carcass, no needle or tool."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
-    alt: "A man and a woman standing together in new clothes."
-    pending: ["D3", "D4", "F5 (WEB 'animal skins')", "F9 (3:20 Eve named)"]
+    alt: "Two folded garments on a rock, with a man and a woman walking toward them."
+    ruling: "D4 Option B; F5 (WEB 'animal skins' printed); F9."
 
   - page: 31
     ref: "Genesis 3:22-24"
     title: "The Guarded Way"
     text: "Listen close—this isn’t the end… God has a plan… God wants to mend…"
     teaching: "Yes, sin is a real problem — but it's not the end of the story. Not even close."
-    scene: "PENDING D8 / D10. Baseline: the couple FROM BEHIND, small, walking together away from
-            the garden toward the east, across open land. Behind them, the garden's edge and
-            its guarded entrance per the D8 ruling. Composition per D10 (how the last
-            illustrated page leans forward)."
+    scene: "The man and the woman FROM BEHIND in the foreground, walking away together toward the east across open land. Far behind them and small, the garden's edge; its entrance is guarded only by implication — at that distance any sword or wing detail is minimal. The tree of life is just visible inside the garden, small and distant. No path drawn, no light on the horizon, no seed."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman walking away from the garden, whose way back is guarded."
-    pending: ["D8", "D10", "F7 (3:22 'like one of us')", "F10 (tree of life)"]
+    ruling: "D8 Option D (distance); D10 Option A; F7; F10."
 
   # ── BACK MATTER ──────────────────────────────────────────────────────────────────
 
