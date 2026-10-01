@@ -1,5 +1,5 @@
 {
-  "total_usd": 19.16,
+  "total_usd": 21.0303,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1166,11 +1166,152 @@
       "label": "cover: front-art-v4-2",
       "usd": 0.1997,
       "book": "made-like-him"
+    },
+    {
+      "ts": "2026-10-01T21:58:10.985Z",
+      "label": "test-serpent attempt-1",
+      "usd": 0.0901,
+      "book": "we-broke-it-all",
+      "test": "serpent"
+    },
+    {
+      "ts": "2026-10-01T21:58:20.885Z",
+      "label": "test-serpent attempt-2",
+      "usd": 0.094,
+      "book": "we-broke-it-all",
+      "test": "serpent"
+    },
+    {
+      "ts": "2026-10-01T21:58:33.424Z",
+      "label": "test-eden-dusk attempt-1",
+      "usd": 0.0938,
+      "book": "we-broke-it-all",
+      "test": "eden-dusk"
+    },
+    {
+      "ts": "2026-10-01T21:58:42.827Z",
+      "label": "test-eden-dusk attempt-2",
+      "usd": 0.0908,
+      "book": "we-broke-it-all",
+      "test": "eden-dusk"
+    },
+    {
+      "ts": "2026-10-01T21:58:55.049Z",
+      "label": "test-garments-gift attempt-1",
+      "usd": 0.0967,
+      "book": "we-broke-it-all",
+      "test": "garments-gift"
+    },
+    {
+      "ts": "2026-10-01T21:59:04.776Z",
+      "label": "test-garments-gift attempt-2",
+      "usd": 0.0991,
+      "book": "we-broke-it-all",
+      "test": "garments-gift"
+    },
+    {
+      "ts": "2026-10-01T21:59:14.202Z",
+      "label": "test-worn-a attempt-1",
+      "usd": 0.0917,
+      "book": "we-broke-it-all",
+      "test": "worn-a"
+    },
+    {
+      "ts": "2026-10-01T21:59:22.794Z",
+      "label": "test-worn-a attempt-2",
+      "usd": 0.0868,
+      "book": "we-broke-it-all",
+      "test": "worn-a"
+    },
+    {
+      "ts": "2026-10-01T21:59:32.570Z",
+      "label": "test-worn-b attempt-1",
+      "usd": 0.0952,
+      "book": "we-broke-it-all",
+      "test": "worn-b"
+    },
+    {
+      "ts": "2026-10-01T21:59:41.031Z",
+      "label": "test-worn-b attempt-2",
+      "usd": 0.0936,
+      "book": "we-broke-it-all",
+      "test": "worn-b"
+    },
+    {
+      "ts": "2026-10-01T21:59:54.240Z",
+      "label": "test-worn-c attempt-1",
+      "usd": 0.0937,
+      "book": "we-broke-it-all",
+      "test": "worn-c"
+    },
+    {
+      "ts": "2026-10-01T22:00:02.890Z",
+      "label": "test-worn-c attempt-2",
+      "usd": 0.0931,
+      "book": "we-broke-it-all",
+      "test": "worn-c"
+    },
+    {
+      "ts": "2026-10-01T22:00:13.430Z",
+      "label": "test-gate-sword attempt-1",
+      "usd": 0.0899,
+      "book": "we-broke-it-all",
+      "test": "gate-sword"
+    },
+    {
+      "ts": "2026-10-01T22:00:21.587Z",
+      "label": "test-gate-sword attempt-2",
+      "usd": 0.0955,
+      "book": "we-broke-it-all",
+      "test": "gate-sword"
+    },
+    {
+      "ts": "2026-10-01T22:00:30.604Z",
+      "label": "test-gate-implied attempt-1",
+      "usd": 0.0881,
+      "book": "we-broke-it-all",
+      "test": "gate-implied"
+    },
+    {
+      "ts": "2026-10-01T22:00:39.040Z",
+      "label": "test-gate-implied attempt-2",
+      "usd": 0.0926,
+      "book": "we-broke-it-all",
+      "test": "gate-implied"
+    },
+    {
+      "ts": "2026-10-01T22:00:50.015Z",
+      "label": "test-family-p19 attempt-1",
+      "usd": 0.0928,
+      "book": "we-broke-it-all",
+      "test": "family-p19"
+    },
+    {
+      "ts": "2026-10-01T22:01:01.245Z",
+      "label": "test-family-p19 attempt-2",
+      "usd": 0.0962,
+      "book": "we-broke-it-all",
+      "test": "family-p19"
+    },
+    {
+      "ts": "2026-10-01T22:01:13.603Z",
+      "label": "test-family-p25 attempt-1",
+      "usd": 0.0983,
+      "book": "we-broke-it-all",
+      "test": "family-p25"
+    },
+    {
+      "ts": "2026-10-01T22:01:21.580Z",
+      "label": "test-family-p25 attempt-2",
+      "usd": 0.0983,
+      "book": "we-broke-it-all",
+      "test": "family-p25"
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
-    "made-like-him": 11.4883
+    "made-like-him": 11.4883,
+    "we-broke-it-all": 1.8703
   }
 }
