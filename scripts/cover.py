@@ -46,6 +46,7 @@ if RELEASE and _probs:
     raise SystemExit(1)
 if RELEASE:
     textunits.refuse_on_my_words(BOOK)    # my-words.md is the source of truth (2026-10-01)
+    import web; web.refuse(BOOK)           # quoted Scripture verbatim WEB (series rule 2026-10-01)
 PAGES = cfg["print"]["page_count"]
 
 # Primary Palette

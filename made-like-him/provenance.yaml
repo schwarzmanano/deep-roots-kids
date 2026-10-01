@@ -104,9 +104,10 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: a76a187713c3
-  source: WEB, quoted verbatim (checked against ebible.org/eng-web)
-  recorded: '2026-09-29'
+  sha: 0887ac5f6e71
+  source: WEB Gen 1:27, quoted verbatim (kids/_brand/web/GEN01.json, ebible.org/eng-web 2026-10-01); straight
+    apostrophe in God's restored to WEB's curly ’ by series rule 2026-10-01
+  recorded: '2026-10-01'
 - id: p7.teaching
   page: p7
   kind: teaching

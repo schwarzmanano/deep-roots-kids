@@ -51,6 +51,7 @@
 Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, but their MY TEXT is empty. Under the 2026-10-01 rule (my-words.md is the source of truth) the release guard needs your wording in MY TEXT for them too.
 
 
+> **2026-10-01 — STATUS LINES.** Each section ends with `**MY TEXT STATUS:**`. The pipeline copied the currently registered text of every human unit into MY TEXT verbatim and marked it `copied: awaiting confirmation`. Change the status to `confirmed` yourself after checking the line, or correct the text and then confirm. The release guard passes a human unit only when the printed text equals MY TEXT AND the status reads exactly `confirmed`. The pipeline never writes `confirmed`.
 
 ---
 
@@ -63,7 +64,9 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 **MY TEXT:**
 
+In the Beginning
 
+**MY TEXT STATUS:** copied: awaiting confirmation
 
 
 ---
@@ -77,7 +80,9 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 **MY TEXT:**
 
+Deep Roots Kids: Creation to Glorification, Book One.
 
+**MY TEXT STATUS:** copied: awaiting confirmation
 
 
 ---
@@ -91,7 +96,9 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 **MY TEXT:**
 
+A Coloring Book of Creation
 
+**MY TEXT STATUS:** copied: awaiting confirmation
 
 
 ---
@@ -106,6 +113,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -120,6 +128,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -138,6 +147,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -156,6 +166,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -174,6 +185,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -192,6 +204,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -207,6 +220,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -225,6 +239,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -243,6 +258,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -258,6 +274,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -270,11 +287,12 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
 - **From your Dad Teaching Script:** no directly relevant passage in this track
 
-- **Text QA (2026-10-01):** the current p11.text and p21.text open with the same five words (REPEATED-OPENING). Both are AI-drafted paraphrases, not WEB quotations. Whatever you write here should not open the same way as the other page — or quote the WEB verse verbatim (public-domain).
+- **FLAG (editor ruling 2026-10-01): AI paraphrase of Scripture: replace with WEB quotation or my teaching line.** (Text QA: p11.text and p21.text open with the same five words.)
 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -293,6 +311,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -308,6 +327,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -326,6 +346,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -341,6 +362,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -356,6 +378,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -371,6 +394,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -389,6 +413,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -404,6 +429,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -422,6 +448,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -434,11 +461,12 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
 - **From your Dad Teaching Script:** no directly relevant passage in this track
 
-- **Text QA (2026-10-01):** the current p11.text and p21.text open with the same five words (REPEATED-OPENING). Both are AI-drafted paraphrases, not WEB quotations. Whatever you write here should not open the same way as the other page — or quote the WEB verse verbatim (public-domain).
+- **FLAG (editor ruling 2026-10-01): AI paraphrase of Scripture: replace with WEB quotation or my teaching line.** (Text QA: p11.text and p21.text open with the same five words.)
 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -457,6 +485,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -472,6 +501,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -487,6 +517,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -505,6 +536,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -520,6 +552,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -535,6 +568,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -553,6 +587,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -571,6 +606,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -586,6 +622,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -601,6 +638,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -622,6 +660,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -636,6 +675,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -650,6 +690,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -664,6 +705,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -678,6 +720,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 
 ---
@@ -691,4 +734,23 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 **MY TEXT:**
 
+
+**MY TEXT STATUS:** awaiting your words
+
+
+---
+
+## Sections added 2026-10-01 (units that had no worksheet section)
+
+---
+
+### `p35.heading` — heading · p35
+
+- **Pointer:** About the Author page label
+
+**MY TEXT:**
+
+About the Author
+
+**MY TEXT STATUS:** copied: awaiting confirmation
 

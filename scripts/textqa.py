@@ -10,6 +10,8 @@ come from the Book Two proof (2026-09-30):
                     teaching line, case- and punctuation-blind. A pair where BOTH units are
                     WEB quotations is a WARN (Scripture can't be changed); anything else FAILs.
   CAPITAL-GODS      "Gods" capitalised. Generic plural gods are lowercase (made-like-him p7).
+  NOT-WEB-VERBATIM  a public-domain quotation differs from the WEB text (web.py; series rule
+                    2026-10-01: quoted Scripture prints exactly as WEB publishes it).
 
 Runs standalone on plan/pages.yaml (no art needed), and at the end of qa.py:
     .venv-kids/bin/python kids/scripts/textqa.py <book-slug>
@@ -43,6 +45,10 @@ def check(book):
             continue
         level = "WARN" if all(u["kind"] == "scripture-quote" for u in group) else "FAIL"
         out.append((level, "REPEATED-OPENING", ", ".join(u["id"] for u in group), f'"{key} ..."'))
+
+    import web
+    for uid, why in web.check(book):
+        out.append(("FAIL", "NOT-WEB-VERBATIM", uid, why.split("\n")[0]))
 
     for u in units(book):
         if u["text"] and re.search(r"\bGods\b", u["text"]):

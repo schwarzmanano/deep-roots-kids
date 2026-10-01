@@ -5,6 +5,8 @@
 > Write under **MY TEXT:**. Since 2026-10-01 this file is the SOURCE OF TRUTH: the release guard
 > requires every human unit in print to match your MY TEXT character for character. Your words are
 > inserted verbatim and registered `author: human`, `draft: false`. Problems are flagged, never rewritten.
+> Each section ends with `**MY TEXT STATUS:**` — set it to `confirmed` yourself once your line is final;
+> the release guard passes a human unit only when print = MY TEXT and the status reads `confirmed`.
 
 **45 units need your words** (46 registered; `p35.body` is the shared About the Author, already yours). Text QA flags any two pages that open with the same five words, and a capitalised generic "Gods". A `text` slot may instead hold a WEB verse quoted verbatim — that unit is then registered public-domain.
 
@@ -20,6 +22,7 @@
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -33,6 +36,7 @@
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -46,6 +50,7 @@
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -61,6 +66,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -74,6 +80,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -87,6 +94,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -114,6 +122,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -135,6 +144,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -157,6 +167,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -177,6 +188,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -196,6 +208,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -210,6 +223,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -240,6 +254,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -258,6 +273,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -276,6 +292,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -290,6 +307,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -314,6 +332,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -334,6 +353,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -352,6 +372,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -370,6 +391,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -390,6 +412,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -404,6 +427,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -422,6 +446,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -440,6 +465,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -458,6 +484,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -472,6 +499,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -496,6 +524,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -514,6 +543,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -540,6 +570,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -558,6 +589,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -587,6 +619,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -608,6 +641,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -627,6 +661,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -641,6 +676,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -675,6 +711,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -695,6 +732,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -708,6 +746,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -730,6 +769,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -744,6 +784,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -757,6 +798,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -770,6 +812,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -787,6 +830,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -800,6 +844,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -813,6 +858,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---
 
@@ -826,5 +872,6 @@ Registered public-domain (a citation, not prose) once you confirm it.
 **MY TEXT:**
 
 
+**MY TEXT STATUS:** awaiting your words
 
 ---

@@ -9,7 +9,8 @@ series_line: null
 album_track: 3            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "3."
 scripture_scope: null     # a citation, registered public-domain once the editor confirms the scope
 age_band: "4-7"
-spend_cap_usd: 12         # editor brief 2026-10-01; ledger keyed to this slug; report at 50% / 80%
+spend_cap_usd: 14         # editor ruling 2026-10-01 (raised from $12); ledger keyed to this slug
+spend_checkpoints_pct: [50, 80]   # stop and report at $7.00 and $11.20 (ledger.mjs); go-ahead per checkpoint
 print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
 
 copyright_page: [null, null]   # two slots, as Books One and Two (notice + WEB attribution) — author-supplied only
@@ -66,6 +67,6 @@ generation:               # BLOCKED until plan/theology-review.md Status reads S
   # Honest estimate (2026-10-01), from Book Two's ledger: $11.49 over ~113 interior attempts
   # (~7.5 per page) + 8 cover images. Book Three: style-lock tests 5 subjects x 3 = 15 ($1.32)
   # + 15 pages x 6 attempts = 90 ($7.90) + cover 2 B&W refs + 4 colour ($1.20) = ~$10.40.
-  # Book Two's actual per-page rate would put it at ~$11.50. The $12 cap is expected to bind.
+  # Book Two's actual per-page rate would put it at ~$11.50: past the 80% stop ($11.20), ~$2.50 under the $14 cap.
   budgeted_attempts_per_page: 6
   budgeted_total_usd: 10.40
