@@ -1,5 +1,5 @@
 {
-  "total_usd": 21.0303,
+  "total_usd": 21.9341,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1306,12 +1306,82 @@
       "usd": 0.0983,
       "book": "we-broke-it-all",
       "test": "family-p25"
+    },
+    {
+      "ts": "2026-10-01T23:18:37.143Z",
+      "label": "test-worn-a2 attempt-1",
+      "usd": 0.0923,
+      "book": "we-broke-it-all",
+      "test": "worn-a2"
+    },
+    {
+      "ts": "2026-10-01T23:18:47.010Z",
+      "label": "test-worn-a2 attempt-2",
+      "usd": 0.0895,
+      "book": "we-broke-it-all",
+      "test": "worn-a2"
+    },
+    {
+      "ts": "2026-10-01T23:18:54.895Z",
+      "label": "test-serpent2 attempt-1",
+      "usd": 0.0859,
+      "book": "we-broke-it-all",
+      "test": "serpent2"
+    },
+    {
+      "ts": "2026-10-01T23:19:05.952Z",
+      "label": "test-serpent2 attempt-2",
+      "usd": 0.0889,
+      "book": "we-broke-it-all",
+      "test": "serpent2"
+    },
+    {
+      "ts": "2026-10-01T23:19:16.733Z",
+      "label": "test-gate-light attempt-1",
+      "usd": 0.0954,
+      "book": "we-broke-it-all",
+      "test": "gate-light"
+    },
+    {
+      "ts": "2026-10-01T23:19:27.066Z",
+      "label": "test-gate-light attempt-2",
+      "usd": 0.0903,
+      "book": "we-broke-it-all",
+      "test": "gate-light"
+    },
+    {
+      "ts": "2026-10-01T23:19:36.248Z",
+      "label": "test-family-p19b attempt-1",
+      "usd": 0.0871,
+      "book": "we-broke-it-all",
+      "test": "family-p19b"
+    },
+    {
+      "ts": "2026-10-01T23:19:44.419Z",
+      "label": "test-family-p19b attempt-2",
+      "usd": 0.0832,
+      "book": "we-broke-it-all",
+      "test": "family-p19b"
+    },
+    {
+      "ts": "2026-10-01T23:20:45.210Z",
+      "label": "test-p31-option-c attempt-1",
+      "usd": 0.0971,
+      "book": "we-broke-it-all",
+      "test": "p31-option-c"
+    },
+    {
+      "ts": "2026-10-01T23:20:52.877Z",
+      "label": "test-p31-option-c attempt-2",
+      "usd": 0.0941,
+      "book": "we-broke-it-all",
+      "test": "p31-option-c"
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
     "made-like-him": 11.4883,
-    "we-broke-it-all": 1.8703
+    "we-broke-it-all": 2.7741
   }
 }

@@ -45,3 +45,31 @@ made-like-him `art/style-lock.png` (REFERENCE A) — weight matches Book Two on 
    the family pages).
 
 STOP — Gate 2. No page generation until the editor rules.
+
+---
+
+## Re-tests to the Gate 2 rulings (2026-10-02)
+
+Run BEFORE the F16/D6 amendment set the review UNSIGNED (generation refuses while unsigned;
+no re-test touches F16/D6). 5 tests × 2 = 10 images, **$0.90**; book total **$2.77 of $14**
+(20%; first stop $7.00). New references: Book Two lock = REFERENCE A (line weight);
+`art/comp-ref-first-couple.jpg` / `art/comp-ref-family.jpg` = REFERENCE D (composition only).
+Contact sheet: `qa/stage2-contact-c.jpg`.
+
+| Test | Ruling | Result |
+|---|---|---|
+| worn-a2 | B1 option A — Book Two p7 garments, uneven hem only | **FAIL — tube limbs persist** (arms and legs two-line on all four figures). Per the ruling, **option C applied**: p31 couple small and distant, garments worn on no other page (p29 shows them laid out). |
+| serpent2 | B2 fruit + B6 no mouth line | PASS — plain round fruit, no stem/leaf, on that tree only; other trees leafy. Serpent: dot eye, no mouth line. |
+| gate-light | B3 sword of light | PASS on the sword (upright, short light-lines, no figure, no wings, no fire outward). a02 holds hands (banned — reject). Figures in option-A garments: tube limbs (as worn-a2). |
+| family-p19b | B6 clay cup | PASS — cup with handle and a clear crack, no vase, no egg. a01 Son frowns (worried face); a02 smiles. Both: single pointing finger (v2.2), border frame (stripped in post). |
+| p31-option-c (extra, $0.19) | B1 option C, p31 scene as planned | **Single-line limbs restored** with the uneven hem, matching Book Two. But the couple is ~⅓ page height, not the planned ≤⅙, and the sword is a plain outline with no light-lines. |
+
+### For the editor at Gate 2
+1. Option C works for limbs; the size target was missed. Accept larger figures, or re-scene p31
+   with a stronger size rule.
+2. Sword of light: gate-light a01 has the light-lines; p31-option-c has none. Which reads right?
+3. p19 face: worried (a01) or smiling (a02)? The page is honest blame, unresolved (D6).
+4. D2 text in theology-review.md still reads "Option D (Same fruit as the trees around it)",
+   which the Gate 2 fruit ruling (plain round fruit on that tree only) replaces — reconcile at
+   re-signature. Same for D8 ("Option D (Distance)" vs the sword of light) and D3/D4 (option C
+   garments).

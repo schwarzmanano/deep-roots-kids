@@ -69,9 +69,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
-Genesis 3:1–14, 16–24 (WEB)
+Genesis 2:16–17; 3:1–14, 16–24
 
-**MY TEXT STATUS:** confirmed
+**MY TEXT STATUS:** changed per ruling 2026-10-02: awaiting confirmation
 
 ---
 
@@ -535,6 +535,18 @@ Yahweh God said to the serpent, “Because you have done this, you are cursed ab
 Because God is perfectly good, He had to judge their sin. He started with the serpent who told the lie.
 
 **MY TEXT STATUS:** confirmed
+
+---
+
+### `p23.scripture` — scripture-quote · p23
+
+- **Scripture:** Gen 3:19b (WEB, verbatim) — added 2026-10-02 by your ruling (D9). Printed above p23's text.
+
+**MY TEXT:**
+
+For you are dust, and you shall return to dust.
+
+**MY TEXT STATUS:** changed per ruling 2026-10-02: awaiting confirmation
 
 ---
 

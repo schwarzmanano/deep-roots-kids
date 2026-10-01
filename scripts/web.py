@@ -12,14 +12,13 @@ Checks never touch the network — a missing chapter is a FAIL that names the fe
     .venv-kids/bin/python kids/scripts/web.py fetch GEN 3        # cache a chapter
     .venv-kids/bin/python kids/scripts/web.py check <book-slug>  # verify public-domain units
 
-A unit passes when its printed text appears VERBATIM inside the WEB text of the verses its
-page cites (`quote_ref:` if the page sets one, else `ref:`). Quoting part of a verse is
-allowed; changing any character inside the quoted span is not — except exactly the two
-conventions of theology-guardrails §8 (ruled 2026-10-01), each allowed once, at the very end:
-  1. one added curly closing quote ” when the WEB speech continues past the quoted verse
-     (the quote ends at a verse end, with a “ still open and no ” in the WEB there);
-  2. a final period standing for the WEB's semicolon or comma, when the quotation ends the
-     page text.
+Covers every Scripture quotation (theology-guardrails §8, amended 2026-10-02): whole
+public-domain units, and “quoted” spans inside any other unit whose words match a reference
+cited on that page (4+ consecutive words in common — otherwise the span is dialogue, a lyric
+or a title, and is skipped). A quotation passes when it appears VERBATIM in the WEB text of
+the cited verses — quoting part of a verse is fine — or differs only by the three §8
+departures: one added curly ” where the WEB speech continues; a capital first letter where
+the quotation begins a sentence; a final period for the WEB's ; or , where it ends a sentence.
 """
 import html, json, os, re, sys, urllib.request
 
@@ -77,67 +76,110 @@ def passages(ref):
     return out
 
 
-def _matches(text, web, verse_ends):
-    """Verbatim, or verbatim under exactly the two §8 conventions (each at most once, at the end)."""
+def _matches(text, web, verse_ends, begins_sentence=True, ends_sentence=True):
+    """Verbatim, or verbatim under exactly the three §8 departures (amended 2026-10-02):
+    1. one added curly ” at the end, where the WEB speech continues past the quoted verse;
+    2. a capital first letter, when the quotation begins a sentence;
+    3. a final period for the WEB's ; or , when the quotation ends a sentence."""
     if text and text in web:
         return True
     core, added_quote = text, False
-    if core.endswith("”"):                                  # convention 1
+    if core.endswith("”"):                                          # departure 1
         core, added_quote = core[:-1], True
-    cands = [core]
-    if core.endswith("."):                                  # convention 2
-        cands += [core[:-1] + ";", core[:-1] + ","]
-    for i, c in enumerate(cands):
-        if not c:
-            continue
-        start = web.find(c)
-        while start != -1:
-            end = start + len(c)                            # index just past the quoted span
+    if not core:
+        return False
+    starts = [core]
+    if begins_sentence and core[0].isupper():                       # departure 2
+        starts.append(core[0].lower() + core[1:])
+    cands = []
+    for c in starts:
+        cands.append((c, False))
+        if ends_sentence and c.endswith("."):                       # departure 3
+            cands += [(c[:-1] + ";", True), (c[:-1] + ",", True)]
+    for c, swapped in cands:
+        i = web.find(c)
+        while i != -1:
+            end = i + len(c)
             ok = True
             if added_quote:
-                after = web[end:end + 1]
-                open_q = c.count("“") > c.count("”")
-                ok = open_q and end in verse_ends and after != "”"
-            if ok and i > 0 and web[end:end + 1] == "”":    # dropped punctuation sat inside a quote
-                ok = added_quote                            # ...only fine if the ” is the added one
+                ok = c.count("“") > c.count("”") and end in verse_ends and web[end:end + 1] != "”"
             if ok:
                 return True
-            start = web.find(c, start + 1)
+            i = web.find(c, i + 1)
     return False
 
 
+def _passages_text(ref):
+    """[(text, verse_ends)] for every cited passage; raises KeyError(code ch) if not cached."""
+    out = []
+    for code, ch, a, b in passages(ref):
+        vs = chapter(code, ch)
+        if vs is None:
+            raise KeyError(f"{code} {ch}")
+        txt = " ".join(vs[v] for v in range(a, b + 1) if v in vs)
+        ends, pos = set(), -1
+        for v in range(a, b + 1):
+            if v in vs:
+                pos += len(vs[v]) + 1
+                ends.add(pos)
+        out.append((txt, ends))
+    return out
+
+
+_QUOTE = re.compile(r"“([^“”]+)”|\"([^\"]+)\"")
+_W = lambda t: re.sub(r"[^\w\s]", " ", t.replace("’", "'").lower()).split()
+
+
+def _scriptural(inner, spans, n=4):
+    """True when the quoted words share a run of n+ consecutive words with the cited WEB text —
+    i.e. the quotation is Scripture from a reference on the page, not dialogue or a lyric."""
+    w = _W(inner)
+    if len(w) < n:
+        return False
+    hay = " " + " ".join(_W(" ".join(t for t, _ in spans))) + " "
+    return any(" " + " ".join(w[i:i + n]) + " " in hay for i in range(len(w) - n + 1))
+
+
 def check(book):
-    """[(unit id, problem)] for every public-domain QUOTATION that is not verbatim WEB."""
+    """[(unit id, problem)] for every Scripture quotation that is not WEB under §8:
+    whole public-domain units, AND quotations inside any other text unit whose words match a
+    reference cited on that page (or, for book/cover units, the book's scripture_scope)."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import textunits, yaml
+    cfg = yaml.safe_load(open(f"{book}/book.yaml"))
     plan = {f"p{p['page']}": p for p in yaml.safe_load(open(f"{book}/plan/pages.yaml"))["pages"]}
     reg, bad = textunits.registry(book), []
     for u in textunits.units(book):
-        if (reg.get(u["id"]) or {}).get("author") != "public-domain" or u["kind"] == "scripture-reference":
+        if not u["text"] or u["kind"] == "scripture-reference":
             continue
         pg = plan.get(u["page"], {})
-        ref = pg.get("quote_ref") or pg.get("ref") or ""
-        spans, missing = [], []
-        for code, ch, a, b in passages(ref):
-            vs = chapter(code, ch)
-            if vs is None:
-                missing.append(f"{code} {ch}")
-                continue
-            txt = " ".join(vs[v] for v in range(a, b + 1) if v in vs)
-            # character offsets where a verse ends inside this passage (for convention 1)
-            ends, pos = set(), -1
-            for v in range(a, b + 1):
-                if v in vs:
-                    pos += len(vs[v]) + 1
-                    ends.add(pos)
-            spans.append((txt, ends))
-        if missing:
-            bad.append((u["id"], f"WEB not cached for {', '.join(missing)} — run: web.py fetch <CODE> <CH>"))
-        elif not spans:
-            bad.append((u["id"], f"no Scripture reference to check against (ref: {ref!r})"))
-        elif not any(_matches(u["text"] or "", s, ends) for s, ends in spans):
-            bad.append((u["id"], f"NOT VERBATIM WEB ({ref})\n        printed: {u['text']!r}\n"
-                                 + "".join(f"        WEB    : {s!r}\n" for s, _ in spans).rstrip()))
+        pd = (reg.get(u["id"]) or {}).get("author") == "public-domain"
+        ref = (pg.get("quote_ref") or pg.get("ref") or "") if pd else \
+              "; ".join(x for x in (pg.get("quote_ref"), pg.get("ref"), cfg.get("scripture_scope")) if x)
+        try:
+            spans = _passages_text(ref)
+        except KeyError as e:
+            bad.append((u["id"], f"WEB not cached for {e.args[0]} — run: web.py fetch <CODE> <CH>"))
+            continue
+        if pd:
+            if not spans:
+                bad.append((u["id"], f"no Scripture reference to check against (ref: {ref!r})"))
+            elif not any(_matches(u["text"], t, e) for t, e in spans):
+                bad.append((u["id"], f"NOT VERBATIM WEB ({ref})\n        printed: {u['text']!r}\n"
+                            + "".join(f"        WEB    : {t!r}\n" for t, _ in spans).rstrip()))
+            continue
+        for m in _QUOTE.finditer(u["text"]):
+            inner = m.group(1) or m.group(2)
+            if not _scriptural(inner, spans):
+                continue                                   # dialogue, lyric or title — not Scripture
+            before, after = u["text"][:m.start()].rstrip(), u["text"][m.end():]
+            begins = before == "" or before[-1] in ".?!:,"
+            ends = after.strip() == "" or after[:1].isspace()
+            straight = m.group(2) is not None
+            if straight or not any(_matches(inner, t, e, begins, ends) for t, e in spans):
+                bad.append((u["id"], f"QUOTED SCRIPTURE NOT WEB ({ref})"
+                            + (" — straight quote marks" if straight else "")
+                            + f"\n        printed: {inner!r}"))
     return bad
 
 

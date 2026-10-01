@@ -1,8 +1,10 @@
 # Style Contract — we-broke-it-all
 
-**DRAFT — Stage 2, 2026-10-01. Not locked until Gate 2.** Line weight is locked to Book Two's
+**DRAFT — Stage 2, amended 2026-10-02 to the Gate 2 rulings. Not locked until Gate 2.** Line weight is locked to Book Two's
 approved reference (`kids/made-like-him/art/style-lock.png`, Gate 2 2026-09-28), sent as
-reference A — line style only. Gate 1 rulings (signed 2026-10-01) and
+reference A — line style only. Composition references (reference D, composition only, Gate 2
+ruling 2026-10-02): `art/comp-ref-first-couple.jpg` (eden-dusk a02) for first-couple pages,
+`art/comp-ref-family.jpg` (family-p25 a02) for family pages. Gate 1 rulings (signed 2026-10-01) and
 `kids/_brand/theology-guardrails.md` §0–§8 are folded in. Every per-page prompt is this block
 plus that page's `scene` from `plan/pages.yaml`, plus one "Human figures" section per value in
 the page's `figures:`.
@@ -43,22 +45,28 @@ Theological — theology-guardrails §0-§3, non-negotiable, WLC 109:
   no shepherd's staff, no nail-marked hands, no halo.
 - Where God acts in the text, depict only the RESULT of the act, never an actor.
 - NO angels, NO wings on any person, NO winged or humanoid figure at any gate.
-- NO light, glow, sparkle or rays coming from any person, tree, fruit or object.
+- NO light, glow, sparkle or rays coming from any person, tree, fruit or object — the ONE
+  exception is the sword of light at the garden entrance on p31 (D8, Gate 2 ruling).
 
 Scope — Book Three (Gate 1 rulings):
 - NOTHING from Genesis 3:15: no heel, no foot near the serpent, no crushed head, no woman with
   a child, no baby, no seed, no light on the horizon, no path leading anywhere (§2, F11).
 - The serpent is a PLAIN SNAKE (D1): smooth simple body, simple head seen in profile, one plain
-  round dot eye. NO fangs, NO forked tongue, NO horns, NO spikes, NO slit pupils, NO eyebrows,
-  NO eyelashes, NO smile, NO big cartoon eyes, NO human features of any kind. Not cute, not scary.
-- Fruit (D2): every tree in a scene bears the SAME small plain round fruit. The tree in the
-  middle is not special: not larger, not glowing, not marked, no different fruit.
+  round dot eye. NO mouth line, NO fangs, NO forked tongue, NO horns, NO spikes, NO slit pupils,
+  NO eyebrows, NO eyelashes, NO smile, NO big cartoon eyes, NO human features. Not cute, not scary.
+- Fruit (Gate 2 ruling): the forbidden tree's fruit is PLAIN ROUND FRUIT — simple circles with
+  NO stem and NO leaf — and appears on THAT TREE ONLY. NO apples (no stem, no dimple, no leaf on
+  any fruit near it). The tree itself is not larger, not glowing, not marked.
 - NO fig leaves worn and NO leaves held (D3).
 - NO sweat drops, NO dust clouds (D7). NO pregnancy, nothing of childbirth.
 - NO death imagery anywhere: no grave, no bones, no dead or hurt animal, no blood, no wilting
   or dying plants, no fallen leaves (D9 — death is in the text only).
 - NO animal near the garments, NO hide being cut or sewn, NO needle, NO tool (D4).
 - NO mirror, NO reflection of a person in water or glass.
+- NO hand-holding, unless the SCENE explicitly calls for it (Gate 2 ruling).
+- NO vases, NO eggs or eggshells (Gate 2 ruling).
+- The guarded entrance (p31): a single upright sword of light — NO figure, NO wings, NO fire or
+  flames burning outward, NO rays spreading from it (D8, Gate 2 ruling).
 
 ## Human figures — first-couple
 
@@ -70,6 +78,9 @@ The first man and woman. genesis-1 DECISION-5 and made-like-him p5-p11, matched 
   shoulder, slighter build. No other markers of any kind.
 - Before the gift of garments (pages before p29): one plain simple sleeveless garment each, hem
   at or above the knee, un-tailored — no collar, no buttons, no wrap, no tie, no pattern.
+- Garments of skin — Gate 2 ruling OPTION C (option A re-test 2026-10-02 still drew tube limbs):
+  worn ONLY on p31, where the couple is small and distant; p29 shows them laid out, not worn. Where
+  worn: made-like-him p7's tunic and dress shapes with only an uneven hem; no fur, no hide texture.
 - Every arm and leg one single thin line; hands and feet plain closed ovals. One pointing
   gesture is allowed where the SCENE names it.
 - Shame and fear shown by BODY LANGUAGE ONLY (D5): turned away, heads lowered, apart, small,

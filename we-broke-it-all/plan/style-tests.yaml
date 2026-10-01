@@ -81,3 +81,41 @@ tests:
     outfits:
       Daughter3: "sleeveless nightgown"
       Father: "sleeveless round-neck top and knee-length shorts"
+
+  # ── Gate 2 re-tests (rulings 2026-10-02) ──
+  - name: worn-a2
+    title: "B1 garments of skin, option A — Book Two p7 garments, uneven hem only"
+    ref: "Genesis 3:21, 23"
+    scene: "The man and the woman FROM BEHIND at mid-distance, walking side by side across open grassland, hands apart. the man in made-like-him p7's plain sleeveless one-shoulder tunic, the woman in made-like-him p7's plain sleeveless knee-length dress, each with ONLY an uneven hem — no fur, no hide texture. Every arm and leg below the garment is ONE single thin line; hands and feet plain closed ovals."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: serpent2
+    title: "B2 fruit (plain round, that tree only) + B6 serpent without mouth line"
+    ref: "Genesis 3:1"
+    scene: "The woman FROM BEHIND at mid-distance near one tree in the middle of a garden. ONLY that tree bears fruit: plain round fruit, simple circles, NO stem, NO leaf. Every other tree is leafy with NO fruit. A plain snake lies along a low branch of the fruit tree, leaning toward her: smooth body, simple head in profile, one plain round dot eye, NO mouth line. Daylight, calm. No other animals."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: gate-light
+    title: "B3 D8 — single upright sword of light at the entrance (couple in option-A garments)"
+    ref: "Genesis 3:24"
+    scene: "The man and the woman FROM BEHIND in the foreground, walking away together toward the east across open land, hands apart. the man in made-like-him p7's plain sleeveless one-shoulder tunic, the woman in made-like-him p7's plain sleeveless knee-length dress, each with ONLY an uneven hem — no fur, no hide texture. Far behind them and SMALL, the edge of the garden: a line of rounded trees with an opening. In the opening stands a single upright sword drawn as a simple outline with a few short straight light-lines close around it — NO figure, NO wings, NO fire or flames burning outward. One small distant tree inside the garden. No path, no light on the horizon."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: family-p19b
+    title: "B6 p19 — clay cup with a handle and a clear crack"
+    ref: "Genesis 3:12-13 applied"
+    scene: "Indoors, a simple living room. A clay cup with a handle lies on the floor with one clear crack across it. Son stands beside it, one straight single-line arm pointing at the family dog; the dog sits looking puzzled. No adult on the page. Nobody shouting, no tears, no punishment. No vases, no eggs."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
+
+  - name: p31-option-c
+    title: "B1 option C — p31 couple small and distant, sword of light (scene exactly as pages.yaml p31)"
+    ref: "Genesis 3:22-24"
+    scene: "A wide, open landscape at morning. The man and the woman FROM BEHIND, SMALL and DISTANT in the middle of the page — no more than a sixth of the page height — walking away together toward the east, hands apart. At that size they wear the garments of skin as simple shapes with an uneven hem; no limb detail beyond single lines. Further back and smaller still, the garden's edge: a line of rounded trees with an opening, and in it a single upright sword of light — no figure, no wings, no fire burning outward. The tree of life just visible inside the garden, small and distant. Large open ground in the foreground. No path, no light on the horizon, no seed."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"

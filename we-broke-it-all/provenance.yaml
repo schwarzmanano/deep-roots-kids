@@ -37,9 +37,9 @@ text_units:
   kind: scripture-reference
   author: public-domain
   draft: false
-  sha: a88340c7d1fc
-  source: factual Scripture citation (author-supplied 2026-10-01), not prose
-  recorded: '2026-10-01'
+  sha: f828916363b9
+  source: factual Scripture citation, editor ruling 2026-10-02 (F1), not prose
+  recorded: '2026-10-02'
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
@@ -216,6 +216,15 @@ text_units:
   sha: 199353d51c0d
   source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
+- id: p23.scripture
+  page: p23
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 2ae7174ef201
+  source: WEB Gen 3:19b quoted verbatim (D9, editor ruling 2026-10-02); the speech's closing ” omitted,
+    nothing added
+  recorded: '2026-10-02'
 - id: p23.text
   page: p23
   kind: page-text

@@ -195,6 +195,22 @@ if (charRel) {
   console.log(`  character ref: ${charRel} sent as reference B`);
 }
 
+// Optional composition reference per figure treatment (book.yaml generation.composition_refs,
+// keyed by the page's first `figures:` value). Composition and figure scale only — never content.
+const compKey = [page.figures ?? []].flat()[0];
+const compRel = compKey && book.generation?.composition_refs?.[compKey];
+if (compRel) {
+  const compPath = path.join(bookDir, compRel);
+  if (!fs.existsSync(compPath)) { console.error(`  composition ref not found: ${compRel}`); process.exit(2); }
+  refParts.push({ inlineData: { mimeType: 'image/jpeg', data: fs.readFileSync(compPath).toString('base64') } });
+  refParts.push({ text: 'REFERENCE D (COMPOSITION ONLY): an approved page from this book. Follow ' +
+    'its composition: how large the figures are in the frame, how they are placed, how much ' +
+    'open space surrounds them, and how simply they are built. Do NOT copy its scene, its ' +
+    'objects, its trees, its furniture or its poses — the scene is described in the SCENE ' +
+    'section below. Line weight comes from REFERENCE A, not from this image.' });
+  console.log(`  composition ref: ${compRel} sent as reference D`);
+}
+
 // Continue numbering past existing attempts — never overwrite prior work.
 const existing = fs.existsSync(outDir)
   ? fs.readdirSync(outDir).map(f => Number(f.match(/^attempt-(\d+)\./)?.[1] ?? 0))

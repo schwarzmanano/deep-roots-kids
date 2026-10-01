@@ -118,15 +118,18 @@ pronouns for God, and the WEB's own quote marks and apostrophes. The author's ow
 capitalise divine pronouns; this rule governs quotation only. No on-page translation tags
 (e.g. "(WEB)") in this series; the copyright page names the WEB.
 
-Exactly two departures from the WEB text are permitted, and nothing more:
+Exactly three departures from the WEB text are permitted, and nothing more:
 
 1. A quotation may end with **one added curly closing quote mark** (”) when the WEB speech
    continues past the quoted verse.
-2. A quotation may **drop the WEB's final semicolon or comma when it ends the page text**,
-   ending instead with a period.
+2. A quotation may **capitalise its first letter when it begins a sentence**.
+3. A quotation may **end with a period wherever it ends a sentence**, in place of the WEB's
+   final semicolon or comma. _(Amended 2026-10-02: replaces the earlier page-end-only rule.)_
 
-No other change to Scripture wording or punctuation. Enforced by `scripts/web.py` (text QA
-and every release guard).
+No other change to Scripture wording or punctuation. The rule covers EVERY quotation of
+Scripture in the book — whole Scripture units and quotations inside the author's own prose
+(teaching lines, closing page, back cover). Enforced by `scripts/web.py` (text QA and every
+release guard).
 
 ## Amendments
 
@@ -139,3 +142,5 @@ and every release guard).
   per authorship-policy §6/§8 the author writes the line (editor ruling, same date).
 - 2026-10-01 — §8 added: WEB fidelity and the two permitted quotation conventions; no
   on-page translation tags (editor ruling, Book Three text review).
+- 2026-10-02 — §8 amended: sentence-initial capital and sentence-end period permitted (replacing
+  the page-end-only rule); the rule covers quotations inside the author's prose too (editor ruling).

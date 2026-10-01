@@ -62,6 +62,8 @@ def units(book):
             continue
         if pg.get("generate") is False or pg.get("placeholder"):
             continue
+        if "scripture" in pg:      # optional Scripture line printed ABOVE the page text (we-broke-it-all p23)
+            add(f"p{n}.scripture", f"p{n}", "scripture-quote", pg["scripture"])
         add(f"p{n}.text", f"p{n}", "scripture-quote" if pg.get("quote") else "page-text", pg.get("text"))
         if "teaching" in pg:          # a null teaching line is a registered, empty slot
             add(f"p{n}.teaching", f"p{n}", "teaching", " ".join(pg["teaching"].split()) if pg["teaching"] is not None else None)
@@ -158,7 +160,15 @@ def check_my_words(book):
     reg, mw, bad = registry(book), my_words(book), []
     for u in units(book):
         r = reg.get(u["id"])
-        if not r or r.get("author") != "human":
+        if not r:
+            continue
+        if r.get("author") != "human":
+            # Scripture/citation units are held too when the author keeps them in the worksheet
+            # (we-broke-it-all): text must match and the status must read confirmed.
+            if u["id"] in mw:
+                mine, status = mw[u["id"]]
+                if mine != (u["text"] or "") or status != CONFIRMED:
+                    bad.append((u["id"], u["page"], u["text"] or "", mine, status))
             continue
         if u["id"] in body_file_pages:
             f = next(p["body_file"] for p in plan["pages"] if f"p{p['page']}.body" == u["id"])

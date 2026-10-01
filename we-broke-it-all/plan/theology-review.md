@@ -3,7 +3,7 @@
 **Book:** we-broke-it-all — Book Three, album Track 3 ("We Broke It All")
 **Scope:** Genesis 3:1-14, 16-24 (WEB). Gen 3:15 is excluded; it is Book Four's anchor.
 **Reviewer:** Schwarz Martin Manano
-**Status:** SIGNED — Rulings applied.
+**Status:** UNSIGNED — F16 and D6 amended 2026-10-02 by the editor's instruction; awaiting re-signature
 
 This gate is not automated and never will be. It is reviewed personally.
 `scripts/kids/generate.mjs` refuses to run while Status is unsigned, and
@@ -59,7 +59,7 @@ were checked on the same site.
 **Ruling:** Option A (Body language only).
 
 ### D6 — Blame as a family-cast application (p15, p19)
-**Ruling:** Option B (One family page — blame only). Page 15 is a first-couple page, Page 19 is the family application. Use Son (4) and have the blame directed at the dog. Resolution is left open/unresolved (honest).
+**Ruling:** Option B (One family page — blame only). Page 15 is a first-couple page, Page 19 is the family application. Use Son (4) and have the blame directed at the dog. No confession or forgiveness scene is depicted before Book Seven, and p19's picture stays unresolved. Teaching lines may point the reader to God's forgiveness. _(amended 2026-10-02)_
 
 ### D7 — The curse (3:16-19; p23)
 **Ruling:** Thorns and thistles shown on p23. Omit sweat. Omit dust. Omit 3:16a. The woman is shown working alongside the man.
@@ -92,7 +92,7 @@ were checked on the same site.
 - **F13 — Teaching script ¶50:** Confirmed, approved for use.
 - **F14 — Book Two's book-level style negatives:** Acknowledged.
 - **F15 — "Subtle" vs "crafty":** Keep WEB's "subtle".
-- **F16 — Confession and forgiveness:** Leave out for now; waits for Book Seven.
+- **F16 — Confession and forgiveness:** No confession or forgiveness scene is depicted before Book Seven, and p19's picture stays unresolved. Teaching lines may point the reader to God's forgiveness. _(amended 2026-10-02)_
 - **F17 — Printing "naked":** Print as is (matches WEB translation).
 - **F18 — Naming Satan:** Do NOT name Satan.
 - **F19 — Who does the wrong:** Acknowledged, rotated to Son (4).
@@ -123,4 +123,5 @@ These boxes are ticked at signing, against the plan as ruled.
 
     Signed: Schwarz Martin Manano
     Date: 2026-10-01
+    Amended: 2026-10-02 — F16 and D6 reworded by the editor's instruction; Status set UNSIGNED until re-signed.
     Notes: Confirmations and rulings applied. Book Two p9 line and About the Author confirmation are also structurally approved. Gate 1 is passed.

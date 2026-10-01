@@ -260,7 +260,11 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
     elif pno in pages and not pages[pno].get('placeholder'):
         pg = pages[pno]
         # Caption lines, top-to-bottom, then stacked upward from a hard floor.
-        rows = [(ln, "Lora", 13, 16) for ln in wrap(c, pg["text"], "Lora", 13, cw)]
+        rows = []
+        if pg.get("scripture"):                 # optional Scripture line above the page text
+            rows += [(ln, "Lora", 13, 16) for ln in wrap(c, pg["scripture"], "Lora", 13, cw)]
+            rows.append(("", "Lora", 13, 6))
+        rows += [(ln, "Lora", 13, 16) for ln in wrap(c, pg["text"], "Lora", 13, cw)]
         if pg.get("teaching"):
             rows.append(("", "Lora", 13, 5))
             rows += [(ln, "LoraIt", 9, 11)

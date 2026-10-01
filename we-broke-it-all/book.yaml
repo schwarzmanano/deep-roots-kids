@@ -7,7 +7,7 @@ subtitle: "A Deep Roots Kids Coloring Book"   # author-supplied 2026-10-01, verb
 author: "Deep Roots"      # KDP/Lulu author field (editor ruling 2026-10-01). Not printed on the cover.
 series_line: "Deep Roots Kids · Creation to Glorification · Book Three"   # author-supplied 2026-10-01, verbatim
 album_track: 3            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "3."
-scripture_scope: "Genesis 3:1–14, 16–24 (WEB)"   # author-supplied 2026-10-01, verbatim
+scripture_scope: "Genesis 2:16–17; 3:1–14, 16–24"   # editor ruling 2026-10-02 (F1: 2:16-17 in scope)
 age_band: "4-7"
 spend_cap_usd: 14         # editor ruling 2026-10-01 (raised from $12); ledger keyed to this slug
 spend_checkpoints_pct: [50, 80]   # stop and report at $7.00 and $11.20 (ledger.mjs); go-ahead per checkpoint
@@ -64,6 +64,9 @@ generation:               # BLOCKED until plan/theology-review.md Status reads S
   style_lock: ../made-like-him/art/style-lock.png   # Stage 2: Book Two Gate 2 lock sent as REFERENCE A (line weight only). Book Three lock chosen at Gate 2
   line_weight_reference: kids/made-like-him/art/style-lock.png
   character_ref: kids/_brand/cast-sheet.jpg
+  composition_refs:       # Gate 2 ruling 2026-10-02: COMPOSITION references only (REFERENCE D); line weight stays Book Two's lock
+    first-couple: art/comp-ref-first-couple.jpg   # = gen/test-eden-dusk/attempt-02.jpg
+    family: art/comp-ref-family.jpg               # = gen/test-family-p25/attempt-02.jpg
   first_couple_ref: kids/_brand/p25-figures-ref.jpg   # + made-like-him art/p7.png, p11.png (construction match)
   model: gemini-3.1-flash-image
   resolution: "1k"

@@ -52,12 +52,12 @@ pages:
     title: "One Good Rule"
     text: "God made a world that was good and bright. We were made to trust Him, walk in His light."
     teaching: "God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust."
-    scene: "The garden in full brightness, wide: rounded trees bearing fruit, the river, animals at rest, the man and the woman FROM BEHIND at mid-distance tending plants together (made-like-him p11 construction). In the middle distance, among the other trees and looking like them, stand two trees: the tree of knowledge carries the SAME fruit as its neighbours (D2); the tree of life is far off and small (F10). Neither glows, neither is haloed, neither is larger than the rest. No serpent. No fruit taken."
+    scene: "The garden in full brightness, wide: rounded leafy trees, the river, animals at rest, the man and the woman FROM BEHIND at mid-distance tending plants together (made-like-him p11 construction). In the middle distance, among the other trees and looking like them, stand two trees: the tree of knowledge carries plain round fruit (no stem, no leaf) found on no other tree; the tree of life is far off and small (F10). Neither glows, neither is haloed, neither is larger than the rest. No serpent. No fruit taken."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A bright garden where a man and a woman tend plants among many trees."
-    ruling: "D2 Option D; F1 IN (2:16-17, references and pictures only); F10 tree of life drawn, kept distant."
+    ruling: "D2 Option D; F1 IN (2:16-17, references and pictures only); F10 tree of life drawn, kept distant.; Gate 2: fruit ruling 2026-10-02"
 
   - page: 5
     ref: "Genesis 3:1"
@@ -66,12 +66,12 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:1"
     teaching: "A long time ago, the first people God made — Adam and Eve — had a choice. God’s special covenant name is used here: Yahweh."
-    scene: "The woman FROM BEHIND at mid-distance near the tree in the middle of the garden, which carries the same fruit as the trees around it. The serpent — a plain flat-vector snake: smooth body, simple head in profile, one plain round eye, no fangs, no tongue — on a low branch, leaning toward her; its closeness is what reads as 'subtle'. Daylight, calm. No other animals. No looming, no shadow over her."
+    scene: "The woman FROM BEHIND at mid-distance near the tree in the middle of the garden, — The forbidden tree's fruit is plain round fruit — simple circles, no stem, no leaf — on that tree only; the other trees are leafy with no fruit (Gate 2 ruling). The serpent — a plain flat-vector snake: smooth body, simple head in profile, one plain round eye, no fangs, no tongue — on a low branch, leaning toward her; its closeness is what reads as 'subtle'. Daylight, calm. No other animals. No looming, no shadow over her."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A woman in a garden, and a serpent on a tree speaking to her."
-    ruling: "D1 Option A (plain snake, plain eye; posture carries 'subtle'); D2 Option D."
+    ruling: "D1 Option A (plain snake, plain eye; posture carries 'subtle'); D2 Option D.; Gate 2: fruit + no mouth line"
 
   - page: 7
     ref: "Genesis 3:4-5"
@@ -80,7 +80,7 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:4-5"
     teaching: "The serpent lied. He told them they could be like God if they disobeyed, even though God had already made them to be like Him!"
-    scene: "Closer than p5 but still from behind the woman: she looks up at the fruit; the plain serpent (as p5) coils on a low branch between her and the fruit. The man stands a little way off, also from behind (3:6 'her husband with her'). No hand on the fruit yet. The fruit matches the neighbouring trees."
+    scene: "Closer than p5 but still from behind the woman: she looks up at the fruit; the plain serpent (as p5) coils on a low branch between her and the fruit. The man stands a little way off, also from behind (3:6 'her husband with her'). No hand on the fruit yet. The forbidden tree's fruit is plain round fruit — simple circles, no stem, no leaf — on that tree only; the other trees are leafy with no fruit (Gate 2 ruling)."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
@@ -92,7 +92,7 @@ pages:
     title: "We Said No"
     text: "But we said “No,” we chose our own way. We turned from God—we didn’t obey."
     teaching: "They said, \"No, we'll do it our own way instead.\" They turned away from God. They wanted to lead, they wanted control, but sin broke our world—and it hurt our souls."
-    scene: "The moment of taking, at distance and from behind: the woman's single-line arm reaches to a low branch; the man stands beside her. The fruit is small in the frame and matches the other trees. No bite, no mouth, no faces. NO serpent on this page."
+    scene: "The moment of taking, at distance and from behind: the woman's single-line arm reaches to a low branch; the man stands beside her. The fruit is small in the frame: plain round, no stem, no leaf, on that tree only. No bite, no mouth, no faces. NO serpent on this page."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
@@ -160,14 +160,14 @@ pages:
     title: "We Blame Too"
     text: "Why do people fight? Do you fight sometimes? All the time?"
     teaching: "We point fingers and blame our friends and family too. But if we confess what we did wrong, God is faithful to forgive us."
-    scene: "The family application (D6 Option B): indoors, a plant pot lying cracked in two with soil spilled on the floor. Son (4) stands beside it, one straight single-line arm pointing at the family dog; the dog sits looking puzzled. No adult on the page, nobody shouting, no tears, no punishment, no resolution shown. Small, ordinary wrongdoing; nothing frightening or humiliating."
+    scene: "The family application (D6 Option B): indoors, a clay cup with a handle lying on the floor with one clear crack across it. Son (4) stands beside it, one straight single-line arm pointing at the family dog; the dog sits looking puzzled. No adult on the page, nobody shouting, no tears, no punishment, no resolution shown. Small, ordinary wrongdoing; nothing frightening or humiliating."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
       Son: "sleeveless t-shirt and shorts"
     density: sparse
-    alt: "A little boy beside a broken plant pot, pointing at the puzzled dog."
-    ruling: "D6 Option B — Son (4), blame directed at the dog, resolution left open; F19."
+    alt: "A little boy beside a cracked cup, pointing at the puzzled dog."
+    ruling: "D6 Option B — Son (4), blame directed at the dog, resolution left open; F19.; Gate 2: clay cup"
 
   # ── WHAT BROKE ───────────────────────────────────────────────────────────────────
 
@@ -187,6 +187,8 @@ pages:
   - page: 23
     ref: "Genesis 3:17-19 (and 3:16)"
     title: "Thorns and Hard Work"
+    scripture: "For you are dust, and you shall return to dust."   # WEB Gen 3:19b verbatim (closing ” of the 3:17-19 speech omitted, nothing added) — editor ruling 2026-10-02, D9
+    quote_ref: "Genesis 3:19"
     text: "Now there’s sadness, pain, and fear. Broken hearts and lots of tears."
     teaching: "Because the ground was cursed, work became hard. It's why the world has sickness, and sadness, and things that just are not the way they're supposed to be."
     scene: "Outside the garden, hard ground. The man and the woman FROM BEHIND at mid-distance working the ground together with simple digging sticks; thistle and thorn plants all around the edge of their plot; the sun high as a plain circle. NO sweat drops, NO dust clouds. Nothing of 3:16a (no pregnancy, no childbirth)."
@@ -232,24 +234,24 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:21"
     teaching: "Even after He judged them, God’s care continued. Eve was given a beautiful name, and God gave them real garments to wear."
-    scene: "The gift (D4 Option B): two plain garments folded on a flat rock in morning light (the sun as a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND, approaching the rock. The garments differ from their usual plain tunics — heavier, with irregular edges, no fur texture. No actor, no hands, no light-shape, no animal, no carcass, no needle or tool."
+    scene: "The gift (D4 Option B): two plain garments folded on a flat rock in morning light (the sun as a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND, approaching the rock. The garments are Book Two's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. No actor, no hands, no light-shape, no animal, no carcass, no needle or tool."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "Two folded garments on a rock, with a man and a woman walking toward them."
-    ruling: "D4 Option B; F5 (WEB 'animal skins' printed); F9."
+    ruling: "D4 Option B; F5 (WEB 'animal skins' printed); F9.; Gate 2: garments option A"
 
   - page: 31
     ref: "Genesis 3:22-24"
     title: "The Guarded Way"
     text: "Listen close—this isn’t the end… God has a plan… God wants to mend…"
     teaching: "Yes, sin is a real problem — but it's not the end of the story. Not even close."
-    scene: "The man and the woman FROM BEHIND in the foreground, walking away together toward the east across open land. Far behind them and small, the garden's edge; its entrance is guarded only by implication — at that distance any sword or wing detail is minimal. The tree of life is just visible inside the garden, small and distant. No path drawn, no light on the horizon, no seed."
+    scene: "A wide, open landscape at morning. The man and the woman FROM BEHIND, SMALL and DISTANT in the middle of the page — no more than a sixth of the page height — walking away together toward the east, hands apart. At that size they wear the garments of skin as simple shapes with an uneven hem; no limb detail beyond single lines. Further back and smaller still, the garden's edge: a line of rounded trees with an opening, and in it a single upright sword of light — no figure, no wings, no fire burning outward. The tree of life just visible inside the garden, small and distant. Large open ground in the foreground. No path, no light on the horizon, no seed."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman walking away from the garden, whose way back is guarded."
-    ruling: "D8 Option D (distance); D10 Option A; F7; F10."
+    ruling: "D8 Option D (distance); D10 Option A; F7; F10.; Gate 2: sword of light; garments OPTION C (option A re-test kept tube limbs, 2026-10-02) — couple small and distant, garments worn on no other page"
 
   # ── BACK MATTER ──────────────────────────────────────────────────────────────────
 
