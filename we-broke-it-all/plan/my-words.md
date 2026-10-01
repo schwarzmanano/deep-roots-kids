@@ -21,8 +21,9 @@
 
 **MY TEXT:**
 
+We Broke It All
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -35,8 +36,9 @@
 
 **MY TEXT:**
 
+A Deep Roots Kids Coloring Book — Lesson 3
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -49,8 +51,9 @@
 
 **MY TEXT:**
 
+Deep Roots Kids · Creation to Glorification · Book Three
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -65,8 +68,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Genesis 3:1–14, 16–24 (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -79,8 +83,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+© 2026 Deep Roots Kids. All rights reserved.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -93,8 +98,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Scripture quotations are from the World English Bible (WEB), which is in the public domain.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -121,8 +127,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+God made a world that was good and bright. We were made to trust Him, walk in His light.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -143,8 +150,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -166,8 +174,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Now the serpent was more subtle than any animal of the field which Yahweh God had made. He said to the woman, “Has God really said, ‘You shall not eat of any tree of the garden’?” (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -187,8 +196,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+A long time ago, the first people God made — Adam and Eve — had a choice. God’s special covenant name is used here: Yahweh.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -207,8 +217,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+The serpent said to the woman, “You won’t really die, for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.” (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -222,8 +233,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+The serpent lied. He told them they could be like God if they disobeyed, even though God had already made them to be like Him!
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -253,8 +265,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+But we said “No,” we chose our own way. We turned from God—we didn’t obey.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -272,8 +285,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+They said, "No, we'll do it our own way instead." They turned away from God. They wanted to lead, they wanted control, but sin broke our world—and it hurt our souls.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -291,8 +305,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves. (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -306,8 +321,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+For the very first time, they felt shame. They tried to fix it and hide what they had done by making their own coverings.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -331,8 +347,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Yahweh God called to the man, and said to him, “Where are you?” The man said, “I heard your voice in the garden, and I was afraid, because I was naked; so I hid myself.” (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -352,8 +369,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Why do we sometimes feel afraid? When they sinned, Adam and Eve were so scared that they tried to hide from God’s presence. But God came looking for them.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -371,8 +389,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+It's why we sometimes disobey and fight, even when we know better.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -390,8 +409,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Just like Adam and Eve, when we do wrong things, we want to hide them. But God wants us to confess our sins to Him, not hide them in the dark.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -411,8 +431,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+The man said, “The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.” The woman said, “The serpent deceived me, and I ate.” (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -426,8 +447,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Instead of admitting they were wrong, the man blamed the woman, and the woman blamed the serpent. Sin makes it so easy to point fingers at everyone else.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -445,8 +467,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Why do people fight? Do you fight sometimes? All the time?
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -464,8 +487,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+We point fingers and blame our friends and family too. But if we confess what we did wrong, God is faithful to forgive us.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -483,8 +507,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life." (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -498,8 +523,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Because God is perfectly good, He had to judge their sin. He started with the serpent who told the lie.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -523,8 +549,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Now there’s sadness, pain, and fear. Broken hearts and lots of tears.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -542,8 +569,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Because the ground was cursed, work became hard. It's why the world has sickness, and sadness, and things that just are not the way they're supposed to be.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -569,8 +597,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Fighting, sickness, wrong and right. Nothing’s the same—it’s not how it’s supposed to be.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -588,8 +617,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+This might sound like a sad thing to talk about, and it is very sad. But friends, we don't have to be afraid. The whole creation is waiting in hope!
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -618,8 +648,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Every person, big and small. Me and you—we’re all born wrong. We can’t fix this on our own. We need help to bring us home.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -640,8 +671,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+"For all have sinned and fall short of the glory of God." (Romans 3:23, ESV) Did you notice that word "all"? Everyone has turned to their own way.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -660,8 +692,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Yahweh God made garments of animal skins for Adam and for his wife, and clothed them. (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -675,8 +708,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Even after He judged them, God’s care continued. Eve was given a beautiful name, and God gave them real garments to wear.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -710,8 +744,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Listen close—this isn’t the end… God has a plan… God wants to mend…
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -731,8 +766,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Yes, sin is a real problem — but it's not the end of the story. Not even close.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -745,8 +781,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+He Had a Plan
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -768,8 +805,13 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+We broke it all. In Adam, we all chose our own way, we broke the good and bright world God made. We broke our relationship with God. We are lost and live in sadness, pain, and fear. It is a very sad truth.
 
-**MY TEXT STATUS:** awaiting your words
+But here's what I want you to hold onto today: God saw what happened, and God didn't just walk away and leave us in our mess. He had to send Adam and Eve out of the garden because He is perfectly just, but He still loved them as their compassionate Creator and didn't stop caring.
+
+He already had a plan to fix what we broke. We couldn't fix this on our own, but God wanted to mend it. Even on the darkest day, there's good news coming…
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -783,8 +825,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Note to parents: To help our youngest readers focus on the story, Adam and Eve are drawn wearing simple garments as a visual convention throughout the series, even before Genesis 3:7 and 3:21.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -797,8 +840,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+About the Author
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -811,8 +855,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Deep Roots Kids · Book 3
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -829,8 +874,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+In "We Broke It All," young readers ages 4 to 7 trace the story of the Fall from Genesis 3. Through 15 coloring pages, children learn the honest truth about sin and its consequences. But they also discover the most important truth of all: God didn't leave us in our mess, and He already had a plan to fix what we broke.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -843,8 +889,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+15 pages to colour
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -857,8 +904,9 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Honest, hopeful teaching for ages 4–7
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -871,7 +919,8 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 **MY TEXT:**
 
+Scripture from the World English Bible (WEB)
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
 ---

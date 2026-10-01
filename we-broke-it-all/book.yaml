@@ -2,25 +2,30 @@
 # Stage 1 (2026-10-01). Every reader-facing text slot is EMPTY (null) until the author supplies
 # it in plan/my-words.md (authorship-policy §1.1, §1.4). Nothing here is wording for print.
 slug: we-broke-it-all
-title: null               # album Track 3 is "We Broke It All" — the title is the author's to confirm
-subtitle: null
+title: "We Broke It All"   # author-supplied 2026-10-01, verbatim
+subtitle: "A Deep Roots Kids Coloring Book — Lesson 3"   # author-supplied 2026-10-01, verbatim
 author: "Deep Roots"      # KDP/Lulu author field (editor ruling 2026-10-01). Not printed on the cover.
-series_line: null
+series_line: "Deep Roots Kids · Creation to Glorification · Book Three"   # author-supplied 2026-10-01, verbatim
 album_track: 3            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "3."
-scripture_scope: null     # a citation, registered public-domain once the editor confirms the scope
+scripture_scope: "Genesis 3:1–14, 16–24 (WEB)"   # author-supplied 2026-10-01, verbatim
 age_band: "4-7"
 spend_cap_usd: 14         # editor ruling 2026-10-01 (raised from $12); ledger keyed to this slug
 spend_checkpoints_pct: [50, 80]   # stop and report at $7.00 and $11.20 (ledger.mjs); go-ahead per checkpoint
 print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
 
-copyright_page: [null, null]   # two slots, as Books One and Two (notice + WEB attribution) — author-supplied only
+copyright_page:           # author-supplied 2026-10-01, verbatim
+  - "© 2026 Deep Roots Kids. All rights reserved."
+  - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
   front_art: null
   layout: v2              # match Books One/Two series identity; NO front-cover author line (ruling 2026-10-01)
   color: cmyk
-  series_short: null
-  back_blurb: null
-  spec_lines: [null, null, null]   # back-cover fact lines, as Book Two — author-supplied only
+  series_short: "Deep Roots Kids · Book 3"   # author-supplied 2026-10-01, verbatim
+  back_blurb: "In \"We Broke It All,\" young readers ages 4 to 7 trace the story of the Fall from Genesis 3. Through 15 coloring pages, children learn the honest truth about sin and its consequences. But they also discover the most important truth of all: God didn't leave us in our mess, and He already had a plan to fix what we broke."   # author-supplied 2026-10-01, verbatim
+  spec_lines:              # author-supplied 2026-10-01, verbatim
+    - "15 pages to colour"
+    - "Honest, hopeful teaching for ages 4–7"
+    - "Scripture from the World English Bible (WEB)"
 # Spines are computed from the FINAL page count at the print stage — never copied from Book Two.
 cover_targets:
   kdp:  {bleed_in: 0.125, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80}

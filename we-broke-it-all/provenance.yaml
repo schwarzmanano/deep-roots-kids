@@ -11,326 +11,322 @@ text_units:
 - id: book.title
   page: p1, cover
   kind: title
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: d7cda99c9203
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: book.series_line
   page: p1, back cover
   kind: series-line
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 1d180da6f28b
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: book.subtitle
   page: p1, cover
   kind: subtitle
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 7308e4b1c02e
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: book.scripture_scope
   page: p1, back cover
   kind: scripture-reference
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — factual citation; registered public-domain once the editor confirms
-    scope (F1)
+  author: public-domain
+  draft: false
+  sha: a88340c7d1fc
+  source: factual Scripture citation (author-supplied 2026-10-01), not prose
   recorded: '2026-10-01'
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 136dafe44cbc
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p2.copyright.2
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 4092fb0ccb13
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p3.text
   page: p3
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 16705b1d80bc
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p3.teaching
   page: p3
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 720bc0c25c27
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p5.text
   page: p5
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: e87f8475a089
+  source: WEB Genesis 3:1, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p5.teaching
   page: p5
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author (plan/my-words.md). CARRIES THE YAHWEH LINE
-    (guardrails §6) if p5 is the first page to print a WEB quotation with the name (F2)
+  author: human
+  draft: false
+  sha: ff67471b16ca
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p7.text
   page: p7
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 4035e65e64bc
+  source: WEB Genesis 3:4-5, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p7.teaching
   page: p7
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: d200f425ddd7
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p9.text
   page: p9
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 5a6a28e48dd6
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: e2a632cea2d4
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p11.text
   page: p11
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 59cdb7b1933b
+  source: WEB Genesis 3:7, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p11.teaching
   page: p11
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 51b297b4a153
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p13.text
   page: p13
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: ee464ac38e2c
+  source: WEB Genesis 3:9-10, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p13.teaching
   page: p13
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: d5388270f1a0
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p15.text
   page: p15
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 5b4c7ab37afb
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p15.teaching
   page: p15
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 5e2c2179ab11
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p17.text
   page: p17
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: a8ea79aa183e
+  source: WEB Genesis 3:12-13, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p17.teaching
   page: p17
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 00f4f42a31ae
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p19.text
   page: p19
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: b33e8c0f5eca
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p19.teaching
   page: p19
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 0432be5f4b49
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p21.text
   page: p21
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 48be40632841
+  source: WEB Genesis 3:14, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p21.teaching
   page: p21
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 199353d51c0d
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p23.text
   page: p23
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: d5b93e091095
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p23.teaching
   page: p23
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: f306f05af4d4
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p25.text
   page: p25
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: c0ea1234b177
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p25.teaching
   page: p25
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: f1e7db5e13f8
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p27.text
   page: p27
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: bc6c05dcac25
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: b26ac48f5df6
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p29.text
   page: p29
-  kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  kind: scripture-quote
+  author: public-domain
+  draft: false
+  sha: 78299b862f98
+  source: WEB Genesis 3:21, quoted by the author with a '(WEB)' attribution, supplied in chat 2026-10-01
   recorded: '2026-10-01'
 - id: p29.teaching
   page: p29
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 0b415ffc6563
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p31.text
   page: p31
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: df8435764367
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p31.teaching
   page: p31
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 14bf3f94c6cc
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p33.heading
   page: p33
   kind: heading
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: ac17a9a00ac3
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p33.body
   page: p33
   kind: closing
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — closing page; the ONE pointer page facing Book Four if D10 so
-    rules; author writes it
+  author: human
+  draft: false
+  sha: 4f790f7a954d
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p33.footnote
   page: p33
   kind: footnote
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — convention note, exists only if D3 rules a Book Three line;
-    otherwise the slot is removed
+  author: human
+  draft: false
+  sha: d7fac8e7a642
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p35.heading
   page: p35
   kind: heading
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 2513f4156d8c
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: p35.body
   page: p35
@@ -344,41 +340,41 @@ text_units:
 - id: cover.series_short
   page: cover
   kind: series-line
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 3dd80f31a740
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: cover.back_blurb
   page: back cover
   kind: back-cover-blurb
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 88966439f520
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: cover.spec.1
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: f0f56e9f24d3
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: cover.spec.2
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: a18bce5a7b5b
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 - id: cover.spec.3
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  author: human
+  draft: false
+  sha: 4c4967481a40
+  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
 gate1_signed: null
