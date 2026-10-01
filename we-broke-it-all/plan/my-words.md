@@ -71,7 +71,7 @@ Registered public-domain (a citation, not prose) once you confirm it.
 
 Genesis 2:16–17; 3:1–14, 16–24
 
-**MY TEXT STATUS:** changed per ruling 2026-10-02: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -546,7 +546,7 @@ Because God is perfectly good, He had to judge their sin. He started with the se
 
 For you are dust, and you shall return to dust.
 
-**MY TEXT STATUS:** changed per ruling 2026-10-02: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 

@@ -31,6 +31,10 @@ export function checkGate1(bookDir) {
     const walk = (d) => {
       for (const e of fs.readdirSync(d, { withFileTypes: true })) {
         const p = path.join(d, e.name);
+        // Stage 2 style-lock tests (gen/test-*) are reviewed at Gate 2 and exempt from the
+        // back-dating check (editor instruction in we-broke-it-all theology-review, 2026-10-02).
+        // Page attempts (gen/p*) are always checked.
+        if (e.isDirectory() && d === genDir && e.name.startsWith('test-')) continue;
         if (e.isDirectory()) walk(p);
         else if (fs.statSync(p).mtimeMs < reviewMtime) stale.push(p);
       }

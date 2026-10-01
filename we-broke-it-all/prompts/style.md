@@ -1,6 +1,6 @@
 # Style Contract — we-broke-it-all
 
-**DRAFT — Stage 2, amended 2026-10-02 to the Gate 2 rulings. Not locked until Gate 2.** Line weight is locked to Book Two's
+**LOCKED 2026-10-02 at Gate 2** (theology-review signed 2026-10-02, Gate 2 amendments integrated). Line weight is locked to Book Two's
 approved reference (`kids/made-like-him/art/style-lock.png`, Gate 2 2026-09-28), sent as
 reference A — line style only. Composition references (reference D, composition only, Gate 2
 ruling 2026-10-02): `art/comp-ref-first-couple.jpg` (eden-dusk a02) for first-couple pages,
@@ -65,8 +65,8 @@ Scope — Book Three (Gate 1 rulings):
 - NO mirror, NO reflection of a person in water or glass.
 - NO hand-holding, unless the SCENE explicitly calls for it (Gate 2 ruling).
 - NO vases, NO eggs or eggshells (Gate 2 ruling).
-- The guarded entrance (p31): a single upright sword of light — NO figure, NO wings, NO fire or
-  flames burning outward, NO rays spreading from it (D8, Gate 2 ruling).
+- The guarded entrance (p31): a single upright sword outline with a few SHORT straight light-lines
+  close around it — NO figure, NO wings, NO fire or flames burning outward, NO long rays (D8, Gate 2).
 
 ## Human figures — first-couple
 
@@ -78,9 +78,9 @@ The first man and woman. genesis-1 DECISION-5 and made-like-him p5-p11, matched 
   shoulder, slighter build. No other markers of any kind.
 - Before the gift of garments (pages before p29): one plain simple sleeveless garment each, hem
   at or above the knee, un-tailored — no collar, no buttons, no wrap, no tie, no pattern.
-- Garments of skin — Gate 2 ruling OPTION C (option A re-test 2026-10-02 still drew tube limbs):
-  worn ONLY on p31, where the couple is small and distant; p29 shows them laid out, not worn. Where
-  worn: made-like-him p7's tunic and dress shapes with only an uneven hem; no fur, no hide texture.
+- Garments of skin (D4 Gate 2 ruling, signed 2026-10-02): worn ONLY on p31 (p29 shows them laid
+  out). Vocabulary: the man's plain sleeveless one-shoulder tunic and the woman's plain sleeveless
+  knee-length dress, each with ONLY an uneven hem; single thin line limbs; no fur, no hide texture.
 - Every arm and leg one single thin line; hands and feet plain closed ovals. One pointing
   gesture is allowed where the SCENE names it.
 - Shame and fear shown by BODY LANGUAGE ONLY (D5): turned away, heads lowered, apart, small,
