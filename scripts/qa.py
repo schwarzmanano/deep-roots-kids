@@ -92,3 +92,7 @@ for r in rows:
 print()
 print(f"  {len(rows)} pages processed, {len(flagged)} flagged")
 json.dump(rows, open(f"{book}/qa/report.json","w"), indent=2)
+
+# Text QA (Book Two proof lessons) — flags only, never edits the author's words.
+from textqa import report as text_report
+text_report(book)
