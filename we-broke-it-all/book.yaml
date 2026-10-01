@@ -61,7 +61,7 @@ margins:                  # KDP + Lulu: Lulu safety margin is 0.5in on ALL sides
 
 generation:               # BLOCKED until plan/theology-review.md Status reads SIGNED (gate.mjs)
   style_mode: "flat-vector"
-  style_lock: null        # Gate 2. Line weight locked to made-like-him art/style-lock.png
+  style_lock: ../made-like-him/art/style-lock.png   # Stage 2: Book Two Gate 2 lock sent as REFERENCE A (line weight only). Book Three lock chosen at Gate 2
   line_weight_reference: kids/made-like-him/art/style-lock.png
   character_ref: kids/_brand/cast-sheet.jpg
   first_couple_ref: kids/_brand/p25-figures-ref.jpg   # + made-like-him art/p7.png, p11.png (construction match)

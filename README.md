@@ -24,8 +24,10 @@ Run from `~/Remotion`; Python stages use `.venv-kids/bin/python`, e.g.
 `gen/` is the only thing here that cannot be regenerated identically (the model is not
 deterministic). Back it up next to the album sources in iCloud Drive:
 
-    rsync -a --exclude .DS_Store ~/Remotion/kids/*/gen \
-      --relative ~/Remotion/kids/./ \
+    cd ~/Remotion/kids && rsync -a --exclude .DS_Store --relative ./*/gen \
       "$HOME/Library/Mobile Documents/com~apple~CloudDocs/DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/gen-archive/"
+
+(Fixed 2026-10-02: the previous form passed `~/Remotion/kids/./` as a second SOURCE and copied
+the whole repo under a `Users/...` path. The archive holds `<slug>/gen/` only.)
 
 Run it after every generation batch and before any gate sign-off.

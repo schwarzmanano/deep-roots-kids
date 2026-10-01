@@ -1,0 +1,83 @@
+# Stage 2 style-lock tests — we-broke-it-all (Gate 1 signed 2026-10-01).
+# Run: node scripts/kids/generate.mjs we-broke-it-all --test <name> --attempts 2
+# Same prompt assembly as pages (style.md + scene + figures + outfits), same Gate 1 check,
+# spend booked to this book's ledger. Output: gen/test-<name>/. Nothing here is printed.
+# Editor brief: test the serpent, Eden at dusk (3:8), the garments of skin, the guarded gate,
+# and any new family-cast outfits/poses; REPORT any outfit that reintroduces tube limbs
+# rather than silently falling back to sleeveless.
+tests:
+
+  - name: serpent
+    title: "D1 serpent (as p5)"
+    ref: "Genesis 3:1"
+    scene: "The woman FROM BEHIND at mid-distance standing near a fruit tree in the middle of a garden; every tree around bears the same small plain round fruit. A plain snake lies along a low branch of that tree, leaning toward her: smooth simple body, simple head in profile, one plain round dot eye. Daylight, calm. No other animals."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: eden-dusk
+    title: "Eden in the cool of the day (3:8, as p13)"
+    ref: "Genesis 3:8-10"
+    scene: "A garden in the cool of the day: wind lines through the treetops, a few leaves blowing. The man and the woman FROM BEHIND, partly hidden behind two tree trunks in the middle distance, heads down, turned away. Nothing else: no figure, no footprints, no hand, no light-shape, nothing in the sky but two simple clouds. Mood carried by their posture, not by darkness."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: garments-gift
+    title: "D4 Option B — garments laid out (as p29)"
+    ref: "Genesis 3:21"
+    scene: "Two plain folded garments lying on a flat rock in morning light; the sun is a plain half-circle on the far horizon with no rays. The garments are heavier than ordinary cloth, with uneven irregular edges like hide, NO fur texture, NO pattern. The man and the woman FROM BEHIND at mid-distance, walking toward the rock. No animal anywhere, no tool, no needle, no hands."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: worn-a
+    title: "Garments of skin WORN — variant A: sleeveless, knee (tested LINE vocabulary)"
+    ref: "Genesis 3:21, 23"
+    scene: "The man and the woman FROM BEHIND at mid-distance, walking side by side across open grassland. Each wears a SLEEVELESS garment of hide to the knee: heavier than cloth, with an uneven irregular hem and edges, NO fur texture, NO pattern, NO belt. Arms and legs below the garment are single thin lines."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: worn-b
+    title: "Garments of skin WORN — variant B: short sleeves, mid-calf (LINE vocabulary, untested on this couple)"
+    ref: "Genesis 3:21, 23"
+    scene: "The man and the woman FROM BEHIND at mid-distance, walking side by side across open grassland. Each wears a garment of hide with SHORT SLEEVES ending at the upper arm and a hem at MID-CALF: heavier than cloth, with uneven irregular edges, NO fur texture, NO pattern. Below each short sleeve the arm is ONE single thin line; below the hem each leg is ONE single thin line."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: worn-c
+    title: "Garments of skin WORN — variant C: long sleeves, to the ankle (FAIL vocabulary — testing for tube limbs)"
+    ref: "Genesis 3:21, 23"
+    scene: "The man and the woman FROM BEHIND at mid-distance, walking side by side across open grassland, arms held out from their bodies. Each wears a long garment of hide with FULL-LENGTH SLEEVES to the wrist and a hem at the ankle: heavier than cloth, with uneven irregular edges, NO fur texture, NO pattern. Hands and feet plain closed ovals."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: gate-sword
+    title: "D8 Option D (distance) with a small turning sword (Option A element)"
+    ref: "Genesis 3:24"
+    scene: "The man and the woman FROM BEHIND in the foreground, walking away together toward the east across open land, wearing plain sleeveless garments to the knee with uneven irregular edges like hide. Far behind them and SMALL, the edge of the garden: a line of rounded trees with an opening, and in the opening a small upright sword outline with a few simple flame shapes and curved motion lines showing it turning. No figure at the opening, no wings. One small distant tree visible inside the garden. No path, no light on the horizon."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: gate-implied
+    title: "D8 Option D (distance), guarding implied only — nothing drawn at the entrance"
+    ref: "Genesis 3:24"
+    scene: "The man and the woman FROM BEHIND in the foreground, walking away together toward the east across open land, wearing plain sleeveless garments to the knee with uneven irregular edges like hide. Far behind them and SMALL, the edge of the garden: a dense line of rounded trees with a closed-looking opening. Nothing drawn at the opening. One small distant tree visible inside the garden. No path, no light on the horizon."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: family-p19
+    title: "p19 — Son (4) blames the dog (D6 Option B)"
+    ref: "Genesis 3:12-13 applied"
+    scene: "Indoors, a simple living room. A plant pot lies cracked in two on the floor with a little soil spilled. Son stands beside it, one straight single-line arm pointing at the family dog; the dog sits looking puzzled. No adult on the page. Nobody shouting, no tears, no punishment."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
+
+  - name: family-p25
+    title: "p25 — sick child cared for (D9 Option A: no death sign)"
+    ref: "Romans 8:20-22"
+    scene: "A simple bedroom. Daughter 3 lies in bed under a plain blanket, head on a pillow, arms out on top of the blanket as single lines. Father sits upright on a plain chair beside the bed, one straight single-line arm resting on the edge of the blanket; a cup stands on a small bedside table. Through the window: a garden with a broken fence. No wilting or dying plants."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Daughter3: "sleeveless nightgown"
+      Father: "sleeveless round-neck top and knee-length shorts"

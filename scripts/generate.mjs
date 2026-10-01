@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // Deep Roots Kids — page generation.
 // Usage: node scripts/kids/generate.mjs <book-slug> --page <n> [--attempts 3] [--dry-run]
+//        node scripts/kids/generate.mjs <book-slug> --test <name> [--attempts 2] [--dry-run]
+//   --test: a Stage 2 style-lock test from plan/style-tests.yaml (same prompt assembly, same
+//   Gate 1 check, spend booked to THIS book's ledger), written to gen/test-<name>/.
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -26,11 +29,12 @@ const readYaml = (p) =>
 
 const args = process.argv.slice(2);
 const slug = args[0];
-const pageNo = Number(args[args.indexOf('--page') + 1]);
+const testName = args.includes('--test') ? args[args.indexOf('--test') + 1] : null;
+const pageNo = testName ? null : Number(args[args.indexOf('--page') + 1]);
 const attempts = args.includes('--attempts') ? Number(args[args.indexOf('--attempts') + 1]) : 1;
 const dryRun = args.includes('--dry-run');
-if (!slug || !pageNo) {
-  console.error('usage: generate.mjs <slug> --page <n> [--attempts n] [--dry-run]');
+if (!slug || (!pageNo && !testName)) {
+  console.error('usage: generate.mjs <slug> --page <n> | --test <name> [--attempts n] [--dry-run]');
   process.exit(2);
 }
 
@@ -51,15 +55,24 @@ console.log(`     gen/ files predating signature: none\n`);
 
 const book = readYaml(path.join(bookDir, 'book.yaml'));
 const plan = readYaml(path.join(bookDir, 'plan', 'pages.yaml'));
-const planPage = plan.pages.find(p => p.page === pageNo);
+let planPage;
+if (testName) {
+  const tf = path.join(bookDir, 'plan', 'style-tests.yaml');
+  if (!fs.existsSync(tf)) { console.error(`no ${tf}`); process.exit(2); }
+  planPage = (readYaml(tf).tests ?? []).find(t => t.name === testName);
+  if (!planPage) { console.error(`test ${testName} not in plan/style-tests.yaml`); process.exit(2); }
+} else {
+  planPage = plan.pages.find(p => p.page === pageNo);
+}
 if (!planPage) { console.error(`page ${pageNo} not in plan`); process.exit(2); }
+const tag = testName ? `test-${testName}` : `p${pageNo}`;   // gen/ dir, prompt file, ledger label
 // --edit-chosen "<change>": correct the CHOSEN image in place of re-rolling the scene. The
 // chosen image is sent as the composition base; SCENE becomes the one change plus a lock on
 // everything else. The plan itself is not modified.
 const editChosen = args.includes('--edit-chosen') ? args[args.indexOf('--edit-chosen') + 1] : null;
 let page = planPage;
 if (editChosen) {
-  const chosen = path.join(bookDir, 'gen', `p${pageNo}`, 'CHOSEN');
+  const chosen = path.join(bookDir, 'gen', tag, 'CHOSEN');
   if (!fs.existsSync(chosen)) { console.error(`  --edit-chosen: p${pageNo} has no CHOSEN`); process.exit(2); }
   page = { ...planPage,
     base_ref: path.relative(ROOT, fs.realpathSync(chosen)),
@@ -113,17 +126,17 @@ const prompt = [
 ].join('\n');
 
 fs.mkdirSync(path.join(bookDir, 'prompts', 'pages'), { recursive: true });
-fs.writeFileSync(path.join(bookDir, 'prompts', 'pages', `p${pageNo}.txt`), prompt);
+fs.writeFileSync(path.join(bookDir, 'prompts', 'pages', `${tag}.txt`), prompt);
 
-console.log(`  page ${pageNo} — ${page.title}  (${page.ref})`);
-console.log(`  prompt: ${prompt.length} chars -> prompts/pages/p${pageNo}.txt`);
+console.log(`  ${testName ? 'style test ' + testName : 'page ' + pageNo} — ${page.title}  (${page.ref})`);
+console.log(`  prompt: ${prompt.length} chars -> prompts/pages/${tag}.txt`);
 if (page.ruling) console.log(`  ruling: ${page.ruling.split('\n')[0].trim()}`);
 
 if (dryRun) { console.log('\n  --dry-run: no API call made.\n'); process.exit(0); }
 
 const env = loadEnv();
 const model = env.KIDS_IMAGE_MODEL;
-const outDir = path.join(bookDir, 'gen', `p${pageNo}`);
+const outDir = path.join(bookDir, 'gen', tag);
 fs.mkdirSync(outDir, { recursive: true });
 
 // Style conditioning. A reference locked in a document does nothing if it never
@@ -216,7 +229,7 @@ for (let i = startAt; i < startAt + attempts; i++) {
   const outTok = u.candidatesTokenCount ?? (u.totalTokenCount - (u.promptTokenCount ?? 0));
   const cost = (outTok / 1e6) * 60;
   spend += cost;
-  const run = ledger.record(`p${pageNo} attempt-${i}`, cost, { book: slug, page: pageNo });
+  const run = ledger.record(`${tag} attempt-${i}`, cost, testName ? { book: slug, test: testName } : { book: slug, page: pageNo });
   console.log(`  attempt ${i}: ${path.basename(file)}  ${secs}s  $${cost.toFixed(4)}   ${slug} $${run.toFixed(4)}`);
 }
 console.log(`\n  this run $${spend.toFixed(4)} — ${ledger.report(slug, env)}\n`);
