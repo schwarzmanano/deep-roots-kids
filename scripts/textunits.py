@@ -120,7 +120,8 @@ def check(book):
 # The only normalisation is the one the printer already applies: units whose print form
 # collapses whitespace (teaching lines, footnotes) are compared with whitespace collapsed on
 # both sides. A unit whose body comes from a shared series file (body_file — About the
-# Author) has that file as its source and is not compared here.
+# Author) has that file as its source: it is not compared against my-words.md, but the
+# file's own `**MY TEXT STATUS:**` line (above its BODY marker) must read `confirmed`.
 _WS_KINDS = {"teaching", "footnote"}
 CONFIRMED = "confirmed"
 _STATUS = "**MY TEXT STATUS:**"
@@ -157,7 +158,15 @@ def check_my_words(book):
     reg, mw, bad = registry(book), my_words(book), []
     for u in units(book):
         r = reg.get(u["id"])
-        if not r or r.get("author") != "human" or u["id"] in body_file_pages:
+        if not r or r.get("author") != "human":
+            continue
+        if u["id"] in body_file_pages:
+            f = next(p["body_file"] for p in plan["pages"] if f"p{p['page']}.body" == u["id"])
+            head = open(f, encoding="utf-8").read().split("<!-- BODY -->", 1)[0]
+            m = re.search(r"^\*\*MY TEXT STATUS:\*\*(.*)$", head, re.M)
+            status = m.group(1).strip() if m else None
+            if status != CONFIRMED:
+                bad.append((u["id"], u["page"], u["text"] or "", u["text"] or "", status))
             continue
         mine, status = mw.get(u["id"], (None, None))
         printed = u["text"] or ""

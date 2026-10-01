@@ -15,6 +15,11 @@
 > Editing this file updates every volume on its next rebuild. Do not fork per book.
 > Everything below the BODY marker is rendered verbatim. The heading is a separate unit
 > (`heading:` on each book's p35), not part of this file.
+>
+> The status line below is read by every book's release guard and must read `confirmed`
+> (set by the author only). It sits above the BODY marker, so it is never printed.
+
+**MY TEXT STATUS:** copied: awaiting confirmation
 
 <!-- BODY -->
 Schwarz Martin Manano is the creator of Deep Roots Kids, driven by a passion to teach rich, redemptive-historical biblical truths to the next generation. Holding a Master of Divinity from Westminster Theological Seminary (USA) and training from the Cornhill Training Course in London, he has spent over a decade serving in children, youth and pastoral ministry across East Africa, the UK, and the US. He previously led teaching and training ministries and served as an assistant pastor in Kampala, Uganda, and now lives in Germany with his wife and children. Deep Roots Kids began out of a desire to help families get rooted in Christ as they discover how the whole Bible points to Jesus.
