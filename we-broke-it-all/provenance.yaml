@@ -1,0 +1,384 @@
+book: we-broke-it-all
+title: null
+disclosure: computed by scripts/disclosure.py from text_units + images below — never hand-edited
+images:
+  interior:
+    source: none yet — generation blocked at Gate 1
+  cover:
+    source: none yet
+translation: none
+text_units:
+- id: book.title
+  page: p1, cover
+  kind: title
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: book.series_line
+  page: p1, back cover
+  kind: series-line
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: book.subtitle
+  page: p1, cover
+  kind: subtitle
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: book.scripture_scope
+  page: p1, back cover
+  kind: scripture-reference
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — factual citation; registered public-domain once the editor confirms
+    scope (F1)
+  recorded: '2026-10-01'
+- id: p2.copyright.1
+  page: p2
+  kind: copyright-page
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p2.copyright.2
+  page: p2
+  kind: copyright-page
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p3.text
+  page: p3
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p3.teaching
+  page: p3
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p5.text
+  page: p5
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p5.teaching
+  page: p5
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author (plan/my-words.md). CARRIES THE YAHWEH LINE
+    (guardrails §6) if p5 is the first page to print a WEB quotation with the name (F2)
+  recorded: '2026-10-01'
+- id: p7.text
+  page: p7
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p7.teaching
+  page: p7
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p9.text
+  page: p9
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p9.teaching
+  page: p9
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p11.text
+  page: p11
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p11.teaching
+  page: p11
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p13.text
+  page: p13
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p13.teaching
+  page: p13
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p15.text
+  page: p15
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p15.teaching
+  page: p15
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p17.text
+  page: p17
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p17.teaching
+  page: p17
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p19.text
+  page: p19
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p19.teaching
+  page: p19
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p21.text
+  page: p21
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p21.teaching
+  page: p21
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p23.text
+  page: p23
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p23.teaching
+  page: p23
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p25.text
+  page: p25
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p25.teaching
+  page: p25
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p27.text
+  page: p27
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p27.teaching
+  page: p27
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p29.text
+  page: p29
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p29.teaching
+  page: p29
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p31.text
+  page: p31
+  kind: page-text
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p31.teaching
+  page: p31
+  kind: teaching
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p33.heading
+  page: p33
+  kind: heading
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p33.body
+  page: p33
+  kind: closing
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — closing page; the ONE pointer page facing Book Four if D10 so
+    rules; author writes it
+  recorded: '2026-10-01'
+- id: p33.footnote
+  page: p33
+  kind: footnote
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — convention note, exists only if D3 rules a Book Three line;
+    otherwise the slot is removed
+  recorded: '2026-10-01'
+- id: p35.heading
+  page: p35
+  kind: heading
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: p35.body
+  page: p35
+  kind: about-the-author
+  author: human
+  draft: false
+  sha: bea33593ef67
+  source: shared series file kids/_brand/about-the-author.md — author's own words, confirmed human 2026-09-30
+    (made-like-him provenance); unchanged
+  recorded: '2026-10-01'
+- id: cover.series_short
+  page: cover
+  kind: series-line
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: cover.back_blurb
+  page: back cover
+  kind: back-cover-blurb
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: cover.spec.1
+  page: back cover
+  kind: back-cover-spec
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: cover.spec.2
+  page: back cover
+  kind: back-cover-spec
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+- id: cover.spec.3
+  page: back cover
+  kind: back-cover-spec
+  author: null
+  draft: true
+  sha: null
+  source: Stage 1 empty slot 2026-10-01 — awaiting the author's words (plan/my-words.md)
+  recorded: '2026-10-01'
+gate1_signed: null

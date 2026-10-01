@@ -25,7 +25,7 @@ are recorded in that book's `plan/theology-review.md`.
 |---|---|---|
 | 1 | He Made It All | `genesis-1` ("In the Beginning") — SHIPPED |
 | 2 | Made Like Him | `made-like-him` — Stage 1 |
-| 3 | We Broke It All | — |
+| 3 | We Broke It All | `we-broke-it-all` — Stage 1, Gate 1 pending |
 | 4 | He Didn't Walk Away | — (Rescuer symbolic only — guardrails §2) |
 | 5 | We Need a Hero | — |
 | 6 | Jesus Is the One | — (symbolic-only rule for Christ begins — guardrails §1) |

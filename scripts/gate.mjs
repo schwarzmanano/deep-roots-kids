@@ -17,8 +17,8 @@ export function checkGate1(bookDir) {
     return { ok: false, reason: `Gate 1 NOT signed — Status reads: "${status}"` };
   }
 
-  const signedBlock = text.match(/Signed:\s*(.+)/)?.[1]?.trim() ?? '';
-  const dateBlock = text.match(/Date:\s*(.+)/)?.[1]?.trim() ?? '';
+  const signedBlock = text.match(/Signed:[ \t]*(\S.*)/)?.[1]?.trim() ?? '';
+  const dateBlock = text.match(/Date:[ \t]*(\S.*)/)?.[1]?.trim() ?? '';
   if (!signedBlock || !dateBlock) {
     return { ok: false, reason: 'Status says SIGNED but the sign-off block is incomplete' };
   }

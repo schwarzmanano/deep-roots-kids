@@ -1,0 +1,71 @@
+# ── Deep Roots Kids — Book 003 ──
+# Stage 1 (2026-10-01). Every reader-facing text slot is EMPTY (null) until the author supplies
+# it in plan/my-words.md (authorship-policy §1.1, §1.4). Nothing here is wording for print.
+slug: we-broke-it-all
+title: null               # album Track 3 is "We Broke It All" — the title is the author's to confirm
+subtitle: null
+author: "Deep Roots"      # KDP/Lulu author field (editor ruling 2026-10-01). Not printed on the cover.
+series_line: null
+album_track: 3            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "3."
+scripture_scope: null     # a citation, registered public-domain once the editor confirms the scope
+age_band: "4-7"
+spend_cap_usd: 12         # editor brief 2026-10-01; ledger keyed to this slug; report at 50% / 80%
+print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
+
+copyright_page: [null, null]   # two slots, as Books One and Two (notice + WEB attribution) — author-supplied only
+cover:                    # text slots EMPTY until the author supplies them
+  front_art: null
+  layout: v2              # match Books One/Two series identity; NO front-cover author line (ruling 2026-10-01)
+  color: cmyk
+  series_short: null
+  back_blurb: null
+  spec_lines: [null, null, null]   # back-cover fact lines, as Book Two — author-supplied only
+# Spines are computed from the FINAL page count at the print stage — never copied from Book Two.
+cover_targets:
+  kdp:  {bleed_in: 0.125, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80}
+  lulu: {bleed_in: 0.125, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81}
+
+governed_by:
+  - kids/_brand/theology-guardrails.md
+  - kids/_brand/character-bible.md
+  - kids/_brand/brand-spec.md
+  - kids/_brand/authorship-policy.md
+
+print:                    # identical to made-like-him; built for two printers (layout.py --target)
+  targets: [kdp, lulu]      # kdp 8.5x11 no bleed; lulu 8.75x11.25 (0.125in bleed), same content
+  trim: "8.5x11"
+  page_count: 36
+  bleed: false
+  ink: "black"
+  paper: "white"
+  single_sided: true
+
+layout:                   # identical to made-like-him
+  front_matter: [1, 2]
+  art_pages: [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
+  blank_versos: [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]
+  back_matter: [33, 35]   # p33 closing page (editor-authored); p35 About the Author (shared)
+  illustration_count: 15
+
+margins:                  # KDP + Lulu: Lulu safety margin is 0.5in on ALL sides (gutter too)
+  gutter_in: 0.5
+  outside_in: 0.5
+  top_in: 0.5
+  bottom_in: 0.5
+
+generation:               # BLOCKED until plan/theology-review.md Status reads SIGNED (gate.mjs)
+  style_mode: "flat-vector"
+  style_lock: null        # Gate 2. Line weight locked to made-like-him art/style-lock.png
+  line_weight_reference: kids/made-like-him/art/style-lock.png
+  character_ref: kids/_brand/cast-sheet.jpg
+  first_couple_ref: kids/_brand/p25-figures-ref.jpg   # + made-like-him art/p7.png, p11.png (construction match)
+  model: gemini-3.1-flash-image
+  resolution: "1k"
+  aspect_ratio: "3:4"
+  measured_cost_per_image_usd: 0.0878
+  # Honest estimate (2026-10-01), from Book Two's ledger: $11.49 over ~113 interior attempts
+  # (~7.5 per page) + 8 cover images. Book Three: style-lock tests 5 subjects x 3 = 15 ($1.32)
+  # + 15 pages x 6 attempts = 90 ($7.90) + cover 2 B&W refs + 4 colour ($1.20) = ~$10.40.
+  # Book Two's actual per-page rate would put it at ~$11.50. The $12 cap is expected to bind.
+  budgeted_attempts_per_page: 6
+  budgeted_total_usd: 10.40

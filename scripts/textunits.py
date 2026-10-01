@@ -54,17 +54,17 @@ def units(book):
         n = pg["page"]
         if pg.get("back_matter"):
             kind = "about-the-author" if "about-the-author" in (pg.get("body_file") or "") else "closing"
-            if pg.get("heading") is not None:
+            if "heading" in pg:            # a null heading is a registered, empty slot
                 add(f"p{n}.heading", f"p{n}", "heading", pg["heading"])
             add(f"p{n}.body", f"p{n}", kind, body_of(pg))
-            if pg.get("footnote") is not None:
-                add(f"p{n}.footnote", f"p{n}", "footnote", " ".join(pg["footnote"].split()))
+            if "footnote" in pg:
+                add(f"p{n}.footnote", f"p{n}", "footnote", " ".join(pg["footnote"].split()) if pg["footnote"] is not None else None)
             continue
         if pg.get("generate") is False or pg.get("placeholder"):
             continue
         add(f"p{n}.text", f"p{n}", "scripture-quote" if pg.get("quote") else "page-text", pg.get("text"))
-        if pg.get("teaching") is not None:
-            add(f"p{n}.teaching", f"p{n}", "teaching", " ".join(pg["teaching"].split()))
+        if "teaching" in pg:          # a null teaching line is a registered, empty slot
+            add(f"p{n}.teaching", f"p{n}", "teaching", " ".join(pg["teaching"].split()) if pg["teaching"] is not None else None)
 
     cov = cfg.get("cover")
     if cov is not None:
