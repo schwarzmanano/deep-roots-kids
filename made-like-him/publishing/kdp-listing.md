@@ -10,7 +10,8 @@ from the release files on 2026-09-30. Items marked **YOUR CALL** are decisions, 
 | Title | Made Like Him | author |
 | Subtitle | Created in the Image of God Coloring Book | author |
 | Series | Creation to Glorification, Book Two | author (series badge) |
-| Author / contributor | Schwarz Martin Manano | About the Author |
+| Author | Deep Roots — as live on KDP and Lulu (confirmed 2026-10-01). Schwarz is credited only via the About the Author page | editor ruling |
+| Publisher / imprint | Deep Roots Kids | editor ruling |
 | Language | English | |
 | Age range | 4–7 | author (back cover) |
 | Page count | **36 — CONFIRMED**, even | release interior |

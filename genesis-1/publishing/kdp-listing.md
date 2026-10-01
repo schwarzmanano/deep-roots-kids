@@ -15,6 +15,8 @@ Last rebuilt: 2026-09-18 (About the Author leaf added; cover spine rebuilt to ma
 | Subtitle (Amazon field) | A Christian Coloring Book of Creation \| Deep Roots Kids, Creation to Glorification Book One \| Genesis 1:1-2:3, Ages 4-7 |
 | Cover subtitle (print only) | Deep Roots Kids · Book One |
 | Series | Creation to Glorification, Book One |
+| Author | Deep Roots — as live on KDP and Lulu (confirmed 2026-10-01) |
+| Publisher / imprint | Deep Roots Kids |
 | Age range | 4–7 |
 | Trim size | 8.5" × 11" (large trim) |
 | Bleed | No bleed (interior) |

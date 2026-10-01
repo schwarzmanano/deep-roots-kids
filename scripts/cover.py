@@ -29,6 +29,9 @@ AWAIT = "[ awaiting author's text ]"      # proof-only marker for an empty text 
 PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
+if not cfg.get("author"):
+    raise SystemExit(f"{BOOK}/book.yaml has no author: — the series author field (KDP/Lulu), e.g. \"Deep Roots\"")
+AUTHOR = cfg["author"]           # PDF metadata author; matches the KDP/Lulu author field
 if "cover" not in cfg:
     raise SystemExit(f"{BOOK}/book.yaml has no cover: block — cover text units not registered yet")
 COV = cfg["cover"]
@@ -41,6 +44,8 @@ if RELEASE and _probs:
     print(f"\n  ⛔ RELEASE REFUSED — {len(_probs)} problem(s) across {len({w for w, _ in _probs})} text unit(s), authorship-policy §11:\n")
     for where, why in _probs: print(f"    {where}: {why}")
     raise SystemExit(1)
+if RELEASE:
+    textunits.refuse_on_my_words(BOOK)    # my-words.md is the source of truth (2026-10-01)
 PAGES = cfg["print"]["page_count"]
 
 # Primary Palette
@@ -103,7 +108,7 @@ def wrap_text(c, text, font, size, maxw):
     return out
 
 c = canvas.Canvas(OUT, pagesize=(W, H), initialFontName="Lora")
-c.setTitle(f'{cfg["title"]} — cover'); c.setAuthor("Deep Roots Kids")
+c.setTitle(f'{cfg["title"]} — cover'); c.setAuthor(AUTHOR)
 
 # Parchment Cream across the whole wrap, bleed included
 c.setFillColor(CREAM); c.rect(0, 0, W, H, stroke=0, fill=1)

@@ -32,6 +32,9 @@ PROOF_STAMP = "PROOF - NOT FOR RELEASE"
 IN = 72.0  # pt per inch
 
 cfg = yaml.safe_load(open(f"{BOOK}/book.yaml"))
+if not cfg.get("author"):
+    raise SystemExit(f"{BOOK}/book.yaml has no author: — the series author field (KDP/Lulu), e.g. \"Deep Roots\"")
+AUTHOR = cfg["author"]           # PDF metadata author; matches the KDP/Lulu author field
 plan = yaml.safe_load(open(f"{BOOK}/plan/pages.yaml"))
 
 if cfg.get("print_ai_note", False):
@@ -43,6 +46,8 @@ if RELEASE and _probs:
     for where, why in _probs:
         print(f"    {where}: {why}")
     raise SystemExit(1)
+if RELEASE:
+    textunits.refuse_on_my_words(BOOK)    # my-words.md is the source of truth (2026-10-01)
 if not RELEASE:
     print(f"  PROOF build — every page stamped '{PROOF_STAMP}'. "
           f"{len({w for w, _ in _probs})} text unit(s) would block a release (disclosure.py / --release for detail).")
@@ -161,7 +166,7 @@ _logo = _logo.resize((_px, round(_px * _logo.height / _logo.width)), Image.LANCZ
 _logo.convert("L" if MONO else "RGB").save(LOGO_FLAT, dpi=(LOGO_PPI, LOGO_PPI))
 c = canvas.Canvas(OUT, pagesize=(PW + 2*BLEED, PH + 2*BLEED),
                   initialFontName="Lora", initialFontSize=13)
-c.setTitle(cfg["title"]); c.setAuthor("Deep Roots Kids"); c.setSubject(cfg["scripture_scope"])
+c.setTitle(cfg["title"]); c.setAuthor(AUTHOR); c.setSubject(cfg["scripture_scope"])
 
 for pno in range(1, cfg["print"]["page_count"] + 1):
     recto = pno % 2 == 1                      # odd = right-hand page

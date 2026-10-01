@@ -108,3 +108,71 @@ def check(book):
         if rid not in {u["id"] for u in units(book)}:
             probs.append((f"{slug} [{rid}]", "STALE RECORD — unit no longer printed"))
     return probs
+
+
+# ── my-words.md is the source of truth for every human unit (editor ruling 2026-10-01) ──
+# The release guard compares each `author: human` unit, as it will print, against the text
+# under **MY TEXT:** in <book>/plan/my-words.md — character for character. The only
+# normalisation is the one the printer already applies: units whose print form collapses
+# whitespace (teaching lines, footnotes) are compared with whitespace collapsed on both sides.
+# A unit whose body comes from a shared series file (body_file — About the Author) has that
+# file as its source and is not compared here.
+_WS_KINDS = {"teaching", "footnote"}
+
+
+def my_words(book):
+    """{unit id: MY TEXT} from <book>/plan/my-words.md. Empty MY TEXT -> ''."""
+    p = f"{book}/plan/my-words.md"
+    if not os.path.exists(p):
+        return {}
+    out, uid, buf, on = {}, None, [], False
+    for line in open(p, encoding="utf-8").read().splitlines() + ["---"]:
+        m = re.match(r"^### `([^`]+)`", line)
+        if m or line.startswith("---") or line.startswith("## "):
+            if uid is not None and on:
+                out[uid] = "\n".join(buf).strip()
+            on, buf = False, []
+            if m:
+                uid = m.group(1)
+            elif not line.startswith("---"):
+                uid = None
+            continue
+        if line.strip() == "**MY TEXT:**":
+            on, buf = True, []
+        elif on:
+            buf.append(line)
+    return out
+
+
+def check_my_words(book):
+    """[(unit id, page, printed text, my-words text or None)] for every human unit that
+    does not match my-words.md exactly. Empty list = in sync."""
+    cfg, plan = _load(book)
+    body_file_pages = {f"p{p['page']}.body" for p in plan["pages"] if p.get("body_file")}
+    reg, mw, bad = registry(book), my_words(book), []
+    for u in units(book):
+        r = reg.get(u["id"])
+        if not r or r.get("author") != "human" or u["id"] in body_file_pages:
+            continue
+        mine = mw.get(u["id"])
+        printed = u["text"] or ""
+        if mine is not None and u["kind"] in _WS_KINDS:
+            mine = " ".join(mine.split())
+        if mine != printed:
+            bad.append((u["id"], u["page"], printed, mine))
+    return bad
+
+
+def refuse_on_my_words(book):
+    """Release-guard half: print both versions of every mismatch and exit 1."""
+    bad = check_my_words(book)
+    if not bad:
+        return
+    slug = os.path.basename(book.rstrip("/"))
+    print(f"\n  ⛔ RELEASE REFUSED — {len(bad)} human unit(s) differ from plan/my-words.md "
+          f"(the source of truth, editor ruling 2026-10-01):\n")
+    for uid, page, printed, mine in bad:
+        print(f"    {slug} {page} [{uid}]")
+        print(f"      my-words.md : {'(no MY TEXT section)' if mine is None else repr(mine) if mine else '(MY TEXT empty)'}")
+        print(f"      printed     : {printed!r}")
+    raise SystemExit(1)

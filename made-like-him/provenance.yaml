@@ -112,10 +112,10 @@ text_units:
   kind: teaching
   author: human
   draft: false
-  sha: b282466b1768
-  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
-    Author is human authored. It's mine and confirmed'); edits applied only as instructed
-  recorded: '2026-09-30'
+  sha: 8d99c4f36b5d
+  source: 'author''s own words (editor confirmation 2026-09-30); one edit by editor ruling 2026-10-01:
+    ''Gods'' -> ''gods'' (generic plural lowercase), nothing else changed'
+  recorded: '2026-10-01'
 - id: p9.text
   page: p9
   kind: page-text
@@ -128,12 +128,12 @@ text_units:
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: human
-  draft: false
+  author: null
+  draft: true
   sha: 11efa952cb66
-  source: author's own words — editor confirmation 2026-09-30 ('All the content including the About the
-    Author is human authored. It's mine and confirmed'); edits applied only as instructed
-  recorded: '2026-09-30'
+  source: 'BLOCKED 2026-10-01 by editor ruling: opens identically to p15.text (textqa REPEATED-OPENING);
+    editor to supply a new p9 teaching line in my-words.md'
+  recorded: '2026-10-01'
 - id: p11.text
   page: p11
   kind: page-text
