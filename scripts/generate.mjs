@@ -99,6 +99,12 @@ const section = (h) => (style.split(/^## /m).find(s => s.startsWith(h)) ?? '')
   .replace(/\*\*/g, '')
   .trim();
 
+// Outfits must be a person -> garment mapping (a placeholder string once spelled itself out
+// letter by letter into the prompt — we-broke-it-all p25, 2026-10-02).
+if (page.outfits && (typeof page.outfits !== 'object' || Array.isArray(page.outfits))) {
+  console.error(`  outfits must be a mapping of person -> garment, not ${JSON.stringify(page.outfits).slice(0, 80)}`);
+  process.exit(2);
+}
 const prompt = [
   `Black and white line art for a children's coloring book page, ages ${book.age_band}.`,
   ``,

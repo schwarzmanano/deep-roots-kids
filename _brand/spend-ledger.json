@@ -1,5 +1,5 @@
 {
-  "total_usd": 21.9341,
+  "total_usd": 24.947,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1376,12 +1376,243 @@
       "usd": 0.0941,
       "book": "we-broke-it-all",
       "test": "p31-option-c"
+    },
+    {
+      "ts": "2026-10-01T23:52:33.134Z",
+      "label": "p3 attempt-1",
+      "usd": 0.0876,
+      "book": "we-broke-it-all",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-01T23:52:41.142Z",
+      "label": "p3 attempt-2",
+      "usd": 0.0938,
+      "book": "we-broke-it-all",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-01T23:52:50.433Z",
+      "label": "p5 attempt-1",
+      "usd": 0.0877,
+      "book": "we-broke-it-all",
+      "page": 5
+    },
+    {
+      "ts": "2026-10-01T23:52:59.608Z",
+      "label": "p5 attempt-2",
+      "usd": 0.0956,
+      "book": "we-broke-it-all",
+      "page": 5
+    },
+    {
+      "ts": "2026-10-01T23:53:08.392Z",
+      "label": "p7 attempt-1",
+      "usd": 0.0892,
+      "book": "we-broke-it-all",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-01T23:53:17.657Z",
+      "label": "p7 attempt-2",
+      "usd": 0.0949,
+      "book": "we-broke-it-all",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-01T23:53:26.080Z",
+      "label": "p9 attempt-1",
+      "usd": 0.0892,
+      "book": "we-broke-it-all",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-01T23:53:34.764Z",
+      "label": "p9 attempt-2",
+      "usd": 0.0882,
+      "book": "we-broke-it-all",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-01T23:53:46.199Z",
+      "label": "p11 attempt-1",
+      "usd": 0.0891,
+      "book": "we-broke-it-all",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-01T23:53:56.413Z",
+      "label": "p11 attempt-2",
+      "usd": 0.0957,
+      "book": "we-broke-it-all",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-01T23:54:05.367Z",
+      "label": "p13 attempt-1",
+      "usd": 0.0947,
+      "book": "we-broke-it-all",
+      "page": 13
+    },
+    {
+      "ts": "2026-10-01T23:54:14.511Z",
+      "label": "p13 attempt-2",
+      "usd": 0.0923,
+      "book": "we-broke-it-all",
+      "page": 13
+    },
+    {
+      "ts": "2026-10-01T23:54:23.143Z",
+      "label": "p15 attempt-1",
+      "usd": 0.0878,
+      "book": "we-broke-it-all",
+      "page": 15
+    },
+    {
+      "ts": "2026-10-01T23:54:32.010Z",
+      "label": "p15 attempt-2",
+      "usd": 0.0899,
+      "book": "we-broke-it-all",
+      "page": 15
+    },
+    {
+      "ts": "2026-10-01T23:54:40.195Z",
+      "label": "p17 attempt-1",
+      "usd": 0.0945,
+      "book": "we-broke-it-all",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-01T23:54:51.445Z",
+      "label": "p17 attempt-2",
+      "usd": 0.0944,
+      "book": "we-broke-it-all",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-01T23:55:03.831Z",
+      "label": "p19 attempt-1",
+      "usd": 0.0913,
+      "book": "we-broke-it-all",
+      "page": 19
+    },
+    {
+      "ts": "2026-10-01T23:55:12.078Z",
+      "label": "p19 attempt-2",
+      "usd": 0.0865,
+      "book": "we-broke-it-all",
+      "page": 19
+    },
+    {
+      "ts": "2026-10-01T23:55:20.482Z",
+      "label": "p21 attempt-1",
+      "usd": 0.086,
+      "book": "we-broke-it-all",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-01T23:55:27.886Z",
+      "label": "p21 attempt-2",
+      "usd": 0.0884,
+      "book": "we-broke-it-all",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-01T23:55:37.124Z",
+      "label": "p23 attempt-1",
+      "usd": 0.0907,
+      "book": "we-broke-it-all",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-01T23:55:46.679Z",
+      "label": "p23 attempt-2",
+      "usd": 0.0912,
+      "book": "we-broke-it-all",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-01T23:55:55.939Z",
+      "label": "p25 attempt-1",
+      "usd": 0.0952,
+      "book": "we-broke-it-all",
+      "page": 25
+    },
+    {
+      "ts": "2026-10-01T23:56:05.050Z",
+      "label": "p25 attempt-2",
+      "usd": 0.0987,
+      "book": "we-broke-it-all",
+      "page": 25
+    },
+    {
+      "ts": "2026-10-01T23:56:14.072Z",
+      "label": "p27 attempt-1",
+      "usd": 0.0827,
+      "book": "we-broke-it-all",
+      "page": 27
+    },
+    {
+      "ts": "2026-10-01T23:56:31.061Z",
+      "label": "p29 attempt-1",
+      "usd": 0.0959,
+      "book": "we-broke-it-all",
+      "page": 29
+    },
+    {
+      "ts": "2026-10-01T23:56:41.135Z",
+      "label": "p29 attempt-2",
+      "usd": 0.0933,
+      "book": "we-broke-it-all",
+      "page": 29
+    },
+    {
+      "ts": "2026-10-01T23:56:49.547Z",
+      "label": "p31 attempt-1",
+      "usd": 0.0912,
+      "book": "we-broke-it-all",
+      "page": 31
+    },
+    {
+      "ts": "2026-10-01T23:56:56.833Z",
+      "label": "p31 attempt-2",
+      "usd": 0.0941,
+      "book": "we-broke-it-all",
+      "page": 31
+    },
+    {
+      "ts": "2026-10-01T23:59:15.945Z",
+      "label": "p3 attempt-3",
+      "usd": 0.0859,
+      "book": "we-broke-it-all",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-01T23:59:27.976Z",
+      "label": "p3 attempt-4",
+      "usd": 0.0902,
+      "book": "we-broke-it-all",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-01T23:59:36.594Z",
+      "label": "p7 attempt-3",
+      "usd": 0.0901,
+      "book": "we-broke-it-all",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-01T23:59:49.754Z",
+      "label": "p7 attempt-4",
+      "usd": 0.0969,
+      "book": "we-broke-it-all",
+      "page": 7
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
     "made-like-him": 11.4883,
-    "we-broke-it-all": 2.7741
+    "we-broke-it-all": 5.787
   }
 }

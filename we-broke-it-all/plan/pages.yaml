@@ -52,13 +52,13 @@ pages:
     title: "One Good Rule"
     text: "God made a world that was good and bright. We were made to trust Him, walk in His light."
     teaching: "God made everything good, and He made Adam and Eve in his image, on purpose, to be like him. God gave them one simple rule to show their trust."
-    scene: "The garden in full brightness, wide: rounded leafy trees, the river, animals at rest, the man and the woman FROM BEHIND at mid-distance tending plants together (made-like-him p11 construction). In the middle distance, among the other trees and looking like them, stand two trees: the tree of knowledge carries plain round fruit (no stem, no leaf) found on no other tree; the tree of life is far off and small (F10). Neither glows, neither is haloed, neither is larger than the rest. No serpent. No fruit taken."
+    scene: "The garden in full brightness, wide: rounded leafy trees, the river, animals at rest, the man and the woman FROM BEHIND at mid-distance tending plants a little apart from each other, HANDS APART, each with one single-line arm reaching to a different plant (made-like-him p11 construction). In the middle distance, among the other trees and looking like them, stand two trees: the tree of knowledge carries plain round fruit (no stem, no leaf) found on no other tree; the tree of life is far off and small (F10). Neither glows, neither is haloed, neither is larger than the rest. No serpent. No fruit taken."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A bright garden where a man and a woman tend plants among many trees."
     ruling: "D2 Option D; F1 IN (2:16-17, references and pictures only); F10 tree of life drawn, kept distant.; Gate 2: fruit ruling 2026-10-02"
-
+    amended_r1: "2026-10-02 round 1: a01 hand-holding (banned), a02 printed the label 'F10' and apple-like fruit. Hands apart named in the scene."
   - page: 5
     ref: "Genesis 3:1"
     title: "The Serpent"
@@ -80,13 +80,13 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:4-5"
     teaching: "The serpent lied. He told them they could be like God if they disobeyed, even though God had already made them to be like Him!"
-    scene: "Closer than p5 but still from behind the woman: she looks up at the fruit; the plain serpent (as p5) coils on a low branch between her and the fruit. The man stands a little way off, also from behind (3:6 'her husband with her'). No hand on the fruit yet. The forbidden tree's fruit is plain round fruit — simple circles, no stem, no leaf — on that tree only; the other trees are leafy with no fruit (Gate 2 ruling)."
+    scene: "The fruit tree in the middle of the garden (plain round fruit — simple circles, no stem, no leaf — on that tree only; the other trees leafy with no fruit). The WOMAN stands CLOSEST to it, directly under a low branch, FROM BEHIND, looking up at the fruit. The plain serpent (as p5) lies along that low branch between her and the fruit, its head turned toward her. The MAN stands several steps BEHIND HER, further from the tree, also from behind. No hand on the fruit. Hands apart."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A woman looking up at fruit on a tree while a serpent watches from a branch."
     ruling: "D1 Option A; D2 Option D; F6 pointer used in text."
-
+    amended_r1: "2026-10-02 round 1: both attempts put the man at the serpent's tree (a02) or showed profiles and tube limbs (a01). The woman is now named closest to the tree; the man further back."
   - page: 9
     ref: "Genesis 3:6"
     title: "We Said No"
@@ -108,13 +108,13 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:7"
     teaching: "For the very first time, they felt shame. They tried to fix it and hide what they had done by making their own coverings."
-    scene: "The man and the woman FROM BEHIND, turned away from each other, heads down, sitting apart beside a large fig tree with big simple lobed leaves. They wear their usual plain garments — NO leaves worn, NO leaf aprons, nothing held. Shame is carried by body language only: turned away, small, apart."
+    scene: "The man and the woman seen FROM BEHIND, backs to the viewer, STANDING apart on either side of a large fig tree with big simple lobed leaves, heads bowed, turned away from each other. Faces never visible — no profile, no nose or chin outline. Plain sleeveless garments with STRAIGHT hems (before the gift of garments). NO leaves worn, nothing held. NO fruit on any tree on this page. Arms hang slightly out from the body as single lines with oval hands."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman sitting apart and turned away from each other under a fig tree."
     ruling: "D3 Option C (shame shown, leaves not worn); D5 Option A (body language only)."
-
+    amended_r1: "2026-10-02 round 1: a01 ragged hems before p29; a02 faces in profile, seated (volumetric limbs), apple trees. Standing, backs to the viewer, straight hems, no fruit."
   - page: 13
     ref: "Genesis 3:8-10"
     title: "Where Are You?"
@@ -166,6 +166,7 @@ pages:
     outfits:
       Son: "sleeveless t-shirt and shorts"
     density: sparse
+    thicken_thin_strokes: true   # QA 2026-10-02: 2 strokes at 1.19pt under the 2pt floor — post fix, as Book Two
     alt: "A little boy beside a cracked cup, pointing at the puzzled dog."
     ruling: "D6 Option B — Son (4), blame directed at the dog, resolution left open; F19.; Gate 2: clay cup; Gate 2 (signed 2026-10-02): Son's face worried"
 
@@ -178,12 +179,12 @@ pages:
     quote: true             # WEB quotation (2026-10-01: "(WEB)" tag removed by ruling; guardrails §8)
     quote_ref: "Genesis 3:14"
     teaching: "Because God is perfectly good, He had to judge their sin. He started with the serpent who told the lie."
-    scene: "The plain serpent (as p5) alone, on the ground among small stones, moving away across bare earth at the garden's edge. No people on this page. NOTHING from 3:15: no woman, no heel, no foot, no child, no crushed head, no seed, no light, no path."
+    scene: "The plain serpent (as p5) alone, on the ground among small stones and a few grass tufts (NO other plants: no pods, no seeds, no bean or pea plants, no flowers), moving away across bare earth at the garden's edge. No people on this page. NOTHING from 3:15: no woman, no heel, no foot, no child, no crushed head, no seed, no light, no path."
     figures: []
     density: sparse
     alt: "A serpent crawling away across dusty ground."
     ruling: "D1 Option A; F11."
-
+    amended_r1: "2026-10-02 round 1: a02 had a pod-bearing plant beside the serpent (reads as seed — 3:15 boundary); a01 a rounded border frame."
   - page: 23
     ref: "Genesis 3:17-19 (and 3:16)"
     title: "Thorns and Hard Work"
@@ -191,22 +192,24 @@ pages:
     quote_ref: "Genesis 3:19"
     text: "Now there’s sadness, pain, and fear. Broken hearts and lots of tears."
     teaching: "Because the ground was cursed, work became hard. It's why the world has sickness, and sadness, and things that just are not the way they're supposed to be."
-    scene: "Outside the garden, hard ground. The man and the woman FROM BEHIND at mid-distance working the ground together with simple digging sticks; thistle and thorn plants all around the edge of their plot; the sun high as a plain circle. NO sweat drops, NO dust clouds. Nothing of 3:16a (no pregnancy, no childbirth)."
+    scene: "Outside the garden, hard ground. The man and the woman FROM BEHIND at MID-DISTANCE — small, about a quarter of the page height — in the SAME simple stick-figure construction as the composition reference: plain sleeveless garments with STRAIGHT hems, every arm and leg ONE single thin line, oval hands and feet, no muscles, no body contours. Each holds a plain digging stick with one straight single-line arm, hands apart; thistle and thorn plants all around the edge of their plot; the sun high as a plain circle. NO sweat drops, NO dust clouds. Nothing of 3:16a (no pregnancy, no childbirth)."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A man digging hard, stony ground surrounded by thorny plants."
     ruling: "D7 — thorns and thistles yes; sweat omitted; dust omitted; 3:16a omitted; woman working alongside. D9 Option A — death in the text only."
-
+    amended_r1: "2026-10-02 round 1: both attempts drew realistic muscular figures with shaped limbs; a02 also an uneven hem before p29. Figures smaller, stick construction named, straight hems."
   - page: 25
     ref: "Romans 8:20-22; Genesis 3:19 (pointer)"
     title: "Not How It's Supposed to Be"
     text: "Fighting, sickness, wrong and right. Nothing’s the same—it’s not how it’s supposed to be."
     teaching: "This might sound like a sad thing to talk about, and it is very sad. But friends, we don't have to be afraid. The whole creation is waiting in hope!"
-    scene: "The song's verse 2 as ordinary family life, gently: a family cast child in bed under a blanket, a parent sitting beside with a cup. Through the window a garden with a broken fence. Care is the centre of the picture, not the illness. NO wilting or dying plants, nothing that stands for death (D9 is text-only on p23)."
+    scene: "The song's verse 2 as ordinary family life, gently: Daughter 3 in bed under a plain blanket, Father sitting upright on a chair beside her, a cup on a small bedside table. Through the window a garden with a broken fence. Care is the centre of the picture, not the illness. NO wilting or dying plants, nothing that stands for death (D9 is text-only on p23)."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
-    outfits: "PENDING — sleepwear from tested vocabulary (sleeveless pyjama vest/shorts, nightgown)"
+    outfits:               # fixed 2026-10-02 (was a placeholder string — plan bug); matches the Gate 2 composition reference
+      Daughter3: "sleeveless nightgown"
+      Father: "sleeveless round-neck top and knee-length shorts"
     density: sparse
     alt: "A parent caring for a child who is sick in bed."
     ruling: "D9 Option A — no visual sign of death."

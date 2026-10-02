@@ -1,0 +1,77 @@
+Black and white line art for a children's coloring book page, ages 4-7.
+
+SCENE: The gift (D4 Option B): two plain garments folded on a flat rock in morning light (the sun as a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND, approaching the rock. The garments are Book Two's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. No actor, no hands, no light-shape, no animal, no carcass, no needle or tool.
+
+STYLE — follow exactly:
+- Black and white line art for a children's coloring book page, ages 4 to 7.
+- Deep Roots Kids flat-vector style for the WHOLE page: figures, animals, plants, buildings
+  and objects all built from simple geometric shapes at one matching level of detail.
+- Pure black outlines on a pure white background. No grey.
+- Thick, bold, confident, uniform line weight suitable for crayons.
+- Every shape a fully CLOSED region so colour cannot leak out.
+- Large simple shapes, few objects, generous open space inside each shape.
+- Flat front-on storybook composition, centered.
+- Calm, gentle, honest mood. Sad moments are shown by how people stand and turn, never by darkness.
+
+DO NOT INCLUDE:
+Style:
+- NO shading, hatching, crosshatching, stippling, gradients, solid black fills, texture.
+- NO dark sky, NO night, NO large black or shadowed areas, NO long cast shadows.
+- NO text, letters, numbers, words, names, labels, captions, signature, or border frame.
+- NO naturalistic or realistic rendering of anything — no fur texture, no bark texture,
+  no scales drawn one by one, no feathers drawn stroke by stroke.
+- NO objects carried over from the style reference: no vegetables, pumpkins, cabbages,
+  carrots, watering can, garden tools or dog UNLESS the SCENE itself names them.
+- NO blank faces: every family-cast person seen from the front has eyes and a smile line.
+Theological — theology-guardrails §0-§3, non-negotiable, WLC 109:
+- NO depiction of God in any form. No face in the sky. No hands reaching from clouds or trees.
+  No footprints. No rays of light arranged into a figure. No dove. No radiant humanoid shape.
+  No eye. No throne. No giant figure over the world. No voice lines or sound marks from the sky.
+- NO figure of Christ, and NO symbol standing for Him: no cross, no crown, no empty tomb,
+  no shepherd's staff, no nail-marked hands, no halo.
+- Where God acts in the text, depict only the RESULT of the act, never an actor.
+- NO angels, NO wings on any person, NO winged or humanoid figure at any gate.
+- NO light, glow, sparkle or rays coming from any person, tree, fruit or object — the ONE
+  exception is the sword of light at the garden entrance on p31 (D8, Gate 2 ruling).
+Scope — Book Three (Gate 1 rulings):
+- NOTHING from Genesis 3:15: no heel, no foot near the serpent, no crushed head, no woman with
+  a child, no baby, no seed, no light on the horizon, no path leading anywhere (§2, F11).
+- The serpent is a PLAIN SNAKE (D1): smooth simple body, simple head seen in profile, one plain
+  round dot eye. NO mouth line, NO fangs, NO forked tongue, NO horns, NO spikes, NO slit pupils,
+  NO eyebrows, NO eyelashes, NO smile, NO big cartoon eyes, NO human features. Not cute, not scary.
+- Fruit (Gate 2 ruling): the forbidden tree's fruit is PLAIN ROUND FRUIT — simple circles with
+  NO stem and NO leaf — and appears on THAT TREE ONLY. NO apples (no stem, no dimple, no leaf on
+  any fruit near it). The tree itself is not larger, not glowing, not marked.
+- NO fig leaves worn and NO leaves held (D3).
+- NO sweat drops, NO dust clouds (D7). NO pregnancy, nothing of childbirth.
+- NO death imagery anywhere: no grave, no bones, no dead or hurt animal, no blood, no wilting
+  or dying plants, no fallen leaves (D9 — death is in the text only).
+- NO animal near the garments, NO hide being cut or sewn, NO needle, NO tool (D4).
+- NO mirror, NO reflection of a person in water or glass.
+- NO hand-holding, unless the SCENE explicitly calls for it (Gate 2 ruling).
+- NO vases, NO eggs or eggshells (Gate 2 ruling).
+- The guarded entrance (p31): a single upright sword outline with a few SHORT straight light-lines
+  close around it — NO figure, NO wings, NO fire or flames burning outward, NO long rays (D8, Gate 2).
+
+HUMAN FIGURES — follow exactly:
+The first man and woman. genesis-1 DECISION-5 and made-like-him p5-p11, matched exactly:
+- Seen from behind or three-quarters behind, at a distance, small within a wide scene.
+- Faces entirely unseen. No frontal view, no profile, no facial features.
+- Doing something — walking, working, reaching, pointing, crouching. Never posed, never facing the viewer.
+- The man: short cropped hair, broader squarer build. The woman: long wavy hair past the
+  shoulder, slighter build. No other markers of any kind.
+- Before the gift of garments (pages before p29): one plain simple sleeveless garment each, hem
+  at or above the knee, un-tailored — no collar, no buttons, no wrap, no tie, no pattern.
+- Garments of skin (D4 Gate 2 ruling, signed 2026-10-02): worn ONLY on p31 (p29 shows them laid
+  out). Vocabulary: the man's plain sleeveless one-shoulder tunic and the woman's plain sleeveless
+  knee-length dress, each with ONLY an uneven hem; single thin line limbs; no fur, no hide texture.
+- Every arm and leg one single thin line; hands and feet plain closed ovals. One pointing
+  gesture is allowed where the SCENE names it.
+- Shame and fear shown by BODY LANGUAGE ONLY (D5): turned away, heads lowered, apart, small,
+  partly hidden. Never by darkness, tears or faces.
+- Never in visual proximity to anything that could read as a depiction of God.
+
+FRAMING:
+- All meaningful content within the inner 85% of frame.
+- No element touching or crossing the frame edge.
+- No horizontal line running unbroken edge to edge.
