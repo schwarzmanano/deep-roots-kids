@@ -82,11 +82,34 @@ def thicken_thin(bw, px_to_pt, floor_pt):
     return Image.fromarray(np.where(out, 0, 255).astype(np.uint8), "L"), len(need)
 
 
+def strip_edge_slivers(bw, zone=0.02, max_thick=4):
+    """Remove frame-line remnants: straight components no thicker than `max_thick` px, lying
+    entirely within `zone` of one image edge and running along it. find_frame_crop misses a
+    frame line that is broken (under FRAME_RATIO black); its segments survive as edge slivers
+    (we-broke-it-all p19, 2026-10-02). Real art is never a 4px-straight line hugging the edge."""
+    from scipy import ndimage
+    ink = np.array(bw) < 128
+    H, W = ink.shape
+    lab, n = ndimage.label(ink, structure=np.ones((3, 3)))
+    removed = 0
+    for i, sl in enumerate(ndimage.find_objects(lab), 1):
+        y0, y1, x0, x1 = sl[0].start, sl[0].stop, sl[1].start, sl[1].stop
+        vert = (x1 - x0) <= max_thick and (x1 <= W * zone or x0 >= W * (1 - zone))
+        horz = (y1 - y0) <= max_thick and (y1 <= H * zone or y0 >= H * (1 - zone))
+        if vert or horz:
+            ink[lab == i] = False
+            removed += 1
+    if not removed:
+        return bw, 0
+    return Image.fromarray(np.where(ink, 0, 255).astype(np.uint8), "L"), removed
+
+
 def process(src, dst, px_to_pt=None, floor_pt=None):
     bw = load_bitonal(src)
     framed, box = find_frame_crop(bw)
     if framed:
         bw = bw.crop(box)
+    bw, slivers = strip_edge_slivers(bw)
     thickened = 0
     if px_to_pt and floor_pt:
         bw, thickened = thicken_thin(bw, px_to_pt, floor_pt)
@@ -96,6 +119,7 @@ def process(src, dst, px_to_pt=None, floor_pt=None):
     h = bw.histogram(); t = sum(h)
     return {
         "frame_removed": framed,
+        "edge_slivers_removed": slivers,
         "thickened": thickened,
         "ink_pct": h[0] / t * 100,
         "midtone_pct": sum(h[1:255]) / t * 100,

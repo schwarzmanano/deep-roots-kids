@@ -8,6 +8,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-03.jpg"
   },
@@ -20,6 +21,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-02.jpg"
   },
@@ -32,6 +34,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-04.jpg"
   },
@@ -44,8 +47,22 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-02.jpg"
+  },
+  {
+    "page": 11,
+    "ink": 9.124056094929882,
+    "stroke": 5,
+    "margin": 7.367546393384244,
+    "min_pt": 3.37,
+    "thin_count": 0,
+    "thin_ink_pct": 0.0,
+    "frame": false,
+    "slivers": 0,
+    "midtone": 0.0,
+    "src": "attempt-03.jpg"
   },
   {
     "page": 13,
@@ -56,6 +73,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-01.jpg"
   },
@@ -68,6 +86,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-01.jpg"
   },
@@ -80,20 +99,48 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-01.jpg"
   },
   {
     "page": 19,
-    "ink": 5.50354381928782,
+    "ink": 5.439750048975532,
     "stroke": 4,
-    "margin": 12.916636277441471,
-    "min_pt": 1.1876651982378854,
-    "thin_count": 2,
-    "thin_ink_pct": 0.9294666544689415,
+    "margin": 12.102473498233216,
+    "min_pt": 2.6557001177706754,
+    "thin_count": 0,
+    "thin_ink_pct": 0.0,
     "frame": true,
+    "slivers": 17,
     "midtone": 0.0,
     "src": "attempt-01.jpg"
+  },
+  {
+    "page": 21,
+    "ink": 2.941387989931679,
+    "stroke": 5,
+    "margin": 10.183299389002038,
+    "min_pt": 2.5118496947247637,
+    "thin_count": 0,
+    "thin_ink_pct": 0.0,
+    "frame": false,
+    "slivers": 0,
+    "midtone": 0.0,
+    "src": "attempt-03.jpg"
+  },
+  {
+    "page": 23,
+    "ink": 8.515282272563827,
+    "stroke": 5,
+    "margin": 18.308251606357796,
+    "min_pt": 2.5118496947247637,
+    "thin_count": 0,
+    "thin_ink_pct": 0.0,
+    "frame": false,
+    "slivers": 0,
+    "midtone": 0.0,
+    "src": "attempt-03.jpg"
   },
   {
     "page": 25,
@@ -104,6 +151,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-02.jpg"
   },
@@ -116,6 +164,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-01.jpg"
   },
@@ -128,6 +177,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-02.jpg"
   },
@@ -140,6 +190,7 @@
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
+    "slivers": 0,
     "midtone": 0.0,
     "src": "attempt-02.jpg"
   }

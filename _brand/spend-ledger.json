@@ -1,5 +1,5 @@
 {
-  "total_usd": 24.947,
+  "total_usd": 25.4881,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1607,12 +1607,54 @@
       "usd": 0.0969,
       "book": "we-broke-it-all",
       "page": 7
+    },
+    {
+      "ts": "2026-10-02T01:50:42.168Z",
+      "label": "p11 attempt-3",
+      "usd": 0.096,
+      "book": "we-broke-it-all",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-02T01:50:49.491Z",
+      "label": "p11 attempt-4",
+      "usd": 0.0884,
+      "book": "we-broke-it-all",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-02T01:50:58.223Z",
+      "label": "p21 attempt-3",
+      "usd": 0.0858,
+      "book": "we-broke-it-all",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-02T01:51:05.375Z",
+      "label": "p21 attempt-4",
+      "usd": 0.0919,
+      "book": "we-broke-it-all",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-02T01:51:17.339Z",
+      "label": "p23 attempt-3",
+      "usd": 0.0895,
+      "book": "we-broke-it-all",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-02T01:51:24.393Z",
+      "label": "p23 attempt-4",
+      "usd": 0.0895,
+      "book": "we-broke-it-all",
+      "page": 23
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
     "made-like-him": 11.4883,
-    "we-broke-it-all": 5.787
+    "we-broke-it-all": 6.3281
   }
 }

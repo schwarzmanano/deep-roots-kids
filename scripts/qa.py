@@ -59,7 +59,8 @@ for d in sorted(glob.glob(f"{book}/gen/p*/"), key=lambda p: int(p.rstrip('/').sp
 
     rows.append(dict(page=page, ink=r["ink_pct"], stroke=stroke, margin=margin,
                      min_pt=sw["min_pt"], thin_count=sw["thin_count"], thin_ink_pct=sw["thin_ink_pct"],
-                     frame=r["frame_removed"], midtone=r["midtone_pct"], src=os.path.basename(src)))
+                     frame=r["frame_removed"], slivers=r.get("edge_slivers_removed", 0),
+                     midtone=r["midtone_pct"], src=os.path.basename(src)))
 
 # Drift is measured against the Gate 2 style lock when the book has one (the ruled reference);
 # otherwise against the page marked style_reference.
