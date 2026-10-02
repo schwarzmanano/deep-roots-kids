@@ -17,7 +17,7 @@ copyright_page:           # author-supplied 2026-10-01, verbatim
   - "© 2026 Deep Roots Kids. All rights reserved."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
-  front_art: null
+  front_art: cover/front-art-v2-01.jpg   # concept B chosen by the editor 2026-10-02; 4K, brand palette
   layout: v2              # match Books One/Two series identity; NO front-cover author line (ruling 2026-10-01)
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK THREE"   # author-supplied 2026-10-01, verbatim
@@ -28,8 +28,8 @@ cover:                    # text slots EMPTY until the author supplies them
     - "Scripture from the World English Bible (WEB)"
 # Spines are computed from the FINAL page count at the print stage — never copied from Book Two.
 cover_targets:
-  kdp:  {bleed_in: 0.125, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80}
-  lulu: {bleed_in: 0.125, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81}
+  kdp:  {bleed_in: 0.125, spine_in: 0.0811, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80, spine_text: false}   # 36 pp, computed 2026-10-02
+  lulu: {bleed_in: 0.125, spine_in: 0.1411, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81, spine_text: false}   # 36 pp, computed 2026-10-02
 
 governed_by:
   - kids/_brand/theology-guardrails.md

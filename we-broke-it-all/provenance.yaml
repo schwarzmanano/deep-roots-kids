@@ -1,11 +1,16 @@
 book: we-broke-it-all
-title: null
+title: We Broke It All
 disclosure: computed by scripts/disclosure.py from text_units + images below — never hand-edited
 images:
   interior:
-    source: none yet — generation blocked at Gate 1
+    source: AI-generated (many images)
+    model: gemini-3.1-flash-image
+    editing: extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver
+      strip, stroke thickening, vectorisation (2026-10-02)
   cover:
-    source: none yet
+    source: AI-generated (front art front-art-v2-01, gemini-3.1-flash-image 4K, from a B&W stick reference)
+    editing: extensive — crop, logo composite, ICC conversion to CMYK, typography and layout added by
+      the pipeline
 translation: none
 text_units:
 - id: book.title
@@ -388,4 +393,4 @@ text_units:
   sha: 4c4967481a40
   source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
   recorded: '2026-10-01'
-gate1_signed: null
+gate1_signed: '2026-10-02'

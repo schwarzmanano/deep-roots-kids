@@ -19,6 +19,8 @@ __pycache__/
 # cover candidates — only the chosen art is tracked
 **/cover/*
 !genesis-1/cover/front-art-v2-01.jpg
+!we-broke-it-all/cover/front-art-v2-01.jpg
+!we-broke-it-all/cover/*.txt
 
 # rejects and cruft
 **/REJECTED-*
