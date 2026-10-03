@@ -25,7 +25,7 @@
 
 Made Like Him
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -41,7 +41,7 @@ Made Like Him
 
 Deep Roots Kids · Creation to Glorification · Book Two
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -57,7 +57,7 @@ Deep Roots Kids · Creation to Glorification · Book Two
 
 Created in the Image of God Coloring Book
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -73,7 +73,7 @@ Created in the Image of God Coloring Book
 
 Copyright (c) 2026 Deep Roots Kids. All rights reserved.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -89,7 +89,7 @@ Copyright (c) 2026 Deep Roots Kids. All rights reserved.
 
 Scripture quotations are from the World English Bible (WEB), which is in the public domain.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -111,7 +111,7 @@ Scripture quotations are from the World English Bible (WEB), which is in the pub
 
 God made the sky, the sea, the plants, and the animals, but He saved the most amazing thing for last. And friends... it's you.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -128,7 +128,7 @@ God made the sky, the sea, the plants, and the animals, but He saved the most am
 
 God made people last, as the crown of His creation. Before you took your first breath, God lovingly and intentionally planned you.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -146,7 +146,7 @@ God made people last, as the crown of His creation. Before you took your first b
 
 Yahweh is God's covenant name, a promise that He is present with His people. He formed our bodies from dust and breathed His life into us.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -168,7 +168,7 @@ Yahweh is God's covenant name, a promise that He is present with His people. He 
 
 We’re not the same as God — we're not gods — but made to show a little picture of who He is, everywhere we go.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -185,7 +185,7 @@ We’re not the same as God — we're not gods — but made to show a little pic
 
 God brought the animals to the man, and he gave them their names.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -223,7 +223,7 @@ God brought the animals to the man, and he gave them their names.
 
 God placed the man in the garden to work and take care of it.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -240,7 +240,7 @@ God placed the man in the garden to work and take care of it.
 
 Work was God's good gift before the fall. He gave mankind dominion to act as loving stewards over His creation, reflecting His own royal care.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -262,7 +262,7 @@ Work was God's good gift before the fall. He gave mankind dominion to act as lov
 
 Because God is Love and He can love — He made you able to love too.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -279,7 +279,7 @@ Because God is Love and He can love — He made you able to love too.
 
 We are able to love because He loved us first. When we show love in ordinary ways, we reflect Him to the world like a mirror image.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -301,7 +301,7 @@ We are able to love because He loved us first. When we show love in ordinary way
 
 God knows all things — and He made you able to think and learn and know.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -318,7 +318,7 @@ God knows all things — and He made you able to think and learn and know.
 
 God gave you a mind so you could know Him. We learn about His character and His promises when we read His Word together.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -340,7 +340,7 @@ God gave you a mind so you could know Him. We learn about His character and His 
 
 God can choose whatever He wants to do — and He made you able to choose, too.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -358,7 +358,7 @@ God can choose whatever He wants to do — and He made you able to choose, too.
 
 Adam had true freedom in innocence, but sin broke us. Now we rely completely on God's grace. Christ obeyed perfectly for us, giving us the ability to choose what is right.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -375,7 +375,7 @@ Adam had true freedom in innocence, but sin broke us. Now we rely completely on 
 
 God gave people dominion so they could care for His world on His behalf.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -392,7 +392,7 @@ God gave people dominion so they could care for His world on His behalf.
 
 God is the true King over everything. He made people to serve as stewards and caretakers, looking after His beautiful garden.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -414,7 +414,7 @@ God is the true King over everything. He made people to serve as stewards and ca
 
 You were not made by accident. You were not a surprise.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -436,7 +436,7 @@ You were not made by accident. You were not a surprise.
 
 Before you were even born, God planned you, on purpose, to carry a little piece of His likeness into the world.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -459,7 +459,7 @@ Before you were even born, God planned you, on purpose, to carry a little piece 
 
 It means every single person you'll ever meet is special — your mom, your dad, your brother, your sister, your friend at school, even someone you've never met
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -476,7 +476,7 @@ It means every single person you'll ever meet is special — your mom, your dad,
 
 Every single person in every nation holds immense value and dignity, because each one uniquely carries the image of God.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -498,7 +498,7 @@ Every single person in every nation holds immense value and dignity, because eac
 
 That's why we treat people with kindness. That's why every person matters.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -515,7 +515,7 @@ That's why we treat people with kindness. That's why every person matters.
 
 We cannot bless God and curse the people He made. Treating others with kindness and respect honors the image of God that they bear.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -538,7 +538,7 @@ We cannot bless God and curse the people He made. Treating others with kindness 
 
 You are not like your puppy, or cat and you are not a monkey!
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -555,7 +555,7 @@ You are not like your puppy, or cat and you are not a monkey!
 
 God made animals good, but only human beings are uniquely made to know God, speak to Him, and love Him in a covenant relationship.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -577,7 +577,7 @@ God made animals good, but only human beings are uniquely made to know God, spea
 
 You were made to know God, to love others, and to shine a little bit of His glory everywhere you go.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -594,7 +594,7 @@ You were made to know God, to love others, and to shine a little bit of His glor
 
 You were made for His glory. When you do good deeds, you are like a lamp shining light so that your Father in heaven is praised.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -611,7 +611,7 @@ You were made for His glory. When you do good deeds, you are like a lamp shining
 
 Christ is the perfect Image, and He is making us new.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -631,7 +631,7 @@ Christ is the perfect Image, and He is making us new.
 
 Sin cracked our reflection, but the image is not lost. Jesus Christ is the exact image of the Father, and through His grace, He is renewing us to look like Him.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -651,7 +651,7 @@ Sin cracked our reflection, but the image is not lost. Jesus Christ is the exact
 
 You are made like Him—created on purpose, for a purpose. Though sin broke our reflection, Jesus, the true Image of God, came to fix what we could not. Through faith in Him, you are invited into God's family to know Him, to love others, and to shine a little bit of His glory everywhere you go.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -669,7 +669,7 @@ You are made like Him—created on purpose, for a purpose. Though sin broke our 
 
 Adam and Eve are drawn with clothes in this book as a publishing convention for young readers. However, Genesis 2:25 tells us that before the fall, they were completely naked and unashamed.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -700,7 +700,7 @@ Adam and Eve are drawn with clothes in this book as a publishing convention for 
 
 CREATION TO GLORIFICATION • BOOK TWO
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ### `cover.back_blurb` — back-cover-blurb · back cover
@@ -717,7 +717,7 @@ CREATION TO GLORIFICATION • BOOK TWO
 What does it mean to be made in God's image?
 God created a beautiful world, and He made people to be the crown of His creation. Join these children as they explore the outdoors and learn how every person is uniquely designed to reflect God's love, creativity, and care. You are made like Him—on purpose, for a purpose—to know God, to love others, and to shine a little bit of His glory everywhere you go!
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -734,7 +734,7 @@ God created a beautiful world, and He made people to be the crown of His creatio
 
 Be encouraged!
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -747,7 +747,7 @@ Be encouraged!
 
 About the Author
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -760,7 +760,7 @@ About the Author
 
 ✓ 15 full-page illustrations
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -773,7 +773,7 @@ About the Author
 
 ✓ Biblical teaching for ages 4–7
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -786,5 +786,5 @@ About the Author
 
 ✓ Scripture from the World English Bible
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 

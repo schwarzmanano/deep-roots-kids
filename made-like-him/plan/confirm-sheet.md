@@ -1,6 +1,6 @@
 # Book Two — confirmation sheet (Made Like Him)
 
-Generated 2026-10-03 from `plan/my-words.md`. Nothing here is new wording: each line is your registered text,
+Generated 2026-10-03 from `plan/my-words.md`. **All 41 confirmed by the author in chat ("confirm all"), 2026-10-04.** Nothing here is new wording: each line is your registered text,
 copied verbatim. Reply in chat, e.g. **"confirm all"** or **"confirm all except 4, 17"** (then send the corrected
 wording for those). Only your explicit confirmation sets `confirmed`.
 
