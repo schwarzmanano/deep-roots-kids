@@ -1,5 +1,5 @@
 {
-  "total_usd": 27.3567,
+  "total_usd": 27.7294,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1721,12 +1721,24 @@
       "label": "cover: front-art-v3b-2",
       "usd": 0.1805,
       "book": "we-broke-it-all"
+    },
+    {
+      "ts": "2026-10-03T19:55:06.289Z",
+      "label": "cover: front-art-v4-1",
+      "usd": 0.1839,
+      "book": "we-broke-it-all"
+    },
+    {
+      "ts": "2026-10-03T19:55:35.422Z",
+      "label": "cover: front-art-v4-2",
+      "usd": 0.1888,
+      "book": "we-broke-it-all"
     }
   ],
   "by_book": {
     "genesis-1": 5.9431,
     "_brand": 1.7286,
     "made-like-him": 11.4883,
-    "we-broke-it-all": 8.1967
+    "we-broke-it-all": 8.5694
   }
 }

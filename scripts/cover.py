@@ -66,6 +66,7 @@ FD = "kids/_brand/fonts"
 pdfmetrics.registerFont(TTFont("Baloo2", f"{FD}/Baloo2.ttf"))
 pdfmetrics.registerFont(TTFont("Lora",   f"{FD}/Lora.ttf"))
 pdfmetrics.registerFont(TTFont("LoraIt", f"{FD}/Lora-Italic.ttf"))
+pdfmetrics.registerFont(TTFont("Baloo2Bold", f"{FD}/Baloo2-Bold.ttf"))   # static wght 700 (D-29)
 
 BLEED  = 0.125 * IN
 TRIM_W, TRIM_H = 8.5 * IN, 11 * IN
@@ -162,19 +163,23 @@ if GRID:
     bs = G["banner"]["text_max_pt"]
     safe_w = TRIM_W - 2 * SAFE
     while c.stringWidth(banner_txt, "Baloo2", bs) > safe_w and bs > 9: bs -= 0.5
-    c.setFillColor(_cmyk(G["banner"]["text_colour"])); c.setFont("Baloo2", bs)
+    # banner text: "stronger contrast wins" against the band (cover-grid.md, option A)
+    _bcs = {h: _contrast(_lum(_hexrgb(h)), _lum(_hexrgb(SIG_HEX))) for h in G["banner"]["text_colours"]}
+    BANNER_HEX = max(_bcs, key=_bcs.get)
+    c.setFillColor(_cmyk(BANNER_HEX)); c.setFont("Baloo2", bs)
     FX = (FRONT_L + FRONT_R) / 2
     c.drawCentredString(FX, H - BLEED - band_h / 2 - bs * 0.35, banner_txt)
 
     # Title + subtitle — upper third of the art, Navy or Cream by measured contrast
     ttl = cfg["title"]; sub = cfg.get("subtitle") or AWAIT
     ts = G["title"]["max_pt"]
-    while c.stringWidth(ttl, "Baloo2", ts) > safe_w - 0.2 * IN and ts > G["title"]["min_pt"]: ts -= 1
+    TF = "Baloo2Bold"                                   # title in Bold, Title Case as written
+    while c.stringWidth(ttl, TF, ts) > safe_w - 0.2 * IN and ts > G["title"]["min_pt"]: ts -= 1
     ss = G["subtitle"]["max_pt"]
     while c.stringWidth(sub, "Lora", ss) > safe_w - 0.2 * IN and ss > G["subtitle"]["min_pt"]: ss -= 0.5
     t_base = H - BLEED - band_h - G["title"]["top_gap_in"] * IN - ts * 0.78
     s_base = t_base - ts * 0.25 - G["subtitle"]["gap_in"] * IN - ss * 0.8
-    tw = max(c.stringWidth(ttl, "Baloo2", ts), c.stringWidth(sub, "Lora", ss))
+    tw = max(c.stringWidth(ttl, TF, ts), c.stringWidth(sub, "Lora", ss))
     x0p = int((FX - tw / 2 - FRONT_L) / art_w * art_rgb.width); x1p = int((FX + tw / 2 - FRONT_L) / art_w * art_rgb.width)
     y0p = int((H - (t_base + ts * 0.85)) / H * art_rgb.height); y1p = int((H - (s_base - ss * 0.3)) / H * art_rgb.height)
     region = np.array(art_rgb.crop((x0p, y0p, x1p, y1p))).reshape(-1, 3)
@@ -182,7 +187,7 @@ if GRID:
     choices = {h: _contrast(_lum(_hexrgb(h)), bg_l) for h in G["title"]["colours"]}
     TITLE_HEX = max(choices, key=choices.get)
     c.setFillColor(_cmyk(TITLE_HEX))
-    c.setFont("Baloo2", ts); c.drawCentredString(FX, t_base, ttl)
+    c.setFont(TF, ts); c.drawCentredString(FX, t_base, ttl)
     c.setFont("Lora", ss); c.drawCentredString(FX, s_base, sub)
     GRID_REPORT = (f"title {ts:.0f}pt / subtitle {ss:.1f}pt in {TITLE_HEX} "
                    f"(contrast " + ", ".join(f"{h} {v:.2f}" for h, v in choices.items()) + f"); art {ART_PPI:.0f} ppi")
@@ -369,7 +374,7 @@ if CONCEPT:
     os.remove(OUT); print(f"  concept preview -> {CONCEPT} (PDF discarded)"); raise SystemExit(0)
 print(f"  {os.path.basename(OUT)} [{TARGET}{'' if RELEASE else ', PROOF'}] — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
 if GRID:
-    print(f"  grid v{G['grid_version']}: banner {SIG_HEX}; {GRID_REPORT}")
+    print(f"  grid v{G['grid_version']}: banner {SIG_HEX} text {BANNER_HEX} (contrast " + ", ".join(f"{h} {v:.2f}" for h, v in _bcs.items()) + f"); {GRID_REPORT}")
     print(f"  barcode box kept clear ({TARGET}): {(BAR[2]-BAR[0])/IN:.2f} x {(BAR[3]-BAR[1])/IN:.2f} in, bottom-right of the back panel")
 else:
     print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

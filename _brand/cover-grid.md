@@ -15,8 +15,12 @@
 **Front panel**
 - **Top banner:** a textured band in the book's signature colour across the full width,
   with the series line (e.g. "CREATION TO GLORIFICATION • BOOK THREE") centred in Baloo 2,
-  all caps, in Parchment Cream. The band runs into the bleed; its text stays inside the safe zone.
-- **Title:** the book title in Baloo 2, in the upper third of the art, over a quiet area of
+  all caps. **Banner text colour: "stronger contrast wins"** (ruled 2026-10-03, option A) —
+  Storybook Navy on light bands (gold, coral, sky), Parchment Cream on dark bands, chosen by the
+  WCAG contrast ratio against the band. The band runs into the bleed; its text stays inside the
+  safe zone.
+- **Title:** the book title in **Baloo 2 Bold**, set as written in Title Case (never forced to
+  capitals), in the upper third of the art, over a quiet area of
   sky, in Storybook Navy or Parchment Cream — whichever has the stronger contrast against the
   art behind it (measured per book by cover.py).
 - **Subtitle:** directly below the title, in Lora, smaller, same colour rule.
@@ -42,10 +46,10 @@ banner:
   height_in: 1.40          # from the top trim edge down; the band also fills the top bleed (1.30 put the text 0.06in over Lulu's 0.5in safe line — 2026-10-03)
   text_font: Baloo2
   text_max_pt: 18
-  text_colour: "#F7EEDD"   # Parchment Cream (editor rule) — see the contrast note below
+  text_colours: ["#2E4257", "#F7EEDD"]   # Navy or Cream — higher WCAG contrast vs the band wins (option A, 2026-10-03)
   texture: grain           # subtle paper grain + soft fibre streaks, ±4% lightness, raster CMYK
 title:
-  font: Baloo2
+  font: Baloo2-Bold        # static wght-700 instance (_brand/fonts/Baloo2-Bold.ttf) — fixes D-29
   max_pt: 84
   min_pt: 40
   top_gap_in: 0.35         # below the banner
@@ -90,7 +94,6 @@ of the banner text against the band; ≥ 3.0 is the floor for large text.
 | 10 | He Won't Let Go | Kindled Coral 45% + Navy 55% | `#7F5452` | mix | 5.54 | 1.62 |
 | 11 | Forever and Ever | Roots Gold 75% + Parchment Cream 25% | `#E0B668` | tint | **1.65** | 5.44 |
 
-**Open question for the editor:** Parchment Cream banner text falls under 3.0 on the gold and
-coral bands (Books 2, 4, 6, 11 — bold). Options: (a) the banner text follows the title's
-"stronger contrast wins" rule (Navy on light bands); (b) keep Cream everywhere and accept the
-lower contrast; (c) darken those bands until Cream passes.
+**Resolved 2026-10-03 (option A):** the banner text follows "stronger contrast wins", so the
+bold Cream figures above are not used — those bands take Navy text (Book 2: Navy 4.59, Book 4:
+3.13, Book 6: 3.04, Book 11: 5.44). The colour map itself remains PROPOSED.
