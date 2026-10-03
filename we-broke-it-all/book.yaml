@@ -18,7 +18,8 @@ copyright_page:           # author-supplied 2026-10-01, verbatim
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
   front_art: cover/front-art-v2-01.jpg   # concept B chosen by the editor 2026-10-02; 4K, brand palette
-  layout: v2              # match Books One/Two series identity; NO front-cover author line (ruling 2026-10-01)
+  layout: grid            # series cover grid (kids/_brand/cover-grid.md, editor ruling 2026-10-03); no front author line
+  signature_colour: "#2E4257"   # Storybook Navy — Book Three (cover-grid.md)
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK THREE"   # author-supplied 2026-10-01, verbatim
   back_blurb: "In \"We Broke It All,\" young readers ages 4 to 7 trace the story of the Fall from Genesis 3. Through 15 coloring pages, children learn the honest truth about sin and its consequences. But they also discover the most important truth of all: God didn't leave us in our mess, and He already had a plan to fix what we broke."   # author-supplied 2026-10-01, verbatim

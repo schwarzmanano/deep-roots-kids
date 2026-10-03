@@ -10,7 +10,7 @@ from bookarg import book_dir
 BOOK = book_dir(); IN=72.0
 cfg=yaml.safe_load(open(f"{BOOK}/book.yaml")); PAGES=cfg["print"]["page_count"]
 TARGET = sys.argv[sys.argv.index("--target") + 1] if "--target" in sys.argv else "kdp"
-PDF=f"{BOOK}/out/cover{'' if TARGET == 'kdp' else '-lulu'}.pdf"
+PDF=(sys.argv[sys.argv.index("--pdf")+1] if "--pdf" in sys.argv else f"{BOOK}/out/cover{'' if TARGET == 'kdp' else '-lulu'}.pdf")
 fails=[]
 print(f"  target: {TARGET}  ({PDF})")
 SPINE=PAGES*0.002252*IN if TARGET=="kdp" else (PAGES/444+0.06)*IN
@@ -44,8 +44,13 @@ print(f"  raster: lowest {worst:.0f} DPI" if worst else "  raster: none")
 if worst and worst<300: fails.append(f"raster below 300 DPI ({worst:.0f})")
 
 # barcode band must be clear AND light
-band_h=(1.2+0.25)*IN
-clip=pymupdf.Rect(0.125*IN, EXP_H-band_h, 0.125*IN+8.5*IN, EXP_H)   # pymupdf y-down
+if (cfg.get("cover") or {}).get("layout") == "grid":   # series grid: bottom-right box only (cover-grid.md)
+    import covergrid
+    _x0,_y0,_x1,_y1 = covergrid.barcode_box(TARGET, 0.125*IN, 8.5*IN, 0.125*IN, IN)
+    clip=pymupdf.Rect(_x0, EXP_H-_y1, _x1, EXP_H-_y0)                  # pymupdf y-down
+else:
+    band_h=(1.2+0.25)*IN
+    clip=pymupdf.Rect(0.125*IN, EXP_H-band_h, 0.125*IN+8.5*IN, EXP_H)   # pymupdf y-down
 pix=pg.get_pixmap(dpi=150, clip=clip)
 a=np.array(Image.open(io.BytesIO(pix.tobytes("png"))).convert("L"))
 print(f"  barcode band: min luminance {a.min()}, mean {a.mean():.0f} "

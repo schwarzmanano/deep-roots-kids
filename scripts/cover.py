@@ -114,140 +114,244 @@ c.setTitle(f'{cfg["title"]} — cover'); c.setAuthor(AUTHOR)
 # Parchment Cream across the whole wrap, bleed included
 c.setFillColor(CREAM); c.rect(0, 0, W, H, stroke=0, fill=1)
 
-# ── FRONT ── art bleeds off the right, top and bottom
-art_src = f"{BOOK}/{COV.get('front_art', 'cover/front-art-v2-01.jpg')}"
-art_w = FRONT_R - FRONT_L + BLEED
-art = crop_to(art_src, art_w, H)
-tmp = f"{BOOK}/cover/_front-placed.jpg"
-LOGO_SRC = "kids/_brand/logo/dr-kids-logo.png"
-LW = 0.85 * IN
-if CMYK_OUT:
-    # Flatten: composite the alpha logo INTO the front art (no transparency in the PDF), then
-    # convert the whole panel to CMYK through one ICC transform.
-    _lg = Image.open(LOGO_SRC).convert("RGBA")
-    _ppi = art.width / art_w                          # art pixels per point
-    _lpx = int(LW * _ppi); _lg = _lg.resize((_lpx, _lpx), Image.LANCZOS)
-    _x = int((FRONT_L + TRIM_W/2 - LW/2 - FRONT_L) * _ppi)
-    _y = int((BLEED + SAFE) * _ppi)                   # PIL y-down from the top edge
-    art = art.convert("RGBA"); art.alpha_composite(_lg, (_x, _y)); art = art.convert("RGB")
-    art = ImageCms.applyTransform(art, _XF)
-art.save(tmp, quality=96)
-c.drawImage(ImageReader(tmp), FRONT_L, 0, width=art_w, height=H, mask=None)
+GRID = COV.get("layout") == "grid"
+FRONT_ART = sys.argv[sys.argv.index("--front-art") + 1] if "--front-art" in sys.argv else None
+if GRID:
+    # ── SERIES COVER GRID (kids/_brand/cover-grid.md, editor ruling 2026-10-03) ──────────
+    import numpy as np, covergrid
+    from PIL import ImageFilter
+    G = covergrid.load()
+    if not CMYK_OUT:
+        raise SystemExit("cover.layout grid requires cover.color: cmyk")
+    SIG_HEX = COV.get("signature_colour")
+    if not SIG_HEX:
+        raise SystemExit(f"{BOOK}/book.yaml: cover.signature_colour missing (cover-grid.md)")
+    SIG = _cmyk(SIG_HEX)
+    def _hexrgb(h): return tuple(int(h[i:i+2], 16) for i in (1, 3, 5))
+    def _lum(rgb):
+        f = lambda v: v/12.92 if v <= 0.03928 else ((v+0.055)/1.055)**2.4
+        r, g, b = (f(x/255) for x in rgb); return 0.2126*r + 0.7152*g + 0.0722*b
+    def _contrast(a, b):
+        la, lb = sorted((a, b), reverse=True); return (la + 0.05) / (lb + 0.05)
 
-FX = (FRONT_L + FRONT_R) / 2
-logo = ImageReader(LOGO_SRC)   # alpha-keyed
-if CMYK_OUT:   # back-panel logo: flattened onto cream, CMYK, no alpha
+    # FRONT art — full bleed right/top/bottom, CMYK, no logo composited
+    art_src = FRONT_ART or f"{BOOK}/{COV.get('front_art')}"
+    art_w = FRONT_R - FRONT_L + BLEED
+    art_rgb = crop_to(art_src, art_w, H)
+    ART_PPI = art_rgb.height / (H / IN)
+    tmp = f"{BOOK}/cover/_front-placed.jpg"
+    ImageCms.applyTransform(art_rgb, _XF).save(tmp, quality=96)
+    c.drawImage(ImageReader(tmp), FRONT_L, 0, width=art_w, height=H, mask=None)
+
+    # Banner — textured band in the signature colour, top trim + top bleed, full front width
+    band_h = G["banner"]["height_in"] * IN
+    bx0, by0, bw_, bh_ = FRONT_L, H - BLEED - band_h, W - FRONT_L, band_h + BLEED
+    pxw, pxh = int(bw_ / IN * 400), int(bh_ / IN * 400)   # 400 ppi: comfortably over the 300 floor
+    rng = np.random.default_rng(3)                        # deterministic texture
+    grain = rng.normal(0, 1, (pxh, pxw))
+    fibre = np.array(Image.fromarray(((rng.normal(0, 1, (pxh, pxw)) + 3) * 40).clip(0, 255).astype("uint8"))
+                     .filter(ImageFilter.GaussianBlur((18, 2))), dtype=float)
+    fibre = (fibre - fibre.mean()) / (fibre.std() + 1e-6)
+    light = 1 + 0.025 * grain + 0.02 * fibre              # about ±4% lightness
+    base = np.array(_hexrgb(SIG_HEX), dtype=float)
+    band = (base[None, None, :] * light[:, :, None]).clip(0, 255).astype("uint8")
+    _bp = f"{BOOK}/cover/_banner-cmyk.jpg"
+    ImageCms.applyTransform(Image.fromarray(band, "RGB"), _XF).save(_bp, quality=95)
+    c.drawImage(ImageReader(_bp), bx0, by0, width=bw_, height=bh_, mask=None)
+    banner_txt = (COV.get("series_short") or AWAIT).upper()
+    bs = G["banner"]["text_max_pt"]
+    safe_w = TRIM_W - 2 * SAFE
+    while c.stringWidth(banner_txt, "Baloo2", bs) > safe_w and bs > 9: bs -= 0.5
+    c.setFillColor(_cmyk(G["banner"]["text_colour"])); c.setFont("Baloo2", bs)
+    FX = (FRONT_L + FRONT_R) / 2
+    c.drawCentredString(FX, H - BLEED - band_h / 2 - bs * 0.35, banner_txt)
+
+    # Title + subtitle — upper third of the art, Navy or Cream by measured contrast
+    ttl = cfg["title"]; sub = cfg.get("subtitle") or AWAIT
+    ts = G["title"]["max_pt"]
+    while c.stringWidth(ttl, "Baloo2", ts) > safe_w - 0.2 * IN and ts > G["title"]["min_pt"]: ts -= 1
+    ss = G["subtitle"]["max_pt"]
+    while c.stringWidth(sub, "Lora", ss) > safe_w - 0.2 * IN and ss > G["subtitle"]["min_pt"]: ss -= 0.5
+    t_base = H - BLEED - band_h - G["title"]["top_gap_in"] * IN - ts * 0.78
+    s_base = t_base - ts * 0.25 - G["subtitle"]["gap_in"] * IN - ss * 0.8
+    tw = max(c.stringWidth(ttl, "Baloo2", ts), c.stringWidth(sub, "Lora", ss))
+    x0p = int((FX - tw / 2 - FRONT_L) / art_w * art_rgb.width); x1p = int((FX + tw / 2 - FRONT_L) / art_w * art_rgb.width)
+    y0p = int((H - (t_base + ts * 0.85)) / H * art_rgb.height); y1p = int((H - (s_base - ss * 0.3)) / H * art_rgb.height)
+    region = np.array(art_rgb.crop((x0p, y0p, x1p, y1p))).reshape(-1, 3)
+    bg_l = float(np.mean([_lum(px) for px in region[:: max(1, len(region) // 4000)]]))
+    choices = {h: _contrast(_lum(_hexrgb(h)), bg_l) for h in G["title"]["colours"]}
+    TITLE_HEX = max(choices, key=choices.get)
+    c.setFillColor(_cmyk(TITLE_HEX))
+    c.setFont("Baloo2", ts); c.drawCentredString(FX, t_base, ttl)
+    c.setFont("Lora", ss); c.drawCentredString(FX, s_base, sub)
+    GRID_REPORT = (f"title {ts:.0f}pt / subtitle {ss:.1f}pt in {TITLE_HEX} "
+                   f"(contrast " + ", ".join(f"{h} {v:.2f}" for h, v in choices.items()) + f"); art {ART_PPI:.0f} ppi")
+
+    # SPINE — signature colour only, no text (below both printers' spine-text minimums)
+    c.setFillColor(SIG); c.rect(SPINE_L, 0, SPINE_R - SPINE_L, H, stroke=0, fill=1)
+
+    # BACK — logo bottom-left; barcode box bottom-right kept clear; text block above
+    LW = G["back"]["logo_in"] * IN
+    LOGO_SRC = "kids/_brand/logo/dr-kids-logo.png"
     _lg = Image.open(LOGO_SRC).convert("RGBA")
     _bg = Image.new("RGBA", _lg.size, "#F7EEDD"); _bg.alpha_composite(_lg)
-    _bp = f"{BOOK}/cover/_logo-back-cmyk.jpg"
-    ImageCms.applyTransform(_bg.convert("RGB"), _XF).save(_bp, quality=96)
-    logo = ImageReader(_bp)
+    _lpath = f"{BOOK}/cover/_logo-back-cmyk.jpg"
+    ImageCms.applyTransform(_bg.convert("RGB"), _XF).save(_lpath, quality=96)
+    c.drawImage(ImageReader(_lpath), BACK_L + SAFE, BLEED + SAFE, width=LW, height=LW, mask=None)
+    BAR = covergrid.barcode_box(TARGET, BACK_L, TRIM_W, BLEED, IN)
+    BX = (BACK_L + BACK_R) / 2
+    body_w = TRIM_W - 2 * SAFE - 0.6 * IN
+    blurb = " ".join(" ".join(x.split()) for x in (COV.get("back_blurb") or AWAIT).split("\n") if x.strip())
+    blines = wrap_text(c, blurb, "Lora", 12.5, body_w)
+    spec = list(COV.get("spec_lines") or [])
+    block_h = len(blines) * 18 + 14 + len(spec) * 16 + 10 + 34
+    region_top = H - BLEED - SAFE
+    region_bot = BLEED + max(SAFE + LW, BAR[3] - BLEED) + G["back"]["block_gap_in"] * IN
+    y = region_bot + (region_top - region_bot + block_h) / 2
+    c.setFillColor(NAVY); c.setFont("Lora", 12.5)
+    for ln in blines: c.drawCentredString(BX, y, ln); y -= 18
+    y -= 14; c.setFillColor(GREEN); c.setFont("Lora", 11)
+    for ln in spec: c.drawCentredString(BX, y, ln); y -= 16
+    y -= 10; c.setFillColor(GOLD); c.setFont("Lora", 11.5)
+    c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
+    c.setFillColor(NAVY); c.setFont("LoraIt", 11)
+    c.drawCentredString(BX, y, cfg["scripture_scope"])
+    BAR_BAND_H = region_bot - BLEED - G["back"]["block_gap_in"] * IN   # for the proof stamp below
 else:
-    c.drawImage(logo, FX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
+    # ── FRONT ── art bleeds off the right, top and bottom
+    art_src = f"{BOOK}/{COV.get('front_art', 'cover/front-art-v2-01.jpg')}"
+    art_w = FRONT_R - FRONT_L + BLEED
+    art = crop_to(art_src, art_w, H)
+    tmp = f"{BOOK}/cover/_front-placed.jpg"
+    LOGO_SRC = "kids/_brand/logo/dr-kids-logo.png"
+    LW = 0.85 * IN
+    if CMYK_OUT:
+        # Flatten: composite the alpha logo INTO the front art (no transparency in the PDF), then
+        # convert the whole panel to CMYK through one ICC transform.
+        _lg = Image.open(LOGO_SRC).convert("RGBA")
+        _ppi = art.width / art_w                          # art pixels per point
+        _lpx = int(LW * _ppi); _lg = _lg.resize((_lpx, _lpx), Image.LANCZOS)
+        _x = int((FRONT_L + TRIM_W/2 - LW/2 - FRONT_L) * _ppi)
+        _y = int((BLEED + SAFE) * _ppi)                   # PIL y-down from the top edge
+        art = art.convert("RGBA"); art.alpha_composite(_lg, (_x, _y)); art = art.convert("RGB")
+        art = ImageCms.applyTransform(art, _XF)
+    art.save(tmp, quality=96)
+    c.drawImage(ImageReader(tmp), FRONT_L, 0, width=art_w, height=H, mask=None)
 
-if COV.get("layout") == "v2":
-    # v2 hierarchy (editor cover brief 2026-09-30): logo top · title upper-middle · art ·
-    # subtitle + series badge at the bottom. Title set in capitals as a display style
-    # (wording unchanged). Solid shapes only — no transparency (Lulu).
-    max_w = TRIM_W - 2*SAFE - 0.2*IN
-    ttl = cfg["title"].upper()
-    size = 96
-    while c.stringWidth(ttl, "Baloo2", size) > max_w and size > 30: size -= 1
-    title_y = H - BLEED - SAFE - LW - 0.25*IN - size*0.8
-    c.setFillColor(NAVY); c.setFont("Baloo2", size); c.drawCentredString(FX, title_y, ttl)
-    # bottom panel: cream rounded plate holding subtitle, then the gold series badge
-    sub = cfg.get("subtitle") or AWAIT
-    ss = 30
-    while c.stringWidth(sub, "Baloo2", ss) > max_w - 0.5*IN and ss > 14: ss -= 1
-    badge = COV.get("series_short") or AWAIT
-    bs = 15
-    bw = c.stringWidth(badge, "Baloo2", bs) + 0.5*IN; bh = bs + 14
-    plate_w = max(c.stringWidth(sub, "Baloo2", ss) + 0.6*IN, bw + 0.4*IN)
-    plate_h = ss + bh + 0.55*IN
-    py = BLEED + SAFE
-    c.setFillColor(CREAM); c.roundRect(FX - plate_w/2, py, plate_w, plate_h, 14, stroke=0, fill=1)
-    c.setFillColor(NAVY); c.setFont("Baloo2", ss)
-    c.drawCentredString(FX, py + plate_h - 0.2*IN - ss*0.8, sub)
-    c.setFillColor(GOLD); c.roundRect(FX - bw/2, py + 0.18*IN, bw, bh, bh/2, stroke=0, fill=1)
-    c.setFillColor(NAVY); c.setFont("Baloo2", bs)
-    c.drawCentredString(FX, py + 0.18*IN + (bh - bs*0.7)/2, badge)
-else:
-    # Title: the dominant element after the scene. Auto-fit to the safe width and
-    # sized so it survives Amazon's ~150px-wide thumbnail.
-    max_w = TRIM_W - 2*SAFE - 0.35*IN
-    size = 74
-    while c.stringWidth(cfg["title"], "Baloo2", size) > max_w and size > 30:
-        size -= 1
-    title_y = H - BLEED - SAFE - LW - size - 14
-    c.setFillColor(NAVY); c.setFont("Baloo2", size)
-    c.drawCentredString(FX, title_y, cfg["title"])
-
-    # Descriptor — what Amazon shoppers actually need to see on the thumbnail.
-    c.setFillColor(GOLD); c.setFont("Baloo2", 30)
-    _sub = cfg.get("subtitle") or AWAIT
-    _ss = 30
-    while c.stringWidth(_sub, "Baloo2", _ss) > max_w and _ss > 16: _ss -= 1   # layout fit, wording untouched
-    c.setFont("Baloo2", _ss)
-    c.drawCentredString(FX, title_y - 38, _sub)
-
-    # Series line, short form. "Creation to Glorification" and the Genesis
-    # reference now live on the back cover only.
-    c.setFillColor(NAVY); c.setFont("Lora", 13)
-    c.drawCentredString(FX, title_y - 64, COV.get("series_short") or AWAIT)
-
-
-# ── SPINE ── blank: 34pp gives 0.077", far under KDP's 100-page threshold for text
-# ── BACK ──
-BX = (BACK_L + BACK_R) / 2
-c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW,
-            mask=None if CMYK_OUT else "auto", preserveAspectRatio=True)
-
-_bparas = [ " ".join(x.split()) for x in COV["back_blurb"].split("\n") if x.strip() ] if COV.get("back_blurb") else [AWAIT]
-# A first paragraph ending in "?" is set as a lead line (Baloo 2); wording untouched.
-lead = _bparas.pop(0) if len(_bparas) > 1 and _bparas[0].endswith("?") else None
-blurb = " ".join(_bparas)
-
-# Compose the back panel as one block centred in the space between the logo and
-# the barcode band, rather than top-aligned with a gap underneath.
-body_w = TRIM_W - 2*SAFE - 0.6*IN
-blurb_lines = wrap_text(c, blurb, "Lora", 12.5, body_w)
-_bw = body_w     # no one-word last line (widow): narrow the measure, never the words
-while len(blurb_lines) > 1 and len(blurb_lines[-1].split()) < 2 and _bw > body_w * 0.8:
-    _bw -= 6; blurb_lines = wrap_text(c, blurb, "Lora", 12.5, _bw)
-spec_lines = list(COV.get("spec_lines") or [])
-lead_lines = wrap_text(c, lead, "Baloo2", 20, body_w) if lead else []
-block_h = len(lead_lines)*26 + (10 if lead else 0) + len(blurb_lines)*18 + 14 + len(spec_lines)*16 + 10 + 34
-
-region_top = H - BLEED - SAFE - LW - 40
-region_bot = BLEED + BAR_BAND_H + 0.15*IN
-y = region_bot + (region_top - region_bot + block_h) / 2
-
-c.setFillColor(NAVY); c.setFont("Baloo2", 20)
-for ln in lead_lines:
-    c.drawCentredString(BX, y, ln); y -= 26
-if lead: y -= 10
-c.setFillColor(NAVY); c.setFont("Lora", 12.5)
-for ln in blurb_lines:
-    c.drawCentredString(BX, y, ln); y -= 18
-y -= 14
-c.setFillColor(GREEN); c.setFont("Lora", 11)
-def _tick(x, yb, sz):   # vector check mark: none of the brand fonts has U+2713
-    c.saveState(); c.setStrokeColor(GREEN); c.setLineWidth(sz*0.13); c.setLineCap(1); c.setLineJoin(1)
-    p = c.beginPath(); p.moveTo(x, yb + sz*0.38); p.lineTo(x + sz*0.30, yb + sz*0.08); p.lineTo(x + sz*0.78, yb + sz*0.72)
-    c.drawPath(p, stroke=1, fill=0); c.restoreState()
-for ln in spec_lines:
-    if ln.startswith("\u2713"):
-        rest = ln[1:].lstrip(); tw = c.stringWidth(rest, "Lora", 11); gap = 11*0.95
-        x0 = BX - (tw + gap)/2
-        _tick(x0, y - 1, 11); c.drawString(x0 + gap, y, rest)
+    FX = (FRONT_L + FRONT_R) / 2
+    logo = ImageReader(LOGO_SRC)   # alpha-keyed
+    if CMYK_OUT:   # back-panel logo: flattened onto cream, CMYK, no alpha
+        _lg = Image.open(LOGO_SRC).convert("RGBA")
+        _bg = Image.new("RGBA", _lg.size, "#F7EEDD"); _bg.alpha_composite(_lg)
+        _bp = f"{BOOK}/cover/_logo-back-cmyk.jpg"
+        ImageCms.applyTransform(_bg.convert("RGB"), _XF).save(_bp, quality=96)
+        logo = ImageReader(_bp)
     else:
-        c.drawCentredString(BX, y, ln)
-    y -= 16
-y -= 10
-c.setFillColor(GOLD); c.setFont("Lora", 11.5)
-c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
-c.setFillColor(NAVY); c.setFont("LoraIt", 11)
-c.drawCentredString(BX, y, cfg["scripture_scope"])
+        c.drawImage(logo, FX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW, mask="auto", preserveAspectRatio=True)
+
+    if COV.get("layout") == "v2":
+        # v2 hierarchy (editor cover brief 2026-09-30): logo top · title upper-middle · art ·
+        # subtitle + series badge at the bottom. Title set in capitals as a display style
+        # (wording unchanged). Solid shapes only — no transparency (Lulu).
+        max_w = TRIM_W - 2*SAFE - 0.2*IN
+        ttl = cfg["title"].upper()
+        size = 96
+        while c.stringWidth(ttl, "Baloo2", size) > max_w and size > 30: size -= 1
+        title_y = H - BLEED - SAFE - LW - 0.25*IN - size*0.8
+        c.setFillColor(NAVY); c.setFont("Baloo2", size); c.drawCentredString(FX, title_y, ttl)
+        # bottom panel: cream rounded plate holding subtitle, then the gold series badge
+        sub = cfg.get("subtitle") or AWAIT
+        ss = 30
+        while c.stringWidth(sub, "Baloo2", ss) > max_w - 0.5*IN and ss > 14: ss -= 1
+        badge = COV.get("series_short") or AWAIT
+        bs = 15
+        bw = c.stringWidth(badge, "Baloo2", bs) + 0.5*IN; bh = bs + 14
+        plate_w = max(c.stringWidth(sub, "Baloo2", ss) + 0.6*IN, bw + 0.4*IN)
+        plate_h = ss + bh + 0.55*IN
+        py = BLEED + SAFE
+        c.setFillColor(CREAM); c.roundRect(FX - plate_w/2, py, plate_w, plate_h, 14, stroke=0, fill=1)
+        c.setFillColor(NAVY); c.setFont("Baloo2", ss)
+        c.drawCentredString(FX, py + plate_h - 0.2*IN - ss*0.8, sub)
+        c.setFillColor(GOLD); c.roundRect(FX - bw/2, py + 0.18*IN, bw, bh, bh/2, stroke=0, fill=1)
+        c.setFillColor(NAVY); c.setFont("Baloo2", bs)
+        c.drawCentredString(FX, py + 0.18*IN + (bh - bs*0.7)/2, badge)
+    else:
+        # Title: the dominant element after the scene. Auto-fit to the safe width and
+        # sized so it survives Amazon's ~150px-wide thumbnail.
+        max_w = TRIM_W - 2*SAFE - 0.35*IN
+        size = 74
+        while c.stringWidth(cfg["title"], "Baloo2", size) > max_w and size > 30:
+            size -= 1
+        title_y = H - BLEED - SAFE - LW - size - 14
+        c.setFillColor(NAVY); c.setFont("Baloo2", size)
+        c.drawCentredString(FX, title_y, cfg["title"])
+
+        # Descriptor — what Amazon shoppers actually need to see on the thumbnail.
+        c.setFillColor(GOLD); c.setFont("Baloo2", 30)
+        _sub = cfg.get("subtitle") or AWAIT
+        _ss = 30
+        while c.stringWidth(_sub, "Baloo2", _ss) > max_w and _ss > 16: _ss -= 1   # layout fit, wording untouched
+        c.setFont("Baloo2", _ss)
+        c.drawCentredString(FX, title_y - 38, _sub)
+
+        # Series line, short form. "Creation to Glorification" and the Genesis
+        # reference now live on the back cover only.
+        c.setFillColor(NAVY); c.setFont("Lora", 13)
+        c.drawCentredString(FX, title_y - 64, COV.get("series_short") or AWAIT)
+
+
+    # ── SPINE ── blank: 34pp gives 0.077", far under KDP's 100-page threshold for text
+    # ── BACK ──
+    BX = (BACK_L + BACK_R) / 2
+    c.drawImage(logo, BX - LW/2, H - BLEED - SAFE - LW, width=LW, height=LW,
+                mask=None if CMYK_OUT else "auto", preserveAspectRatio=True)
+
+    _bparas = [ " ".join(x.split()) for x in COV["back_blurb"].split("\n") if x.strip() ] if COV.get("back_blurb") else [AWAIT]
+    # A first paragraph ending in "?" is set as a lead line (Baloo 2); wording untouched.
+    lead = _bparas.pop(0) if len(_bparas) > 1 and _bparas[0].endswith("?") else None
+    blurb = " ".join(_bparas)
+
+    # Compose the back panel as one block centred in the space between the logo and
+    # the barcode band, rather than top-aligned with a gap underneath.
+    body_w = TRIM_W - 2*SAFE - 0.6*IN
+    blurb_lines = wrap_text(c, blurb, "Lora", 12.5, body_w)
+    _bw = body_w     # no one-word last line (widow): narrow the measure, never the words
+    while len(blurb_lines) > 1 and len(blurb_lines[-1].split()) < 2 and _bw > body_w * 0.8:
+        _bw -= 6; blurb_lines = wrap_text(c, blurb, "Lora", 12.5, _bw)
+    spec_lines = list(COV.get("spec_lines") or [])
+    lead_lines = wrap_text(c, lead, "Baloo2", 20, body_w) if lead else []
+    block_h = len(lead_lines)*26 + (10 if lead else 0) + len(blurb_lines)*18 + 14 + len(spec_lines)*16 + 10 + 34
+
+    region_top = H - BLEED - SAFE - LW - 40
+    region_bot = BLEED + BAR_BAND_H + 0.15*IN
+    y = region_bot + (region_top - region_bot + block_h) / 2
+
+    c.setFillColor(NAVY); c.setFont("Baloo2", 20)
+    for ln in lead_lines:
+        c.drawCentredString(BX, y, ln); y -= 26
+    if lead: y -= 10
+    c.setFillColor(NAVY); c.setFont("Lora", 12.5)
+    for ln in blurb_lines:
+        c.drawCentredString(BX, y, ln); y -= 18
+    y -= 14
+    c.setFillColor(GREEN); c.setFont("Lora", 11)
+    def _tick(x, yb, sz):   # vector check mark: none of the brand fonts has U+2713
+        c.saveState(); c.setStrokeColor(GREEN); c.setLineWidth(sz*0.13); c.setLineCap(1); c.setLineJoin(1)
+        p = c.beginPath(); p.moveTo(x, yb + sz*0.38); p.lineTo(x + sz*0.30, yb + sz*0.08); p.lineTo(x + sz*0.78, yb + sz*0.72)
+        c.drawPath(p, stroke=1, fill=0); c.restoreState()
+    for ln in spec_lines:
+        if ln.startswith("\u2713"):
+            rest = ln[1:].lstrip(); tw = c.stringWidth(rest, "Lora", 11); gap = 11*0.95
+            x0 = BX - (tw + gap)/2
+            _tick(x0, y - 1, 11); c.drawString(x0 + gap, y, rest)
+        else:
+            c.drawCentredString(BX, y, ln)
+        y -= 16
+    y -= 10
+    c.setFillColor(GOLD); c.setFont("Lora", 11.5)
+    c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
+    c.setFillColor(NAVY); c.setFont("LoraIt", 11)
+    c.drawCentredString(BX, y, cfg["scripture_scope"])
 
 # --concept-png <path>: clean front-panel PREVIEW image for review (never a PDF; the PDF
 # written alongside is deleted). Proof PDFs always carry the stamp.
@@ -264,4 +368,8 @@ if CONCEPT:
     _p.get_pixmap(dpi=150, clip=_clip).save(CONCEPT)
     os.remove(OUT); print(f"  concept preview -> {CONCEPT} (PDF discarded)"); raise SystemExit(0)
 print(f"  {os.path.basename(OUT)} [{TARGET}{'' if RELEASE else ', PROOF'}] — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
-print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")
+if GRID:
+    print(f"  grid v{G['grid_version']}: banner {SIG_HEX}; {GRID_REPORT}")
+    print(f"  barcode box kept clear ({TARGET}): {(BAR[2]-BAR[0])/IN:.2f} x {(BAR[3]-BAR[1])/IN:.2f} in, bottom-right of the back panel")
+else:
+    print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

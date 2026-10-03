@@ -9,8 +9,9 @@ Poppler is not needed. Reads the four out/ files; changes nothing.
 
 Zones (trim-relative, from cover.py's own geometry):
   spine    the full spine strip — no characters allowed below the printer's spine-text minimum
-  barcode  the bottom 1.45in band of the back panel (KDP 2 x 1.2in box + 0.25in from trim;
-           cover.py keeps the WHOLE band clear so either corner reading is satisfied).
+  barcode  v2 covers: the bottom 1.45in band of the back panel (whole band kept clear).
+           grid covers (cover-grid.md): the per-printer bottom-right barcode box only.
+  --out-dir <dir>  read the cover PDFs from <dir> instead of <book>/out (scratch checks).
            No characters and no vector marks; art luminance must stay light (> 200).
 """
 import os, sys, yaml
@@ -39,7 +40,8 @@ def basics(path):
 
 for target in ("kdp", "lulu"):
     sfx = "" if target == "kdp" else "-lulu"
-    ip, cp = f"{BOOK}/out/interior{sfx}.pdf", f"{BOOK}/out/cover{sfx}.pdf"
+    OUTD = sys.argv[sys.argv.index("--out-dir") + 1] if "--out-dir" in sys.argv else f"{BOOK}/out"
+    ip, cp = f"{BOOK}/out/interior{sfx}.pdf", f"{OUTD}/cover{sfx}.pdf"
     exp_int = (8.5, 11.0) if target == "kdp" else (8.75, 11.25)
 
     d, sizes, nf, unemb, ppi = basics(ip)
@@ -64,7 +66,12 @@ for target in ("kdp", "lulu"):
     # pdfplumber zones (top-left origin)
     b = 0.125 * IN
     spine = (b + 8.5 * IN, 0, b + 8.5 * IN + sp * IN, 11.25 * IN)
-    band = (b, 11.25 * IN - b - 1.45 * IN, b + 8.5 * IN, 11.25 * IN - b)
+    if (cfg.get("cover") or {}).get("layout") == "grid":   # series grid: bottom-right box (cover-grid.md)
+        import covergrid
+        _x0, _y0, _x1, _y1 = covergrid.barcode_box(target, b, 8.5 * IN, b, IN)
+        band = (_x0, 11.25 * IN - _y1, _x1, 11.25 * IN - _y0)          # pdfplumber top-left origin
+    else:
+        band = (b, 11.25 * IN - b - 1.45 * IN, b + 8.5 * IN, 11.25 * IN - b)
     inside = lambda o, z: o["x0"] < z[2] and o["x1"] > z[0] and o["top"] < z[3] and o["bottom"] > z[1]
     with pdfplumber.open(cp) as pl:
         pg = pl.pages[0]
