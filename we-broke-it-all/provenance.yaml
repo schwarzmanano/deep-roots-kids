@@ -8,9 +8,11 @@ images:
     editing: extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver
       strip, stroke thickening, vectorisation (2026-10-02)
   cover:
-    source: AI-generated (front art front-art-v2-01, gemini-3.1-flash-image 4K, from a B&W stick reference)
-    editing: extensive — crop, logo composite, ICC conversion to CMYK, typography and layout added by
-      the pipeline
+    source: AI-generated (front art front-art-v5-01, gemini-3.1-flash-image 4K, from a B&W stick reference)
+    editing: extensive — manual retouch 2026-10-03 (two armhole skin wedges painted out in garment colour;
+      art scaled to 84%; sky and side canvas extended from the painting's own sky and character-free edge
+      strips — cover/retouch_extend.py), then crop, banner, ICC conversion to CMYK, typography and layout
+      added by the pipeline
 translation: none
 text_units:
 - id: book.title

@@ -20,6 +20,9 @@ __pycache__/
 **/cover/*
 !genesis-1/cover/front-art-v2-01.jpg
 !we-broke-it-all/cover/front-art-v2-01.jpg
+!we-broke-it-all/cover/front-art-v5-01.jpg
+!we-broke-it-all/cover/front-art-v5-01-retouched.png
+!we-broke-it-all/cover/retouch_extend.py
 !we-broke-it-all/cover/*.txt
 
 # rejects and cruft
