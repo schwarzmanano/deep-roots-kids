@@ -684,7 +684,7 @@ Adam and Eve are drawn with clothes in this book as a publishing convention for 
 **MY TEXT:**
 
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** governed by `_brand/about-the-author.md` — confirmed there by the author 2026-10-03 (this section is not read by the release guard)
 
 
 ---
