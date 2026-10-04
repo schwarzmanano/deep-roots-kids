@@ -15,7 +15,8 @@ copyright_page:           # author-supplied 2026-09-30, verbatim
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them (authorship-policy §1.1)
   front_art: cover/front-art-v4-02.jpg   # 2026-09-30 editor cover brief: 5 children interacting with creation
-  layout: v2              # logo top · title upper-middle · art · subtitle + series badge at bottom
+  layout: grid            # series cover grid (cover-grid.md) — moved at Book One's rebuild (editor ruling 2026-10-03); was v2
+  signature_colour: "#D9A441"   # Roots Gold — Book Two
   color: cmyk             # art converted sRGB -> Generic CMYK (ICC); all cover type set in CMYK
   series_short: "CREATION TO GLORIFICATION • BOOK TWO"   # author-supplied 2026-09-30 (cover brief)
   back_blurb: "What does it mean to be made in God's image?\nGod created a beautiful world, and He made people to be the crown of His creation. Join these children as they explore the outdoors and learn how every person is uniquely designed to reflect God's love, creativity, and care. You are made like Him—on purpose, for a purpose—to know God, to love others, and to shine a little bit of His glory everywhere you go!"   # author-supplied 2026-09-30, verbatim
