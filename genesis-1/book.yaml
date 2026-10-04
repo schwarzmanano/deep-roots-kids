@@ -50,3 +50,8 @@ generation:
   measured_cost_per_image_usd: 0.0878   # observed, not the headline 1K figure
   budgeted_attempts_per_page: 2.5
   budgeted_total_usd: 3.29
+
+textqa_exceptions:      # editor rulings — accepted on purpose, reported as ACCEPTED by textqa.py
+  repeated_opening:
+    - units: [p11.text, p13.text]
+      ruling: "2026-10-04 — intentional refrain ('Thank you, God, for the …'), accepted by the author"

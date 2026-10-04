@@ -85,9 +85,9 @@ text_units:
   kind: page-text
   author: human
   draft: false
-  sha: 24c97c4627bc
-  source: author's own words — Dad Teaching Script, Track 1 ¶4, sentence 6, verbatim; selected by the
-    author ('use', 2026-10-04)
+  sha: cfb1387d8fac
+  source: author's own words — Dad Teaching Script, Track 1 ¶4 sentence 6, verbatim; selected 'use' 2026-10-04;
+    straight quote marks made curly (WEB) at his instruction 2026-10-04
   recorded: '2026-10-04'
 - id: p5.teaching
   page: p5
@@ -314,6 +314,14 @@ text_units:
   draft: false
   sha: 995c37e82cb3
   source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
+- id: p33.heading
+  page: p33
+  kind: heading
+  author: human
+  draft: false
+  sha: b10117f1d658
+  source: author's own words, supplied in chat 2026-10-04, verbatim
   recorded: '2026-10-04'
 - id: p33.body
   page: p33

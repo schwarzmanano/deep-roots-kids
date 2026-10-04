@@ -8,7 +8,9 @@ come from the Book Two proof (2026-09-30):
                     text both opened "God knows all things — and He made you able ...").
                     Compared on the first OPENING_WORDS words of each page's text and
                     teaching line, case- and punctuation-blind. A pair where BOTH units are
-                    WEB quotations is a WARN (Scripture can't be changed); anything else FAILs.
+                    WEB quotations is a WARN (Scripture can't be changed); anything else FAILs —
+                    unless book.yaml `textqa_exceptions.repeated_opening` lists exactly that unit
+                    set with the editor's ruling (reported as ACCEPTED, never silently dropped).
   CAPITAL-GODS      "Gods" capitalised. Generic plural gods are lowercase (made-like-him p7).
   NOT-WEB-VERBATIM  a public-domain quotation differs from the WEB text (web.py; series rule
                     2026-10-01: quoted Scripture prints exactly as WEB publishes it).
@@ -31,6 +33,13 @@ def _norm(text):
     return " ".join(words[:OPENING_WORDS])
 
 
+def _exceptions(book, kind):
+    """Editor-ruled exceptions in book.yaml `textqa_exceptions.<kind>` — an EXACT unit set only."""
+    import yaml
+    cfg = yaml.safe_load(open(f"{book}/book.yaml")) or {}
+    return ((cfg.get("textqa_exceptions") or {}).get(kind) or [])
+
+
 def check(book):
     """[(level, code, where, detail)] — level is FAIL or WARN. Empty = clean."""
     us = [u for u in units(book) if u["kind"] in _KINDS and u["text"]]
@@ -44,7 +53,10 @@ def check(book):
         if len({u["page"] for u in group}) < 2:
             continue
         level = "WARN" if all(u["kind"] == "scripture-quote" for u in group) else "FAIL"
-        out.append((level, "REPEATED-OPENING", ", ".join(u["id"] for u in group), f'"{key} ..."'))
+        ids = {u["id"] for u in group}
+        ok = next((e for e in _exceptions(book, "repeated_opening") if set(e.get("units", [])) == ids), None)
+        detail = f'"{key} ..."' + (f' — {ok.get("ruling", "accepted by the editor")}' if ok else "")
+        out.append(("ACCEPTED" if ok else level, "REPEATED-OPENING", ", ".join(u["id"] for u in group), detail))
 
     import web
     for uid, why in web.check(book):
@@ -59,9 +71,10 @@ def check(book):
 def report(book):
     probs = check(book)
     print(f"\n  text QA — {os.path.basename(book.rstrip('/'))}: "
-          f"{sum(p[0] == 'FAIL' for p in probs)} fail, {sum(p[0] == 'WARN' for p in probs)} warn")
+          f"{sum(p[0] == 'FAIL' for p in probs)} fail, {sum(p[0] == 'WARN' for p in probs)} warn, "
+          f"{sum(p[0] == 'ACCEPTED' for p in probs)} accepted by ruling")
     for level, code, where, detail in probs:
-        print(f"    {level:<4} {code:<17} {where}  {detail}")
+        print(f"    {level:<8} {code:<17} {where}  {detail}")
     return probs
 
 

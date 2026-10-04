@@ -214,7 +214,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 **MY TEXT:**
 
-He said, in verse 3,  "Let there be light" — and there was light.
+He said, in verse 3,  “Let there be light” — and there was light.
 
 **MY TEXT STATUS:** confirmed
 
@@ -854,3 +854,14 @@ About the Author
 
 **MY TEXT STATUS:** confirmed
 
+---
+
+### `p33.heading` — heading · p33
+
+- **Pointer:** closing-page heading (slot added 2026-10-04)
+
+**MY TEXT:**
+
+Take Away
+
+**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation

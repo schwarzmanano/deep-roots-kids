@@ -37,7 +37,7 @@ pages:
   - page: 5
     ref: "Genesis 1:3-5"
     title: "Day One — Light"
-    text: "He said, in verse 3,  \"Let there be light\" — and there was light."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    text: "He said, in verse 3,  “Let there be light” — and there was light."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04; quote marks made curly (WEB) at his instruction 2026-10-04
     teaching: "God did not need tools. He did not need helpers. He didn't need a hammer or a paintbrush or a whole team of builders. The Bible tells us God simply spoke."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "A wide sky divided — one side bright with broad radiating bands of light rising from the
             horizon, the other side dark with a few large rounded cloud shapes. Below, deep water
@@ -274,7 +274,7 @@ pages:
     provenance_corrected: "2026-09-29 — this note previously read 'Text authored by the editor
                            and inserted verbatim'. The editor has ruled the existing closing text
                            AI-originated (authorship-policy §5): see provenance.yaml p33.body."
-    heading: null   # new slot 2026-10-04 — the author's closing heading (body no longer carries it)
+    heading: "Take Away"   # author-supplied 2026-10-04, verbatim
     body: "So here's what I want you to do today, friends. The next time you see a mountain, or hear a bird, or watch the ocean, I want you to remember — that's not an accident. That's not just \"nature.\" That is God, showing you a little piece of how great he is."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
 
   - page: 35
