@@ -36,9 +36,9 @@ text_units:
   kind: subtitle
   author: human
   draft: false
-  sha: 928bb655d338
-  source: author's words; changed by the author's ruling in chat 2026-10-01 ('Lesson 3' removed)
-  recorded: '2026-10-01'
+  sha: f40413e20a9f
+  source: 'editor chat 2026-10-05: series subtitle formula, focus phrase ''The Fall and Its Consequences'''
+  recorded: '2026-10-05'
 - id: book.scripture_scope
   page: p1, back cover
   kind: scripture-reference

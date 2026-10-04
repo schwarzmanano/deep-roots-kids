@@ -14,7 +14,7 @@ from the built files on 2026-10-02 (`scripts/kids/print_table.py`, both prefligh
 | Field | Value | Source |
 |---|---|---|
 | Title | We Broke It All | author (my-words, confirmed) |
-| Subtitle | A Deep Roots Kids Coloring Book | author (my-words, confirmed) |
+| Subtitle | The Fall and Its Consequences • A Deep Roots Kids Coloring Book | author 2026-10-05 (my-words — **awaiting your confirmation**; release blocked until confirmed) |
 | Series | Creation to Glorification, Book 3 | editor brief |
 | Author / contributor | **Deep Roots** — exactly as Books One and Two on KDP and Lulu. Schwarz is credited only through the About the Author page | editor ruling 2026-10-01 |
 | Publisher / imprint | Deep Roots Kids | editor ruling |
