@@ -1,136 +1,102 @@
-# KDP Listing Reference — In the Beginning
+# Listing Reference — In the Beginning (KDP + Lulu Direct)
 
-Everything needed for the KDP dashboard in one place. Figures marked **CONFIRMED**
-were read from the built files, not from a running tally.
+Book One, Deep Roots Kids · Creation to Glorification. Figures marked **CONFIRMED** were read
+from the release files on 2026-10-04 (`scripts/kids/print_table.py`, both preflights). Items marked
+**YOUR CALL** are decisions, not facts. Nothing here is printed in the book. Replaces the
+2026-09-18 listing, whose description and categories were AI-drafted placeholders.
 
-Last rebuilt: 2026-09-18 (About the Author leaf added; cover spine rebuilt to match)
+> **Release status (2026-10-04): RELEASE BUILDS DONE.** All four files in `out/` are release builds (no proof
+> stamp), 36 pp; interior + cover preflights PASS; `print_table.py` PASS. Text: every unit the author's own
+> (14 verbatim Dad Teaching Script lines, 22 new lines, 4 fact fills at his instruction), all confirmed.
+> Cover: series cover grid (`_brand/cover-grid.md`), Canopy Green. Margins now 0.5 in all round (Lulu).
+> If a 2026-09 version is live on KDP, upload these as a revision and order a fresh proof.
 
----
+## Book details (both platforms)
 
-## Book setup
+| Field | Value | Source |
+|---|---|---|
+| Title | In the Beginning | author (confirmed) |
+| Subtitle | A Coloring Book of Creation | author (confirmed) |
+| Series | Creation to Glorification, Book 1 | editor brief |
+| Author / contributor | **Deep Roots** — exactly as Books Two and Three; Schwarz credited only through About the Author | editor ruling 2026-10-01 |
+| Publisher / imprint | Deep Roots Kids | editor ruling |
+| Copyright | © 2026 Deep Roots Kids | p2 (author's template, facts filled at his instruction) |
+| Edition | First edition | |
+| Language | English | |
+| Reading age | 4–7 | |
+| Page count | **36 — CONFIRMED**, even | release interiors |
+| Interior | Black & White (K-only), white paper, 15 single-sided illustrations | |
+| Trim | 8.5 × 11 in | |
 
-| Field | Value |
-|---|---|
-| Title | In the Beginning |
-| Subtitle (Amazon field) | A Christian Coloring Book of Creation \| Deep Roots Kids, Creation to Glorification Book One \| Genesis 1:1-2:3, Ages 4-7 |
-| Cover subtitle (print only) | Deep Roots Kids · Book One |
-| Series | Creation to Glorification, Book One |
-| Author | Deep Roots — as live on KDP and Lulu (confirmed 2026-10-01) |
-| Publisher / imprint | Deep Roots Kids |
-| Age range | 4–7 |
-| Trim size | 8.5" × 11" (large trim) |
-| Bleed | No bleed (interior) |
-| Interior ink | **Black & White** on white paper |
-| **Final page count** | **36 — CONFIRMED from the built PDF** |
-| Page count parity | **EVEN** — KDP will not insert an unplanned blank page |
-| Back matter | p33 closing page, p35 About the Author (shared series asset) |
-| KDP B&W large-trim band | 24–108 pages → **in range**, flat $2.84 print cost |
-| Target list price | $9.99 |
+## Description (both platforms) — the author's back-cover blurb, verbatim
 
-Indicative royalty at $9.99 (US, 60% rate): 9.99 × 0.60 = 5.99 − 2.84 print = **~$3.15/copy**.
-Verify against KDP's own calculator at upload; this is arithmetic, not a quote.
+> What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
 
-## Files
+No AI mention anywhere in the description or the printed book (authorship-policy §3).
 
-| File | Notes |
-|---|---|
-| `out/interior.pdf` | 36pp, 8.5×11 exact, no bleed, all fonts embedded, art is vector, all ink true black |
-| `out/cover.pdf` | Full wrap 17.331" × 11.25", spine 0.0811" blank, art 415 DPI |
+## Categories and keywords — **YOUR CALL** (suggestions to choose from, not prose)
 
-Cover stays **full colour**. Only the interior is Black & White.
+KDP keywords (7 slots): christian coloring book for kids · creation coloring book genesis 1 · bible coloring book
+ages 4-7 · sunday school coloring activity · seven days of creation for kids · christian homeschool preschool ·
+deep roots kids.
 
-## AI content disclosure
+Lulu keywords: christian coloring book, genesis 1, creation, bible for kids, sunday school, ages 4-7, deep roots kids.
 
-KDP requires AI-content disclosure on its Content Details page (a marketplace form, not
-printed anywhere). This block is the output of `scripts/disclosure.py` — it is computed from
-`provenance.yaml` and must not be edited by hand.
+Categories / BISAC to check in each platform's live picker: Juvenile Nonfiction › Religious › Christian › Activity
+Books; Juvenile Nonfiction › Activity Books › Coloring; Juvenile Nonfiction › Religious › Christian › Early Readers.
+Use the same choices across the series.
+
+## AI content disclosure (upload forms only — never printed)
 
 <!-- disclosure:begin -->
 _Generated by `scripts/disclosure.py genesis-1 --update-listing` — do not edit by hand. Answer KDP's AI-content questions from this audit, and re-run it after any text or image change._
 
 ```
-Disclosure audit — genesis-1  (2026-09-29, from provenance.yaml)
+Disclosure audit — genesis-1  (2026-10-04, from provenance.yaml)
 
-TEXT: AI-GENERATED / AI-DRAFTED TEXT REMAINS — 37 unit(s)
-  42 units: human 0 · public-domain 2 · ai-drafted 37 · unresolved/empty 3
-  ai-drafted by kind: teaching 15, page-text 14, copyright-page 2, back-cover-spec 2, closing 1, about-the-author 1, series-line 1, back-cover-blurb 1
-  unresolved/empty: book.title, book.series_line, book.subtitle
+TEXT: None
+  44 units: human 42 · public-domain 2 · ai-drafted 0 · unresolved/empty 0
 IMAGES — interior: AI-generated (many images); editing extensive — per editor 2026-09-29: selection, threshold, frame strip, stroke thickening, vectorisation
 IMAGES — cover: AI-generated; editing extensive — per editor 2026-09-29: crop, composite with typography and logo
 TRANSLATIONS: none
 ```
 <!-- disclosure:end -->
 
-## Categories
-
-> ⚠️ **NOT SUPPLIED — DO NOT UPLOAD AS-IS.** The five categories from the publishing
-> critique document were never pasted into the thread (the message that referenced them
-> ended before the list). The five below are my own reasonable guesses, NOT the
-> critique's. Replace them with the critique's list before upload.
-
-1. Books › Children's Books › Activities, Crafts & Games › Activity Books › Coloring Books
-2. Books › Children's Books › Religions › Christianity › Bible Stories
-3. Books › Christian Books & Bibles › Children's & Teens › Activity Books
-4. Books › Children's Books › Religions › Christianity › Early Learning
-5. Books › Crafts, Hobbies & Home › Crafts & Hobbies › Coloring Books for Grown-Ups › Animals
-
-KDP's picker wording shifts. Confirm exact current names in the live picker at upload.
-
-## Backend keywords (7 slots)
-
-> ⚠️ **NOT SUPPLIED — same gap as above.** The ten keywords from the critique were not
-> pasted. KDP provides **seven** keyword slots, not ten, so the critique's ten will need
-> triaging to seven regardless. Placeholders below are mine, not the critique's.
-
-1. christian coloring book for kids
-2. genesis creation coloring book
-3. bible coloring book ages 4-7
-4. sunday school coloring activity
-5. creation story kids activity book
-6. toddler bible coloring pages
-7. christian preschool gift
-
-## Description — DRAFT, for the editor to finalise
-
-> ⚠️ **AI-DRAFTED PLACEHOLDER — not the author's words.** Customer-facing copy drafted by
-> the AI pipeline. Under authorship-policy §1.1 the published description must be the
-> author's own. The former "note on how this book was made" paragraph is removed (policy §3).
-
 ---
 
-**Before there was anything, there was God.**
+## Amazon KDP
 
-*In the Beginning* walks children through the seven days of creation exactly as Genesis
-tells it — light divided from darkness, sky and sea, growing things, sun and moon and
-stars, birds and fish, the animals, and people made in God's own image. Every page is a
-full-page picture to colour, and every page ends with one short line pointing from
-creation to Christ.
+| Field | Value |
+|---|---|
+| Interior file | `out/interior.pdf` — **8.5 × 11.0 in, no bleed, 36 pp — CONFIRMED** |
+| Cover file | `out/cover.pdf` — **17.331 × 11.25 in**, spine **0.0811 in** (36 × 0.002252), green, no text; CMYK; lowest raster 400 ppi; series grid — CONFIRMED |
+| Spine text | None — KDP allows spine text only above 79 pages |
+| Barcode | "Cover includes barcode" stays **unticked**; 2.0 × 1.2 in box bottom-right of the back panel kept clear (CONFIRMED) |
+| Cover finish | **YOUR CALL** — match Books Two and Three |
+| ISBN | **YOUR CALL** — KDP's free ISBN works only on Amazon; never reuse it for Lulu |
+| Price | **YOUR CALL** — $9.99 or above for the full paperback royalty |
 
-**What's inside**
+Checklist:
+- [x] Release files built; preflight PASS (2026-10-04)
+- [ ] Re-check the cover size in KDP's current cover calculator (expected 17.331 × 11.25 in)
+- [ ] Upload interior and cover; KDP reports 36 pages; previewer accepts the wrap
+- [ ] Author "Deep Roots"; series "Creation to Glorification", Book 1
+- [ ] Answer the AI questions from the disclosure block above
+- [ ] **Order one physical proof copy before publishing**
 
-- 15 full-page illustrations, one per scene, printed on one side only so markers and
-  crayons don't bleed through to the next picture
-- Thick, bold outlines and large open shapes, drawn for small hands still learning to
-  stay inside the lines
-- Scripture from the World English Bible, with a short teaching line on every page for
-  the adult reading alongside
-- A closing page for families — "where do you see Jesus in the story of creation?"
-- 8.5" × 11", ages 4–7
+## Lulu Direct
 
-**Book One of Creation to Glorification**, a Deep Roots Kids series that follows the
-Bible's whole story from the first day to the new heaven and the new earth.
+| Field | Value |
+|---|---|
+| Format | Paperback, perfect bound, US Letter 8.5 × 11 in; Standard B&W, 60# white uncoated |
+| Interior file | `out/interior-lulu.pdf` — **8.75 × 11.25 in, 0.125 in bleed, 36 pp — CONFIRMED** (minimum 32: met) |
+| Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine **0.1411 in** (36/444 + 0.06), green, no text; 0.5 in safety; CMYK; series grid — CONFIRMED |
+| Barcode | 3.0 × 1.5 in box bottom-right of the back panel kept clear (verify against Lulu's template) |
+| ISBN | **YOUR CALL** — separate ISBN for Lulu retail distribution |
+| Price / finish | **YOUR CALL** |
 
----
-
-## Pre-upload checklist
-
-- [ ] Replace categories with the critique's five
-- [ ] Replace keywords with the critique's ten, triaged to seven slots
-- [ ] Editor finalises the description wording
-- [ ] Upload `interior.pdf`, confirm KDP reports **36 pages**
-- [ ] Upload `cover.pdf`, confirm the previewer accepts the wrap
-- [ ] Set interior to **Black & White**, paper **white**, trim **8.5 × 11**
-- [ ] Answer KDP's AI-content questions from the disclosure block above (re-run `disclosure.py` first)
-- [ ] Description replaced with the author's own wording
-- [ ] Confirm royalty against KDP's live calculator at $9.99
-- [ ] Order a physical proof and have a 4–7 year old colour it
+Checklist:
+- [x] Release files built; preflight PASS (2026-10-04)
+- [ ] Download Lulu's cover template for 36 pp on 60# white; confirm the 0.1411 in spine
+- [ ] Upload; review Lulu's file-check report; author "Deep Roots", publisher Deep Roots Kids
+- [ ] **Order one proof copy before publishing**

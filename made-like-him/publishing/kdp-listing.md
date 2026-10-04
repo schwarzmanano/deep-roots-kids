@@ -6,7 +6,8 @@ from the release files on 2026-09-30. Items marked **YOUR CALL** are decisions, 
 > **Release status (2026-10-04): RELEASE BUILDS DONE (revision).** Rebuilt after the proof review: p7 "gods",
 > p7 Scripture apostrophe restored to WEB, new p9 teaching line, all 43 human lines confirmed by the author, About
 > the Author confirmed, PDF metadata author "Deep Roots". 36 pp; spines unchanged (0.0811 / 0.1411 in); interior
-> and cover preflights PASS; print_table PASS. Cover stays on layout v2 until Book One's rebuild (editor ruling).
+> and cover preflights PASS; print_table PASS. **Covers re-released 2026-10-04 on the series cover grid** (Roots
+> Gold banner, Navy text) at Book One's rebuild (editor ruling); interiors unchanged.
 > If the previous files were already uploaded, upload these as a revision and order a fresh proof.
 
 ## Book details (both platforms)
@@ -63,7 +64,7 @@ TRANSLATIONS: none
 | Field | Value |
 |---|---|
 | Interior file | `out/interior.pdf` — **8.5 × 11.0 in, no bleed — CONFIRMED** |
-| Cover file | `out/cover.pdf` — **17.331 × 11.25 in**, spine 0.0811 in (blank), CMYK, 415 DPI — CONFIRMED |
+| Cover file | `out/cover.pdf` — **17.331 × 11.25 in**, spine 0.0811 in (gold, no text), CMYK, lowest raster 400 ppi, series grid — CONFIRMED 2026-10-04 |
 | Bleed setting | No bleed (interior) |
 | Ink / paper | Black & white, white paper |
 | Cover finish | **YOUR CALL** — matte or glossy (Book One: check what you chose) |
@@ -80,7 +81,7 @@ answer the AI questions from the block above · order a physical proof before pu
 | Format | Paperback, perfect bound, US Letter 8.5 × 11 in |
 | Interior colour / paper | Standard Black & White, 60# white — **YOUR CALL** (the spine below assumes Lulu's standard formula) |
 | Interior file | `out/interior-lulu.pdf` — **8.75 × 11.25 in, 0.125 in bleed all sides — CONFIRMED** |
-| Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine 0.1411 in (pages/444 + 0.06), blank, 0.5 in safety — CONFIRMED |
+| Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine 0.1411 in (pages/444 + 0.06), gold, no text, 0.5 in safety, series grid — CONFIRMED 2026-10-04 |
 | Cover finish | **YOUR CALL** — matte or gloss |
 | ISBN | Not required for Lulu Direct store sales; required if you also enable Lulu's retail distribution |
 | Price | **YOUR CALL** |

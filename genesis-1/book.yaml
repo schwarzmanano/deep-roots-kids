@@ -40,8 +40,8 @@ layout:
   back_matter: [33, 35]   # p33 closing page; p35 About the Author (shared series asset)
   illustration_count: 15
 
-margins:                  # KDP 24-150pp band, no bleed
-  gutter_in: 0.375
+margins:                  # KDP + Lulu: Lulu safety margin is 0.5in on ALL sides (gutter too)
+  gutter_in: 0.5           # 2026-10-04: 0.375 -> 0.5 for Lulu (0.5in safety on all sides), matching Books 2-3
   outside_in: 0.5         # 0.25 is KDP minimum; 0.5 for comfort
   top_in: 0.5
   bottom_in: 0.5

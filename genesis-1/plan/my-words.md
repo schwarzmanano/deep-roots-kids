@@ -864,4 +864,4 @@ About the Author
 
 Take Away
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
