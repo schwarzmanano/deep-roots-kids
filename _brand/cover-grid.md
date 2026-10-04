@@ -38,6 +38,32 @@ printers' spine-text minimums: KDP > 79 pp, Lulu > 80 pp).
 at full cover size; upper third soft and low-detail for the title; everything important
 inside the safe zone.
 
+## Rules for Books 4–11 (editor ruling 2026-10-04)
+
+Ruled after Books One and Two went live on KDP. **Books One and Two keep every field KDP
+locks on a published paperback** (title, subtitle, author, edition) — those are never changed
+for them. Book One's cover ART may still be replaced (a cover-file update, title and subtitle
+unchanged). Book Three keeps its current subtitle.
+
+1. **Subtitle formula:** `<Focus> • A Deep Roots Kids Coloring Book` — the Focus names the
+   book's theme. The wording is the author's (my-words.md, confirmed); never drafted by AI.
+   **Open, decide at Book Four:** a fixed size for every book, or a two-line stack (Focus above,
+   the brand line below at the same size on every book). Today's fit-to-width rule would set the
+   brand half at a different size per book.
+2. **Lock before upload:** title, subtitle and author are final before a book's first KDP
+   upload. KDP will not let them change on a published paperback (unpublish and a new edition
+   with a new ISBN would be the only route).
+3. **Front art — one cast across the series:** the Deep Roots Kids family children, facing the
+   viewer, in the cast-sheet construction (dot eyes, mouth line, single-line stick limbs, mitten
+   hands, oval feet), flat-vector over a soft painterly background — as on Books Two and Three.
+4. **Children only on the front:** no adult pair (a man and woman together can read as the first
+   couple, whose faces are never shown — theology-guardrails, first-couple rules).
+5. **Book-specific content:** each cover carries scenery and objects from its own book so no
+   cover repeats another's composition (Book Two is children in a meadow; Book One's retrofit is
+   the creation days).
+6. **Cover promises the interior:** characters on the front should appear inside the book; a
+   book whose interior has no family pages says so at its cover gate.
+
 ## Geometry (machine-readable — inches, trim-relative)
 
 ```yaml
