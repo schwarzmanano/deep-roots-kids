@@ -17,8 +17,8 @@ pages:
   - page: 3
     ref: "Genesis 1:1-2"
     title: "Before Anything"
-    text: "In the beginning, God made the heavens and the earth."
-    teaching: "Everything begins with God. Before there were people, or stars, or oceans, there was God — and one day, His Son will make it all new again."
+    text: "Before there were mountains, before there were oceans, before there was one single bird singing one single song — there was God."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    teaching: "Have you ever wondered — who made all of this?\nThe Bible answers that question in the very first verse of the very first book."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "Deep water filling the whole lower half of the page under a wide sky, the darkness just
             beginning to yield in soft bands at the horizon. Fill the water with long rolling swells
             drawn as a SMALL NUMBER of LARGE smooth wave bands — about five or six broad curved
@@ -37,8 +37,8 @@ pages:
   - page: 5
     ref: "Genesis 1:3-5"
     title: "Day One — Light"
-    text: "God said, 'Let there be light!' And there was light."
-    teaching: "God spoke, and light came from the dark. Jesus is called the Light of the World — He shines even in our darkest days."
+    text: "He said, in verse 3,  \"Let there be light\" — and there was light."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    teaching: "God did not need tools. He did not need helpers. He didn't need a hammer or a paintbrush or a whole team of builders. The Bible tells us God simply spoke."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "A wide sky divided — one side bright with broad radiating bands of light rising from the
             horizon, the other side dark with a few large rounded cloud shapes. Below, deep water
             filling the lower half, drawn as FOUR OR FIVE LARGE smooth wave bands — big open areas a
@@ -65,7 +65,7 @@ pages:
   - page: 9
     ref: "Genesis 1:9-10"
     title: "Day Three — Land and Seas"
-    text: "God gathered the water together, and dry ground appeared."
+    text: "He also said, \"Let there be land and sea\" — and it was so."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     teaching: "Dry land, safe and solid, out of the deep water. God still makes safe, solid ground for His children — through Jesus, our feet are set on the Rock."
     scene: "Gentle hills and a curving shoreline meeting calm sea. Simple rounded rocks."
     alt: "Rolling hills beside a calm sea."
@@ -73,8 +73,8 @@ pages:
   - page: 11
     ref: "Genesis 1:11-13"
     title: "Day Three — Growing Things"
-    text: "God said, 'Let the land grow plants and trees!' And it was so."
-    teaching: "God made every plant and tree before there was anyone to eat from them. Jesus called Himself the true Bread — the food our hearts need most."
+    text: "Thank you, God, for the flowers and the trees."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    teaching: "Who made the wide, deep ocean, and the tallest tree, and the smallest flower? God did."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "An orchard of growing things ONLY — no animals of any kind. Exactly TWO large rounded
             fruit trees, each bearing only THREE big simple round fruits. One small cluster of
             three large open flowers with broad petals. Two simple leafy plants on the ground.
@@ -91,9 +91,8 @@ pages:
   - page: 13
     ref: "Genesis 1:14-18"
     title: "Day Four — The Sun and the Moon"
-    text: "God made the sun to shine in the day, and the moon to shine at night."
-    teaching: "The sun and moon are not gods. They don't rule the sky — God does.
-               He simply put them there to serve us."
+    text: "Thank you, God, for the sun that warms us."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    teaching: "He's not just powerful — he's the King over everything he made."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "A large round sun high on one side and a crescent moon on the other, with several large
             rounded clouds between them. Below, layered rolling hills carrying a few full rounded
             trees, and a broad band of calm water across the foreground drawn as two or three large
@@ -129,7 +128,7 @@ pages:
   - page: 19
     ref: "Genesis 1:21-23"
     title: "Day Five — Birds"
-    text: "And God filled the sky with birds that fly."
+    text: "Who taught the tiny birds to sing their song? God did."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     teaching: "God gave the birds the whole sky to fly in. Jesus said God feeds every sparrow — and He loves us so much more."
     scene: "Several large simple birds in flight among rounded clouds."
     alt: "Birds flying among clouds."
@@ -159,8 +158,8 @@ pages:
   - page: 25
     ref: "Genesis 1:26-27"
     title: "Day Six — People"
-    text: "God made people in his own image, and he loved them."
-    teaching: "Out of everything God made, only people were made in His image. Jesus is the perfect Image of God — and He came to make broken image-bearers new."
+    text: "And who made you? God did too — and he made you on purpose, because he loves you."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
+    teaching: "Thank you, God, for making the whole wide world — and for making me, too."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     scene: "Two figures seen FROM BEHIND, at distance, small within a wide creation scene, faces
             entirely unseen. They are at work — tending plants, reaching toward an animal — in the
             act of the charge just given. Not posed, not static, not facing the viewer.
@@ -234,7 +233,7 @@ pages:
     text: "God saw everything that he had made, and, behold, it was very good."
     quote_amended: "2026-09-29 — comma after 'and' restored to match WEB Gen 1:31 verbatim
                     (ebible.org/eng-web). Quotation corrected to source; not an authorship change."
-    teaching: "God looked at everything He had made and said it was very good. Sin broke that goodness — but Jesus is making a new heaven and a new earth, and it will be very good again."
+    teaching: "Big and small, near and far, it all belongs to him, and it's all good, because he is good."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
     quote: true
     thicken_thin_strokes: true   # 3 strokes at 1.59pt from the fish detailing
     scene: "A wide panorama gathering the whole book together, deliberately DIFFERENT from the
@@ -275,25 +274,8 @@ pages:
     provenance_corrected: "2026-09-29 — this note previously read 'Text authored by the editor
                            and inserted verbatim'. The editor has ruled the existing closing text
                            AI-originated (authorship-policy §5): see provenance.yaml p33.body."
-    body: |
-      From Creation to Glory
-
-      Six days, and it was very good. On the seventh, God rested.
-
-      But the story was not finished — and it still isn't.
-
-      Genesis 1 opens with God speaking light into darkness. The last book of the Bible ends with a city that needs no sun, because the Lamb Himself is its light (Revelation 21:23). The light that broke on Day One was already pointing forward — to Jesus, the true Light of the world (John 1:9), who came into the darkness of a broken creation to shine again.
-
-      Everything God called good in this book was made through Him and for Him (Colossians 1:16). And when sin broke what was very good, God did not leave it broken. He sent His own Son — the true Image of God (Colossians 1:15) — to live the life we could not live, die the death we deserved, and rise on a new "first day," making all things new.
-
-      One day, the Bible promises, God will finish what He started here. A new heaven and a new earth (Revelation 21:1). And His people will rest — not for one day only, but forever — in Him (Hebrews 4:9–10).
-
-      Creation. Fall. Redemption. Glorification.
-
-      This book is Book One. The story is still being told — and by God's grace, so is yours.
-
-      For families: read this page together, and ask — where do you see Jesus in the story of creation?
-
+    heading: null   # new slot 2026-10-04 — the author's closing heading (body no longer carries it)
+    body: "So here's what I want you to do today, friends. The next time you see a mountain, or hear a bird, or watch the ocean, I want you to remember — that's not an accident. That's not just \"nature.\" That is God, showing you a little piece of how great he is."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
 
   - page: 35
     ref: "back matter"

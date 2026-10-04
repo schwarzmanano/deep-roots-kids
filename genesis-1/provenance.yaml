@@ -64,35 +64,39 @@ text_units:
 - id: p3.text
   page: p3
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 2b6713c870d3
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: e2778355bccb
+  source: author's own words — Dad Teaching Script, Track 1 ¶3, sentence 4, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p3.teaching
   page: p3
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 52e7fc8efa93
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: bf04ca9802a8
+  source: author's own words — Dad Teaching Script, Track 1 ¶2 last sentence + ¶3 sentence 1 (contiguous
+    across the paragraph break, verbatim; selected by the author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p5.text
   page: p5
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 8eb3aa9c296d
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 24c97c4627bc
+  source: author's own words — Dad Teaching Script, Track 1 ¶4, sentence 6, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p5.teaching
   page: p5
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: a49ef7b356bd
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: ac4f7f68aeb5
+  source: author's own words — Dad Teaching Script, Track 1 ¶4, sentences 2–5, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p7.text
   page: p7
   kind: page-text
@@ -112,11 +116,12 @@ text_units:
 - id: p9.text
   page: p9
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 92e2b696d317
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 46cce661b058
+  source: author's own words — Dad Teaching Script, Track 1 ¶4, sentence 7, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p9.teaching
   page: p9
   kind: teaching
@@ -128,35 +133,39 @@ text_units:
 - id: p11.text
   page: p11
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: fbbe8fb5e402
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: a8535c1b4deb
+  source: author's own words — Dad Teaching Script, Track 1 ¶8, sentence 4, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p11.teaching
   page: p11
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 192e8dbe7206
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 3715f98bd4fa
+  source: author's own words — Dad Teaching Script, Track 1 ¶5, sentences 6–7, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p13.text
   page: p13
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 5bdf3054cc7b
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 257c0d13483c
+  source: author's own words — Dad Teaching Script, Track 1 ¶8, sentence 3, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p13.teaching
   page: p13
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 660cdeb50798
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: e03854a30100
+  source: author's own words — Dad Teaching Script, Track 1 ¶6, sentence 2, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p15.text
   page: p15
   kind: page-text
@@ -192,11 +201,12 @@ text_units:
 - id: p19.text
   page: p19
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 487d83bee366
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: fcbd2477d17c
+  source: author's own words — Dad Teaching Script, Track 1 ¶5, sentences 4–5, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p19.teaching
   page: p19
   kind: teaching
@@ -240,19 +250,21 @@ text_units:
 - id: p25.text
   page: p25
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 4e2b98531c94
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: a8ba2a54abc8
+  source: author's own words — Dad Teaching Script, Track 1 ¶5, sentences 8–9, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p25.teaching
   page: p25
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: ef0fb9be2fab
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 3e0129717ba6
+  source: author's own words — Dad Teaching Script, Track 1 ¶8, sentence 5, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p27.text
   page: p27
   kind: page-text
@@ -280,11 +292,12 @@ text_units:
 - id: p29.teaching
   page: p29
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: c55e9cc34d69
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 00118b3cd9df
+  source: author's own words — Dad Teaching Script, Track 1 ¶6, sentence 3, verbatim; selected by the
+    author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p31.text
   page: p31
   kind: page-text
@@ -304,11 +317,12 @@ text_units:
 - id: p33.body
   page: p33
   kind: closing
-  author: ai-drafted
-  draft: true
-  sha: 980241b1c58a
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 2b56031b9465
+  source: author's own words — Dad Teaching Script, Track 1 ¶7 (whole paragraph), verbatim; selected by
+    the author ('use', 2026-10-04)
+  recorded: '2026-10-04'
 - id: p35.heading
   page: p35
   kind: heading

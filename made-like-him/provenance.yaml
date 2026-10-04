@@ -129,12 +129,11 @@ text_units:
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: null
-  draft: true
-  sha: 11efa952cb66
-  source: 'BLOCKED 2026-10-01 by editor ruling: opens identically to p15.text (textqa REPEATED-OPENING);
-    editor to supply a new p9 teaching line in my-words.md'
-  recorded: '2026-10-01'
+  author: human
+  draft: false
+  sha: 35d8c47efba2
+  source: author's own words, supplied in chat 2026-10-04, inserted verbatim
+  recorded: '2026-10-04'
 - id: p11.text
   page: p11
   kind: page-text

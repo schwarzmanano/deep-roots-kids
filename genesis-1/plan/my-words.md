@@ -53,6 +53,30 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 > **2026-10-01 — STATUS LINES.** Each section ends with `**MY TEXT STATUS:**`. The pipeline copied the currently registered text of every human unit into MY TEXT verbatim and marked it `copied: awaiting confirmation`. Change the status to `confirmed` yourself after checking the line, or correct the text and then confirm. The release guard passes a human unit only when the printed text equals MY TEXT AND the status reads exactly `confirmed`. The pipeline never writes `confirmed`.
 
+> **2026-10-02 — BOOK ONE RE-AUTHORING: VERBATIM CANDIDATES (Priority 0).** For each of the 36
+> `ai-drafted` units, the pipeline searched your **Dad Teaching Script, Track 1** (the docx you
+> named; byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`) and either:
+> - **staged a candidate** (14 units): whole sentences, or a contiguous run of whole sentences,
+>   copied verbatim and byte-checked against the docx. Status `candidate`, with source paragraph
+>   and sentence numbers (¶1 = "Hi, friends…") and any flags. Nothing is confirmed; or
+> - **left a gap** (22 units): MY TEXT reads `[SCHWARZ TO WRITE]`, with the page purpose, the WEB
+>   text, a length limit and the theological point.
+>
+> To accept a candidate, change its status to `confirmed`. To replace it, write over it. The
+> release guard treats `candidate` exactly like any other unconfirmed status.
+>
+> **Sources NOT used:** the album **lyrics** (`source/Creation_to_Glorification_LYRICS.pdf`). The
+> PDF has no author metadata (macOS print-to-PDF, 2026-09-26) and it sits beside a music-style
+> generation brief, so its authorship is uncertain. Track 1's lyrics would otherwise cover stars,
+> oceans and "King over everything". Tell me if they're yours and may be used.
+> Other tracks of the Dad Teaching Script were not searched (rule: Track 1 only).
+>
+> **Applies to every slot:** the teaching-line *pointers* (e.g. "Christ the Bread of Life") were
+> written to fit the old AI-drafted lines. Track 1 itself has no Christ-forward material. Whether
+> Book One's teaching lines keep pointing to Christ is your call (guardrails §2 allows it in text).
+> Track 1 writes God's pronouns in lowercase ("he made you"); Book Two capitalised them at your
+> request. Both are allowed (guardrails §8 governs quotation only), but the series now differs.
+
 ---
 
 ### `book.title` — title · p1, cover
@@ -108,13 +132,16 @@ A Coloring Book of Creation
 - **Pointer:** copyright notice: year, rights holder, rights reserved
 - **Soft target:** legal notice line — your wording
 - **Current status:** `ai-drafted` (draft: true) — standard line set in pipeline code (layout.py), now in book.yaml  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: copyright notice: year, rights holder, rights reserved
+  - Length limit: one line, 9 pt Lora
+  - Theological point: none — a factual/legal line
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -123,13 +150,16 @@ A Coloring Book of Creation
 - **Pointer:** required Scripture attribution: WEB, public domain (policy §3 — keep)
 - **Soft target:** legal notice line — your wording
 - **Current status:** `ai-drafted` (draft: true) — standard line set in pipeline code (layout.py), now in book.yaml  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: required Scripture attribution: WEB, public domain (policy §3 — keep)
+  - Length limit: one line, 9 pt Lora; must keep the WEB public-domain attribution (policy §3)
+  - Theological point: none — a factual/legal line
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -139,16 +169,15 @@ A Coloring Book of Creation
 - **Pointer:** God before everything; the beginning
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Before there were mountains, before there were oceans, before there was one single bird singing one single song — there was God."  
-> — Dad Teaching Script, Track 1 ¶3 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶3, sentence 4; also `_brand/album/teaching-script.md` line 19. 22 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
 
 **MY TEXT:**
 
+Before there were mountains, before there were oceans, before there was one single bird singing one single song — there was God.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -158,16 +187,17 @@ A Coloring Book of Creation
 - **Pointer:** everything begins with God; forward to Christ making all things new
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "The Bible answers that question in the very first verse of the very first book."  
-> — Dad Teaching Script, Track 1 ¶3 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶2 last sentence + ¶3 sentence 1 (contiguous across the paragraph break; the line break is the source's own — teaching lines print whitespace-collapsed); also `_brand/album/teaching-script.md` line 18, 19. 25 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: "that question" refers back to the sentence before it — both are included, so the run stands on its own.
 
 **MY TEXT:**
 
+Have you ever wondered — who made all of this?
+The Bible answers that question in the very first verse of the very first book.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -177,16 +207,18 @@ A Coloring Book of Creation
 - **Pointer:** God speaks; light appears
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "The Bible tells us God simply spoke."  
-> — Dad Teaching Script, Track 1 ¶4 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶4, sentence 6; also `_brand/album/teaching-script.md` line 20. 14 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: **Will fail the WEB release check (§8):** the Scripture quotation is in straight quotes ("…"); §8 requires the WEB's own curly quotes. Changing quote marks is an edit — yours to make or not.
+  - FLAG: Spoken phrasing for a page: "in verse 3," and a **double space** after the comma (preserved as in the source).
+  - FLAG: WEB Gen 1:3 reads: God said, “Let there be light,” and there was light.
 
 **MY TEXT:**
 
+He said, in verse 3,  "Let there be light" — and there was light.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -196,16 +228,15 @@ A Coloring Book of Creation
 - **Pointer:** light from darkness by God's word; Christ the Light of the World
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Word by word, the whole world came alive, just because God said so."  
-> — Dad Teaching Script, Track 1 ¶4 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶4, sentences 2–5; also `_brand/album/teaching-script.md` line 20. 31 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
 
 **MY TEXT:**
 
+God did not need tools. He did not need helpers. He didn't need a hammer or a paintbrush or a whole team of builders. The Bible tells us God simply spoke.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -215,13 +246,17 @@ A Coloring Book of Creation
 - **Pointer:** the expanse; waters above and below
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p7 "Day Two — Sky" — the expanse; waters above and below
+  - Scripture (WEB, Genesis 1:6–8): [1:6] God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.” [1:7] God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so. [1:8] God called the expanse “sky”. There was evening and there was morning, a second day.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: the expanse; waters above and below
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -231,16 +266,17 @@ A Coloring Book of Creation
 - **Pointer:** God of order, not confusion
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "God did not need tools. He did not need helpers."  
-> — Dad Teaching Script, Track 1 ¶4 (`_brand/album/teaching-script.md`)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p7 "Day Two — Sky" — God of order, not confusion
+  - Scripture (WEB, Genesis 1:6–8): [1:6] God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.” [1:7] God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so. [1:8] God called the expanse “sky”. There was evening and there was morning, a second day.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: God of order, not confusion
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -250,16 +286,16 @@ A Coloring Book of Creation
 - **Pointer:** waters gathered; dry ground appears
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "He also said, "Let there be land and sea" — and it was so."  
-> — Dad Teaching Script, Track 1 ¶4 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶4, sentence 7; also `_brand/album/teaching-script.md` line 20. 14 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: **Theological/§8 flag:** "Let there be land and sea" is set in quotation marks as God's words, but it is not the wording of Gen 1:9 (WEB: “Let the waters under the sky be gathered together to one place, and let the dry land appear;”). web.py will treat it as dialogue (no 4-word match), so it will not block mechanically — the question is yours.
 
 **MY TEXT:**
 
+He also said, "Let there be land and sea" — and it was so.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -269,13 +305,17 @@ A Coloring Book of Creation
 - **Pointer:** solid ground from the deep; Christ the Rock
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p9 "Day Three — Land and Seas" — solid ground from the deep; Christ the Rock
+  - Scripture (WEB, Genesis 1:9–10): [1:9] God said, “Let the waters under the sky be gathered together to one place, and let the dry land appear;” and it was so. [1:10] God called the dry land “earth”, and the gathering together of the waters he called “seas”. God saw that it was good.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: solid ground from the deep; Christ the Rock
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -285,15 +325,17 @@ A Coloring Book of Creation
 - **Pointer:** land brings forth plants and trees
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
-
 - **FLAG (editor ruling 2026-10-01): AI paraphrase of Scripture: replace with WEB quotation or my teaching line.** (Text QA: p11.text and p21.text open with the same five words.)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶8, sentence 4; also `_brand/album/teaching-script.md` line 24. 9 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: A prayer of thanks rather than a statement of the Day Three act (Gen 1:11–13).
 
 **MY TEXT:**
 
+Thank you, God, for the flowers and the trees.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -303,16 +345,16 @@ A Coloring Book of Creation
 - **Pointer:** provision before need; Christ the Bread of Life
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Who made the wide, deep ocean, and the tallest tree, and the smallest flower? God did."  
-> — Dad Teaching Script, Track 1 ¶5 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶5, sentences 6–7; also `_brand/album/teaching-script.md` line 21. 16 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: Also names the ocean (Day Three seas are p9; sea creatures p17).
 
 **MY TEXT:**
 
+Who made the wide, deep ocean, and the tallest tree, and the smallest flower? God did.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -322,13 +364,16 @@ A Coloring Book of Creation
 - **Pointer:** sun for day, moon for night — plain nouns (DECISION-2)
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶8, sentence 3; also `_brand/album/teaching-script.md` line 24. 9 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: Names the sun only; DECISION-2 page covers sun and moon.
 
 **MY TEXT:**
 
+Thank you, God, for the sun that warms us.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -338,16 +383,16 @@ A Coloring Book of Creation
 - **Pointer:** Day 4: sun and moon are servants, not gods — the Genesis polemic (DECISION-2)
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Thank you, God, for the sun that warms us."  
-> — Dad Teaching Script, Track 1 ¶8 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶6, sentence 2; also `_brand/album/teaching-script.md` line 22. 12 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: Under the 15–35-word soft target (12 words).
 
 **MY TEXT:**
 
+He's not just powerful — he's the King over everything he made.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -357,13 +402,17 @@ A Coloring Book of Creation
 - **Pointer:** the stars, almost in passing
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p15 "Day Four — Stars" — the stars, almost in passing
+  - Scripture (WEB, Genesis 1:16): [1:16] God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: the stars, almost in passing
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -373,13 +422,17 @@ A Coloring Book of Creation
 - **Pointer:** Day 4: God names the stars; the star over Bethlehem; Christ the true Light the stars point to
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p15 "Day Four — Stars" — Day 4: God names the stars; the star over Bethlehem; Christ the true Light the stars point to
+  - Scripture (WEB, Genesis 1:16): [1:16] God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: Day 4: God names the stars; the star over Bethlehem; Christ the true Light the stars point to
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -389,13 +442,17 @@ A Coloring Book of Creation
 - **Pointer:** seas filled with creatures, great and small
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p17 "Day Five — Sea Creatures" — seas filled with creatures, great and small
+  - Scripture (WEB, Genesis 1:20–21): [1:20] God said, “Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky.” [1:21] God created the large sea creatures and every living creature that moves, with which the waters swarmed, after their kind, and every winged bird after its kind. God saw that it was good.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: seas filled with creatures, great and small
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -405,16 +462,17 @@ A Coloring Book of Creation
 - **Pointer:** the sea obeys its Maker; Christ walks on it
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Who made the wide, deep ocean"  
-> — Dad Teaching Script, Track 1 ¶5 (`_brand/album/teaching-script.md`)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p17 "Day Five — Sea Creatures" — the sea obeys its Maker; Christ walks on it
+  - Scripture (WEB, Genesis 1:20–21): [1:20] God said, “Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky.” [1:21] God created the large sea creatures and every living creature that moves, with which the waters swarmed, after their kind, and every winged bird after its kind. God saw that it was good.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: the sea obeys its Maker; Christ walks on it
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -424,13 +482,15 @@ A Coloring Book of Creation
 - **Pointer:** birds fill the sky
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶5, sentences 4–5; also `_brand/album/teaching-script.md` line 21. 11 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
 
 **MY TEXT:**
 
+Who taught the tiny birds to sing their song? God did.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -440,16 +500,17 @@ A Coloring Book of Creation
 - **Pointer:** God's care for sparrows; worth of His children
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Who taught the tiny birds to sing their song? God did."  
-> — Dad Teaching Script, Track 1 ¶5 (`_brand/album/teaching-script.md`)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p19 "Day Five — Birds" — God's care for sparrows; worth of His children
+  - Scripture (WEB, Genesis 1:21–23): [1:21] God created the large sea creatures and every living creature that moves, with which the waters swarmed, after their kind, and every winged bird after its kind. God saw that it was good. [1:22] God blessed them, saying, “Be fruitful, and multiply, and fill the waters in the seas, and let birds multiply on the earth.” [1:23] There was evening and there was morning, a fifth day.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: God's care for sparrows; worth of His children
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -459,15 +520,18 @@ A Coloring Book of Creation
 - **Pointer:** the land filled with animals; 'and it was so'
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
-
 - **FLAG (editor ruling 2026-10-01): AI paraphrase of Scripture: replace with WEB quotation or my teaching line.** (Text QA: p11.text and p21.text open with the same five words.)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p21 "Day Six — Animals of the Land" — the land filled with animals; 'and it was so'
+  - Scripture (WEB, Genesis 1:24–25): [1:24] God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so. [1:25] God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: the land filled with animals; 'and it was so'
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -477,16 +541,17 @@ A Coloring Book of Creation
 - **Pointer:** animals good; the peaceable kingdom Christ brings
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Big and small, near and far, it all belongs to him, and it's all good, because he is good."  
-> — Dad Teaching Script, Track 1 ¶6 (`_brand/album/teaching-script.md`)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p21 "Day Six — Animals of the Land" — animals good; the peaceable kingdom Christ brings
+  - Scripture (WEB, Genesis 1:24–25): [1:24] God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so. [1:25] God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: animals good; the peaceable kingdom Christ brings
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -496,13 +561,17 @@ A Coloring Book of Creation
 - **Pointer:** every kind of creature on the ground
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p23 "Day Six — Wild Animals" — every kind of creature on the ground
+  - Scripture (WEB, Genesis 1:24–25): [1:24] God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so. [1:25] God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: every kind of creature on the ground
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -512,13 +581,17 @@ A Coloring Book of Creation
 - **Pointer:** each creature given its place; none forgotten by God
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p23 "Day Six — Wild Animals" — each creature given its place; none forgotten by God
+  - Scripture (WEB, Genesis 1:24–25): [1:24] God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so. [1:25] God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: each creature given its place; none forgotten by God
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -528,16 +601,16 @@ A Coloring Book of Creation
 - **Pointer:** people made in God's image, loved (DECISION-5 page)
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "And who made you? God did too — and he made you on purpose, because he loves you."  
-> — Dad Teaching Script, Track 1 ¶5 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶5, sentences 8–9; also `_brand/album/teaching-script.md` line 21. 18 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: Addresses the reader ("you"); the page is the DECISION-5 image-of-God page and the art shows the first man and woman from behind. "Image" is not mentioned.
 
 **MY TEXT:**
 
+And who made you? God did too — and he made you on purpose, because he loves you.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -547,13 +620,16 @@ A Coloring Book of Creation
 - **Pointer:** only people bear the image; Christ the perfect Image renewing broken image-bearers
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶8, sentence 5; also `_brand/album/teaching-script.md` line 24. 15 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: No mention of the image of God (the Gen 1:27 point); about God making "me".
 
 **MY TEXT:**
 
+Thank you, God, for making the whole wide world — and for making me, too.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -563,13 +639,17 @@ A Coloring Book of Creation
 - **Pointer:** blessing; every plant and tree given for food
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p27 "Day Six — A Good Gift" — blessing; every plant and tree given for food
+  - Scripture (WEB, Genesis 1:28–30): [1:28] God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.” [1:29] God said, “Behold, I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food. [1:30] To every animal of the earth, and to every bird of the sky, and to everything that creeps on the earth, in which there is life, I have given every green herb for food;” and it was so.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: blessing; every plant and tree given for food
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -579,16 +659,17 @@ A Coloring Book of Creation
 - **Pointer:** God's full provision; Christ the Bread from heaven
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "Thank you, God, for the flowers and the trees."  
-> — Dad Teaching Script, Track 1 ¶8 (`_brand/album/teaching-script.md`)
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p27 "Day Six — A Good Gift" — God's full provision; Christ the Bread from heaven
+  - Scripture (WEB, Genesis 1:28–30): [1:28] God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.” [1:29] God said, “Behold, I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food. [1:30] To every animal of the earth, and to every bird of the sky, and to everything that creeps on the earth, in which there is life, I have given every green herb for food;” and it was so.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: God's full provision; Christ the Bread from heaven
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -598,16 +679,15 @@ A Coloring Book of Creation
 - **Pointer:** 'very good'; sin broke it; new creation in Christ
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "it's all good, because he is good."  
-> — Dad Teaching Script, Track 1 ¶6 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶6, sentence 3; also `_brand/album/teaching-script.md` line 22. 19 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
 
 **MY TEXT:**
 
+Big and small, near and far, it all belongs to him, and it's all good, because he is good.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -617,13 +697,17 @@ A Coloring Book of Creation
 - **Pointer:** seventh day; God rests and makes it holy — 'day' left plain (DECISION-6)
 - **Soft target:** one read-aloud sentence (no policy target) — or quote the WEB verse verbatim, which makes it public-domain
 - **Current status:** `ai-drafted` (draft: true) — Stage 1 plan text written by the AI pipeline  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p31 "Day Seven — Rest" — seventh day; God rests and makes it holy — 'day' left plain (DECISION-6)
+  - Scripture (WEB, Genesis 2:1–3): [2:1] The heavens, the earth, and all their vast array were finished. [2:2] On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done. [2:3] God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.
+  - Length limit: one read-aloud sentence, set 13 pt Lora centred under the art (the art shrinks to make room — keep it to one or two lines)
+  - Theological point: seventh day; God rests and makes it holy — 'day' left plain (DECISION-6)
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -633,13 +717,17 @@ A Coloring Book of Creation
 - **Pointer:** God's rest is blessing, not tiredness; Christ our rest
 - **Soft target:** 15–35 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Page purpose: p31 "Day Seven — Rest" — God's rest is blessing, not tiredness; Christ our rest
+  - Scripture (WEB, Genesis 2:1–3): [2:1] The heavens, the earth, and all their vast array were finished. [2:2] On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done. [2:3] God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.
+  - Length limit: 15–35 words (soft), set 9 pt Lora Italic at 88% of the text width
+  - Theological point: God's rest is blessing, not tiredness; Christ our rest
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -649,19 +737,19 @@ A Coloring Book of Creation
 - **Pointer:** closing: Day One's light → the Lamb as the city's light; creation made through and for Christ; Creation · Fall · Redemption · Glorification; a question for families
 - **Soft target:** 120–200 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:**
-
-> "That is God, showing you a little piece of how great he is."  
-> — Dad Teaching Script, Track 1 ¶7 (`_brand/album/teaching-script.md`)
-
-> "this world is not as it should be yet — but it will be. Jesus is coming back."  
-> — Dad Teaching Script, Track 11 ¶9 (`_brand/album/teaching-script.md`)
+- **Candidate (2026-10-02):** verbatim from your Dad Teaching Script, Track 1 ¶7 (whole paragraph); also `_brand/album/teaching-script.md` line 23. 52 words. Selected and placed by the pipeline — not reworded, trimmed or merged.
+  - FLAG: **Layout:** p33 has no `heading:` slot, so layout.py treats the body's FIRST LINE as the heading (legacy rule). This one-paragraph body would print entirely as a 20 pt heading. Adding a `heading:` unit to p33 (a pages.yaml change) needs your go-ahead; its text would be yours.
+  - FLAG: ≈55 words against the 120–200-word soft target.
+  - FLAG: Contains straight quotes around "nature." — not Scripture, so §8 does not apply.
+  - FLAG: Alternative: ¶7 + ¶8 together (≈115 words), but ¶8's sentences are staged on p11, p13 and p25.
 
 **MY TEXT:**
 
+So here's what I want you to do today, friends. The next time you see a mountain, or hear a bird, or watch the ocean, I want you to remember — that's not an accident. That's not just "nature." That is God, showing you a little piece of how great he is.
 
-**MY TEXT STATUS:** awaiting your words
+**MY TEXT STATUS:** confirmed
 
+_Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/MEDIA/DEEP ROOTS KIDS/STICK FIGURE PROJECT/ (sha1 789f2bd1…, byte-identical to `_brand/album/source/Dad_Teaching_Script.docx`; created 2026-08-01, last saved 2026-08-04, creator and last editor schwarzmanano@gmail.com). Nothing in the repo history shows AI drafting of this document; authorship-policy §1.3/§1.4 name it as your own. Only your confirmation settles it._
 
 ---
 
@@ -685,13 +773,16 @@ A Coloring Book of Creation
 - **Pointer:** front-cover series tag, very short: brand + book number
 - **Soft target:** one line
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated (cover copy)  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: front-cover series tag, very short: brand + book number
+  - Length limit: one short line (front cover)
+  - Theological point: none — a factual/legal line
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -700,13 +791,16 @@ A Coloring Book of Creation
 - **Pointer:** back cover: what the book is, for whom, what the child does with it
 - **Soft target:** 60–100 words
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: back cover: what the book is, for whom, what the child does with it
+  - Length limit: 60–100 words (soft); Phase 3 template may split it into a headline ≤60 characters + synopsis ≤90 words
+  - Theological point: back cover: what the book is, for whom, what the child does with it
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -715,13 +809,16 @@ A Coloring Book of Creation
 - **Pointer:** number of illustrations; to colour
 - **Soft target:** short spec line
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: number of illustrations; to colour
+  - Length limit: one short line
+  - Theological point: none — a factual/legal line
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
@@ -730,13 +827,16 @@ A Coloring Book of Creation
 - **Pointer:** age band; Scripture translation
 - **Soft target:** short spec line
 - **Current status:** `ai-drafted` (draft: true) — editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated  _(refreshed 2026-10-01 from provenance.yaml)_
-- **From your Dad Teaching Script:** no directly relevant passage in this track
+- **GAP — no verbatim Track 1 source fits this slot.**
+  - Purpose: age band; Scripture translation
+  - Length limit: one short line
+  - Theological point: none — a factual/legal line
 
 **MY TEXT:**
 
+[SCHWARZ TO WRITE]
 
 **MY TEXT STATUS:** awaiting your words
-
 
 ---
 
