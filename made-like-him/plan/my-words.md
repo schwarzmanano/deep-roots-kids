@@ -205,9 +205,9 @@ God brought the animals to the man, and he gave them their names.
 
 **MY TEXT:**
 
-In Adam, humanity’s calling to think, learn, and name reflects God’s wise rule; in Christ, the image is renewed in true knowledge, so we learn to see and order creation under our Creator
+In Adam, humanity’s calling to think, learn, and name reflects God’s wise rule; in Christ, the image is renewed in true knowledge, so we learn to see and order creation under our Creator.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---

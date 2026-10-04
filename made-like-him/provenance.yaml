@@ -131,8 +131,9 @@ text_units:
   kind: teaching
   author: human
   draft: false
-  sha: 35d8c47efba2
-  source: author's own words, supplied in chat 2026-10-04, inserted verbatim
+  sha: 0546ad62d918
+  source: author's own words, supplied in chat 2026-10-04, verbatim; closing period added and line confirmed
+    at his instruction
   recorded: '2026-10-04'
 - id: p11.text
   page: p11
