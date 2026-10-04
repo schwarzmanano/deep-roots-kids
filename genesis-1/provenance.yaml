@@ -48,19 +48,20 @@ text_units:
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
-  author: ai-drafted
-  draft: true
-  sha: b050e2d85878
-  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 29f74cfc2755
+  source: author's template (supplied 2026-10-04) with factual slots filled at his explicit instruction
+    (year, rights holder, series/book number, illustration count, age band, translation)
+  recorded: '2026-10-04'
 - id: p2.copyright.2
   page: p2
   kind: copyright-page
-  author: ai-drafted
-  draft: true
-  sha: 2c2bad7675d1
-  source: standard line set in pipeline code (layout.py), now in book.yaml; no author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 4092fb0ccb13
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p3.text
   page: p3
   kind: page-text
@@ -100,19 +101,19 @@ text_units:
 - id: p7.text
   page: p7
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: b77808646659
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: ea9269f02371
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p7.teaching
   page: p7
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 7d2f1bc50e17
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: dba3fdcdfea4
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p9.text
   page: p9
   kind: page-text
@@ -125,11 +126,11 @@ text_units:
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: d73d5b7e6a2d
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 3b56bff1cb34
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p11.text
   page: p11
   kind: page-text
@@ -169,35 +170,35 @@ text_units:
 - id: p15.text
   page: p15
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: c8eabd640ad9
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 135a7b859e3b
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p15.teaching
   page: p15
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 3dd1739f1485
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 84a91f227e0c
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p17.text
   page: p17
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: c1fbf4df86bf
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 3a377b3521a3
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p17.teaching
   page: p17
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 1fa42501388d
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: f53efc0b74a3
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p19.text
   page: p19
   kind: page-text
@@ -210,43 +211,43 @@ text_units:
 - id: p19.teaching
   page: p19
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: c5bf3e9efea8
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: ad9c5f481ebf
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p21.text
   page: p21
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: e296741f6dbd
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 63ea49c60060
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p21.teaching
   page: p21
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: b02efb6a58ae
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: dbf977426b08
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p23.text
   page: p23
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 6a6917a43be8
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: b1efd512f771
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p23.teaching
   page: p23
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: b81ba7371340
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 34d5b87f4daf
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p25.text
   page: p25
   kind: page-text
@@ -268,19 +269,19 @@ text_units:
 - id: p27.text
   page: p27
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 3e2ce6f9db90
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: e4ad31a2dba6
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: 45be9b574978
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 9441a4a058d0
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p29.text
   page: p29
   kind: scripture-quote
@@ -301,19 +302,19 @@ text_units:
 - id: p31.text
   page: p31
   kind: page-text
-  author: ai-drafted
-  draft: true
-  sha: 56dbf734d73c
-  source: Stage 1 plan text written by the AI pipeline; no record of author-supplied wording
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 0df6135f363b
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p31.teaching
   page: p31
   kind: teaching
-  author: ai-drafted
-  draft: true
-  sha: a6cce09ba6cf
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 995c37e82cb3
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: p33.body
   page: p33
   kind: closing
@@ -346,35 +347,38 @@ text_units:
 - id: cover.series_short
   page: cover
   kind: series-line
-  author: ai-drafted
-  draft: true
-  sha: dbf60832e182
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated (cover copy)'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 4654eb67e785
+  source: author's template (supplied 2026-10-04) with factual slots filled at his explicit instruction
+    (year, rights holder, series/book number, illustration count, age band, translation)
+  recorded: '2026-10-04'
 - id: cover.back_blurb
   page: back cover
   kind: back-cover-blurb
-  author: ai-drafted
-  draft: true
-  sha: 11e1f0bb310e
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: e80671f85cf8
+  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
+  recorded: '2026-10-04'
 - id: cover.spec.1
   page: back cover
   kind: back-cover-spec
-  author: ai-drafted
-  draft: true
-  sha: 6b6583337811
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: bf2c08d28df7
+  source: author's template (supplied 2026-10-04) with factual slots filled at his explicit instruction
+    (year, rights holder, series/book number, illustration count, age band, translation)
+  recorded: '2026-10-04'
 - id: cover.spec.2
   page: back cover
   kind: back-cover-spec
-  author: ai-drafted
-  draft: true
-  sha: d8412ca32902
-  source: 'editor ruling 2026-09-29 (authorship-policy §5/§6): AI-originated'
-  recorded: '2026-09-29'
+  author: human
+  draft: false
+  sha: 46005d9051bc
+  source: author's template (supplied 2026-10-04) with factual slots filled at his explicit instruction
+    (year, rights holder, series/book number, illustration count, age band, translation)
+  recorded: '2026-10-04'
 gate1_signed: '2026-09-17'
 style_lock_gate2: gen/p23/attempt-03.jpg
 pages:

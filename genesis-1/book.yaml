@@ -10,18 +10,15 @@ print_ai_note: false      # series default — authorship-policy §3. No AI note
 
 # Reader-facing text formerly hardcoded in layout.py / cover.py, moved here verbatim so every
 # line is a registered text unit (provenance.yaml). Wording is the author's to supply.
-copyright_page:
-  - "Copyright (c) 2026 Deep Roots Kids. All rights reserved."
-  - "Scripture quotations are from the World English Bible, which is in the public domain."
+copyright_page:           # author-supplied 2026-10-04 (line 1: his template, facts filled at his instruction)
+  - "Copyright © 2026 Deep Roots Kids. All rights reserved."
+  - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:
-  series_short: "Deep Roots Kids · Book One"
-  back_blurb: >-
-    In the beginning, God made everything — light and sky, land and sea, birds and fish and
-    every living thing, and people made in his own image. Colour your way through the seven
-    days of creation, one page at a time.
-  spec_lines:
-    - "15 full-page illustrations to colour"
-    - "Ages 4–7 · Scripture from the World English Bible"
+  series_short: "CREATION TO GLORIFICATION • BOOK ONE"   # facts filled at the author's instruction 2026-10-04 (Books 2–3 pattern)
+  back_blurb: "What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new."   # author-supplied 2026-10-04, verbatim
+  spec_lines:              # facts filled at the author's instruction 2026-10-04
+    - "15 illustrations to color"
+    - "For ages 4–7 · Scripture quotations from the WEB"
 
 print:
   trim: "8.5x11"

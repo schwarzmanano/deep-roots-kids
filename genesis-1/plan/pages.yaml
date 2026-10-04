@@ -53,8 +53,8 @@ pages:
   - page: 7
     ref: "Genesis 1:6-8"
     title: "Day Two — Sky"
-    text: "God made the sky, and put water below it and water above it."
-    teaching: "God gave the sky its shape and its place. He is a God of order, not confusion — everything He made, He made just right."
+    text: "God placed an expanse between the waters. He called it sky, giving the waters above and below their places."   # author-supplied 2026-10-04, verbatim
+    teaching: "God made a good and ordered world. He is not the author of confusion; his wise word gives creation its place and purpose."   # author-supplied 2026-10-04, verbatim
     scene: "A full sky of large rounded layered clouds above, and deep water below filling the lower
             half with rolling waves and ripple lines down to the bottom edge. A clear horizon band
             separates the water above from the water below. Draw generously so the page is full.
@@ -66,7 +66,7 @@ pages:
     ref: "Genesis 1:9-10"
     title: "Day Three — Land and Seas"
     text: "He also said, \"Let there be land and sea\" — and it was so."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
-    teaching: "Dry land, safe and solid, out of the deep water. God still makes safe, solid ground for His children — through Jesus, our feet are set on the Rock."
+    teaching: "God brought dry ground out of the deep, a firm place for life to flourish. In time, Jesus would show that he is the sure Rock on whom his people can stand."   # author-supplied 2026-10-04, verbatim
     scene: "Gentle hills and a curving shoreline meeting calm sea. Simple rounded rocks."
     alt: "Rolling hills beside a calm sea."
 
@@ -105,8 +105,8 @@ pages:
   - page: 15
     ref: "Genesis 1:16"
     title: "Day Four — Stars"
-    text: "He made the stars too."
-    teaching: "God made the stars and calls each one by name. One day a new star led wise men to Jesus — the true Light the stars only pointed to."
+    text: "God made the stars too—countless lights scattered across the night sky."   # author-supplied 2026-10-04, verbatim
+    teaching: "God knows and names the stars he made. One star guided visitors to the child Jesus, but Christ himself is the true Light: the one to whom the stars, like all creation, point."   # author-supplied 2026-10-04, verbatim
     scene: "A night sky filled with many large simple five-pointed stars of clearly varying size,
             spread across the whole upper two thirds, with a few large rounded clouds among them.
             Below, a landscape of layered rolling hills with several full rounded trees, and a band
@@ -118,8 +118,8 @@ pages:
   - page: 17
     ref: "Genesis 1:20-21"
     title: "Day Five — Sea Creatures"
-    text: "God filled the seas with swimming creatures, great and small."
-    teaching: "God filled the sea and made it good. Later, Jesus walked right on top of it — the sea obeys the One who made it."
+    text: "God filled the seas with living creatures, great and small, swimming through the waters he had made."   # author-supplied 2026-10-04, verbatim
+    teaching: "The sea belongs to God and obeys its Maker. Jesus showed his power over it when he walked on the waves and calmed the storm."   # author-supplied 2026-10-04, verbatim
     scene: "Large friendly whale, round fish, simple sea creatures among gentle waves."
     alt: "A whale and fish swimming among waves."
     note: "Pre-gate test image exists. Discard it — generated before style lock and it failed
@@ -129,15 +129,15 @@ pages:
     ref: "Genesis 1:21-23"
     title: "Day Five — Birds"
     text: "Who taught the tiny birds to sing their song? God did."   # author's Dad Teaching Script (Track 1), verbatim — selected 'use' 2026-10-04
-    teaching: "God gave the birds the whole sky to fly in. Jesus said God feeds every sparrow — and He loves us so much more."
+    teaching: "God cares for even the sparrows. How much more does he care for his children, whom he made and welcomes through Jesus?"   # author-supplied 2026-10-04, verbatim
     scene: "Several large simple birds in flight among rounded clouds."
     alt: "Birds flying among clouds."
 
   - page: 21
     ref: "Genesis 1:24-25"
     title: "Day Six — Animals of the Land"
-    text: "God said, 'Let the land be filled with animals!' And it was so."
-    teaching: "God filled the land with living things, and it was good. One day, the Bible says, even the animals will live in peace — because Jesus is making all things new."
+    text: "God filled the land with animals—large and small, wild and gentle. And it was so, just as God had spoken."   # author-supplied 2026-10-04, verbatim
+    teaching: "The animals are part of God’s good creation. The Bible promises a day of peace under Christ’s rule, when God will make all things new."   # author-supplied 2026-10-04, verbatim
     scene: "Gentle large animals — cattle, sheep, a deer — standing in open grass."
     alt: "Farm and field animals standing in grass."
     accept_thin_strokes: true   # 1 stroke at 1.59pt, 0.09% of ink — ruled 2026-09-17: noise, accept
@@ -147,8 +147,8 @@ pages:
   - page: 23
     ref: "Genesis 1:24-25"
     title: "Day Six — Wild Animals"
-    text: "He made every kind of creature that moves upon the ground."
-    teaching: "God made every creature, great and small, and gave each one its place. Nothing God makes is forgotten by Him — not even the smallest thing, not even you."
+    text: "God made every kind of creature that moves along the ground, each according to its kind."   # author-supplied 2026-10-04, verbatim
+    teaching: "God gave his creatures a place in the world he made. Not one is outside his care: he sees and sustains all that belongs to him."   # author-supplied 2026-10-04, verbatim
     scene: "Lion, elephant, rabbit and tortoise together in open landscape. Calm, friendly, no threat."
     alt: "A lion, elephant, rabbit and tortoise in an open landscape."
     style_reference: true
@@ -195,8 +195,8 @@ pages:
   - page: 27
     ref: "Genesis 1:28-30"
     title: "Day Six — A Good Gift"
-    text: "God blessed them, and gave them every plant and tree for food."
-    teaching: "God blessed the first man and woman and gave them everything they needed. Jesus is the true Bread from Heaven — He gives Himself so we are never truly hungry."
+    text: "God blessed the people he had made and gave them plants and trees for food. His world was full of good gifts."   # author-supplied 2026-10-04, verbatim
+    teaching: "God generously provided food for his creatures. Later, Jesus called himself the Bread of Life, the one who gives lasting life to all who come to him."   # author-supplied 2026-10-04, verbatim
     scene: "Two or three large simple fruit trees with a few big round fruits. One or two animals
             grazing. Same two figures from behind, at distance, reaching up to pick a fruit.
             Faces unseen. Open ground, plenty of empty space. No baskets, no woven objects,
@@ -250,8 +250,8 @@ pages:
   - page: 31
     ref: "Genesis 2:1-3"
     title: "Day Seven — Rest"
-    text: "On the seventh day God rested, and he made that day holy."
-    teaching: "God rested on the seventh day, not because He was tired, but to bless it and make it holy. Jesus is our true rest — in Him, our tired hearts finally stop striving."
+    text: "On the seventh day, God finished his work. He rested from all he had made and made that day holy."   # author-supplied 2026-10-04, verbatim
+    teaching: "God did not rest because he was tired. His rest showed that his work was complete and good. Jesus invites his people to find their rest in him, and one day they will share the joy of God’s finished new creation."   # author-supplied 2026-10-04, verbatim
     scene: "A quiet landscape at rest, drawn full and complete. Layered rolling hills with several
             full rounded trees, a broad band of calm water across the foreground as two or three
             large smooth wave shapes, large rounded clouds and a few stars appearing above. A few
