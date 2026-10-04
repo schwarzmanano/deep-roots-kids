@@ -90,7 +90,7 @@ Also: `book.title`, `book.series_line`, `book.subtitle` are registered `human`, 
 
 In the Beginning
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -106,7 +106,7 @@ In the Beginning
 
 Deep Roots Kids: Creation to Glorification, Book One.
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -122,7 +122,7 @@ Deep Roots Kids: Creation to Glorification, Book One.
 
 A Coloring Book of Creation
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 
 ---
@@ -141,7 +141,7 @@ A Coloring Book of Creation
 
 Copyright © 2026 Deep Roots Kids. All rights reserved.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -159,7 +159,7 @@ Copyright © 2026 Deep Roots Kids. All rights reserved.
 
 Scripture quotations are from the World English Bible (WEB), which is in the public domain.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -256,7 +256,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 God placed an expanse between the waters. He called it sky, giving the waters above and below their places.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -276,7 +276,7 @@ God placed an expanse between the waters. He called it sky, giving the waters ab
 
 God made a good and ordered world. He is not the author of confusion; his wise word gives creation its place and purpose.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -315,7 +315,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 God brought dry ground out of the deep, a firm place for life to flourish. In time, Jesus would show that he is the sure Rock on whom his people can stand.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -412,7 +412,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 God made the stars too—countless lights scattered across the night sky.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -432,7 +432,7 @@ God made the stars too—countless lights scattered across the night sky.
 
 God knows and names the stars he made. One star guided visitors to the child Jesus, but Christ himself is the true Light: the one to whom the stars, like all creation, point.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -452,7 +452,7 @@ God knows and names the stars he made. One star guided visitors to the child Jes
 
 God filled the seas with living creatures, great and small, swimming through the waters he had made.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -472,7 +472,7 @@ God filled the seas with living creatures, great and small, swimming through the
 
 The sea belongs to God and obeys its Maker. Jesus showed his power over it when he walked on the waves and calmed the storm.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -510,7 +510,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 God cares for even the sparrows. How much more does he care for his children, whom he made and welcomes through Jesus?
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -531,7 +531,7 @@ God cares for even the sparrows. How much more does he care for his children, wh
 
 God filled the land with animals—large and small, wild and gentle. And it was so, just as God had spoken.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -551,7 +551,7 @@ God filled the land with animals—large and small, wild and gentle. And it was 
 
 The animals are part of God’s good creation. The Bible promises a day of peace under Christ’s rule, when God will make all things new.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -571,7 +571,7 @@ The animals are part of God’s good creation. The Bible promises a day of peace
 
 God made every kind of creature that moves along the ground, each according to its kind.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -591,7 +591,7 @@ God made every kind of creature that moves along the ground, each according to i
 
 God gave his creatures a place in the world he made. Not one is outside his care: he sees and sustains all that belongs to him.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -649,7 +649,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 God blessed the people he had made and gave them plants and trees for food. His world was full of good gifts.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -669,7 +669,7 @@ God blessed the people he had made and gave them plants and trees for food. His 
 
 God generously provided food for his creatures. Later, Jesus called himself the Bread of Life, the one who gives lasting life to all who come to him.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -707,7 +707,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 On the seventh day, God finished his work. He rested from all he had made and made that day holy.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -727,7 +727,7 @@ On the seventh day, God finished his work. He rested from all he had made and ma
 
 God did not rest because he was tired. His rest showed that his work was complete and good. Jesus invites his people to find their rest in him, and one day they will share the joy of God’s finished new creation.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -782,7 +782,7 @@ _Provenance of this candidate: Dad Teaching Script.docx — iCloud DEEP ROOTS/ME
 
 CREATION TO GLORIFICATION • BOOK ONE
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -800,7 +800,7 @@ CREATION TO GLORIFICATION • BOOK ONE
 
 What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -818,7 +818,7 @@ What kind of world did God make? In this book, children explore the creation sto
 
 15 illustrations to color
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -836,7 +836,7 @@ What kind of world did God make? In this book, children explore the creation sto
 
 For ages 4–7 · Scripture quotations from the WEB
 
-**MY TEXT STATUS:** supplied 2026-10-04: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -852,5 +852,5 @@ For ages 4–7 · Scripture quotations from the WEB
 
 About the Author
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
