@@ -33,13 +33,13 @@ We Broke It All
 - **Soft target:** short descriptor
 - **Current status:** `unresolved` (draft: true) — empty slot, Stage 1 2026-10-01
 - **From your Dad Teaching Script:** no directly relevant passage in this track
-- **Changed 2026-10-05 by your ruling** (series subtitle formula, `_brand/cover-grid.md`): your wording from chat, copied verbatim — **check and confirm.** Was: "A Deep Roots Kids Coloring Book".
+- **Changed 2026-10-05 by your ruling** (series subtitle formula, `_brand/cover-grid.md`): your wording from chat, copied verbatim — confirmed by the author in chat 2026-10-05. Was: "A Deep Roots Kids Coloring Book".
 
 **MY TEXT:**
 
 The Fall and Its Consequences • A Deep Roots Kids Coloring Book
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
