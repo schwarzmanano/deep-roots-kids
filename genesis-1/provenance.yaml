@@ -8,12 +8,9 @@ images:
     editing: 'extensive — per editor 2026-09-29: selection, threshold, frame strip, stroke thickening,
       vectorisation'
   cover:
-    source: AI-generated (front art front-art-v3-03, gemini-3.1-flash-image 4K, conditioned on the cast sheet and Book Two's cover)
+    source: AI-generated
     model: gemini-3.1-flash-image (4K)
-    editing: extensive — manual retouch 2026-10-05 (stray hand and one bird painted out of the sky; three armhole
-      skin wedges painted out in garment colour; the Son's crouch redrawn as a front-on squat with flat shorts,
-      single-line legs and oval feet, grass behind rebuilt from the painting's own grass — cover/retouch_v3_03.py),
-      then crop, banner, ICC conversion to CMYK, typography and layout added by the pipeline
+    editing: 'extensive — per editor 2026-09-29: crop, composite with typography and logo'
 translation: none
 text_units:
 - id: book.title
@@ -369,9 +366,9 @@ text_units:
   kind: back-cover-blurb
   author: human
   draft: false
-  sha: e80671f85cf8
-  source: author's own words, supplied in chat 2026-10-04 and stated by him to be his own; inserted verbatim
-  recorded: '2026-10-04'
+  sha: 6b9da16310e1
+  source: author 2026-10-04 (editor chat); 'colour' -> 'color' by the author 2026-10-09
+  recorded: '2026-10-09'
 - id: cover.spec.1
   page: back cover
   kind: back-cover-spec

@@ -796,9 +796,11 @@ CREATION TO GLORIFICATION • BOOK ONE
   - Length limit: 60–100 words (soft); Phase 3 template may split it into a headline ≤60 characters + synopsis ≤90 words
   - Theological point: back cover: what the book is, for whom, what the child does with it
 
+- **Changed 2026-10-09 by your instruction:** "colour" → "color" (US spelling) — confirmed by the author 2026-10-09.
+
 **MY TEXT:**
 
-What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
+What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and color, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
 
 **MY TEXT STATUS:** confirmed
 

@@ -6,10 +6,10 @@ from the release files on 2026-10-04 (`scripts/kids/print_table.py`, both prefli
 2026-09-18 listing, whose description and categories were AI-drafted placeholders.
 
 > **Release status (2026-10-09): COVER UPDATE BUILT.** Both cover files in `out/` were rebuilt as release
-> builds with the new front art (v3-03, manually retouched — `cover/retouch_v3_03.py`); cover preflights
-> PASS; `print_table.py` PASS. Interiors unchanged since the 2026-10-04 release (preflights re-run: PASS).
-> Text: every unit the author's own (14 verbatim Dad Teaching Script lines, 22 new lines, 4 fact fills at
-> the author's instruction), all confirmed. Cover: series cover grid (`_brand/cover-grid.md`), Canopy Green.
+> builds: front art unchanged (the live `front-art-v2-01.jpg` — the v3-03 retouch was withdrawn by the
+> editor 2026-10-09); back-cover blurb "colour" → "color" (US spelling, confirmed by the author). Cover
+> preflights PASS; `print_table.py` PASS. Interiors unchanged since the 2026-10-04 release (preflights
+> re-run: PASS). Text: every unit the author's own, all confirmed. Cover: series cover grid, Canopy Green.
 >
 > **Book One is live on KDP.** Upload only `out/cover.pdf` as a cover-file update (title, subtitle, author,
 > edition and interior are unchanged, so no new edition or ISBN is needed); KDP re-reviews the file. On
@@ -34,7 +34,7 @@ from the release files on 2026-10-04 (`scripts/kids/print_table.py`, both prefli
 
 ## Description (both platforms) — the author's back-cover blurb, verbatim
 
-> What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
+> What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and color, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new.
 
 No AI mention anywhere in the description or the printed book (authorship-policy §3).
 
@@ -61,7 +61,7 @@ Disclosure audit — genesis-1  (2026-10-09, from provenance.yaml)
 TEXT: None
   44 units: human 42 · public-domain 2 · ai-drafted 0 · unresolved/empty 0
 IMAGES — interior: AI-generated (many images); editing extensive — per editor 2026-09-29: selection, threshold, frame strip, stroke thickening, vectorisation
-IMAGES — cover: AI-generated (front art front-art-v3-03, gemini-3.1-flash-image 4K, conditioned on the cast sheet and Book Two's cover); editing extensive — manual retouch 2026-10-05 (stray hand and one bird painted out of the sky; three armhole skin wedges painted out in garment colour; the Son's crouch redrawn as a front-on squat with flat shorts, single-line legs and oval feet, grass behind rebuilt from the painting's own grass — cover/retouch_v3_03.py), then crop, banner, ICC conversion to CMYK, typography and layout added by the pipeline
+IMAGES — cover: AI-generated; editing extensive — per editor 2026-09-29: crop, composite with typography and logo
 TRANSLATIONS: none
 ```
 <!-- disclosure:end -->

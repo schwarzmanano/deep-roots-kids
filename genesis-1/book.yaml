@@ -14,12 +14,12 @@ copyright_page:           # author-supplied 2026-10-04 (line 1: his template, fa
   - "Copyright © 2026 Deep Roots Kids. All rights reserved."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:
-  front_art: cover/front-art-v3-03-retouched.png   # editor-approved 2026-10-09: v3-03 + manual retouch (cover/retouch_v3_03.py); was front-art-v2-01.jpg
+  front_art: cover/front-art-v2-01.jpg   # Book One's approved (live) cover art — kept by the editor 2026-10-09 (v3-03 retouch withdrawn)
   layout: grid            # series cover grid (cover-grid.md) — moved at Book One's rebuild (editor ruling 2026-10-03)
   signature_colour: "#4C7A5A"   # Canopy Green — Book One
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK ONE"   # facts filled at the author's instruction 2026-10-04 (Books 2–3 pattern)
-  back_blurb: "What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and colour, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new."   # author-supplied 2026-10-04, verbatim
+  back_blurb: "What kind of world did God make? In this book, children explore the creation story, noticing the creatures, lights, and gifts God placed in his world. As they read and color, they discover that creation belongs to God—and that the story leads us to Jesus, the one who sustains his people and makes all things new."   # author-supplied 2026-10-04, verbatim; 'colour' → 'color' by the author 2026-10-09 (US spelling)
   spec_lines:              # facts filled at the author's instruction 2026-10-04
     - "15 illustrations to color"
     - "For ages 4–7 · Scripture quotations from the WEB"
