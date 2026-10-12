@@ -6,7 +6,7 @@ images:
     source: AI-generated (many images)
     model: gemini-3.1-flash-image
     editing: extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver
-      strip, stroke thickening, vectorisation (2026-10-02)
+      strip, stroke thickening, vectorisation (2026-10-02); manual limb correction 2026-10-12 on 12 pages (two-sided legs and arms redrawn as single lines, missing arms and hands drawn, open feet closed as ovals — art/limbfix.py)
   cover:
     source: AI-generated (front art front-art-v5-01, gemini-3.1-flash-image 4K, from a B&W stick reference)
     editing: extensive — manual retouch 2026-10-03 (two armhole skin wedges painted out in garment colour;
