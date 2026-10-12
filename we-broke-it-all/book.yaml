@@ -24,7 +24,7 @@ cover:                    # text slots EMPTY until the author supplies them
   series_short: "CREATION TO GLORIFICATION • BOOK THREE"   # author-supplied 2026-10-01, verbatim
   back_blurb: "In \"We Broke It All,\" young readers ages 4 to 7 trace the story of the Fall from Genesis 3. Through 15 coloring pages, children learn the honest truth about sin and its consequences. But they also discover the most important truth of all: God didn't leave us in our mess, and He already had a plan to fix what we broke."   # author-supplied 2026-10-01, verbatim
   spec_lines:              # author-supplied 2026-10-01, verbatim
-    - "15 pages to colour"
+    - "15 pages to color"   # US spelling, author 2026-10-12
     - "Honest, hopeful teaching for ages 4–7"
     - "Scripture from the World English Bible (WEB)"
 # Spines are computed from the FINAL page count at the print stage — never copied from Book Two.

@@ -6,7 +6,10 @@ images:
     source: AI-generated (many images)
     model: gemini-3.1-flash-image
     editing: extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver
-      strip, stroke thickening, vectorisation (2026-10-02); manual limb correction 2026-10-12 on 12 pages (two-sided legs and arms redrawn as single lines, missing arms and hands drawn, open feet closed as ovals — art/limbfix.py)
+      strip, stroke thickening, vectorisation (2026-10-02); manual limb correction 2026-10-12 on 12 pages
+      (two-sided legs and arms redrawn as single lines, missing arms and hands drawn, open feet closed
+      as ovals; p15 crouching man's leaning torso redrawn upright; fruit stems and apple dimples removed
+      on p7/p9; serpent mouth line removed on p7; loose falling leaves removed on p13/p15 — art/limbfix.py)
   cover:
     source: AI-generated (front art front-art-v5-01, gemini-3.1-flash-image 4K, from a B&W stick reference)
     editing: extensive — manual retouch 2026-10-03 (two armhole skin wedges painted out in garment colour;
@@ -376,9 +379,9 @@ text_units:
   kind: back-cover-spec
   author: human
   draft: false
-  sha: f0f56e9f24d3
-  source: author's own words, supplied in chat 2026-10-01 with MY TEXT STATUS confirmed; inserted verbatim
-  recorded: '2026-10-01'
+  sha: 36c64403664e
+  source: author 2026-10-01 (editor chat); 'colour' -> 'color' by the author 2026-10-12
+  recorded: '2026-10-12'
 - id: cover.spec.2
   page: back cover
   kind: back-cover-spec

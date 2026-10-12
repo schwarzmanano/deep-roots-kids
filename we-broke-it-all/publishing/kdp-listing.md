@@ -4,12 +4,12 @@ Book Three, Deep Roots Kids · Creation to Glorification. Figures marked **CONFI
 from the built files on 2026-10-02 (`scripts/kids/print_table.py`, both preflights). Items marked
 **YOUR CALL** are decisions, not facts. Nothing here is printed in the book.
 
-> **Release status (2026-10-12): RELEASE BUILDS DONE (interior limb correction).** Both interiors rebuilt
-> as release builds after a hand correction of the figures' limbs on 12 pages (two-sided legs and arms →
-> single lines, missing arms and hands drawn, open feet closed as ovals — `art/limbfix.py`; originals in
-> `art/pre-limbfix/`). Covers unchanged since 2026-10-05. Interior + cover preflights PASS;
-> `print_table.py` PASS; text QA 0 fail. Rebuild with `layout.py --release` / `cover.py --release` after any
-> text or art change, then re-run the checks.
+> **Release status (2026-10-12): RELEASE BUILDS DONE.** All four files rebuilt as release builds after:
+> limb correction on 12 pages; p15's crouching man redrawn upright; fruit stems/apple dimples removed
+> (p7, p9) and the serpent's mouth line (p7) per the Gate 2 rulings; loose falling leaves removed (p13,
+> p15) per D9; back-cover spec line "15 pages to color" (author-confirmed). All corrections live in
+> `art/limbfix.py` (originals in `art/pre-limbfix/`; `qa.py` re-applies them). Interior + cover preflights
+> PASS; `print_table.py` PASS; text QA 0 fail.
 
 ## Book details (both platforms)
 
@@ -60,7 +60,7 @@ Disclosure audit — we-broke-it-all  (2026-10-12, from provenance.yaml)
 
 TEXT: None
   47 units: human 38 · public-domain 9 · ai-drafted 0 · unresolved/empty 0
-IMAGES — interior: AI-generated (many images); editing extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver strip, stroke thickening, vectorisation (2026-10-02); manual limb correction 2026-10-12 on 12 pages (two-sided legs and arms redrawn as single lines, missing arms and hands drawn, open feet closed as ovals — art/limbfix.py)
+IMAGES — interior: AI-generated (many images); editing extensive — selection among attempts, plan re-scenes, threshold, frame strip, edge-sliver strip, stroke thickening, vectorisation (2026-10-02); manual limb correction 2026-10-12 on 12 pages (two-sided legs and arms redrawn as single lines, missing arms and hands drawn, open feet closed as ovals; p15 crouching man's leaning torso redrawn upright; fruit stems and apple dimples removed on p7/p9; serpent mouth line removed on p7; loose falling leaves removed on p13/p15 — art/limbfix.py)
 IMAGES — cover: AI-generated (front art front-art-v5-01, gemini-3.1-flash-image 4K, from a B&W stick reference); editing extensive — manual retouch 2026-10-03 (two armhole skin wedges painted out in garment colour; art scaled to 84%; sky and side canvas extended from the painting's own sky and character-free edge strips — cover/retouch_extend.py), then crop, banner, ICC conversion to CMYK, typography and layout added by the pipeline
 TRANSLATIONS: none
 ```

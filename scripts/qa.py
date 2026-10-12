@@ -32,6 +32,19 @@ for d in sorted(glob.glob(f"{book}/gen/p*/"), key=lambda p: int(p.rstrip('/').sp
     _im = Image.open(src); _s0 = min(_CW/_im.size[0], _AH/_im.size[1])
     r = (process(src, dst, _s0, STROKE_FLOOR_PT) if _pg.get("thicken_thin_strokes")
          else process(src, dst))
+    # hand corrections (book's art/limbfix.py, 2026-10-12): the processed page becomes the
+    # correction's source, then the corrections are re-applied, so a QA run never undoes them
+    _fix = f"{book}/art/limbfix.py"
+    if os.path.exists(_fix):
+        import importlib.util, shutil
+        _spec = importlib.util.spec_from_file_location("limbfix", _fix); _lf = importlib.util.module_from_spec(_spec)
+        _spec.loader.exec_module(_lf)
+        if page in _lf.OPS:
+            os.makedirs(f"{book}/art/pre-limbfix", exist_ok=True)
+            shutil.copyfile(dst, f"{book}/art/pre-limbfix/p{page}.png")
+            _cwd = os.getcwd(); os.chdir(book)
+            try: _lf.apply(page)
+            finally: os.chdir(_cwd)
 
     bw = Image.open(dst).convert("L"); W, H = bw.size; px = bw.load()
     # safe area: min distance of any black pixel to the edge, as % of dimension

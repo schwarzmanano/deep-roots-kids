@@ -57,12 +57,31 @@ OPS = {
         ("oval", (491, 846, 10, 19)),
         ("tubelegs", [(530, 922), (571, 922), (571, 1040), (526, 1040)], 1),          # tube legs
         ("tubelegs", [(577, 922), (616, 922), (616, 998), (605, 1004), (605, 1046), (584, 1046)], 1),
+        # Gate 2 ruling: the tree's fruit is PLAIN ROUND (no stem) -> stems above each fruit erased
+        ("erase", [(548, 236), (558, 236), (558, 249), (548, 249)]),
+        ("erase", [(665, 207), (676, 207), (676, 218), (665, 218)]),
+        ("erase", [(769, 267), (780, 267), (780, 280), (769, 280)]),
+        ("erase", [(639, 323), (651, 323), (651, 335), (639, 335)]),
+        ("erase", [(468, 351), (479, 351), (479, 364), (468, 364)]),
+        ("erase", [(559, 380), (569, 380), (569, 390), (559, 390)]),
+        ("erase", [(809, 370), (820, 370), (820, 382), (809, 382)]),
+        # D1: the serpent has NO mouth line -> erased (head outline and dot eye kept)
+        ("erase", [(607, 479), (633, 479), (633, 488), (607, 488)]),
     ],
     9: [
         # arms are single lines with hands (shoulder armholes left as drawn); man's legs single.
         # woman: tube legs -> one line each
         ("tubelegs", [(330, 917), (371, 917), (371, 1036), (328, 1036)], 1),
         ("tubelegs", [(377, 917), (416, 917), (416, 1045), (385, 1045)], 1),
+        # Gate 2 ruling: plain round fruit — apple dimples redrawn as plain circles, stems erased
+        ("erase", [(247, 369), (294, 369), (294, 416), (247, 416)]),
+        ("oval", (270, 392, 19, 19)),
+        ("erase", [(398, 336), (444, 336), (444, 383), (398, 383)]),
+        ("oval", (421, 360, 19, 19)),
+        ("erase", [(299, 455), (312, 455), (312, 459), (299, 459)]),          # dimple inside the top
+        ("erase", [(298, 447), (305, 447), (305, 449), (298, 449)]),          # stalk to the canopy
+        ("erase", [(456, 436), (468, 436), (468, 441), (456, 441)]),
+        ("erase", [(312, 530), (322, 530), (322, 538), (312, 538)]),
     ],
     11: [
         # man single-line throughout. Woman, viewer-right: sliver arm merging into the dress, no hand
@@ -87,15 +106,28 @@ OPS = {
         ("oval", (491, 846, 10, 19)),
         ("tubelegs", [(530, 922), (571, 922), (571, 1040), (526, 1040)], 1),
         ("tubelegs", [(577, 922), (616, 922), (616, 998), (605, 1004), (605, 1046), (584, 1046)], 1),
+        # D9 ruling (editor 2026-10-12): no fallen leaves -> every loose leaf erased (wind lines kept)
+        ("erase_comps_in", (530, 229, 602, 294)), ("erase_comps_in", (658, 313, 745, 357)),
+        ("erase_comps_in", (128, 376, 194, 430)), ("erase_comps_in", (348, 376, 433, 430)),
+        ("erase", [(86, 600), (141, 600), (141, 633), (152, 633), (152, 666), (86, 666)]),
+        ("line", [(86, 631), (143, 631)]),                                    # ground line under it
+        ("line", [(141, 594), (143, 612), (146, 631)]),                       # back trunk edge restored
+        ("erase", [(802, 532), (858, 532), (858, 600), (802, 600)]),
+        ("line", [(798, 574), (820, 582), (845, 585), (858, 581), (866, 581)]),  # bush top under it
+        ("erase_comps_in", (433, 545, 516, 587)), ("erase_comps_in", (771, 656, 845, 702)),
     ],
     15: [
-        # man, crouching behind the bush. Viewer-left arm drawn as a long closed loop (two-sided):
-        # drop the outer side, keep the inner line as the arm passing behind the tree trunk
+        # man, crouching behind the bush. Torso drawn leaning (left edge slanting from the shoulder
+        # down to the tree) with the viewer-left arm as a long closed loop: make the torso upright
+        # (left edge vertical, like the right edge at x 392) and the arm one line in front of the trunk
         ("erase", [(270, 826), (285, 826), (285, 846), (270, 846)]),
         ("erase", [(238, 852), (262, 852), (262, 914), (238, 914)]),
         ("erase", [(246, 906), (262, 906), (262, 924), (246, 924)]),
-        ("line", [(300, 812), (270, 856), (250, 893)]),                 # the arm, one line, away from him
-        ("oval", (246, 905, 9, 14)),
+        ("erase", [(274, 812), (300, 806), (300, 940), (274, 940)]),
+        ("line", [(267, 826), (271, 890), (266, 940)]),                  # trunk edge, now uncovered
+        ("line", [(298, 808), (302, 945)]),                              # torso left edge, upright
+        ("line", [(299, 818), (279, 856), (262, 884)]),                  # arm, one line, in front of the trunk
+        ("oval", (257, 899, 9, 15)),
         # viewer-right shoulder: small loop between the garment edge and the arm
         ("erase", [(399, 829), (409, 829), (409, 867), (399, 867)]),
         # shin drawn two-sided below the knee: drop the inner side (knee -> foot is the outer line)
@@ -107,6 +139,14 @@ OPS = {
         ("oval", (564, 788, 9, 15)),
         # woman behind the tree: front leg two-sided -> one line (the other leg is already one line)
         ("tubelegs", [(606, 866), (637, 866), (637, 896), (629, 920), (629, 952), (626, 960), (626, 974), (606, 974)], 1),
+        # D9 ruling (editor 2026-10-12): no fallen leaves -> every loose leaf erased (wind lines kept)
+        ("erase_comps_in", (530, 229, 602, 294)), ("erase_comps_in", (658, 313, 745, 357)),
+        ("erase_comps_in", (128, 376, 194, 430)), ("erase_comps_in", (348, 376, 433, 430)),
+        ("erase", [(86, 600), (141, 600), (141, 633), (152, 633), (152, 666), (86, 666)]),
+        ("line", [(86, 631), (143, 631)]),                                    # ground line under it
+        ("line", [(141, 594), (143, 612), (146, 631)]),                       # back trunk edge restored
+        ("erase", [(802, 532), (858, 532), (858, 600), (802, 600)]),
+        ("line", [(798, 574), (820, 582), (845, 585), (858, 581), (866, 581)]),  # bush top under it
     ],
     17: [
         # man single-line (pointing arm allowed by the scene). Woman = the p7 drawing again:
@@ -197,7 +237,17 @@ def apply(page):
     S = lambda pts: [(x * SS, y * SS) for x, y in pts]
     for item in OPS[page]:
         op, arg = item[0], (item[1:] if len(item) > 2 else item[1])
-        if op == "erase":
+        if op == "erase_comps_in":                    # every detached ink shape lying inside a box
+            from scipy import ndimage
+            x0, y0, x1, y1 = arg
+            lab, _ = ndimage.label(ink, structure=np.ones((3, 3)))
+            comp = np.zeros_like(ink)
+            for i, sl in enumerate(ndimage.find_objects(lab), 1):
+                if sl[1].start >= x0 and sl[1].stop <= x1 and sl[0].start >= y0 and sl[0].stop <= y1:
+                    comp |= lab == i
+            ys, xs = np.where(comp)
+            for y, x in zip(ys, xs): d.rectangle([x * SS, y * SS, x * SS + SS - 1, y * SS + SS - 1], fill=255)
+        elif op == "erase":
             d.polygon(S(arg), fill=255)
         elif op == "line":
             pts = S(arg); r = W * SS / 2
@@ -228,6 +278,7 @@ def apply(page):
     o = np.asarray(out) < 128; touched = np.zeros_like(o)
     for item in OPS[page]:
         pts = item[1] if item[0] in ("erase", "line") else (item[1] if item[0] == "tubelegs" else None)
+        if item[0] == "erase_comps_in": pts = [item[1][:2], item[1][2:]]
         if item[0] == "oval":
             cx, cy, rx, ry = item[1]; pts = [(cx - rx, cy - ry), (cx + rx, cy + ry)]
         xs, ys = zip(*pts)

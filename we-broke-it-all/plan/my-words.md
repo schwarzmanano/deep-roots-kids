@@ -909,9 +909,11 @@ In "We Broke It All," young readers ages 4 to 7 trace the story of the Fall from
 - **Current status:** `unresolved` (draft: true) — empty slot, Stage 1 2026-10-01
 - **From your Dad Teaching Script:** no directly relevant passage in this track
 
+- **Changed 2026-10-12 by your instruction:** "colour" → "color" (US spelling) — confirmed by the author 2026-10-12.
+
 **MY TEXT:**
 
-15 pages to colour
+15 pages to color
 
 **MY TEXT STATUS:** confirmed
 
