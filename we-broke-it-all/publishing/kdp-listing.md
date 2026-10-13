@@ -11,6 +11,13 @@ from the built files on 2026-10-02 (`scripts/kids/print_table.py`, both prefligh
 > `art/limbfix.py` (originals in `art/pre-limbfix/`; `qa.py` re-applies them). Interior + cover preflights
 > PASS; `print_table.py` PASS; text QA 0 fail.
 
+> **Lulu Direct — LIVE (2026-10-13).** Lulu project `m2vn4qm` ("Print Your Book" goal, private access,
+> like Books One–Two; no ISBN, no payee): US Letter, 36 pp, Standard B&W, 60# white, perfect bound,
+> **matte**; print cost 3.95 EUR; both files passed Lulu's checks (cover template 17.391 x 11.25 in, spine
+> 0.141 in — matches). Cover uploaded as `out/upload/cover-lulu.pdf` (same build, JPEG q88, 427 ppi,
+> 8.3 MB — the browser upload is capped at 10 MB; preflight PASS, PSNR 56 dB vs the q96 file).
+> WooCommerce product **#2573** on deeprootsdr.com at **10.99 EUR** (est. revenue 7.04 EUR), ACTIVE.
+
 ## Book details (both platforms)
 
 | Field | Value | Source |

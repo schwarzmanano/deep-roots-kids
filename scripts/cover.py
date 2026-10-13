@@ -19,7 +19,9 @@ from badge import draw_badge
 from bookarg import book_dir
 import textunits
 BOOK = book_dir()
-RELEASE = "--release" in sys.argv          # authorship-policy §11 — same guard as layout.py
+RELEASE = "--release" in sys.argv
+# --jpeg-quality N: lighter JPEG compression for size-capped uploads (default 96/95; ppi unchanged)
+JPEG_Q = int(sys.argv[sys.argv.index("--jpeg-quality") + 1]) if "--jpeg-quality" in sys.argv else None          # authorship-policy §11 — same guard as layout.py
 # --target kdp (default) | lulu — the wraps differ in spine width and safety margin.
 TARGET = sys.argv[sys.argv.index("--target") + 1] if "--target" in sys.argv else "kdp"
 if TARGET not in ("kdp", "lulu"): raise SystemExit(f"--target must be kdp or lulu, not {TARGET}")
@@ -141,7 +143,7 @@ if GRID:
     art_rgb = crop_to(art_src, art_w, H)
     ART_PPI = art_rgb.height / (H / IN)
     tmp = f"{BOOK}/cover/_front-placed.jpg"
-    ImageCms.applyTransform(art_rgb, _XF).save(tmp, quality=96)
+    ImageCms.applyTransform(art_rgb, _XF).save(tmp, quality=JPEG_Q or 96)
     c.drawImage(ImageReader(tmp), FRONT_L, 0, width=art_w, height=H, mask=None)
 
     # Banner — textured band in the signature colour, top trim + top bleed, full front width
@@ -157,7 +159,7 @@ if GRID:
     base = np.array(_hexrgb(SIG_HEX), dtype=float)
     band = (base[None, None, :] * light[:, :, None]).clip(0, 255).astype("uint8")
     _bp = f"{BOOK}/cover/_banner-cmyk.jpg"
-    ImageCms.applyTransform(Image.fromarray(band, "RGB"), _XF).save(_bp, quality=95)
+    ImageCms.applyTransform(Image.fromarray(band, "RGB"), _XF).save(_bp, quality=JPEG_Q or 95)
     c.drawImage(ImageReader(_bp), bx0, by0, width=bw_, height=bh_, mask=None)
     banner_txt = (COV.get("series_short") or AWAIT).upper()
     bs = G["banner"]["text_max_pt"]
