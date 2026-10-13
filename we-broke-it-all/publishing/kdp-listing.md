@@ -11,6 +11,17 @@ from the built files on 2026-10-02 (`scripts/kids/print_table.py`, both prefligh
 > `art/limbfix.py` (originals in `art/pre-limbfix/`; `qa.py` re-applies them). Interior + cover preflights
 > PASS; `print_table.py` PASS; text QA 0 fail.
 
+> **KDP — DRAFT READY, NOT SUBMITTED (2026-10-13).** Paperback draft in the "creation to glorification"
+> series as #3; free KDP ISBN **979-8-16-222997-1** (imprint Independently published — Amazon only, never
+> reuse on Lulu); B&W white, 8.5 x 11, no bleed, matte; files `out/interior.pdf` + `out/upload/cover.pdf`
+> (q88 copy, 8.3 MB); previewer: no issues, approved. AI disclosure: texts None; images "Many AI-generated
+> images, with extensive editing" (tool: Google Gemini); translations None. Categories: Children's ›
+> Activity Books › Coloring Books › Nonfiction; Children's › Religions › Christianity › Bible › Stories.
+> 7 keywords from the list below; reading age 4–7. Price: $10.99 (Amazon.com, others auto-converted);
+> euro stores set so the shopper pays 10.99 EUR incl. VAT (pre-VAT: BE 10.37, DE 10.27, ES 10.57, FR 10.42,
+> IE 10.99, IT 10.57, NL 10.08); 60% royalty everywhere. Expanded Distribution not enrolled.
+> **Remaining: the editor presses "Publish Your Paperback Book" in KDP.**
+>
 > **Lulu Direct — LIVE (2026-10-13).** Lulu project `m2vn4qm` ("Print Your Book" goal, private access,
 > like Books One–Two; no ISBN, no payee): US Letter, 36 pp, Standard B&W, 60# white, perfect bound,
 > **matte**; print cost 3.95 EUR; both files passed Lulu's checks (cover template 17.391 x 11.25 in, spine
