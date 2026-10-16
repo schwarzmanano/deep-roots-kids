@@ -6,7 +6,7 @@ trail. Gen 3:8-10 and 3:22-24 are recalled by picture only, never quoted.
 **Anchor:** Genesis 3:15. **Big Idea (the editor's, Track 4 lesson):** "When we walked away from
 God, He didn't walk away from us. He promised a Rescuer."
 **Reviewer:** Schwarz Martin Manano
-**Status:** UNSIGNED
+**Status:** SIGNED
 
 This gate is not automated and never will be. It is reviewed personally.
 `scripts/kids/generate.mjs` refuses to run while Status is unsigned, and re-blocks if any
@@ -172,7 +172,7 @@ child learns the promise was earned.
   confirmed Eve's naming and p29 already told it in a teaching line — repeating is a choice.
 - Either way: NO face close-up, NO profile, and p15 is BEFORE 3:21 (straight hems).
 
-**Ruling:** _______________________________
+**Ruling:** A
 
 ### D6 — The garments of skin (3:21) as the first picture of covering (p17)
 Book Three p29 showed them laid out as a gift (D4-B), p31 worn.
@@ -188,7 +188,7 @@ Book Three p29 showed them laid out as a gift (D4-B), p31 worn.
   blood, NO bones (Book Three D4/D9 carried forward). Whether a teaching line may say that an
   animal died is the editor's (pointer only: covering cost something — not a picture).
 
-**Ruling:** _______________________________
+**Ruling:** _________B______________________
 
 ### D7 — Leaving Eden as mercy (p21)
 Book Three ended at the guarded gate. 3:22-24 is outside R1's quoted scope.
@@ -205,7 +205,7 @@ Book Three ended at the guarded gate. 3:22-24 is outside R1's quoted scope.
   answered.
 - In A and B the gate/leaving is picture only; nothing from 3:22-24 is printed (F21).
 
-**Ruling:** _______________________________
+**Ruling:** ___________________A____________
 
 ### D8 — Family-cast application under R3 (p23, p25, p27, p29; cover)
 An ordinary breaking and an ordinary not-walking-away. The picture says "a parent stayed";
@@ -253,7 +253,7 @@ sin broke (R3). (3) The dog: present on the cover and p19/p25 of Book Three; pre
 p25–p29 here; absent on p23 (the Son alone). (4) Six figures on p29 is the series' highest
 cast count on one page — count failures (D-10) are the most likely defect.
 
-**Ruling:** _______________________________
+**Ruling:** ______________D8a_________________
 
 ### D9 — The ending: the last pages hold the promise open and lean toward Book Five (p31, p33)
 Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the reveal).
@@ -273,7 +273,7 @@ Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the revea
   Savior's coming… His name is coming…"); Gal 4:4 (the fullness of time). "Savior" in the lyric
   is a title, not a name — whether it may be printed before Book Six is the editor's (F24).
 
-**Ruling:** _______________________________
+**Ruling:** _____D__________________________
 
 ---
 
@@ -402,27 +402,27 @@ Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the revea
 
 Ticked at signing, against the plan as ruled.
 
-- [ ] §0 No depiction of God in any form. 3:14-19 speech shown by effect only: the serpent going down, the listening couple, the ground, the sky
-- [ ] §0 No figure, hands, footprints, face in the clouds, voice-lines, or light shaped into a figure on p5, p7, p9, p17
-- [ ] §1 No human figure of Christ anywhere; no Christ-marker (cross, tomb, crown, throne, nail-marked hands, manger, dove, staff, halo) — interior or cover
-- [ ] §2 The promised Rescuer is a symbol only (seed, sprout, light, path, spoken word); never a person, baby, or figure on the horizon (p11, p13, p19, p21, p31; cover)
-- [ ] §3 No figure implying God has bodily form
-- [ ] §4 No strike-through or negation of a true statement
-- [ ] §4 No fabricated historical or scientific evidence
-- [ ] §5 Outside-cast figures carry no cast markers (none planned unless F18 rules the friends in)
-- [ ] §6 "Yahweh" kept in every WEB quotation; the author's line at its first appearance (F2)
-- [ ] §7 Every text unit is the author's (my-words.md), registered in provenance.yaml
-- [ ] §8 Every quotation verbatim WEB (web.py), nothing copied from the ESV curriculum or script
-- [ ] R3: no scene, symbol or page order reads as "we fixed it" — no human mender, no glue, no tools, no hands pressing pieces (D8c)
-- [ ] D4: God speaks before any response; the Father comes before anything the Son does
-- [ ] Brief: no animal death depicted (D6); serpent same design as Book Three, no mouth line, never cute, demonic or human-like (D3)
-- [ ] First couple matches Book Three's construction exactly (§Continuity); straight hems before p17, uneven hems from p17
-- [ ] Cover (R3): the family receives and holds — not mends — the vessel; light from the sky or horizon only
+- [x] §0 No depiction of God in any form. 3:14-19 speech shown by effect only: the serpent going down, the listening couple, the ground, the sky
+- [x] §0 No figure, hands, footprints, face in the clouds, voice-lines, or light shaped into a figure on p5, p7, p9, p17
+- [x] §1 No human figure of Christ anywhere; no Christ-marker (cross, tomb, crown, throne, nail-marked hands, manger, dove, staff, halo) — interior or cover
+- [x] §2 The promised Rescuer is a symbol only (seed, sprout, light, path, spoken word); never a person, baby, or figure on the horizon (p11, p13, p19, p21, p31; cover)
+- [x] §3 No figure implying God has bodily form
+- [x] §4 No strike-through or negation of a true statement
+- [x] §4 No fabricated historical or scientific evidence
+- [x] §5 Outside-cast figures carry no cast markers (none planned unless F18 rules the friends in)
+- [x] §6 "Yahweh" kept in every WEB quotation; the author's line at its first appearance (F2)
+- [x] §7 Every text unit is the author's (my-words.md), registered in provenance.yaml
+- [x] §8 Every quotation verbatim WEB (web.py), nothing copied from the ESV curriculum or script
+- [x] R3: no scene, symbol or page order reads as "we fixed it" — no human mender, no glue, no tools, no hands pressing pieces (D8c)
+- [x] D4: God speaks before any response; the Father comes before anything the Son does
+- [x] Brief: no animal death depicted (D6); serpent same design as Book Three, no mouth line, never cute, demonic or human-like (D3)
+- [x] First couple matches Book Three's construction exactly (§Continuity); straight hems before p17, uneven hems from p17
+- [x] Cover (R3): the family receives and holds — not mends — the vessel; light from the sky or horizon only
 
 ---
 
 ## Sign-off
 
-    Signed:
-    Date:
+    Signed: Schwarz
+    Date: Frid oct 16
     Notes:

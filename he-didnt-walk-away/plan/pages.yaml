@@ -1,4 +1,4 @@
-# ── GATE 1 NOT PASSED — plan/theology-review.md Status: UNSIGNED. Generation is blocked. ──
+# ── GATE 1 PASSED — signed 2026-10-16 (plan/theology-review.md, "Signed: Schwarz"). Rulings folded in below as `ruling:`. ──
 #
 # Book Four, "He Didn't Walk Away" — album Track 4. Plan only: scenes, references, alt-text,
 # density. Every `text:` and `teaching:` is null — the author writes them in plan/my-words.md
@@ -50,7 +50,7 @@ meta:
   scope: "Genesis 3:14-15, 20-21 (R1 narrow; 3:8-10 and 3:22-24 recalled by picture only)"
   translation: "WEB (public domain)"
   reading_level: "ages 4-7, read aloud by an adult"
-  gate1_signed: null
+  gate1_signed: "2026-10-16"
   yahweh_first_appearance: "Gen 3:14 is the first WEB verse in scope containing 'Yahweh'. The
     author's Yahweh line is due on whichever page FIRST prints a WEB quotation containing the
     name — p7 if p7 quotes 3:14 (F1); otherwise p17 (3:21)."
@@ -157,8 +157,7 @@ pages:
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man turning toward a woman beside a small green shoot."
-    ruling: "D1 seed-and-shoot beside them (2026-10-16)"
-    pending: "D5 (naming as faith; include or not; drawn without a face)"
+    ruling: "D5 Option A — include, drawn by gesture, no face (2026-10-16); D1 seed-and-shoot beside them"
 
   - page: 17
     ref: "Genesis 3:21"
@@ -167,13 +166,14 @@ pages:
     quote: true                # proposed: WEB 3:21 verbatim (Book Three p29 printed this verse — F11 on repeating it)
     quote_ref: "Genesis 3:21"
     teaching: null
-    scene: "BASELINE pending D6 — the man and the woman FROM BEHIND at mid-distance, standing at the garden's edge in morning light, now WEARING the garments of skin in Book Three p31's approved vocabulary: the man's plain sleeveless one-shoulder tunic, the woman's plain sleeveless knee-length dress, each with ONLY an uneven hem; every arm and leg ONE single thin line, oval hands and feet; no fur, no hide texture. The picture of covering = they are covered. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1)."
+    scene: "D6 Option B (ruled 2026-10-16) — the gift laid out, as Book Three p29: two plain garments folded on a flat rock in morning light (the sun a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND at mid-distance, approaching the rock, still in their plain sleeveless garments with STRAIGHT hems (the skins are not yet worn — they are worn from p21). The folded garments are Book Three's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1). Differs from Book Three p29 only in the seedling (as p13) small in the ground near the rock."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
-    garments_ref: "kids/we-broke-it-all/art/p31.png"
+    garments_ref: "kids/we-broke-it-all/art/p29.png"
     density: sparse
-    alt: "A man and a woman wearing simple garments at the edge of a garden in the morning."
-    pending: "D6 (garments as the first picture of covering; no animal death); F11 (3:21 was printed in Book Three)"
+    alt: "Two folded garments on a rock, with a man and a woman walking toward them."
+    ruling: "D6 Option B — laid out again (2026-10-16); no animal death"
+    pending: "F11 (3:21 was printed in Book Three)"
 
   # ── SENT OUT, NOT ABANDONED ──────────────────────────────────────────────────────
 
@@ -197,9 +197,11 @@ pages:
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     gate_ref: "kids/we-broke-it-all/art/p31.png"
+    garments_ref: "kids/we-broke-it-all/art/p31.png"
     density: dense
     alt: "A man and a woman walking toward the sunrise, the guarded garden behind them."
-    pending: "D7 (reopen the gate as protection, or not); F21 (outside the quoted scope)"
+    ruling: "D7 Option A — the gate reopened, seen from outside, behind them (2026-10-16); garments of skin WORN here for the first time (Book Three p31 vocabulary)"
+    pending: "F21 (outside the quoted scope)"
 
   # ── HE DIDN'T WALK AWAY (family application, D8) ─────────────────────────────────
 
@@ -216,7 +218,7 @@ pages:
     density: sparse
     alt: "A little boy standing alone beside a cracked cup on the grass."
     ruling: "D4b (i) (2026-10-16): no confession posture — head down, nothing said or done"
-    pending: "D8 (the same cup or a new breaking; backyard or indoors)"
+    ruling: "D8a ruled (2026-10-16); D8d (i) baseline stands — the same cup, the backyard of the cover (not separately ruled: ASSUMED from the baseline)"
 
   - page: 25
     ref: "Romans 5:8; 1 John 4:19 (pointers); Track 4 teaching script line 66; lyric lines 157-158"
@@ -232,7 +234,7 @@ pages:
     density: sparse
     alt: "A father standing close beside a worried little boy, with a cracked cup on the grass."
     ruling: "D4 as planned; D4b (i) no confession scene (2026-10-16) — the Father is beside him before the boy looks up; nothing is said or done first"
-    pending: "D8 (the ordinary not-walking-away; staging)"
+    ruling: "D8 (2026-10-16): baseline staging stands — the Father beside him, cup untouched"
 
   - page: 27
     ref: "Genesis 3:15 applied (pointer: 2 Corinthians 1:20); lyric lines 167-168"
@@ -248,7 +250,7 @@ pages:
     density: sparse
     alt: "Two children looking at a mended cup with a small green shoot growing inside it."
     ruling: "D1 (2026-10-16): the shoot in the cup is the refrain — seam + shoot = cover rhyme"
-    pending: "D8 (where the mended vessel enters; who holds it; no human mending — R3)"
+    ruling: "D8a Option A — p27, the next morning, received; D8b (i) nobody holds it; D8c no mender (2026-10-16; D8b/D8c read from the baseline — ASSUMED)"
 
   - page: 29
     ref: "Lyric lines 183-188 ('Who stayed with us? GOD DID!'); Track 4 teaching script line 68"
@@ -267,7 +269,8 @@ pages:
       Son: "sleeveless t-shirt and shorts"
     density: dense
     alt: "A family standing together in a garden at sunrise, with a mended cup and a green shoot on the step."
-    pending: "D8 (the family receives; six-figure count risk — D-10); F18 (curriculum friends in or out). F7 ruled 2026-10-16: the cover shows the Father + children (Mother off the front); this page keeps the whole family"
+    ruling: "D8a Option A (2026-10-16): the family receives; F7 ruled: the cover shows the Father + children, this page keeps the whole family"
+    pending: "F18 (curriculum friends in or out); six-figure count risk — D-10"
 
   # ── THE HOPE IS NEAR ─────────────────────────────────────────────────────────────
 
@@ -276,12 +279,11 @@ pages:
     title: "The Hope Is Near"
     text: null
     teaching: null
-    scene: "BASELINE pending D9 (Option A) — outside the garden at sunrise, no people. The seedling in the foreground a little taller than on p13 (four leaves instead of two — grown, not a tree), the open land stretching east, the sun a half-circle on the horizon with short light-lines. NO figure on the horizon, NO silhouette, NO baby, NO star, NO cross, NO crown, NO dove, NO path unless D1 rules it in. The promise held open, nothing arrived."
+    scene: "D9 Option D (ruled 2026-10-16) — outside the garden at sunrise, no people. The seedling in the foreground a little taller than on p13 (four leaves instead of two — grown, not a tree), the open land stretching east, the sun a half-circle on the horizon with short light-lines, and a simple PATH drawn as two plain lines from the foreground toward the horizon, EMPTY — nobody on it. NO figure on the horizon, NO silhouette, NO baby, NO star, NO cross, NO crown, NO dove. The promise held open, nothing arrived."
     figures: []
     density: sparse
-    alt: "A young green plant in open land as the sun rises."
-    ruling: "D1 seed-and-shoot (2026-10-16)"
-    pending: "D9 (the ending leans toward Book Five without naming Jesus; path only if ruled in)"
+    alt: "A young green plant beside an empty path leading toward the sunrise."
+    ruling: "D9 Option D — a path added, empty (2026-10-16); D1 seed-and-shoot"
 
   # ── BACK MATTER ──────────────────────────────────────────────────────────────────
 
