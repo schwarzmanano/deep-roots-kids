@@ -1,5 +1,5 @@
 {
-  "total_usd": 28.9319,
+  "total_usd": 35.7162,
   "entries": [
     {
       "ts": "2026-09-17T00:00:00Z",
@@ -1769,12 +1769,497 @@
       "label": "cover: front-art-v3-4",
       "usd": 0.1951,
       "book": "genesis-1"
+    },
+    {
+      "ts": "2026-10-16T22:04:00.823Z",
+      "label": "test-shoot-refrain attempt-1",
+      "usd": 0.0852,
+      "book": "he-didnt-walk-away",
+      "test": "shoot-refrain"
+    },
+    {
+      "ts": "2026-10-16T22:04:08.540Z",
+      "label": "test-shoot-refrain attempt-2",
+      "usd": 0.0826,
+      "book": "he-didnt-walk-away",
+      "test": "shoot-refrain"
+    },
+    {
+      "ts": "2026-10-16T22:04:20.887Z",
+      "label": "test-shoot-small attempt-1",
+      "usd": 0.101,
+      "book": "he-didnt-walk-away",
+      "test": "shoot-small"
+    },
+    {
+      "ts": "2026-10-16T22:04:29.861Z",
+      "label": "test-shoot-small attempt-2",
+      "usd": 0.0927,
+      "book": "he-didnt-walk-away",
+      "test": "shoot-small"
+    },
+    {
+      "ts": "2026-10-16T22:04:38.099Z",
+      "label": "test-serpent-away attempt-1",
+      "usd": 0.083,
+      "book": "he-didnt-walk-away",
+      "test": "serpent-away"
+    },
+    {
+      "ts": "2026-10-16T22:04:45.745Z",
+      "label": "test-serpent-away attempt-2",
+      "usd": 0.0919,
+      "book": "he-didnt-walk-away",
+      "test": "serpent-away"
+    },
+    {
+      "ts": "2026-10-16T22:04:52.994Z",
+      "label": "test-dawn-hills attempt-1",
+      "usd": 0.0799,
+      "book": "he-didnt-walk-away",
+      "test": "dawn-hills"
+    },
+    {
+      "ts": "2026-10-16T22:05:00.315Z",
+      "label": "test-dawn-hills attempt-2",
+      "usd": 0.0845,
+      "book": "he-didnt-walk-away",
+      "test": "dawn-hills"
+    },
+    {
+      "ts": "2026-10-16T22:05:09.040Z",
+      "label": "test-gate-outside attempt-1",
+      "usd": 0.0955,
+      "book": "he-didnt-walk-away",
+      "test": "gate-outside"
+    },
+    {
+      "ts": "2026-10-16T22:05:17.872Z",
+      "label": "test-gate-outside attempt-2",
+      "usd": 0.0903,
+      "book": "he-didnt-walk-away",
+      "test": "gate-outside"
+    },
+    {
+      "ts": "2026-10-16T22:05:28.029Z",
+      "label": "test-mended-cup attempt-1",
+      "usd": 0.0916,
+      "book": "he-didnt-walk-away",
+      "test": "mended-cup"
+    },
+    {
+      "ts": "2026-10-16T22:05:39.559Z",
+      "label": "test-mended-cup attempt-2",
+      "usd": 0.0917,
+      "book": "he-didnt-walk-away",
+      "test": "mended-cup"
+    },
+    {
+      "ts": "2026-10-16T22:05:49.099Z",
+      "label": "test-father-shirt attempt-1",
+      "usd": 0.0949,
+      "book": "he-didnt-walk-away",
+      "test": "father-shirt"
+    },
+    {
+      "ts": "2026-10-16T22:05:57.576Z",
+      "label": "test-father-shirt attempt-2",
+      "usd": 0.0895,
+      "book": "he-didnt-walk-away",
+      "test": "father-shirt"
+    },
+    {
+      "ts": "2026-10-16T22:06:11.700Z",
+      "label": "test-family-six attempt-1",
+      "usd": 0.0923,
+      "book": "he-didnt-walk-away",
+      "test": "family-six"
+    },
+    {
+      "ts": "2026-10-16T22:06:21.831Z",
+      "label": "test-family-six attempt-2",
+      "usd": 0.1007,
+      "book": "he-didnt-walk-away",
+      "test": "family-six"
+    },
+    {
+      "ts": "2026-10-16T22:27:19.107Z",
+      "label": "test-mended-cup-b attempt-1",
+      "usd": 0.1038,
+      "book": "he-didnt-walk-away",
+      "test": "mended-cup-b"
+    },
+    {
+      "ts": "2026-10-16T22:27:31.227Z",
+      "label": "test-mended-cup-b attempt-2",
+      "usd": 0.0985,
+      "book": "he-didnt-walk-away",
+      "test": "mended-cup-b"
+    },
+    {
+      "ts": "2026-10-16T22:34:17.920Z",
+      "label": "p3 attempt-1",
+      "usd": 0.0917,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T22:34:29.800Z",
+      "label": "p3 attempt-2",
+      "usd": 0.0944,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T22:34:41.640Z",
+      "label": "p5 attempt-1",
+      "usd": 0.0917,
+      "book": "he-didnt-walk-away",
+      "page": 5
+    },
+    {
+      "ts": "2026-10-16T22:34:49.947Z",
+      "label": "p5 attempt-2",
+      "usd": 0.0939,
+      "book": "he-didnt-walk-away",
+      "page": 5
+    },
+    {
+      "ts": "2026-10-16T22:35:01.944Z",
+      "label": "p7 attempt-1",
+      "usd": 0.0916,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T22:35:10.001Z",
+      "label": "p7 attempt-2",
+      "usd": 0.09,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T22:35:18.634Z",
+      "label": "p9 attempt-1",
+      "usd": 0.1005,
+      "book": "he-didnt-walk-away",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-16T22:35:29.361Z",
+      "label": "p9 attempt-2",
+      "usd": 0.0911,
+      "book": "he-didnt-walk-away",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-16T22:35:36.865Z",
+      "label": "p11 attempt-1",
+      "usd": 0.0854,
+      "book": "he-didnt-walk-away",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-16T22:35:45.565Z",
+      "label": "p11 attempt-2",
+      "usd": 0.0887,
+      "book": "he-didnt-walk-away",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-16T22:35:53.504Z",
+      "label": "p13 attempt-1",
+      "usd": 0.0837,
+      "book": "he-didnt-walk-away",
+      "page": 13
+    },
+    {
+      "ts": "2026-10-16T22:36:01.540Z",
+      "label": "p13 attempt-2",
+      "usd": 0.0919,
+      "book": "he-didnt-walk-away",
+      "page": 13
+    },
+    {
+      "ts": "2026-10-16T22:36:17.820Z",
+      "label": "p15 attempt-1",
+      "usd": 0.0905,
+      "book": "he-didnt-walk-away",
+      "page": 15
+    },
+    {
+      "ts": "2026-10-16T22:36:29.999Z",
+      "label": "p15 attempt-2",
+      "usd": 0.0971,
+      "book": "he-didnt-walk-away",
+      "page": 15
+    },
+    {
+      "ts": "2026-10-16T22:36:49.182Z",
+      "label": "p17 attempt-1",
+      "usd": 0.0898,
+      "book": "he-didnt-walk-away",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-16T22:37:00.249Z",
+      "label": "p17 attempt-2",
+      "usd": 0.0961,
+      "book": "he-didnt-walk-away",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-16T22:37:08.529Z",
+      "label": "p19 attempt-1",
+      "usd": 0.08,
+      "book": "he-didnt-walk-away",
+      "page": 19
+    },
+    {
+      "ts": "2026-10-16T22:37:16.429Z",
+      "label": "p19 attempt-2",
+      "usd": 0.0838,
+      "book": "he-didnt-walk-away",
+      "page": 19
+    },
+    {
+      "ts": "2026-10-16T22:37:29.104Z",
+      "label": "p21 attempt-1",
+      "usd": 0.0994,
+      "book": "he-didnt-walk-away",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-16T22:37:41.266Z",
+      "label": "p21 attempt-2",
+      "usd": 0.0967,
+      "book": "he-didnt-walk-away",
+      "page": 21
+    },
+    {
+      "ts": "2026-10-16T22:37:53.221Z",
+      "label": "p23 attempt-1",
+      "usd": 0.0952,
+      "book": "he-didnt-walk-away",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-16T22:38:02.356Z",
+      "label": "p23 attempt-2",
+      "usd": 0.0941,
+      "book": "he-didnt-walk-away",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-16T22:38:19.472Z",
+      "label": "p25 attempt-1",
+      "usd": 0.0932,
+      "book": "he-didnt-walk-away",
+      "page": 25
+    },
+    {
+      "ts": "2026-10-16T22:38:29.718Z",
+      "label": "p25 attempt-2",
+      "usd": 0.0946,
+      "book": "he-didnt-walk-away",
+      "page": 25
+    },
+    {
+      "ts": "2026-10-16T22:38:41.961Z",
+      "label": "p27 attempt-1",
+      "usd": 0.094,
+      "book": "he-didnt-walk-away",
+      "page": 27
+    },
+    {
+      "ts": "2026-10-16T22:38:56.235Z",
+      "label": "p27 attempt-2",
+      "usd": 0.0985,
+      "book": "he-didnt-walk-away",
+      "page": 27
+    },
+    {
+      "ts": "2026-10-16T22:39:09.799Z",
+      "label": "p29 attempt-1",
+      "usd": 0.0971,
+      "book": "he-didnt-walk-away",
+      "page": 29
+    },
+    {
+      "ts": "2026-10-16T22:39:23.046Z",
+      "label": "p29 attempt-2",
+      "usd": 0.0961,
+      "book": "he-didnt-walk-away",
+      "page": 29
+    },
+    {
+      "ts": "2026-10-16T22:39:32.433Z",
+      "label": "p31 attempt-1",
+      "usd": 0.0899,
+      "book": "he-didnt-walk-away",
+      "page": 31
+    },
+    {
+      "ts": "2026-10-16T22:39:39.969Z",
+      "label": "p31 attempt-2",
+      "usd": 0.0857,
+      "book": "he-didnt-walk-away",
+      "page": 31
+    },
+    {
+      "ts": "2026-10-16T22:43:00.973Z",
+      "label": "p3 attempt-3",
+      "usd": 0.0979,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T22:43:10.615Z",
+      "label": "p3 attempt-4",
+      "usd": 0.0941,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T22:43:22.742Z",
+      "label": "p7 attempt-3",
+      "usd": 0.0919,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T22:43:36.434Z",
+      "label": "p7 attempt-4",
+      "usd": 0.0913,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T22:43:48.712Z",
+      "label": "p9 attempt-3",
+      "usd": 0.0917,
+      "book": "he-didnt-walk-away",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-16T22:44:01.951Z",
+      "label": "p9 attempt-4",
+      "usd": 0.097,
+      "book": "he-didnt-walk-away",
+      "page": 9
+    },
+    {
+      "ts": "2026-10-16T22:44:10.623Z",
+      "label": "p11 attempt-3",
+      "usd": 0.0869,
+      "book": "he-didnt-walk-away",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-16T22:44:18.547Z",
+      "label": "p11 attempt-4",
+      "usd": 0.0915,
+      "book": "he-didnt-walk-away",
+      "page": 11
+    },
+    {
+      "ts": "2026-10-16T22:44:26.730Z",
+      "label": "p17 attempt-3",
+      "usd": 0.0917,
+      "book": "he-didnt-walk-away",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-16T22:44:37.680Z",
+      "label": "p17 attempt-4",
+      "usd": 0.0976,
+      "book": "he-didnt-walk-away",
+      "page": 17
+    },
+    {
+      "ts": "2026-10-16T22:44:52.040Z",
+      "label": "p23 attempt-3",
+      "usd": 0.089,
+      "book": "he-didnt-walk-away",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-16T22:45:00.712Z",
+      "label": "p23 attempt-4",
+      "usd": 0.0884,
+      "book": "he-didnt-walk-away",
+      "page": 23
+    },
+    {
+      "ts": "2026-10-16T23:00:59.573Z",
+      "label": "p3 attempt-5",
+      "usd": 0.0928,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T23:01:09.017Z",
+      "label": "p3 attempt-6",
+      "usd": 0.0916,
+      "book": "he-didnt-walk-away",
+      "page": 3
+    },
+    {
+      "ts": "2026-10-16T23:01:18.051Z",
+      "label": "p7 attempt-5",
+      "usd": 0.0947,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T23:01:27.256Z",
+      "label": "p7 attempt-6",
+      "usd": 0.0909,
+      "book": "he-didnt-walk-away",
+      "page": 7
+    },
+    {
+      "ts": "2026-10-16T23:06:31.615Z",
+      "label": "cover: ref-mended-1",
+      "usd": 0.1019,
+      "book": "he-didnt-walk-away"
+    },
+    {
+      "ts": "2026-10-16T23:07:01.626Z",
+      "label": "cover: ref-mended-2",
+      "usd": 0.1134,
+      "book": "he-didnt-walk-away"
+    },
+    {
+      "ts": "2026-10-16T23:08:17.490Z",
+      "label": "cover: ref-mended-b-1",
+      "usd": 0.1207,
+      "book": "he-didnt-walk-away"
+    },
+    {
+      "ts": "2026-10-16T23:08:41.973Z",
+      "label": "cover: ref-mended-b-2",
+      "usd": 0.1113,
+      "book": "he-didnt-walk-away"
+    },
+    {
+      "ts": "2026-10-16T23:11:56.933Z",
+      "label": "cover: front-art-1",
+      "usd": 0.2241,
+      "book": "he-didnt-walk-away"
+    },
+    {
+      "ts": "2026-10-16T23:12:34.456Z",
+      "label": "cover: front-art-2",
+      "usd": 0.2179,
+      "book": "he-didnt-walk-away"
     }
   ],
   "by_book": {
     "genesis-1": 6.7461,
     "_brand": 1.7286,
     "made-like-him": 11.4883,
-    "we-broke-it-all": 8.9689
+    "we-broke-it-all": 8.9689,
+    "he-didnt-walk-away": 6.7843
   }
 }
