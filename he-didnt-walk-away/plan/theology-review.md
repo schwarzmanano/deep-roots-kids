@@ -342,7 +342,7 @@ Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the revea
   the horizon, no path, no sprout" (Book Three §Scope) are REVERSED by §2 and D1. Kept: no fruit
   being taken, no fig leaves, no hand-holding, no angels/wings, no sweat, no death imagery, no
   vases/eggs, no mirror, no mouth line on the serpent. The Stage 2 style.md must say so.
-- **F15 — R2 Redemption colour (PROPOSED; stop for confirmation before any cover spend):**
+- **F15 — R2 Redemption colour — RULED 2026-10-16: Kindled Coral #E2694B (editor, in chat); set in book.yaml and cover-grid.md.** Proposal as presented:
   cover-grid.md holds no movement-to-colour mapping — only fixed per-book colours for Books
   One to Three and a PROPOSED (unapproved) eleven-book map that puts Book Four on Kindled
   Coral. Creation movement (Books One–Two) used Canopy Green and Roots Gold; the Fall (Book
@@ -358,7 +358,7 @@ Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the revea
   allowed; title/subtitle/author are not). Book Three (Fall, Navy) stands alone and needs no
   change. The back-cover series strip (Books One–Four, Four highlighted) will show the shift
   from Three (Navy) to Four.
-- **F16 — Publisher / imprint (YOUR CALL):** Books One to Three print "© 2026 Deep Roots Kids"
+- **F16 — Publisher / imprint — RULED 2026-10-16: Deep Roots Publishing, with Deep Roots Publishing (MVB) ISBNs, one per edition (editor, in chat); set in book.yaml.** Options as presented: Books One to Three print "© 2026 Deep Roots Kids"
   (author's p2 line) and list publisher "Deep Roots Kids"; KDP's free ISBN on Book Three shows
   imprint "Independently published"; Lulu Direct projects carry no publisher or ISBN. The Deep
   Roots Publishing imprint (registered Oct 2026) is already the curriculum's imprint

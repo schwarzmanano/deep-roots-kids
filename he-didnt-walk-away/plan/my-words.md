@@ -71,8 +71,9 @@ He Didn't Walk Away
 
 ### `p2.copyright.1` — copyright-page · p2
 
-- **Pointer:** copyright line; holder per YOUR CALL F16 (Books One to Three: "© 2026 Deep Roots
-  Kids. All rights reserved."); first edition, 2026
+- **Pointer:** copyright line; publisher ruled 2026-10-16 = Deep Roots Publishing (F16) — the holder
+  named in this line is yours to write (Books One to Three: "© 2026 Deep Roots Kids. All rights
+  reserved."); first edition, 2026
 - **Current status:** `unresolved` (draft: true) — empty slot
 
 **MY TEXT:**

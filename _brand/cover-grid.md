@@ -99,7 +99,8 @@ spine:
 ## Signature colours
 
 Fixed by the editor: Book One Canopy Green `#4C7A5A`, Book Two Roots Gold `#D9A441`, Book
-Three Storybook Navy `#2E4257`.
+Three Storybook Navy `#2E4257`, **Book Four Kindled Coral `#E2694B`** (ruled 2026-10-16 — opens
+the Redemption movement; banner text Navy, contrast 3.13).
 
 ### PROPOSED eleven-book map — awaiting the editor's approval (not in use beyond Book Three)
 

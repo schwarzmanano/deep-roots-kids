@@ -7,6 +7,10 @@ slug: he-didnt-walk-away
 title: "He Didn't Walk Away"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation (F6: straight vs curly apostrophe)
 subtitle: null            # author: "<Focus> • A Deep Roots Kids Coloring Book" (cover-grid.md rule 1); Focus is the author's
 author: "Deep Roots"      # KDP/Lulu author field — identical to Books One to Three (live listings, ruling 2026-10-01). Not printed on the cover.
+publisher: "Deep Roots Publishing"   # editor ruling 2026-10-16 (F16): Book Four moves to the Deep Roots Publishing imprint (Books One to Three: Deep Roots Kids). Listing + KDP imprint field; the p2 copyright line is the author's
+isbn:                     # editor ruling 2026-10-16: own ISBNs from the Deep Roots Publishing (MVB) block — one per edition, never KDP's free ISBN, never shared between printers
+  kdp: null               # assign at step 8 (listing); KDP imprint then reads "Deep Roots Publishing"
+  lulu: null              # assign at step 8 if Lulu retail distribution is enabled (Lulu Direct store sales need none)
 series_line: null         # author: Books Two/Three pattern "Deep Roots Kids · Creation to Glorification · Book Three"
 album_track: 4            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "4."
 scripture_scope: "Genesis 3:14–15, 20–21"   # R1 (editor brief 2026-10-16): narrow scope; no promise trail
@@ -21,7 +25,7 @@ copyright_page:           # author's lines (Book Three: "© 2026 Deep Roots Kids
 cover:                    # text slots EMPTY until the author supplies them
   front_art: null         # Stage 6 — concept "MENDED" (R3), two-phase (B&W stick reference, then colour)
   layout: grid            # series cover grid (kids/_brand/cover-grid.md)
-  signature_colour: null  # R2: REDEMPTION movement colour — PROPOSED Kindled Coral #E2694B (theology-review F15); set only after the editor confirms
+  signature_colour: "#E2694B"   # Kindled Coral — REDEMPTION movement (R2; editor ruling 2026-10-16, F15). Banner text Navy (contrast 3.13)
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation
   back_blurb: null        # author — also the store description
