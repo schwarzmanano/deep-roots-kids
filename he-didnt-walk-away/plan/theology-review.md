@@ -299,7 +299,7 @@ Book Five is "We Need a Hero". Nothing names Jesus (§2; Book Six owns the revea
 - **F6 — Title apostrophe:** the brief writes "He Didn't Walk Away" (straight '); the lyric
   heading is "He Didn’t Walk Away" (curly ’). Books One to Three titles have no apostrophe.
   KDP locks the title on first upload (cover-grid rule 2). Confirm the exact glyph in MY TEXT.
-- **F7 — The cover vs cover-grid rules 3–4 (children only on the front; no adult pair):** the
+- **F7 — RULED 2026-10-16 (editor, in chat): cover-grid rule 4 amended for Book Four — the Father is allowed on the front with the children; the Mother stays off the front. The hand-on-shoulder contact pose remains a Stage 6 retouch risk.** Conflict as presented: the
   brief's MENDED cover has "the rest of the family gathers around him; the Father's hand rests on
   the Son's shoulder". Rule 4's reason is that a man and woman together can read as the first
   couple; the Father ALONE with the children does not trigger it, but Father AND Mother do.

@@ -58,6 +58,9 @@ unchanged). Book Three keeps its current subtitle.
    hands, oval feet), flat-vector over a soft painterly background — as on Books Two and Three.
 4. **Children only on the front:** no adult pair (a man and woman together can read as the first
    couple, whose faces are never shown — theology-guardrails, first-couple rules).
+   _Amended 2026-10-16 (editor ruling, Book Four cover "MENDED"): **the Father alone is allowed on
+   Book Four's front** with the children. One adult does not trigger the first-couple reading; the
+   Mother is still not on the front. The amendment is for Book Four only — later books ask again._
 5. **Book-specific content:** each cover carries scenery and objects from its own book so no
    cover repeats another's composition (Book Two is children in a meadow; Book One's retrofit is
    the creation days).
