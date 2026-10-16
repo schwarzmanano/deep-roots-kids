@@ -26,7 +26,8 @@ CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_brand",
 BOOKS = {"genesis": "GEN", "psalm": "PSA", "psalms": "PSA", "isaiah": "ISA", "romans": "ROM",
          "1 john": "1JN", "revelation": "REV", "james": "JAS", "acts": "ACT",
          "colossians": "COL", "ephesians": "EPH", "matthew": "MAT", "john": "JHN",
-         "1 corinthians": "1CO", "2 corinthians": "2CO", "hebrews": "HEB", "exodus": "EXO"}
+         "1 corinthians": "1CO", "2 corinthians": "2CO", "hebrews": "HEB", "exodus": "EXO",
+         "galatians": "GAL"}
 
 
 def _file(code, ch):

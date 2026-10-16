@@ -1,0 +1,87 @@
+# ── Deep Roots Kids — Book 004 ──
+# Stage 1 (2026-10-16). Every reader-facing text slot is EMPTY (null) until the author supplies
+# it in plan/my-words.md (authorship-policy §1.1, §1.4). Nothing here is wording for print.
+# The two values copied from the editor's brief of 2026-10-16 (title, cover.series_short) are
+# registered `unresolved` and await the author's MY TEXT confirmation.
+slug: he-didnt-walk-away
+title: "He Didn't Walk Away"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation (F6: straight vs curly apostrophe)
+subtitle: null            # author: "<Focus> • A Deep Roots Kids Coloring Book" (cover-grid.md rule 1); Focus is the author's
+author: "Deep Roots"      # KDP/Lulu author field — identical to Books One to Three (live listings, ruling 2026-10-01). Not printed on the cover.
+series_line: null         # author: Books Two/Three pattern "Deep Roots Kids · Creation to Glorification · Book Three"
+album_track: 4            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "4."
+scripture_scope: "Genesis 3:14–15, 20–21"   # R1 (editor brief 2026-10-16): narrow scope; no promise trail
+age_band: "4-7"
+spend_cap_usd: 12         # editor brief 2026-10-16; ledger keyed to this slug
+spend_checkpoints_pct: [50, 80]   # stop and report at $6.00 and $9.60 (ledger.mjs); go-ahead per checkpoint
+print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
+
+copyright_page:           # author's lines (Book Three: "© 2026 Deep Roots Kids. All rights reserved." + WEB line). Holder per step-0 YOUR CALL
+  - null
+  - null
+cover:                    # text slots EMPTY until the author supplies them
+  front_art: null         # Stage 6 — concept "MENDED" (R3), two-phase (B&W stick reference, then colour)
+  layout: grid            # series cover grid (kids/_brand/cover-grid.md)
+  signature_colour: null  # R2: REDEMPTION movement colour — PROPOSED Kindled Coral #E2694B (theology-review F15); set only after the editor confirms
+  color: cmyk
+  series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation
+  back_blurb: null        # author — also the store description
+  spec_lines:             # author — Book Three pattern: "15 pages to color" / "Honest, hopeful teaching for ages 4–7" / "Scripture from the World English Bible (WEB)"
+    - null
+    - null
+    - null
+# Spines are computed from the FINAL page count at the print stage — never copied from Book Three.
+cover_targets:
+  kdp:  {bleed_in: 0.125, spine_in: null, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80, spine_text: false}
+  lulu: {bleed_in: 0.125, spine_in: null, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81, spine_text: false}
+
+governed_by:
+  - kids/_brand/theology-guardrails.md
+  - kids/_brand/character-bible.md
+  - kids/_brand/brand-spec.md
+  - kids/_brand/authorship-policy.md
+  - kids/_brand/cover-grid.md
+
+print:                    # identical to we-broke-it-all; built for two printers (layout.py --target)
+  targets: [kdp, lulu]      # kdp 8.5x11 no bleed; lulu 8.75x11.25 (0.125in bleed), same content
+  trim: "8.5x11"
+  page_count: 36
+  bleed: false
+  ink: "black"
+  paper: "white"
+  single_sided: true
+
+layout:                   # identical to we-broke-it-all
+  front_matter: [1, 2]
+  art_pages: [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
+  blank_versos: [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]
+  back_matter: [33, 35]   # p33 closing pointer page (author); p35 About the Author (shared)
+  illustration_count: 15
+
+margins:                  # house safe zone = strictest platform (Lulu 0.5in on ALL sides)
+  gutter_in: 0.5
+  outside_in: 0.5
+  top_in: 0.5
+  bottom_in: 0.5
+
+generation:               # BLOCKED until plan/theology-review.md Status reads SIGNED (gate.mjs)
+  style_mode: "flat-vector"
+  style_lock: ../made-like-him/art/style-lock.png   # Stage 2: line weight locked to Book Three's approved reference (= Book Two's lock, sent as REFERENCE A)
+  line_weight_reference: kids/made-like-him/art/style-lock.png
+  character_ref: kids/_brand/cast-sheet.jpg
+  composition_refs:       # carried from Book Three (Gate 2 ruling 2026-10-02): composition only
+    first-couple: ../we-broke-it-all/art/comp-ref-first-couple.jpg
+    family: ../we-broke-it-all/art/comp-ref-family.jpg
+  first_couple_ref: kids/_brand/p25-figures-ref.jpg   # + we-broke-it-all art/p31.png (worn garments), p29.png (laid out)
+  serpent_ref: ../we-broke-it-all/art/p21.png          # same creature design (D3)
+  gate_ref: ../we-broke-it-all/art/p31.png             # the guarded way, if reused (D7)
+  model: gemini-3.1-flash-image
+  resolution: "1k"
+  aspect_ratio: "3:4"
+  measured_cost_per_image_usd: 0.0878
+  # Honest estimate (2026-10-16) against the ledger actuals: Book Two $11.49 (113 interior
+  # attempts + 8 cover); Book Three $8.97 (30 style-test calls $2.78, 38 page attempts $3.45,
+  # cover 4 B&W refs + 12 colour $2.74). Book Four at Book Three's rate: style tests 7 subjects
+  # x 2 = 14 ($1.30) + 15 pages x 3 attempts = 45 ($4.10) + cover 4 refs + 6 colour ($1.50)
+  # = ~$6.90. At Book Two's rate it would reach ~$11.50: past the 80% stop ($9.60), under the cap.
+  budgeted_attempts_per_page: 3
+  budgeted_total_usd: 6.90
