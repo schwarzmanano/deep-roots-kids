@@ -1,23 +1,23 @@
 [
   {
     "page": 3,
-    "ink": 8.064185544768069,
-    "stroke": 5,
-    "margin": 15.847895863052782,
-    "min_pt": 2.2466666666666666,
+    "ink": 9.976447321107514,
+    "stroke": 8.0,
+    "margin": 7.861736912076461,
+    "min_pt": 3.5522919049224795,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "slivers": 0,
     "midtone": 0.0,
-    "src": "attempt-03.jpg"
+    "src": "attempt-06.jpg"
   },
   {
     "page": 5,
     "ink": 7.319399496583963,
     "stroke": 5,
-    "margin": 16.22710083001817,
-    "min_pt": 2.2466666666666666,
+    "margin": 17.24245903350381,
+    "min_pt": 4.050235932771215,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
@@ -27,16 +27,16 @@
   },
   {
     "page": 7,
-    "ink": 7.438331535418914,
+    "ink": 7.534160373966199,
     "stroke": 5,
-    "margin": 16.35800976741937,
-    "min_pt": 3.37,
+    "margin": 21.647741000241606,
+    "min_pt": 2.5118496947247637,
     "thin_count": 0,
     "thin_ink_pct": 0.0,
     "frame": false,
     "slivers": 0,
     "midtone": 0.0,
-    "src": "attempt-03.jpg"
+    "src": "attempt-06.jpg"
   },
   {
     "page": 9,

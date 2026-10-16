@@ -204,7 +204,10 @@ if (charRel) {
 // Optional composition reference per figure treatment (book.yaml generation.composition_refs,
 // keyed by the page's first `figures:` value). Composition and figure scale only — never content.
 const compKey = [page.figures ?? []].flat()[0];
-const compRel = compKey && book.generation?.composition_refs?.[compKey];
+// A page may name its own composition reference (pages.yaml `composition_ref:`) — he-didnt-walk-away
+// 2026-10-17: the shared reference made p3/p5/p7 one composition. `none` sends no reference D.
+const compRel = page.composition_ref === 'none' ? null
+  : (page.composition_ref ?? (compKey && book.generation?.composition_refs?.[compKey]));
 if (compRel) {
   const compPath = path.join(bookDir, compRel);
   if (!fs.existsSync(compPath)) { console.error(`  composition ref not found: ${compRel}`); process.exit(2); }

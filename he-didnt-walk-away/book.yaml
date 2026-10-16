@@ -19,8 +19,8 @@ spend_cap_usd: 12         # editor brief 2026-10-16; ledger keyed to this slug
 spend_checkpoints_pct: [50, 80]   # stop and report at $6.00 and $9.60 (ledger.mjs); go-ahead per checkpoint
 print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
 
-copyright_page:           # author-supplied 2026-10-17, verbatim (holder "Deep Roots Kids" while publisher is Deep Roots Publishing — flagged, author's call)
-  - "© 2026 Deep Roots Kids. All rights reserved. First edition, 2026."
+copyright_page:           # author-supplied 2026-10-17; holder changed to the ruled imprint at the editor's instruction ("correct everything", 2026-10-17)
+  - "© 2026 Deep Roots Publishing. All rights reserved. First edition, 2026."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
   front_art: null         # Stage 6 — concept "MENDED" (R3), two-phase (B&W stick reference, then colour)

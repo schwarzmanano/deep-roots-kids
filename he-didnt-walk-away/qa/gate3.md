@@ -23,27 +23,28 @@ Vectorized (potrace, 789 KB of SVG). Text QA 0 fail; WEB fidelity 0 problems; pr
 both preflights PASS (K-only, DeviceGray images, no transparency, fonts embedded, margins 0.5 in).
 The author's couplets print on two lines (layout.py now honours explicit line breaks).
 
-## Vision rubric — points for the editor's own review
-1. **p3 hiding is weak.** The man stands half behind a trunk, the woman beside hers in the open.
-   Both rounds failed to hide them fully (round 1 open, round 2 a04 hugging the trunks). Options:
-   accept (the words carry "we ran"), or one more re-scene with the trunks named wider than the
-   figures.
-2. **p3, p5 and p7 share one composition** (same trees, same couple placement) because p5 a01 is
-   the plain-treatment composition reference and the model copied its scene, not only its
-   framing (D-14). They read as a three-page sequence; the editor may prefer p7 re-rolled with a
-   different reference.
-3. **Wind marks in the sky on p3 and p5** (curved gust lines among the clouds) — wind, not
-   voice-lines; confirm they pass DECISION-1.
-4. **The seam on p27/p29 is a hairline** (3 px ≈ 2.5 pt at trim) — visible but quiet; in print it
-   reads as a line down the cup, and the author's words carry "mended" (B1 a).
-5. **p29 six-count correct**, all fixed markers present (Mother's head wrap with hair beneath,
-   Daughter 1 locs + glasses, Daughter 2 braids + glasses, Daughter 3 beads, Son curls).
-6. **Serpent sizes** p7 mid, p9 small, p11 smallest (D3 A+B) — confirm the p11 serpent is still
-   recognisable at print size (it is ~4 % of page width).
-7. The guardrail checklist in the signed review was walked against the final art: no figure, hand,
-   face or light-shape in any sky; light-lines only around the sun and the p21 sword; no
-   Christ-marker; no human mender; no contact poses; serpent plain, no mouth line.
+## Corrections at the editor's instruction (2026-10-17, "correct everything before the cover")
+- **Text:** p7's WEB quotation now ends with the §8 added closing ”; p2 copyright holder reads
+  "Deep Roots Publishing" (the ruled imprint); p17's duplicate Yahweh sentence removed so the
+  name is explained once, on p7 (guardrails §6). Nothing was added or reworded; provenance
+  re-pinned with the instruction as source; all guards clean.
+- **p3 re-rolled (round 3)** with Book Three's approved hiding page as composition reference:
+  a06 chosen — two thick trunks, the woman mostly behind hers, the man half behind his. A hint
+  of the man's profile at the turned head (no features drawn).
+- **p7 re-rolled (round 3)** with p9's page as composition reference so it no longer copies p5:
+  a06 chosen — open ground, distant tree line, serpent moving away at the right, no sun.
+- **p5 sky marks erased in post** (art/limbfix.py) — the sky is empty; wind lives in the trees.
+- **Round 3 cost $0.37 — book total $5.90 of $12** (the $6.00 stop is $0.10 away: the cover
+  needs `KIDS_PAST_CHECKPOINT=he-didnt-walk-away@50` on every call).
+- QA re-run: 15 pages, 0 flagged (p7 edge ink 21.6 %, under the 22 % floor — the unasked flowers
+  along the bottom edge); vectorized; both interiors rebuilt (PROOF) and both preflights PASS;
+  gen/ backup re-synced.
 
-**STOPPED AT GATE 3.** No cover work, no release build, until the editor reviews the proof.
+## Remaining notes for the editor's eye (not defects)
+1. The seam on p27/p29 is a quiet hairline (B1 a) — the author's words carry "mended".
+2. p11's serpent is small by ruling (D3 A+B, ~4 % of page width) — still a plain snake at print size.
+3. p7's foreground flowers were not asked for; harmless, removable in post if wanted.
+
+**STOPPED AT GATE 3.** No cover work, no release build, until the editor approves this proof.
 Next after approval: step 6 cover "MENDED" (B&W stick reference first), step 7 print files for
 both editions, step 8 listing.

@@ -52,9 +52,9 @@ text_units:
   kind: copyright-page
   author: human
   draft: false
-  sha: b0406c3a361f
-  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
-    authorship stated by the editor in chat); inserted verbatim
+  sha: 1c48091524a0
+  source: author's own line 2026-10-17; holder 'Deep Roots Kids' -> 'Deep Roots Publishing' at the editor's
+    instruction 2026-10-17 (ruled imprint, F16)
   recorded: '2026-10-17'
 - id: p2.copyright.2
   page: p2
@@ -106,9 +106,9 @@ text_units:
   kind: scripture-quote
   author: public-domain
   draft: false
-  sha: 6d6cbadb5f49
-  source: WEB Gen 3:14 verbatim as supplied by the editor 2026-10-17 — WITHOUT the §8 added closing ”
-    that Book Three p21 carried (flagged)
+  sha: 05d8313163d2
+  source: WEB Gen 3:14 verbatim + one added curly ” (guardrails §8 convention 1) — editor instruction
+    2026-10-17 'correct everything'
   recorded: '2026-10-17'
 - id: p7.teaching
   page: p7
@@ -201,9 +201,9 @@ text_units:
   kind: teaching
   author: human
   draft: false
-  sha: cda3dbe80ad8
-  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
-    authorship stated by the editor in chat); inserted verbatim
+  sha: c82a4b34883b
+  source: 'author''s own words 2026-10-17; the duplicate Yahweh sentence removed at the editor''s instruction
+    2026-10-17 (''correct everything'', guardrails §6: once per book) — nothing added'
   recorded: '2026-10-17'
 - id: p19.text
   page: p19

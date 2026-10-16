@@ -81,7 +81,7 @@ Deep Roots Kids · Creation to Glorification · Book Four
 
 **MY TEXT:**
 
-© 2026 Deep Roots Kids. All rights reserved. First edition, 2026.
+© 2026 Deep Roots Publishing. All rights reserved. First edition, 2026.
 
 **MY TEXT STATUS:** confirmed
 
@@ -195,9 +195,11 @@ Adam and Eve hid, but God came looking for them. He came near before they had do
 
 **MY TEXT:**
 
-Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.
+Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.”
 
 **MY TEXT STATUS:** confirmed
+
+(§8 closing ” added at the editor's instruction 2026-10-17 — "correct everything".)
 
 ---
 
@@ -399,7 +401,7 @@ Yahweh God made garments of animal skins for Adam and for his wife, and clothed 
 
 **MY TEXT:**
 
-Yahweh is God’s covenant name. God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost.
+God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost.
 
 **MY TEXT STATUS:** confirmed
 

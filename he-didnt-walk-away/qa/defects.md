@@ -44,3 +44,18 @@ Contact sheet: `qa/round2-contact-a.jpg` (p3–p17); p23 viewed at full size.
 
 Lesson (both rounds): the family composition reference (father-shirt a02) pulls the Father onto pages
 that name only the Son — for single-child pages a child-only reference would be safer next book.
+
+## Round 3 — 2026-10-17 (editor: "correct everything before the cover"), p3 + p7 × 2 (a05/a06), $0.37 (book total $5.90 of $12)
+
+generate.mjs now takes a per-page `composition_ref:` (or `none`). p3 used Book Three's approved
+hiding page (we-broke-it-all art/p13.png); p7 used p9 a03 so it stops copying p5's scene.
+Contact sheet: `qa/round3-contact.jpg`.
+
+| Page | a05 | a06 | Chosen | Cause of rejection / note |
+|---|---|---|---|---|
+| p3 | REJECT | PASS with note | a06 | a05: couple in the open again, wind lines and leaves in the sky, flowers. a06: two thick trunks, the woman mostly behind hers, the man half behind his — the strongest hiding of three rounds; a hint of the man's profile at the turned head (no features). |
+| p7 | REJECT | PASS | a06 | a05: the couple FACING the viewer with blank faces, path lines. a06: from behind, plain straight hems, serpent at the right moving away, distant tree line, no sun; unasked flowers in the foreground (harmless). |
+
+Also in this round, in post (`art/limbfix.py`): p5's curly wind marks erased from the sky (three
+boxes); the texts corrected at the editor's instruction: p7 closing ” added (§8), p2 copyright
+holder → Deep Roots Publishing, p17's duplicate Yahweh sentence removed (nothing added).

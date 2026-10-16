@@ -25,6 +25,11 @@ W = 5            # outline stroke width of the figures at the processed size (me
 SS = 4           # supersample, then threshold back to bitonal
 
 OPS = {
+    # p5 (927 x 1200): the model's curly wind marks in the sky erased (editor 2026-10-17, "correct
+    # everything" — DECISION-1 keeps the sky empty; wind stays in the bent treetops only).
+    5: [("erase", [(285, 78), (555, 78), (555, 236), (285, 236)]),
+        ("erase", [(430, 258), (645, 258), (645, 322), (430, 322)]),
+        ("erase", [(640, 274), (666, 274), (666, 290), (640, 290)])],   # the line's tail at the canopy edge
     # Measured on the processed pages (877 x 1135), 2026-10-17. The seam sits just off the cup's
     # centre line, inside the body, touching neither the rim nor the base outline.
     27: [("seam", (440, 790), (440, 848), 3)],

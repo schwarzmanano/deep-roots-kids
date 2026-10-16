@@ -68,10 +68,12 @@ pages:
     title: "When We Ran"
     text: "We ran away, afraid and small.\nBut God stayed near through it all."
     teaching: "Last time, we talked about how we all turned away from God and how that broke the good world he made."
-    scene: "Eden in the cool of the day, exactly as Book Three p13 (continuity): wind lines through the treetops, leaves moving on the branches (none falling). The man and the woman are HIDING: each stands BEHIND a different thick tree trunk in the middle distance so that the trunk covers half of the body — only one shoulder, one arm and one leg of each show beside the trunk; seen from behind, heads down, turned away from each other. Plain sleeveless garments with STRAIGHT hems (before 3:21). Wind shown ONLY by a few curved wind lines among the treetops — NO leaves in the air, NO falling leaves, NO leaves on the ground. NOTHING ELSE: no figure, no footprints, no hand, no light-shape, no sun, nothing in the sky but simple clouds. Mood carried by posture, not by darkness."
+    scene: "Eden in the cool of the day, exactly as Book Three p13 (continuity): wind lines through the treetops, leaves moving on the branches (none falling). The man and the woman are HIDING, exactly as the composition reference: two THICK tree trunks in the middle distance, each trunk WIDER than a person; the man stands behind one trunk and the woman behind the other so that each trunk covers MOST of the body — only one shoulder, one arm and one leg of each person show beside the trunk; seen from behind, heads down, turned away from each other, NOT touching the trunks (NO hugging, NO hands on the bark). Plain sleeveless garments with STRAIGHT hems (before 3:21). Wind shown ONLY by the treetops bending a little — NO lines, swirls or marks in the sky, NO leaves in the air, NO falling leaves, NO leaves on the ground. NOTHING ELSE: no figure, no footprints, no hand, no light-shape, no sun, nothing in the sky but simple clouds. Mood carried by posture, not by darkness."
     amended_r1: "2026-10-17 round 1: both attempts stood the couple in the open with leaves blowing (not hidden; falling leaves banned). Hiding behind trunks named; leaves banned."
+    amended_r2: "2026-10-17 round 2: a03 half-hidden only, a04 hugging the trunks. Round 3: Book Three p13 (approved hiding) as composition reference; trunks wider than a person; no sky marks."
     figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
+    composition_ref: "../we-broke-it-all/art/p13.png"   # round 3 (editor 2026-10-17): Book Three's approved hiding page as the composition
     density: dense
     alt: "A man and a woman hiding behind trees in a windy garden."
     ruling: "D4 as planned (2026-10-16)"
@@ -94,19 +96,21 @@ pages:
   - page: 7
     ref: "Genesis 3:14"
     title: "God Speaks First"
-    text: "Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life."
+    text: "Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.”"
     quote: true                # proposed: WEB quotation (see my-words.md for the verbatim text and the §8 added ”)
     quote_ref: "Genesis 3:14"
     teaching: "Yahweh is God’s own covenant name, given to his people. God spoke first—even judgment on the serpent began the promise of rescue."
-    scene: "The garden's edge, bare ground meeting the trees. The plain serpent — the SAME creature as Book Three p5/p21: smooth body, simple head in profile, one plain round dot eye, no mouth line, no fangs, no tongue — going DOWN onto its belly on the bare earth and moving AWAY from the couple (D3: diminished, retreating). The man and the woman FROM BEHIND at mid-distance, standing still, hands apart, listening; the serpent is between them and the open ground. Faces entirely unseen — NO profile, NO nose, NO chin line. No figure, NO sun, nothing in the sky but simple clouds, no voice-lines (DECISION-1: the speech is shown by its effect — the serpent going down, the couple listening). Plain sleeveless garments with STRAIGHT hems — NO one-shoulder tunic, NO ragged hem (before 3:21)."
+    scene: "The garden's edge, bare ground meeting the trees. The plain serpent — the SAME creature as Book Three p5/p21: smooth body, simple head in profile, one plain round dot eye, no mouth line, no fangs, no tongue — going DOWN onto its belly on the bare earth and moving AWAY from the couple (D3: diminished, retreating). The man and the woman FROM BEHIND at mid-distance on open ground at the garden's edge (NOT among the trees of p3/p5 — only a distant tree line far behind), standing still, hands apart, listening; the serpent is between them and the open ground. Faces entirely unseen — NO profile, NO nose, NO chin line. No figure, NO sun, nothing in the sky but simple clouds, no voice-lines (DECISION-1: the speech is shown by its effect — the serpent going down, the couple listening). Plain sleeveless garments with STRAIGHT hems — NO one-shoulder tunic, NO ragged hem (before 3:21)."
     amended_r1: "2026-10-17 round 1: a01 put the man in the one-shoulder skins tunic; a02 showed profiles with noses, muscular limbs and a sun. Plain treatment, faces, sun named."
     figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
+    composition_ref: "gen/p9/attempt-03.jpg"   # round 3 (editor 2026-10-17): p9's chosen page, so p7 stops copying p5's scene
     density: sparse
     alt: "A serpent going down onto its belly while a man and a woman stand listening."
     ruling: "D3 Option D = A+B: diminished and retreating (2026-10-16)"
     pending: "F1 (3:14 quoted or not); F2 (Yahweh line page)"
+    amended_r2: "2026-10-17 round 2: a03 passed but repeats p5's composition (reference-scene copy). Round 3: p9 a03 as composition reference; open ground named."
 
   - page: 9
     ref: "Genesis 3:15a"
@@ -172,7 +176,7 @@ pages:
     text: "Yahweh God made garments of animal skins for Adam and for his wife, and clothed them."
     quote: true                # proposed: WEB 3:21 verbatim (Book Three p29 printed this verse — F11 on repeating it)
     quote_ref: "Genesis 3:21"
-    teaching: "Yahweh is God’s covenant name. God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost."
+    teaching: "God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost."
     scene: "D6 Option B (ruled 2026-10-16) — the gift laid out, as Book Three p29: two plain garments folded on a flat rock in morning light (the sun a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND at mid-distance, walking toward the rock side by side with a clear gap between them, HANDS APART — NO hand-holding, NO touching — still in their plain sleeveless garments with STRAIGHT hems: the man's tunic covers BOTH shoulders (NO one-shoulder tunic; the skins are not yet worn — they are worn from p21). The folded garments are Book Three's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1). Differs from Book Three p29 only in the seedling (as p13) small in the ground near the rock."
     figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
