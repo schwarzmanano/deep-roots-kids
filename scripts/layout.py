@@ -264,7 +264,9 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
         if pg.get("scripture"):                 # optional Scripture line above the page text
             rows += [(ln, "Lora", 13, 16) for ln in wrap(c, pg["scripture"], "Lora", 13, cw)]
             rows.append(("", "Lora", 13, 6))
-        rows += [(ln, "Lora", 13, 16) for ln in wrap(c, pg["text"], "Lora", 13, cw)]
+        # The author's explicit line breaks in a page text are honoured (he-didnt-walk-away couplets, 2026-10-17);
+        # each line is still width-wrapped. Books One to Three have none, so their pages are unchanged.
+        rows += [(ln, "Lora", 13, 16) for para in pg["text"].split("\n") for ln in wrap(c, para, "Lora", 13, cw)]
         if pg.get("teaching"):
             rows.append(("", "Lora", 13, 5))
             rows += [(ln, "LoraIt", 9, 11)

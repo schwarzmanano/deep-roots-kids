@@ -71,9 +71,9 @@ Scope — Book Four (Gate 1 rulings, signed 2026-10-16):
 - NO mirror, NO reflection of a person in water or glass.
 - NO hand-holding, NO hugging, NO hand on a shoulder, NO kneeling, NO folded hands, NO praying
   posture (D4b: no confession scene; contact poses bring back tube limbs).
-- THE MENDED CUP (p27, p29 only — R3): the clay cup with a handle stands set back together; the seam
-  is ONE STRAIGHT THIN HAIRLINE down the old crack — NOT jagged, NOT branching, NOT a crack, NO
-  chips — and a seedling grows from soil inside it (Gate 2 ruling B1 a, 2026-10-17). NOBODY holds it, NOBODY
+- THE MENDED CUP (p27, p29 only — R3): the clay cup with a handle stands WHOLE — NO crack, NO seam,
+  NO line on it, NO chips — with a seedling growing from soil inside it. (Gate 2 ruling B1-2,
+  2026-10-17: the single straight hairline seam is drawn in post by art/seamfix.py, never by the model.) NOBODY holds it, NOBODY
   mends it: NO glue, NO tape, NO tools, NO hands on it, NO pieces being pressed together, NO adult
   working on it. On p23 and p25 the SAME cup lies on the grass with ONE clear crack, untouched.
 - NO vases, NO eggs or eggshells, NO flower pots, NO plates.

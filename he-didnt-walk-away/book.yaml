@@ -4,14 +4,14 @@
 # The two values copied from the editor's brief of 2026-10-16 (title, cover.series_short) are
 # registered `unresolved` and await the author's MY TEXT confirmation.
 slug: he-didnt-walk-away
-title: "He Didn't Walk Away"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation (F6: straight vs curly apostrophe)
-subtitle: null            # author: "<Focus> • A Deep Roots Kids Coloring Book" (cover-grid.md rule 1); Focus is the author's
+title: "He Didn't Walk Away"   # author-confirmed 2026-10-17 (straight apostrophe, F6), verbatim
+subtitle: "The Promise of a Rescuer • A Deep Roots Kids Coloring Book"   # author-supplied 2026-10-17 (series formula), verbatim
 author: "Deep Roots"      # KDP/Lulu author field — identical to Books One to Three (live listings, ruling 2026-10-01). Not printed on the cover.
 publisher: "Deep Roots Publishing"   # editor ruling 2026-10-16 (F16): Book Four moves to the Deep Roots Publishing imprint (Books One to Three: Deep Roots Kids). Listing + KDP imprint field; the p2 copyright line is the author's
 isbn:                     # editor ruling 2026-10-16: own ISBNs from the Deep Roots Publishing (MVB) block — one per edition, never KDP's free ISBN, never shared between printers
   kdp: null               # assign at step 8 (listing); KDP imprint then reads "Deep Roots Publishing"
   lulu: null              # assign at step 8 if Lulu retail distribution is enabled (Lulu Direct store sales need none)
-series_line: null         # author: Books Two/Three pattern "Deep Roots Kids · Creation to Glorification · Book Three"
+series_line: "Deep Roots Kids · Creation to Glorification · Book Four"   # author-supplied 2026-10-17, verbatim
 album_track: 4            # kids/_brand/album/{lyrics,music-style,teaching-script}.md § "4."
 scripture_scope: "Genesis 3:14–15, 20–21"   # R1 (editor brief 2026-10-16): narrow scope; no promise trail
 age_band: "4-7"
@@ -19,20 +19,20 @@ spend_cap_usd: 12         # editor brief 2026-10-16; ledger keyed to this slug
 spend_checkpoints_pct: [50, 80]   # stop and report at $6.00 and $9.60 (ledger.mjs); go-ahead per checkpoint
 print_ai_note: false      # series default — authorship-policy §3. No AI note anywhere in the book.
 
-copyright_page:           # author's lines (Book Three: "© 2026 Deep Roots Kids. All rights reserved." + WEB line). Holder per step-0 YOUR CALL
-  - null
-  - null
+copyright_page:           # author-supplied 2026-10-17, verbatim (holder "Deep Roots Kids" while publisher is Deep Roots Publishing — flagged, author's call)
+  - "© 2026 Deep Roots Kids. All rights reserved. First edition, 2026."
+  - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
   front_art: null         # Stage 6 — concept "MENDED" (R3), two-phase (B&W stick reference, then colour)
   layout: grid            # series cover grid (kids/_brand/cover-grid.md)
   signature_colour: "#E2694B"   # Kindled Coral — REDEMPTION movement (R2; editor ruling 2026-10-16, F15). Banner text Navy (contrast 3.13)
   color: cmyk
-  series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation
-  back_blurb: null        # author — also the store description
-  spec_lines:             # author — Book Three pattern: "15 pages to color" / "Honest, hopeful teaching for ages 4–7" / "Scripture from the World English Bible (WEB)"
-    - null
-    - null
-    - null
+  series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # author-confirmed 2026-10-17, verbatim
+  back_blurb: "When Adam and Eve turned away from God, did God turn away from them? He came near and made a promise: a Rescuer would come. This hopeful Bible story helps children see that God keeps his promises and stays close to his people. For ages 4–7, this book includes 15 pages to color and gentle teaching about grace, hope, and the God who does not walk away."   # author-supplied 2026-10-17, verbatim; also the store description
+  spec_lines:             # author-supplied 2026-10-17, verbatim
+    - "15 pages to color"
+    - "Honest, hopeful teaching for ages 4–7"
+    - "Scripture from the World English Bible (WEB)"
 # Spines are computed from the FINAL page count at the print stage — never copied from Book Three.
 cover_targets:
   kdp:  {bleed_in: 0.125, spine_in: null, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80, spine_text: false}

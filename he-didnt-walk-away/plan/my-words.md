@@ -7,10 +7,9 @@
 > verbatim and registered `author: human`, `draft: false`. Problems are flagged, never rewritten.
 > Each section ends with `**MY TEXT STATUS:**` — set it to `confirmed` yourself once your line is
 > final; the release guard passes a human unit only when print = MY TEXT and the status reads
-> `confirmed`. Two units below were copied verbatim from your brief of 2026-10-16 and read
-> `copied: awaiting confirmation` — they still need your `confirmed`.
+> `confirmed`. Every status line below was set to `confirmed` by the author (worksheet returned 2026-10-17).
 
-**44 units need your words** (46 registered; `p35.body` is the shared About the Author, already
+**All 44 units supplied by the author 2026-10-17 and confirmed** (authorship stated in chat: "I wrote the lines myself"). (46 registered; `p35.body` is the shared About the Author, already
 confirmed; `book.scripture_scope` is a factual citation). Five `text` slots (p7, p9, p11, p15, p17)
 are PROPOSED as WEB quotations — if you keep them, those five are registered public-domain and
 39 human units remain. Text QA flags any two pages that open with the same five words, a
@@ -38,7 +37,7 @@ Paste artefacts like "[cite: N]" are never imported into MY TEXT (defects D-40).
 
 He Didn't Walk Away
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -52,7 +51,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+The Promise of a Rescuer • A Deep Roots Kids Coloring Book
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -65,7 +66,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Deep Roots Kids · Creation to Glorification · Book Four
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -78,7 +81,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+© 2026 Deep Roots Kids. All rights reserved. First edition, 2026.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -90,7 +95,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Scripture quotations are from the World English Bible (WEB), which is in the public domain.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -110,7 +117,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+We ran away, afraid and small.
+But God stayed near through it all.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -127,7 +137,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Last time, we talked about how we all turned away from God and how that broke the good world he made.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -144,7 +156,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+We turned away from God.
+Would God turn away from us?
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -162,7 +177,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Adam and Eve hid, but God came looking for them. He came near before they had done anything to make things right.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -178,7 +195,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -198,7 +217,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Yahweh is God’s own covenant name, given to his people. God spoke first—even judgment on the serpent began the promise of rescue.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -213,7 +234,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+I will put hostility between you and the woman, and between your offspring and her offspring.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -228,7 +251,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+God set the woman’s family against the serpent. “Offspring” means children and family; God began this separation by his promise.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -243,7 +268,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+He will bruise your head, and you will bruise his heel.”
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -261,7 +288,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+God promised a Rescuer who would end the serpent’s power. The Rescuer would be hurt, but the serpent would not win.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -280,7 +309,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Before anyone could earn it, God made a promise: a Rescuer would come.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -297,7 +328,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+God did not wait for us to earn our way back. He made his promise first, because he is gracious and good.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -312,7 +345,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+The man called his wife Eve because she would be the mother of all the living.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -329,7 +364,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Adam named his wife Eve, a name connected with life. He trusted God’s promise that life and hope would continue.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -344,7 +381,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -360,7 +399,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Yahweh is God’s covenant name. God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -380,7 +421,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+In the dark, God spoke hope:
+His promise would not let go.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -400,7 +444,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Grace means God loves and helps us because he is good, not because we are good enough. His love came first.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -418,7 +464,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+They left the garden, but not alone.
+God’s promise went with them.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -436,7 +485,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Leaving the garden meant loss, but God’s promise went with them. He kept them from the tree until the Rescuer would come.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -453,7 +504,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+We break things, and we do wrong.
+We cannot fix sin on our own.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -470,7 +524,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+We still mess up today, and we cannot undo sin by ourselves. God stays with the people who belong to him.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -489,7 +545,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+When we walked away, God stayed.
+His promise was already there.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -507,7 +566,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+No matter what you have done or how far away you feel, God has not walked away. His love is not a prize for saying sorry.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -526,7 +587,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+God promised to make things right.
+We can trust the one who spoke.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -545,7 +609,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+The Rescuer had not come yet, but God’s promise was sure. We can trust the one who promised to bring us home.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -567,7 +633,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Who stayed with us?
+GOD DID! Who still loves us? GOD DOES!
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -585,7 +654,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+We belong to the God who stays close and keeps his promises. We love because he loved us first.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -605,7 +676,10 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+The hope is near; the promise is true.
+A Rescuer is coming—we’ll learn who.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -623,7 +697,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+God’s story is still unfolding. In the next book, we’ll ask what kind of Rescuer we need.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -634,7 +710,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+The Promise Still Stands
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -655,7 +733,13 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+When Adam and Eve turned away from God, God did not turn away from them. He came looking for them, cared for them, and made a promise before they had done anything to deserve it. A Rescuer would come to defeat the serpent and bring God’s people home.
+
+Adam and Eve left the garden, but they did not leave without hope. God’s promise went with them. They could not see the Rescuer yet, and the promise had not come true in their day. Still, they could trust the God who had spoken. His word was sure.
+
+We also do wrong and cannot fix sin by ourselves. God is good, and his love is not something we earn. He stays close to the people who belong to him and keeps his promises, even when we feel far away. The story is still unfolding. In the next book, we will ask what kind of Hero we need.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -673,7 +757,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Note to parents: Adam and Eve are shown wearing simple garments to help young readers focus on the story. In this book, they wear them on pages before Genesis 3:21 as a visual convention.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -684,7 +770,9 @@ He Didn't Walk Away
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+About the Author
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -705,7 +793,7 @@ He Didn't Walk Away
 
 CREATION TO GLORIFICATION • BOOK FOUR
 
-**MY TEXT STATUS:** copied: awaiting confirmation
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -722,7 +810,9 @@ CREATION TO GLORIFICATION • BOOK FOUR
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+When Adam and Eve turned away from God, did God turn away from them? He came near and made a promise: a Rescuer would come. This hopeful Bible story helps children see that God keeps his promises and stays close to his people. For ages 4–7, this book includes 15 pages to color and gentle teaching about grace, hope, and the God who does not walk away.
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -733,7 +823,9 @@ CREATION TO GLORIFICATION • BOOK FOUR
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+15 pages to color
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -744,7 +836,9 @@ CREATION TO GLORIFICATION • BOOK FOUR
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Honest, hopeful teaching for ages 4–7
+
+**MY TEXT STATUS:** confirmed
 
 ---
 
@@ -755,7 +849,9 @@ CREATION TO GLORIFICATION • BOOK FOUR
 
 **MY TEXT:**
 
-**MY TEXT STATUS:** awaiting your words
+Scripture from the World English Bible (WEB)
+
+**MY TEXT STATUS:** confirmed
 
 ---
 

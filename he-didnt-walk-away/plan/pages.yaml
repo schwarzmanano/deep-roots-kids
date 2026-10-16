@@ -46,7 +46,9 @@
 # `ruling:` names the Gate 1 decision(s) each scene follows (editor, in chat 2026-10-16: D1
 # seed-and-shoot, D2 A, D3 A+B, D4 as planned, D4b none) and the Gate 2 rulings (2026-10-17:
 # B1 a hairline seam, B2 c Father's shirt kept with father-shirt a02 as reference, B3 a children
-# face the viewer on p27, B5 composition refs confirmed, F8 b low back step); `pending:` = open.
+# face the viewer on p27, B5 composition refs confirmed, F8 b low back step; B1-2: cup generated
+# WHOLE, hairline seam post-drawn by art/seamfix.py on p27/p29); `pending:` = open.
+# Author text inserted verbatim 2026-10-17 (44 units, authorship confirmed by the editor in chat).
 
 meta:
   scope: "Genesis 3:14-15, 20-21 (R1 narrow; 3:8-10 and 3:22-24 recalled by picture only)"
@@ -64,8 +66,8 @@ pages:
   - page: 3
     ref: "Genesis 3:8-10 (recalled from Book Three — picture only, not quoted)"
     title: "When We Ran"
-    text: null
-    teaching: null
+    text: "We ran away, afraid and small.\nBut God stayed near through it all."
+    teaching: "Last time, we talked about how we all turned away from God and how that broke the good world he made."
     scene: "Eden in the cool of the day, exactly as Book Three p13 (continuity): wind lines through the treetops, leaves moving on the branches (none falling). The man and the woman FROM BEHIND, partly hidden behind two tree trunks in the middle distance, heads down, turned away from each other. Plain sleeveless garments with STRAIGHT hems (before 3:21). NOTHING ELSE: no figure, no footprints, no hand, no light-shape, nothing in the sky but simple clouds. Mood carried by posture, not by darkness."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -77,8 +79,8 @@ pages:
   - page: 5
     ref: "Genesis 3:9 (recalled — picture only); Track 4 teaching script line 58 (the question)"
     title: "Did He Turn Away?"
-    text: null
-    teaching: null
+    text: "We turned away from God.\nWould God turn away from us?"
+    teaching: "Adam and Eve hid, but God came looking for them. He came near before they had done anything to make things right."
     scene: "The same garden a moment later. The man and the woman FROM BEHIND, standing still side by side at the edge of an open clearing, hands apart, heads lifted a little (listening — the effect of being called). The clearing in front of them is EMPTY: no figure, no light-shape, no footprints, no rays. Same trees and wind lines as p3. Plain sleeveless garments, straight hems."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -91,10 +93,10 @@ pages:
   - page: 7
     ref: "Genesis 3:14"
     title: "God Speaks First"
-    text: null                 # F1: re-quote WEB 3:14 in full (as Book Three p21), quote 3:14a only, or pointer only — author's ruling
+    text: "Yahweh God said to the serpent, “Because you have done this, you are cursed above all livestock, and above every animal of the field. You shall go on your belly and you shall eat dust all the days of your life."
     quote: true                # proposed: WEB quotation (see my-words.md for the verbatim text and the §8 added ”)
     quote_ref: "Genesis 3:14"
-    teaching: null             # the author's Yahweh line is due HERE if p7 quotes 3:14 (F2, guardrails §6)
+    teaching: "Yahweh is God’s own covenant name, given to his people. God spoke first—even judgment on the serpent began the promise of rescue."
     scene: "The garden's edge, bare ground meeting the trees. The plain serpent — the SAME creature as Book Three p5/p21: smooth body, simple head in profile, one plain round dot eye, no mouth line, no fangs, no tongue — going DOWN onto its belly on the bare earth and moving AWAY from the couple (D3: diminished, retreating). The man and the woman FROM BEHIND at mid-distance, standing still, listening; the serpent is between them and the open ground. No figure, nothing in the sky, no voice-lines (DECISION-1: the speech is shown by its effect — the serpent going down, the couple listening). Plain sleeveless garments, straight hems."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -107,10 +109,10 @@ pages:
   - page: 9
     ref: "Genesis 3:15a"
     title: "Hostility"
-    text: null
+    text: "I will put hostility between you and the woman, and between your offspring and her offspring."
     quote: true                # proposed: WEB 3:15a — "I will put hostility between you and the woman, and between your offspring and her offspring." (period in place of nothing: 3:15a ends mid-verse at a full stop in WEB — verbatim)
     quote_ref: "Genesis 3:15"
-    teaching: null
+    teaching: "God set the woman’s family against the serpent. “Offspring” means children and family; God began this separation by his promise."
     scene: "The woman FROM BEHIND at mid-distance, standing upright on the garden's edge; the man a step behind her, also from behind. On the far side of a WIDE band of bare, empty earth the serpent (as p7) moves away, low, its head turned from her. The empty ground between them is the picture of 'hostility' — separation, not a fight. No striking, no raised hands, no foot near the serpent, no fangs, no fear-posture. Nothing in the sky."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -123,10 +125,10 @@ pages:
   - page: 11
     ref: "Genesis 3:15b"
     title: "Her Offspring"
-    text: null
+    text: "He will bruise your head, and you will bruise his heel.”"
     quote: true                # proposed: WEB 3:15b — "He will bruise your head, and you will bruise his heel.” (the closing ” is WEB's own: the speech ends here)
     quote_ref: "Genesis 3:15"
-    teaching: null
+    teaching: "God promised a Rescuer who would end the serpent’s power. The Rescuer would be hurt, but the serpent would not win."
     scene: "BASELINE pending D2 — the serpent SMALL and far off, slipping away beneath the tree line at the garden's edge, head low to the ground, drawn smaller than on p7/p9 (diminished). In the foreground, in the bare earth where the serpent passed, the promise symbol (pending D1): a seed in a shallow furrow with its first green shoot breaking the soil — two simple leaves. NO foot, NO heel, NO figure, NO baby, NO crushed head, NO stone on the serpent. Nothing in the sky."
     figures: []
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
@@ -137,8 +139,8 @@ pages:
   - page: 13
     ref: "Genesis 3:15 (pointers: Galatians 3:16; Galatians 4:4)"
     title: "The Promise"
-    text: null
-    teaching: null
+    text: "Before anyone could earn it, God made a promise: a Rescuer would come."
+    teaching: "God did not wait for us to earn our way back. He made his promise first, because he is gracious and good."
     scene: "The book's visual refrain, large and simple enough to colour (pending D1): a close view of a shallow furrow in bare soil, a seed half-buried, and ONE green shoot rising from it with two round simple leaves. Behind, the flat horizon with the sun as a plain HALF-CIRCLE just rising, with a few SHORT STRAIGHT LIGHT-LINES close around it (the Book Three gate-light vocabulary — Stage 2 must prove it reads in pure black and white without grey) — light from the horizon only, never from the shoot. No people, no serpent, no gate, no tree, no fruit, no figure on the horizon."
     figures: []
     density: sparse
@@ -150,10 +152,10 @@ pages:
   - page: 15
     ref: "Genesis 3:20 (pointers: Genesis 4:25; Hebrews 11:1-2)"
     title: "Mother of All the Living"
-    text: null
+    text: "The man called his wife Eve because she would be the mother of all the living."
     quote: true                # proposed: WEB 3:20 verbatim
     quote_ref: "Genesis 3:20"
-    teaching: null
+    teaching: "Adam named his wife Eve, a name connected with life. He trusted God’s promise that life and hope would continue."
     scene: "BASELINE pending D5 — the man and the woman seen THREE-QUARTERS FROM BEHIND at mid-distance, standing a little apart and turned toward each other; the man's ONE single-line arm raised slightly toward the woman (the one gesture — naming), the woman's hands apart. NO faces: no profile, no nose or chin line. The seedling (as p13) in the ground beside them, small. Still BEFORE 3:21: plain sleeveless garments with STRAIGHT hems. Nothing in the sky but simple clouds."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -164,10 +166,10 @@ pages:
   - page: 17
     ref: "Genesis 3:21"
     title: "Covered"
-    text: null
+    text: "Yahweh God made garments of animal skins for Adam and for his wife, and clothed them."
     quote: true                # proposed: WEB 3:21 verbatim (Book Three p29 printed this verse — F11 on repeating it)
     quote_ref: "Genesis 3:21"
-    teaching: null
+    teaching: "Yahweh is God’s covenant name. God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost."
     scene: "D6 Option B (ruled 2026-10-16) — the gift laid out, as Book Three p29: two plain garments folded on a flat rock in morning light (the sun a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND at mid-distance, approaching the rock, still in their plain sleeveless garments with STRAIGHT hems (the skins are not yet worn — they are worn from p21). The folded garments are Book Three's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1). Differs from Book Three p29 only in the seedling (as p13) small in the ground near the rock."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -182,8 +184,8 @@ pages:
   - page: 19
     ref: "Romans 5:8; 1 John 4:19 (pointers); lyric lines 169-170"
     title: "In the Dark, a Light"
-    text: null
-    teaching: null
+    text: "In the dark, God spoke hope:\nHis promise would not let go."
+    teaching: "Grace means God loves and helps us because he is good, not because we are good enough. His love came first."
     scene: "A wide, quiet landscape at the first light of morning: rolling hills as plain OUTLINES (NO black fill, NO grey, NO night sky — darkness is in the words only), the sun a plain half-circle on the horizon with a few short straight light-lines close around it (as p13). In the foreground the seedling (as p13). No people, no serpent, no gate, no figure on the horizon, no rays reaching anything."
     figures: []
     density: sparse
@@ -193,8 +195,8 @@ pages:
   - page: 21
     ref: "Genesis 3:23-24 (recalled — picture only, not quoted; pointer: 2 Corinthians 1:20)"
     title: "Sent Out, Not Abandoned"
-    text: null
-    teaching: null
+    text: "They left the garden, but not alone.\nGod’s promise went with them."
+    teaching: "Leaving the garden meant loss, but God’s promise went with them. He kept them from the tree until the Rescuer would come."
     scene: "BASELINE pending D7 (Option A) — seen from OUTSIDE the garden. The man and the woman FROM BEHIND in the middle ground, walking east toward the rising sun, hands apart, wearing the garments of skin (as p17). Far behind them and SMALL, the garden's edge exactly as Book Three p31: a line of rounded trees with an opening and in it the single upright sword with its few short light-lines — no figure, no wings, no flames. The tree of life just visible inside, small. The couple do not look back. Ahead of them open land and the half-sun on the horizon. No path (D1 option 4 is not in the baseline)."
     figures: "first-couple"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
@@ -210,8 +212,8 @@ pages:
   - page: 23
     ref: "Genesis 3 applied (ordinary breaking); Track 4 teaching script line 66"
     title: "When We Break Things"
-    text: null
-    teaching: null
+    text: "We break things, and we do wrong.\nWe cannot fix sin on our own."
+    teaching: "We still mess up today, and we cannot undo sin by ourselves. God stays with the people who belong to him."
     scene: "D8d (i), F8 (b) — the backyard garden of Book Three's cover (continuity): a low wooden picket fence behind, low hedges at the sides, grass, and at ONE side a low back step (porch edge). Late afternoon. On the grass lies the SAME clay cup with a handle and ONE clear crack (Book Three p19 and cover). Son (4) stands beside it ALONE, head down, worried face (small downturned mouth line, no tears), both single-line arms held a little out from his body, NOT pointing. Nobody else on the page: no dog, no adult, no blame, no clean-up, no glue. No vases, no eggs."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
@@ -225,8 +227,8 @@ pages:
   - page: 25
     ref: "Romans 5:8; 1 John 4:19 (pointers); Track 4 teaching script line 66; lyric lines 157-158"
     title: "He Didn't Walk Away"
-    text: null
-    teaching: null
+    text: "When we walked away, God stayed.\nHis promise was already there."
+    teaching: "No matter what you have done or how far away you feel, God has not walked away. His love is not a prize for saying sorry."
     scene: "D8 (ruled) — the same backyard (fence, hedges, the low back step at one side), the same moment. The Father has come out and stands BESIDE the Son, turned toward him, close — his arms held a little away from his body (NO hand on the shoulder, NO hug, NO kneeling: contact poses bring back tube limbs — D3 in factory/defects.md; the closeness is carried by how near he stands and by his gentle curved smile line). The Son looks up at him, still worried. The cracked cup STILL lies on the grass — not picked up, not mended, no glue, no tools. The dog sits nearby looking at the boy. Fence and hedges as p23. Nobody is fixing anything."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
@@ -241,9 +243,9 @@ pages:
   - page: 27
     ref: "Genesis 3:15 applied (pointer: 2 Corinthians 1:20); lyric lines 167-168"
     title: "Mended"
-    text: null
-    teaching: null
-    scene: "D8a Option A, B1 (a), B3 (a), F8 (b) — the same backyard the NEXT MORNING (first light: the sun a half-circle above the fence line with short light-lines — proven at Stage 2). On the top of the low back step at one side the SAME cup now stands set back together: the seam is ONE STRAIGHT THIN HAIRLINE down the old crack — not jagged, not branching, not a crack (on the cover it is Roots Gold; on the page the author's words carry 'mended') — and from soil inside the cup grows ONE green shoot with two leaves (the p13 refrain). Son (4) and Daughter 3 (6) stand either side of the step FACING THE VIEWER (B3 a — as the cover), hands apart, faces calm (small mouth line, not grinning). NOBODY holds it, NOBODY mends it: no glue, no tools, no hands on the pieces, no adult pressing anything together. The dog sits beside them. Light from the horizon only, never from the cup or the shoot."
+    text: "God promised to make things right.\nWe can trust the one who spoke."
+    teaching: "The Rescuer had not come yet, but God’s promise was sure. We can trust the one who promised to bring us home."
+    scene: "D8a Option A, B1 (a), B3 (a), F8 (b) — the same backyard the NEXT MORNING (first light: the sun a half-circle above the fence line with short light-lines — proven at Stage 2). On the top of the low back step at one side the SAME cup now stands set back together: the cup is drawn WHOLE — no crack, no seam, no chips (ruling B1-2 2026-10-17: the single straight hairline seam is added in POST by art/seamfix.py, identically on p27 and p29; on the cover it is Roots Gold) — and from soil inside the cup grows ONE green shoot with two leaves (the p13 refrain). Son (4) and Daughter 3 (6) stand either side of the step FACING THE VIEWER (B3 a — as the cover), hands apart, faces calm (small mouth line, not grinning). NOBODY holds it, NOBODY mends it: no glue, no tools, no hands on the pieces, no adult pressing anything together. The dog sits beside them. Light from the horizon only, never from the cup or the shoot."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -257,9 +259,9 @@ pages:
   - page: 29
     ref: "Lyric lines 183-188 ('Who stayed with us? GOD DID!'); Track 4 teaching script line 68"
     title: "Who Stayed With Us?"
-    text: null
-    teaching: null
-    scene: "BASELINE pending D8/F7 — the whole family in the backyard at sunrise, facing the viewer, gathered loosely around the mended cup with its shoot, which stands on the low back step in front of them (NOT held — the cover holds it; the page keeps hands free; the seam ONE straight thin hairline, not a crack — B1 a): Father, Mother, Daughter 1, Daughter 2, Daughter 3, Son and the dog — EXACTLY six people, no more. Every arm a single line held away from the body; no hand-holding, no hands on shoulders, no hugging. Faces: dot eyes and a small mouth line, calm and glad (not grinning). The sun a half-circle above the fence with short light-lines. Nothing else in the sky. No cross, crown, dove, halo, rays from any person or the cup."
+    text: "Who stayed with us?\nGOD DID! Who still loves us? GOD DOES!"
+    teaching: "We belong to the God who stays close and keeps his promises. We love because he loved us first."
+    scene: "BASELINE pending D8/F7 — the whole family in the backyard at sunrise, facing the viewer, gathered loosely around the mended cup with its shoot, which stands on the low back step in front of them (NOT held — the cover holds it; the page keeps hands free; the cup drawn WHOLE; the hairline seam added in post by art/seamfix.py — B1-2): Father, Mother, Daughter 1, Daughter 2, Daughter 3, Son and the dog — EXACTLY six people, no more. Every arm a single line held away from the body; no hand-holding, no hands on shoulders, no hugging. Faces: dot eyes and a small mouth line, calm and glad (not grinning). The sun a half-circle above the fence with short light-lines. Nothing else in the sky. No cross, crown, dove, halo, rays from any person or the cup."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -279,8 +281,8 @@ pages:
   - page: 31
     ref: "Genesis 3:15 (pointer: Galatians 4:4); lyric lines 195-197"
     title: "The Hope Is Near"
-    text: null
-    teaching: null
+    text: "The hope is near; the promise is true.\nA Rescuer is coming—we’ll learn who."
+    teaching: "God’s story is still unfolding. In the next book, we’ll ask what kind of Rescuer we need."
     scene: "D9 Option D (ruled 2026-10-16) — outside the garden at sunrise, no people. The seedling in the foreground a little taller than on p13 (four leaves instead of two — grown, not a tree), the open land stretching east, the sun a half-circle on the horizon with short light-lines, and a simple PATH drawn as two plain lines from the foreground toward the horizon, EMPTY — nobody on it. NO figure on the horizon, NO silhouette, NO baby, NO star, NO cross, NO crown, NO dove. The promise held open, nothing arrived."
     figures: []
     density: sparse
@@ -297,9 +299,9 @@ pages:
     alt: ""
     generate: false
     back_matter: true
-    heading: null              # author (Book Three: "He Had a Plan")
-    body: null                 # author — the closing pointer toward Book Five "We Need a Hero" without naming Jesus (D9)
-    footnote: null             # author — the garments convention note is needed again (p3-p15 are before 3:21 — F11b)
+    heading: "The Promise Still Stands"   # author-supplied 2026-10-17, verbatim
+    body: "When Adam and Eve turned away from God, God did not turn away from them. He came looking for them, cared for them, and made a promise before they had done anything to deserve it. A Rescuer would come to defeat the serpent and bring God’s people home.\n\nAdam and Eve left the garden, but they did not leave without hope. God’s promise went with them. They could not see the Rescuer yet, and the promise had not come true in their day. Still, they could trust the God who had spoken. His word was sure.\n\nWe also do wrong and cannot fix sin by ourselves. God is good, and his love is not something we earn. He stays close to the people who belong to him and keeps his promises, even when we feel far away. The story is still unfolding. In the next book, we will ask what kind of Hero we need."   # author-supplied 2026-10-17, verbatim
+    footnote: "Note to parents: Adam and Eve are shown wearing simple garments to help young readers focus on the story. In this book, they wear them on pages before Genesis 3:21 as a visual convention."   # author-supplied 2026-10-17, verbatim
     note: "Editor-authored. The ONE closing pointer page that faces toward Book Five (D9); the
            author writes its words. Not drafted by the pipeline."
 
@@ -311,5 +313,5 @@ pages:
     alt: ""
     generate: false
     back_matter: true
-    heading: null              # author (Books One to Three: "About the Author")
+    heading: "About the Author"   # author-supplied 2026-10-17, verbatim
     body_file: "kids/_brand/about-the-author.md"

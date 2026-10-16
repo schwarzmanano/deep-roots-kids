@@ -5,7 +5,8 @@ images:
   interior:
     source: none yet — generation blocked until plan/theology-review.md is SIGNED (Gate 1)
     model: gemini-3.1-flash-image (planned)
-    editing: planned as Book Three — selection among attempts, plan re-scenes, threshold, frame strip, vectorisation
+    editing: planned as Book Three — selection among attempts, plan re-scenes, threshold, frame strip,
+      vectorisation
   cover:
     source: none yet — concept "MENDED" (R3), two-phase after Gate 3
     editing: planned as Book Three
@@ -14,27 +15,30 @@ text_units:
 - id: book.title
   page: p1, cover
   kind: title
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 94ed0b2245ab
-  source: copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation (Stage 1)
-  recorded: '2026-10-16'
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: book.series_line
   page: p1, back cover
   kind: series-line
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 6e53ac72db3c
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: book.subtitle
   page: p1, cover
   kind: subtitle
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 984134d0ec70
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: book.scripture_scope
   page: p1, back cover
   kind: scripture-reference
@@ -46,296 +50,323 @@ text_units:
 - id: p2.copyright.1
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: b0406c3a361f
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p2.copyright.2
   page: p2
   kind: copyright-page
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 4092fb0ccb13
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p3.text
   page: p3
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: f73fc1255027
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p3.teaching
   page: p3
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 2292cdda2912
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p5.text
   page: p5
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 197fbeee42e2
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p5.teaching
   page: p5
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: bfffc36a6b8c
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p7.text
   page: p7
   kind: scripture-quote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — PROPOSED WEB quotation (my-words.md); public-domain once the
-    editor keeps it
-  recorded: '2026-10-16'
+  author: public-domain
+  draft: false
+  sha: 6d6cbadb5f49
+  source: WEB Gen 3:14 verbatim as supplied by the editor 2026-10-17 — WITHOUT the §8 added closing ”
+    that Book Three p21 carried (flagged)
+  recorded: '2026-10-17'
 - id: p7.teaching
   page: p7
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: d8e3625a40e9
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p9.text
   page: p9
   kind: scripture-quote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — PROPOSED WEB quotation (my-words.md); public-domain once the
-    editor keeps it
-  recorded: '2026-10-16'
+  author: public-domain
+  draft: false
+  sha: 508c20408de7
+  source: WEB verbatim (kids/_brand/web/GEN03.json); kept by the editor 2026-10-17
+  recorded: '2026-10-17'
 - id: p9.teaching
   page: p9
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 086dd087ca6d
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p11.text
   page: p11
   kind: scripture-quote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — PROPOSED WEB quotation (my-words.md); public-domain once the
-    editor keeps it
-  recorded: '2026-10-16'
+  author: public-domain
+  draft: false
+  sha: 601b7cb1131d
+  source: WEB verbatim (kids/_brand/web/GEN03.json); kept by the editor 2026-10-17
+  recorded: '2026-10-17'
 - id: p11.teaching
   page: p11
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 92414b35b886
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p13.text
   page: p13
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: ce8ae9b86a7c
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p13.teaching
   page: p13
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: b69f3a0356fb
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p15.text
   page: p15
   kind: scripture-quote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — PROPOSED WEB quotation (my-words.md); public-domain once the
-    editor keeps it
-  recorded: '2026-10-16'
+  author: public-domain
+  draft: false
+  sha: 3ff8f39e745e
+  source: WEB verbatim (kids/_brand/web/GEN03.json); kept by the editor 2026-10-17
+  recorded: '2026-10-17'
 - id: p15.teaching
   page: p15
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 057ae0d26eb1
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p17.text
   page: p17
   kind: scripture-quote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — PROPOSED WEB quotation (my-words.md); public-domain once the
-    editor keeps it
-  recorded: '2026-10-16'
+  author: public-domain
+  draft: false
+  sha: d6aadfda6f1b
+  source: WEB verbatim (kids/_brand/web/GEN03.json); kept by the editor 2026-10-17
+  recorded: '2026-10-17'
 - id: p17.teaching
   page: p17
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: cda3dbe80ad8
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p19.text
   page: p19
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: beae8615e166
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p19.teaching
   page: p19
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: f00ee1044af7
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p21.text
   page: p21
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 502c1cf9d924
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p21.teaching
   page: p21
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 41d1122dfbf4
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p23.text
   page: p23
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: d48f101f9d56
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p23.teaching
   page: p23
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 3d3a5298c829
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p25.text
   page: p25
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: a987ca6c2459
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p25.teaching
   page: p25
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 9c009d0f3fbd
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p27.text
   page: p27
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 39446fb98717
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p27.teaching
   page: p27
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: d9dad0b3a2b0
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p29.text
   page: p29
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 05d8dcdafafd
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p29.teaching
   page: p29
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 934324d64e2e
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p31.text
   page: p31
   kind: page-text
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: cbf310dad52e
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim, line break kept
+  recorded: '2026-10-17'
 - id: p31.teaching
   page: p31
   kind: teaching
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 9301b1483056
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p33.heading
   page: p33
   kind: heading
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 130e5d8884e5
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p33.body
   page: p33
   kind: closing
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 8dce75cb2cc7
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p33.footnote
   page: p33
   kind: footnote
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 3479f602a753
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p35.heading
   page: p35
   kind: heading
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 2513f4156d8c
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: p35.body
   page: p35
   kind: about-the-author
@@ -348,40 +379,45 @@ text_units:
 - id: cover.series_short
   page: cover
   kind: series-line
-  author: null
-  draft: true
+  author: human
+  draft: false
   sha: 10db0588c8d1
-  source: copied verbatim from the editor's brief 2026-10-16 — awaiting MY TEXT confirmation (Stage 1)
-  recorded: '2026-10-16'
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: cover.back_blurb
   page: back cover
   kind: back-cover-blurb
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 046bfad8e450
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: cover.spec.1
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 36c64403664e
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: cover.spec.2
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: a18bce5a7b5b
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
 - id: cover.spec.3
   page: back cover
   kind: back-cover-spec
-  author: null
-  draft: true
-  sha: null
-  source: empty slot, Stage 1 2026-10-16 — awaiting the author's words (plan/my-words.md)
-  recorded: '2026-10-16'
+  author: human
+  draft: false
+  sha: 4c4967481a40
+  source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
+    authorship stated by the editor in chat); inserted verbatim
+  recorded: '2026-10-17'
