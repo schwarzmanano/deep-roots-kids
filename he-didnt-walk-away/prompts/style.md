@@ -1,10 +1,11 @@
 # Style Contract — he-didnt-walk-away
 
-**Stage 2 draft (2026-10-17)** — Gate 1 signed 2026-10-16. Line weight is locked to Book Three's
+**LOCKED 2026-10-17 at Gate 2** (B1 a, B2 c, B3 a, B5, F8 b ruled in chat) — Gate 1 signed 2026-10-16. Line weight is locked to Book Three's
 approved reference, which is Book Two's Gate 2 lock (`kids/made-like-him/art/style-lock.png`),
-sent as reference A — line style only. Composition references (reference D, composition only)
-carried from Book Three: `kids/we-broke-it-all/art/comp-ref-first-couple.jpg` for first-couple
-pages, `kids/we-broke-it-all/art/comp-ref-family.jpg` for family pages. Gate 1 rulings (signed
+sent as reference A — line style only. Composition references (reference D, composition only,
+Gate 2 ruling 2026-10-17): `art/comp-ref-first-couple.jpg` (gate-outside a02) for first-couple
+pages, `art/comp-ref-family.jpg` (father-shirt a02 — the Father's short-sleeved collared shirt in
+LINE vocabulary, B2 c) for family pages. Gate 1 rulings (signed
 2026-10-16) and `kids/_brand/theology-guardrails.md` §0–§8 are folded in. Every per-page prompt is
 this block plus that page's `scene` from `plan/pages.yaml`, plus one "Human figures" section per
 value in the page's `figures:`. Locked at Gate 2.
@@ -70,8 +71,9 @@ Scope — Book Four (Gate 1 rulings, signed 2026-10-16):
 - NO mirror, NO reflection of a person in water or glass.
 - NO hand-holding, NO hugging, NO hand on a shoulder, NO kneeling, NO folded hands, NO praying
   posture (D4b: no confession scene; contact poses bring back tube limbs).
-- THE MENDED CUP (p27, p29 only — R3): the clay cup with a handle stands set back together with ONE
-  thin line along the old crack and a seedling growing from soil inside it. NOBODY holds it, NOBODY
+- THE MENDED CUP (p27, p29 only — R3): the clay cup with a handle stands set back together; the seam
+  is ONE STRAIGHT THIN HAIRLINE down the old crack — NOT jagged, NOT branching, NOT a crack, NO
+  chips — and a seedling grows from soil inside it (Gate 2 ruling B1 a, 2026-10-17). NOBODY holds it, NOBODY
   mends it: NO glue, NO tape, NO tools, NO hands on it, NO pieces being pressed together, NO adult
   working on it. On p23 and p25 the SAME cup lies on the grass with ONE clear crack, untouched.
 - NO vases, NO eggs or eggshells, NO flower pots, NO plates.
@@ -141,6 +143,6 @@ Unchanged from genesis-1: threshold at 128 → potrace → vector placement.
 - **Border frame:** drawn despite prohibition. Stripped deterministically in post.
 - **Name labels:** added when a cast sheet is sent. Banned in the prompt; any label is a reject.
 - **Content bleed from references:** the style lock (Book Two p19) carries vegetables, tools and
-  a dog; the composition references carry Book Three's trees and the sick-bed room — any of these
+  a dog; the composition references carry the garden fence, the cracked cup, the dog and the sword at the gate — any of these
   appearing unasked is a reject, not a post fix.
 - **Scale creep:** the model enlarges figures and the cup; sizes are named in every scene.

@@ -44,7 +44,9 @@
 # only, "Yahweh" kept, the author's line at its first appearance (F2).
 #
 # `ruling:` names the Gate 1 decision(s) each scene follows (editor, in chat 2026-10-16: D1
-# seed-and-shoot, D2 A, D3 A+B, D4 as planned, D4b none); `pending:` what it still waits on.
+# seed-and-shoot, D2 A, D3 A+B, D4 as planned, D4b none) and the Gate 2 rulings (2026-10-17:
+# B1 a hairline seam, B2 c Father's shirt kept with father-shirt a02 as reference, B3 a children
+# face the viewer on p27, B5 composition refs confirmed, F8 b low back step); `pending:` = open.
 
 meta:
   scope: "Genesis 3:14-15, 20-21 (R1 narrow; 3:8-10 and 3:22-24 recalled by picture only)"
@@ -210,7 +212,7 @@ pages:
     title: "When We Break Things"
     text: null
     teaching: null
-    scene: "BASELINE pending D8 — the backyard garden of Book Three's cover (continuity): a low wooden picket fence behind, low hedges at the sides, grass. Late afternoon. On the grass lies the SAME clay cup with a handle and ONE clear crack (Book Three p19 and cover). Son (4) stands beside it ALONE, head down, worried face (small downturned mouth line, no tears), both single-line arms held a little out from his body, NOT pointing. Nobody else on the page: no dog, no adult, no blame, no clean-up, no glue. No vases, no eggs."
+    scene: "D8d (i), F8 (b) — the backyard garden of Book Three's cover (continuity): a low wooden picket fence behind, low hedges at the sides, grass, and at ONE side a low back step (porch edge). Late afternoon. On the grass lies the SAME clay cup with a handle and ONE clear crack (Book Three p19 and cover). Son (4) stands beside it ALONE, head down, worried face (small downturned mouth line, no tears), both single-line arms held a little out from his body, NOT pointing. Nobody else on the page: no dog, no adult, no blame, no clean-up, no glue. No vases, no eggs."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -218,14 +220,14 @@ pages:
     density: sparse
     alt: "A little boy standing alone beside a cracked cup on the grass."
     ruling: "D4b (i) (2026-10-16): no confession posture — head down, nothing said or done"
-    ruling: "D8a ruled (2026-10-16); D8d (i) baseline stands — the same cup, the backyard of the cover (not separately ruled: ASSUMED from the baseline)"
+    ruling: "D8a ruled (2026-10-16); D8d (i) the same cup in the backyard of the cover; Gate 2 (2026-10-17): F8 b — a low back step at one side of the same garden"
 
   - page: 25
     ref: "Romans 5:8; 1 John 4:19 (pointers); Track 4 teaching script line 66; lyric lines 157-158"
     title: "He Didn't Walk Away"
     text: null
     teaching: null
-    scene: "BASELINE pending D8 — the same backyard, the same moment. The Father has come out and stands BESIDE the Son, turned toward him, close — his arms held a little away from his body (NO hand on the shoulder, NO hug, NO kneeling: contact poses bring back tube limbs — D3 in factory/defects.md; the closeness is carried by how near he stands and by his gentle curved smile line). The Son looks up at him, still worried. The cracked cup STILL lies on the grass — not picked up, not mended, no glue, no tools. The dog sits nearby looking at the boy. Fence and hedges as p23. Nobody is fixing anything."
+    scene: "D8 (ruled) — the same backyard (fence, hedges, the low back step at one side), the same moment. The Father has come out and stands BESIDE the Son, turned toward him, close — his arms held a little away from his body (NO hand on the shoulder, NO hug, NO kneeling: contact poses bring back tube limbs — D3 in factory/defects.md; the closeness is carried by how near he stands and by his gentle curved smile line). The Son looks up at him, still worried. The cracked cup STILL lies on the grass — not picked up, not mended, no glue, no tools. The dog sits nearby looking at the boy. Fence and hedges as p23. Nobody is fixing anything."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -241,7 +243,7 @@ pages:
     title: "Mended"
     text: null
     teaching: null
-    scene: "BASELINE pending D8 (Option A: the vessel RECEIVED, nobody mending) — the same backyard the NEXT MORNING (first light: the sun a half-circle above the fence line with short light-lines — Stage 2 must prove it). On the top of the low back step (or a plain garden table) the SAME cup now stands set back together: ONE thin line runs along the old crack (the seam — on the cover it is Roots Gold; on the page it is a line the child can colour), and from soil inside the cup grows ONE green shoot with two leaves (the p13 refrain). Son (4) and Daughter 3 (6) stand in front of it LOOKING at the shoot, hands apart, faces calm (small mouth line, not grinning). NOBODY holds it, NOBODY mends it: no glue, no tools, no hands on the pieces, no adult pressing anything together. The dog sits beside them. Light from the horizon only, never from the cup or the shoot."
+    scene: "D8a Option A, B1 (a), B3 (a), F8 (b) — the same backyard the NEXT MORNING (first light: the sun a half-circle above the fence line with short light-lines — proven at Stage 2). On the top of the low back step at one side the SAME cup now stands set back together: the seam is ONE STRAIGHT THIN HAIRLINE down the old crack — not jagged, not branching, not a crack (on the cover it is Roots Gold; on the page the author's words carry 'mended') — and from soil inside the cup grows ONE green shoot with two leaves (the p13 refrain). Son (4) and Daughter 3 (6) stand either side of the step FACING THE VIEWER (B3 a — as the cover), hands apart, faces calm (small mouth line, not grinning). NOBODY holds it, NOBODY mends it: no glue, no tools, no hands on the pieces, no adult pressing anything together. The dog sits beside them. Light from the horizon only, never from the cup or the shoot."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -250,14 +252,14 @@ pages:
     density: sparse
     alt: "Two children looking at a mended cup with a small green shoot growing inside it."
     ruling: "D1 (2026-10-16): the shoot in the cup is the refrain — seam + shoot = cover rhyme"
-    ruling: "D8a Option A — p27, the next morning, received; D8b (i) nobody holds it; D8c no mender (2026-10-16; D8b/D8c read from the baseline — ASSUMED)"
+    ruling: "D8a Option A — p27, the next morning, received; D8b (i) nobody holds it; D8c no mender (2026-10-16); Gate 2 (2026-10-17): B1 a hairline seam, B3 a children face the viewer, F8 b low back step"
 
   - page: 29
     ref: "Lyric lines 183-188 ('Who stayed with us? GOD DID!'); Track 4 teaching script line 68"
     title: "Who Stayed With Us?"
     text: null
     teaching: null
-    scene: "BASELINE pending D8/F7 — the whole family in the backyard at sunrise, facing the viewer, gathered loosely around the mended cup with its shoot, which stands on the step in front of them (NOT held — the cover holds it; the page keeps hands free): Father, Mother, Daughter 1, Daughter 2, Daughter 3, Son and the dog — EXACTLY six people, no more. Every arm a single line held away from the body; no hand-holding, no hands on shoulders, no hugging. Faces: dot eyes and a small mouth line, calm and glad (not grinning). The sun a half-circle above the fence with short light-lines. Nothing else in the sky. No cross, crown, dove, halo, rays from any person or the cup."
+    scene: "BASELINE pending D8/F7 — the whole family in the backyard at sunrise, facing the viewer, gathered loosely around the mended cup with its shoot, which stands on the low back step in front of them (NOT held — the cover holds it; the page keeps hands free; the seam ONE straight thin hairline, not a crack — B1 a): Father, Mother, Daughter 1, Daughter 2, Daughter 3, Son and the dog — EXACTLY six people, no more. Every arm a single line held away from the body; no hand-holding, no hands on shoulders, no hugging. Faces: dot eyes and a small mouth line, calm and glad (not grinning). The sun a half-circle above the fence with short light-lines. Nothing else in the sky. No cross, crown, dove, halo, rays from any person or the cup."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:

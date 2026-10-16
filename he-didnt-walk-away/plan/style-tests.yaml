@@ -75,3 +75,14 @@ tests:
       Daughter2: "sleeveless A-line dress"
       Daughter3: "sleeveless sundress"
       Son: "sleeveless t-shirt and shorts"
+
+  # ── Gate 2 re-test (ruling B1 a, 2026-10-17) ──
+  - name: mended-cup-b
+    title: "B1 a — the seam as ONE straight thin hairline (not a crack); children facing the viewer (B3 a); low back step (F8 b)"
+    ref: "Genesis 3:15 applied"
+    scene: "A backyard garden at first light: a low wooden picket fence behind, low hedges at the sides, grass, and at one side a low back step. On the top of the step stands a clay cup with a handle, WHOLE and set back together: down its side runs ONE STRAIGHT THIN HAIRLINE where the old crack was — a single straight line, NOT jagged, NOT branching, NOT a crack, NO chips, NO missing pieces. From soil inside the cup grows ONE green shoot with two round leaves. Son (4) and Daughter 3 (6) stand either side of the step FACING THE VIEWER, hands apart, faces calm (dot eyes, small mouth line). NOBODY holds the cup, NOBODY touches it: no glue, no tape, no tools, no hands on it. The small family dog sits beside them. The sun a plain half-circle above the fence with a few short light-lines. Nothing else: no garden bed, no flowers, no table."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
+      Daughter3: "sleeveless sundress"

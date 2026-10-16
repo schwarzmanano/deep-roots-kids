@@ -68,3 +68,30 @@ stripped in post (as Books Two and Three).
 
 **STOPPED AT GATE 2.** No page generation until the editor rules B1–B5 and F8 and locks the
 composition references in book.yaml.
+
+## Gate 2 rulings (editor, in chat 2026-10-17) and the B1 re-test
+
+Ruled: **B1 a** (one straight hairline, re-test once), **B2 c** (keep the Father's shirt;
+father-shirt a02 = family composition reference), **B3 a** (children face the viewer on p27),
+**B5 confirmed** (first-couple reference = gate-outside a02; family-six a02 kept as the six-count
+QA reference), **F8 b** (a low back step at one side of the same garden). Applied to book.yaml
+(`composition_refs`, `art/comp-ref-*.jpg`), pages.yaml (p23–p29), prompts/style.md (LOCKED).
+
+**B1 re-test `mended-cup-b`** (2 attempts, $0.20 — book total $1.65):
+- a01: a single hairline, but JAGGED (a lightning-bolt zigzag) — still reads as a crack. Children
+  facing the viewer, the step, the dog, no unasked objects: everything else as ruled.
+- a02: the model dropped the seam entirely — a WHOLE cup with the shoot. Also a **marker leak**:
+  Daughter 3 drawn with the Mother's head wrap over her beaded braids (defect D-08/D-09); frame.
+
+**Finding B1-2 (needs a ruling):** by prompt the model gives either a crack or nothing; it does not
+draw a straight hairline. Two production routes keep ruling B1 a without more re-rolls:
+- **(a-post)** prompt the cup WHOLE (as a02 drew it) and add the single straight hairline in post
+  with a deterministic script (the Book Three `art/limbfix.py` pattern — the line is ours, placed
+  once, identical on p27 and p29); or
+- **(c)** fall back to option (c): no seam on the page, the cup whole with the shoot, the seam
+  cover-only.
+Either is a plan amendment, not a re-roll. The marker leak on a02 is handled by the existing
+"Draw ONLY the fixed markers named" rule; it is logged, not a plan change.
+
+**STOPPED AT GATE 2 (still).** Page generation waits on B1-2 and on the authorship question raised
+on the worksheet (see the chat of 2026-10-17).
