@@ -43,8 +43,8 @@
 # construction; guardrails §5 for non-cast figures; family cast per character-bible v2.2; WEB
 # only, "Yahweh" kept, the author's line at its first appearance (F2).
 #
-# `pending:` names the Gate 1 decision(s) each scene waits on. Scenes are Stage 1 BASELINES —
-# the editor's rulings amend them; nothing here is resolved.
+# `ruling:` names the Gate 1 decision(s) each scene follows (editor, in chat 2026-10-16: D1
+# seed-and-shoot, D2 A, D3 A+B, D4 as planned, D4b none); `pending:` what it still waits on.
 
 meta:
   scope: "Genesis 3:14-15, 20-21 (R1 narrow; 3:8-10 and 3:22-24 recalled by picture only)"
@@ -69,7 +69,8 @@ pages:
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A man and a woman hiding behind trees in a windy garden."
-    pending: "F21 (recall by picture only); D4 (this is the 'we walked away' half of the Big Idea)"
+    ruling: "D4 as planned (2026-10-16)"
+    pending: "F21 (recall by picture only)"
 
   - page: 5
     ref: "Genesis 3:9 (recalled — picture only); Track 4 teaching script line 58 (the question)"
@@ -81,7 +82,7 @@ pages:
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman standing still at the edge of a clearing, listening."
-    pending: "D4 (the hinge page: called before anything is said or done); DECISION-1"
+    ruling: "D4 as planned (2026-10-16) — called before anything is said or done; DECISION-1"
 
   # ── GOD SPEAKS FIRST ─────────────────────────────────────────────────────────────
 
@@ -98,7 +99,8 @@ pages:
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
     alt: "A serpent going down onto its belly while a man and a woman stand listening."
-    pending: "D3 (serpent treatment); F1 (3:14 quoted or not); F2 (Yahweh line page)"
+    ruling: "D3 Option D = A+B: diminished and retreating (2026-10-16)"
+    pending: "F1 (3:14 quoted or not); F2 (Yahweh line page)"
 
   - page: 9
     ref: "Genesis 3:15a"
@@ -113,7 +115,8 @@ pages:
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
     alt: "A woman standing on one side of bare ground while a serpent moves away on the other."
-    pending: "D2 (victory without violence); D3; F3 (WEB 'hostility' vs the script's ESV 'enmity')"
+    ruling: "D2 Option A; D3 A+B (2026-10-16)"
+    pending: "F3 (WEB 'hostility' vs the script's ESV 'enmity')"
 
   - page: 11
     ref: "Genesis 3:15b"
@@ -127,7 +130,7 @@ pages:
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
     alt: "A small shoot breaking out of the soil while a serpent slips away in the distance."
-    pending: "D1 (promise symbol); D2 (head and heel without violence or a figure); D3"
+    ruling: "D1 seed-and-shoot; D2 Option A — retreat and diminish, plus the seed; D3 A+B (2026-10-16). Baseline stands."
 
   - page: 13
     ref: "Genesis 3:15 (pointers: Galatians 3:16; Galatians 4:4)"
@@ -138,7 +141,7 @@ pages:
     figures: []
     density: sparse
     alt: "A single green shoot growing from a seed in the soil as the sun rises."
-    pending: "D1 (primary symbol; dawn-light treatment to be proven at Stage 2)"
+    ruling: "D1 seed-and-shoot = the refrain (2026-10-16); dawn light secondary — to be proven in pure black and white at Stage 2"
 
   # ── THE PROMISE HELD ─────────────────────────────────────────────────────────────
 
@@ -154,6 +157,7 @@ pages:
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man turning toward a woman beside a small green shoot."
+    ruling: "D1 seed-and-shoot beside them (2026-10-16)"
     pending: "D5 (naming as faith; include or not; drawn without a face)"
 
   - page: 17
@@ -182,7 +186,7 @@ pages:
     figures: []
     density: sparse
     alt: "The sun rising over hills, with a small green shoot in the foreground."
-    pending: "D1 (dawn light as the secondary symbol — must read in pure black and white)"
+    ruling: "D1 (2026-10-16): seedling = refrain; dawn light secondary — must read in pure black and white (Stage 2)"
 
   - page: 21
     ref: "Genesis 3:23-24 (recalled — picture only, not quoted; pointer: 2 Corinthians 1:20)"
@@ -211,7 +215,8 @@ pages:
       Son: "sleeveless t-shirt and shorts"   # Book Three p19 / cover outfit (F23: colours on the cover were Roots Gold tee, Storybook Navy shorts)
     density: sparse
     alt: "A little boy standing alone beside a cracked cup on the grass."
-    pending: "D8 (the same cup or a new breaking; backyard or indoors); D4b (no confession posture)"
+    ruling: "D4b (i) (2026-10-16): no confession posture — head down, nothing said or done"
+    pending: "D8 (the same cup or a new breaking; backyard or indoors)"
 
   - page: 25
     ref: "Romans 5:8; 1 John 4:19 (pointers); Track 4 teaching script line 66; lyric lines 157-158"
@@ -226,7 +231,8 @@ pages:
       Father: "short-sleeved collared shirt and knee-length shorts"   # tested LINE vocabulary; Stage 2 must prove it or fall back to sleeveless (and REPORT it)
     density: sparse
     alt: "A father standing close beside a worried little boy, with a cracked cup on the grass."
-    pending: "D8 (the ordinary not-walking-away; the Father comes BEFORE the Son says or does anything — D4); D4b (confession scene: none, or child-level)"
+    ruling: "D4 as planned; D4b (i) no confession scene (2026-10-16) — the Father is beside him before the boy looks up; nothing is said or done first"
+    pending: "D8 (the ordinary not-walking-away; staging)"
 
   - page: 27
     ref: "Genesis 3:15 applied (pointer: 2 Corinthians 1:20); lyric lines 167-168"
@@ -241,7 +247,8 @@ pages:
       Daughter3: "sleeveless sundress"   # Book Three cover outfit (Kindled Coral)
     density: sparse
     alt: "Two children looking at a mended cup with a small green shoot growing inside it."
-    pending: "D8 (where the mended vessel enters; who holds it; no human mending — R3); D1 (seam + shoot = cover rhyme)"
+    ruling: "D1 (2026-10-16): the shoot in the cup is the refrain — seam + shoot = cover rhyme"
+    pending: "D8 (where the mended vessel enters; who holds it; no human mending — R3)"
 
   - page: 29
     ref: "Lyric lines 183-188 ('Who stayed with us? GOD DID!'); Track 4 teaching script line 68"
@@ -273,7 +280,8 @@ pages:
     figures: []
     density: sparse
     alt: "A young green plant in open land as the sun rises."
-    pending: "D9 (the ending leans toward Book Five without naming Jesus); D1"
+    ruling: "D1 seed-and-shoot (2026-10-16)"
+    pending: "D9 (the ending leans toward Book Five without naming Jesus; path only if ruled in)"
 
   # ── BACK MATTER ──────────────────────────────────────────────────────────────────
 

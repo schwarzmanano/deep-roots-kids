@@ -98,7 +98,7 @@ The other candidates, with trade-offs:
 - **Seed in soil alone (no shoot):** truest to "not yet"; risk — a seed in the ground is almost
   invisible as a coloring object at page scale and does not rhyme with the cover's shoot.
 
-**Ruling:** _______________________________
+**Ruling:** Seed-and-shoot is the primary symbol and the book's visual refrain (editor, in chat 2026-10-16). Dawn light stays the secondary symbol as drawn in the baseline, subject to the Stage 2 black-and-white proof.
 
 ### D2 — The serpent's head and the bruised heel (3:15b; p11)
 How to show the promised victory without violence, without a crushing scene, and without a
@@ -120,7 +120,7 @@ human figure of the one who will do it.
 - **"Bruise his heel" (the promised one wounded)** is in every option a pointer for the
   teaching line, not a picture (F19).
 
-**Ruling:** _______________________________
+**Ruling:** Option A — retreat and diminish, plus the seed (editor, in chat 2026-10-16). "Bruise his heel" is a pointer for the teaching line only.
 
 ### D3 — The serpent here versus Book Three (p7, p9, p11)
 Same creature design as Book Three p5/p21 (no mouth line); never cute, demonic or human-like.
@@ -135,7 +135,7 @@ Same creature design as Book Three p5/p21 (no mouth line); never cute, demonic o
 - **Option D — Any two of A–C together** (the baseline uses A+B).
 - Naming: Book Three F18 ruled "do not name Satan". Rom 16:20 names him (pointer only, F20).
 
-**Ruling:** _______________________________
+**Ruling:** Option D as A+B — diminished AND retreating (editor, in chat 2026-10-16). Satan is not named (F20 carried from Book Three F18).
 
 ### D4 — Grace before merit (page order; p5, p7–p13 before p15–p17; p25 before anything the Son does)
 The sequence must show God speaking the promise BEFORE any response from Adam and Eve, so no
@@ -158,7 +158,7 @@ child learns the promise was earned.
   - **(iii) A confession page of its own:** Trade-off: breaks F16 and would need Book Seven's
     forgiveness vocabulary early.
 
-**Ruling:** _______________________________
+**Ruling:** Sequence as planned (editor, in chat 2026-10-16). D4b (i): NO confession scene — the Son never kneels, folds hands or says sorry on any page; p25 is the Father arriving.
 
 ### D5 — Eve's naming (3:20) as faith in the promise (p15)
 - **Option A — Include, drawn by gesture (baseline):** three-quarters from behind, the man's
