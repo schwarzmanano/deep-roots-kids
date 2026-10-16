@@ -32,7 +32,14 @@
 - Blurb, fact lines, series line and scripture scope set as one block above the bottom zone.
 
 **Spine:** signature colour only — no text, no logo (every book in the series is below both
-printers' spine-text minimums: KDP > 79 pp, Lulu > 80 pp).
+printers' spine-text minimums: KDP > 79 pp, Lulu > 80 pp). From Book Four the colour runs
+`spine.overlap_in` past each fold onto the back and the front (editor brief 2026-10-16 §6), so
+no hard boundary lands on the fold itself; Books One to Three were built without the overlap.
+
+**Back panel — series strip (Book Four onward, brief 2026-10-16 §6):** a row of small front-cover
+thumbnails of every published book in order, the current book outlined in Storybook Navy, set
+between the text block and the logo/barcode zone; the banner colours show the movement shifts.
+Optional `cover.website_line` (author's text unit) prints under the strip.
 
 **Art:** one continuous full-bleed painterly background (no panels, no inner border), 300+ ppi
 at full cover size; upper third soft and low-detail for the title; everything important
@@ -97,6 +104,11 @@ barcode:                   # bottom-right of the back panel, measured from the t
 spine:
   text: false
   text_min_pages: {kdp: 80, lulu: 81}
+  overlap_in: 0.0625       # the spine colour runs this far past each fold onto the back and the front, so a fold tolerance never lands a cream/art sliver on the spine (editor brief 2026-10-16 §6, Book Four; 0 = Books One to Three as built)
+series_strip:              # back panel, above the logo/barcode zone: small front thumbnails of every published book, the current one outlined (Book Four onward)
+  height_in: 0.95
+  gap_in: 0.10
+  outline_pt: 2.5
 ```
 
 ## Signature colours

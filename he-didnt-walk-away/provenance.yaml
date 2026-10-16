@@ -421,3 +421,11 @@ text_units:
   source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
     authorship stated by the editor in chat); inserted verbatim
   recorded: '2026-10-17'
+- id: cover.website_line
+  page: back cover
+  kind: back-cover-website
+  author: null
+  draft: true
+  sha: null
+  source: empty slot 2026-10-17 — the back-cover website line awaits the author's words (brief §6)
+  recorded: '2026-10-17'

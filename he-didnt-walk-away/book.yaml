@@ -23,20 +23,22 @@ copyright_page:           # author-supplied 2026-10-17; holder changed to the ru
   - "© 2026 Deep Roots Publishing. All rights reserved. First edition, 2026."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
 cover:                    # text slots EMPTY until the author supplies them
-  front_art: null         # Stage 6 — concept "MENDED" (R3), two-phase (B&W stick reference, then colour)
+  front_art: cover/front-art-01-retouched.png   # concept "MENDED" (R3): colour phase 2026-10-17 from ref-mended-b-02 (construction confirmed by the editor); retouched by cover/retouch_extend.py
   layout: grid            # series cover grid (kids/_brand/cover-grid.md)
   signature_colour: "#E2694B"   # Kindled Coral — REDEMPTION movement (R2; editor ruling 2026-10-16, F15). Banner text Navy (contrast 3.13)
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # author-confirmed 2026-10-17, verbatim
   back_blurb: "When Adam and Eve turned away from God, did God turn away from them? He came near and made a promise: a Rescuer would come. This hopeful Bible story helps children see that God keeps his promises and stays close to his people. For ages 4–7, this book includes 15 pages to color and gentle teaching about grace, hope, and the God who does not walk away."   # author-supplied 2026-10-17, verbatim; also the store description
+  website_line: null      # author — the back-cover website line (brief §6); printed only when supplied; registered unit cover.website_line
   spec_lines:             # author-supplied 2026-10-17, verbatim
     - "15 pages to color"
     - "Honest, hopeful teaching for ages 4–7"
     - "Scripture from the World English Bible (WEB)"
+series_strip_books: [genesis-1, made-like-him, we-broke-it-all, he-didnt-walk-away]   # back-cover series strip, Books One to Four in order (cover-grid.md series_strip)
 # Spines are computed from the FINAL page count at the print stage — never copied from Book Three.
 cover_targets:
-  kdp:  {bleed_in: 0.125, spine_in: null, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80, spine_text: false}
-  lulu: {bleed_in: 0.125, spine_in: null, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81, spine_text: false}
+  kdp:  {bleed_in: 0.125, spine_in: 0.0811, spine_formula: "pages x 0.002252 (white)", spine_text_min_pages: 80, spine_text: false}   # 36 pp, computed 2026-10-17
+  lulu: {bleed_in: 0.125, spine_in: 0.1411, spine_formula: "pages / 444 + 0.06 (60# white uncoated)", safety_in: 0.5, spine_text_min_pages: 81, spine_text: false}   # 36 pp, computed 2026-10-17
 
 governed_by:
   - kids/_brand/theology-guardrails.md

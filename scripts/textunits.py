@@ -75,6 +75,8 @@ def units(book):
             cov.get("back_blurb"))
         for i, line in enumerate(cov.get("spec_lines") or []):
             add(f"cover.spec.{i+1}", "back cover", "back-cover-spec", line)
+        if "website_line" in cov:       # back-cover website line (he-didnt-walk-away, 2026-10-17): a null slot is a registered, empty unit
+            add("cover.website_line", "back cover", "back-cover-website", cov.get("website_line"))
     return out
 
 

@@ -194,8 +194,11 @@ if GRID:
     GRID_REPORT = (f"title {ts:.0f}pt / subtitle {ss:.1f}pt in {TITLE_HEX} "
                    f"(contrast " + ", ".join(f"{h} {v:.2f}" for h, v in choices.items()) + f"); art {ART_PPI:.0f} ppi")
 
-    # SPINE — signature colour only, no text (below both printers' spine-text minimums)
-    c.setFillColor(SIG); c.rect(SPINE_L, 0, SPINE_R - SPINE_L, H, stroke=0, fill=1)
+    # SPINE — signature colour only, no text (below both printers' spine-text minimums).
+    # spine.overlap_in (grid, Book Four onward): the colour runs past both folds so a fold
+    # tolerance never shows a cream or art sliver on the spine (editor brief 2026-10-16 §6).
+    OVL = float(G["spine"].get("overlap_in", 0)) * IN
+    c.setFillColor(SIG); c.rect(SPINE_L - OVL, 0, SPINE_R - SPINE_L + 2 * OVL, H, stroke=0, fill=1)
 
     # BACK — logo bottom-left; barcode box bottom-right kept clear; text block above
     LW = G["back"]["logo_in"] * IN
@@ -214,6 +217,50 @@ if GRID:
     block_h = len(blines) * 18 + 14 + len(spec) * 16 + 10 + 34
     region_top = H - BLEED - SAFE
     region_bot = BLEED + max(SAFE + LW, BAR[3] - BLEED) + G["back"]["block_gap_in"] * IN
+    # SERIES STRIP (grid series_strip, Book Four onward): front thumbnails of every published
+    # book (earlier books' release cover.pdf front panels + this book's own front art), the
+    # current book outlined; sits just above the logo/barcode zone. Images only — no new text.
+    STRIP = G.get("series_strip")
+    strip_h = 0
+    if STRIP:
+        import pymupdf, glob as _glob
+        sh = STRIP["height_in"] * IN; sg = STRIP["gap_in"] * IN; sw_ = sh * (8.5 / 11)
+        books = cfg.get("series_strip_books") or []
+        thumbs = []
+        for b in books:
+            pdfp = f"kids/{b}/out/cover.pdf"
+            if b == os.path.basename(BOOK.rstrip("/")) or not os.path.exists(pdfp):
+                thumbs.append(None); continue
+            _d = pymupdf.open(pdfp); _pg = _d[0]; _r = _pg.rect
+            _bl = 0.125 * IN; _tw = 8.5 * IN
+            _clip = pymupdf.Rect(_r.x1 - _bl - _tw, _bl, _r.x1 - _bl, _r.y1 - _bl)   # front panel at trim
+            _tp = f"{BOOK}/cover/_strip-{b}.jpg"
+            _pix = _pg.get_pixmap(dpi=int(400 * (sw_ / IN) / 8.5) + 1, clip=_clip)   # ~400 ppi at the strip's printed size
+            ImageCms.applyTransform(Image.frombytes("RGB", (_pix.width, _pix.height), _pix.samples), _XF).save(_tp, quality=JPEG_Q or 95)
+            thumbs.append(_tp)
+        n = len(books); total_w = n * sw_ + (n - 1) * sg
+        sx = BX - total_w / 2; sy = region_bot
+        for i, b in enumerate(books):
+            x = sx + i * (sw_ + sg)
+            if thumbs[i]:
+                c.drawImage(ImageReader(thumbs[i]), x, sy, width=sw_, height=sh, mask=None)
+            else:
+                # this book: its own front at trim — art, banner and title rendered small via the
+                # placed art + a banner swatch (the title is set by this same script, so a thumbnail of
+                # the finished front is produced on the second pass: --strip-self <png>)
+                SELF = sys.argv[sys.argv.index("--strip-self") + 1] if "--strip-self" in sys.argv else None
+                if SELF:
+                    _sp = f"{BOOK}/cover/_strip-self-cmyk.jpg"
+                    ImageCms.applyTransform(Image.open(SELF).convert("RGB"), _XF).save(_sp, quality=JPEG_Q or 95)
+                    c.drawImage(ImageReader(_sp), x, sy, width=sw_, height=sh, mask=None)
+                else:
+                    c.setFillColor(SIG); c.rect(x, sy, sw_, sh, stroke=0, fill=1)
+                c.setStrokeColor(NAVY); c.setLineWidth(STRIP["outline_pt"]); c.rect(x, sy, sw_, sh, stroke=1, fill=0)
+        strip_h = sh + G["back"]["block_gap_in"] * IN
+        region_bot += strip_h
+    WEB = COV.get("website_line")
+    if WEB:
+        block_h += 20
     y = region_bot + (region_top - region_bot + block_h) / 2
     c.setFillColor(NAVY); c.setFont("Lora", 12.5)
     for ln in blines: c.drawCentredString(BX, y, ln); y -= 18
@@ -223,7 +270,9 @@ if GRID:
     c.drawCentredString(BX, y, cfg["series_line"]); y -= 18
     c.setFillColor(NAVY); c.setFont("LoraIt", 11)
     c.drawCentredString(BX, y, cfg["scripture_scope"])
-    BAR_BAND_H = region_bot - BLEED - G["back"]["block_gap_in"] * IN   # for the proof stamp below
+    if WEB:
+        y -= 20; c.setFillColor(GREEN); c.setFont("Lora", 10.5); c.drawCentredString(BX, y, WEB)
+    BAR_BAND_H = region_bot - strip_h - BLEED - G["back"]["block_gap_in"] * IN   # for the proof stamp below
 else:
     # ── FRONT ── art bleeds off the right, top and bottom
     art_src = f"{BOOK}/{COV.get('front_art', 'cover/front-art-v2-01.jpg')}"
