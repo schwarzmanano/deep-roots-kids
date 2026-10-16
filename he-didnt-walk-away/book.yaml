@@ -29,7 +29,7 @@ cover:                    # text slots EMPTY until the author supplies them
   color: cmyk
   series_short: "CREATION TO GLORIFICATION • BOOK FOUR"   # author-confirmed 2026-10-17, verbatim
   back_blurb: "When Adam and Eve turned away from God, did God turn away from them? He came near and made a promise: a Rescuer would come. This hopeful Bible story helps children see that God keeps his promises and stays close to his people. For ages 4–7, this book includes 15 pages to color and gentle teaching about grace, hope, and the God who does not walk away."   # author-supplied 2026-10-17, verbatim; also the store description
-  website_line: null      # author — the back-cover website line (brief §6); printed only when supplied; registered unit cover.website_line
+  website_line: "deeprootsdr.com"   # editor instruction 2026-10-17 ("add the website") — the series website domain, a fact; registered unit cover.website_line
   spec_lines:             # author-supplied 2026-10-17, verbatim
     - "15 pages to color"
     - "Honest, hopeful teaching for ages 4–7"

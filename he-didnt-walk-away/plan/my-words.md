@@ -857,9 +857,24 @@ Scripture from the World English Bible (WEB)
 
 ---
 
+### `cover.website_line` — back-cover-website · back cover
+
+- **Pointer:** the series website line under the series strip (brief §6); added at your instruction
+  2026-10-17 ("add the website") as the site's domain — a fact, not prose. Change the form here if
+  you want "www." or a path.
+- **Current status:** inserted at the editor's instruction 2026-10-17
+
+**MY TEXT:**
+
+deeprootsdr.com
+
+**MY TEXT STATUS:** confirmed
+
+---
+
 ### Not units (for the record)
 
 - **Back-cover headline:** no such slot exists in the series grid (F10). If you rule one in, it
-  becomes a registered unit here.
+  becomes a registered unit here. (The website line IS a unit since 2026-10-17 — above.)
 - **Spine text:** none — 36 pages is below both printers' spine-text minimums (KDP 80, Lulu 81).
 - **Alt-text:** production metadata, not printed (F25).

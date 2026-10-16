@@ -3,13 +3,16 @@ title: He Didn't Walk Away
 disclosure: computed by scripts/disclosure.py from text_units + images below — never hand-edited
 images:
   interior:
-    source: none yet — generation blocked until plan/theology-review.md is SIGNED (Gate 1)
-    model: gemini-3.1-flash-image (planned)
-    editing: planned as Book Three — selection among attempts, plan re-scenes, threshold, frame strip,
-      vectorisation
+    source: AI-generated (many images)
+    model: gemini-3.1-flash-image
+    editing: extensive — selection among 46 attempts over three rounds, plan re-scenes, threshold, frame strip,
+      edge-sliver strip, stroke thickening (p25), vectorisation (2026-10-17); hand corrections in art/limbfix.py
+      (p5 sky wind marks erased; p27 hairline seam drawn; p29 the model's crack erased and the seam drawn)
   cover:
-    source: none yet — concept "MENDED" (R3), two-phase after Gate 3
-    editing: planned as Book Three
+    source: AI-generated (front art front-art-01, gemini-3.1-flash-image 4K, from a B&W stick reference ref-mended-b-02)
+    editing: extensive — scaled to 84% and sky/sides extended from the painting's own sky and hedge strip
+      (cover/retouch_extend.py, 2026-10-17), then crop, banner, ICC conversion to CMYK, series strip, typography and
+      layout added by the pipeline
 translation: none
 text_units:
 - id: book.title
@@ -424,8 +427,9 @@ text_units:
 - id: cover.website_line
   page: back cover
   kind: back-cover-website
-  author: null
-  draft: true
-  sha: null
-  source: empty slot 2026-10-17 — the back-cover website line awaits the author's words (brief §6)
+  author: human
+  draft: false
+  sha: 869d8dcbf2c7
+  source: the series website domain, inserted at the editor's instruction in chat 2026-10-17 ('add the
+    website'); a fact, not prose
   recorded: '2026-10-17'

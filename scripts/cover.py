@@ -205,6 +205,7 @@ if GRID:
     LOGO_SRC = "kids/_brand/logo/dr-kids-logo.png"
     _lg = Image.open(LOGO_SRC).convert("RGBA")
     _bg = Image.new("RGBA", _lg.size, "#F7EEDD"); _bg.alpha_composite(_lg)
+    _lpx = int(LW / IN * 400); _bg = _bg.resize((_lpx, _lpx), Image.LANCZOS)   # 400 ppi at print size (Lulu: none above 600)
     _lpath = f"{BOOK}/cover/_logo-back-cmyk.jpg"
     ImageCms.applyTransform(_bg.convert("RGB"), _XF).save(_lpath, quality=96)
     c.drawImage(ImageReader(_lpath), BACK_L + SAFE, BLEED + SAFE, width=LW, height=LW, mask=None)
@@ -251,7 +252,9 @@ if GRID:
                 SELF = sys.argv[sys.argv.index("--strip-self") + 1] if "--strip-self" in sys.argv else None
                 if SELF:
                     _sp = f"{BOOK}/cover/_strip-self-cmyk.jpg"
-                    ImageCms.applyTransform(Image.open(SELF).convert("RGB"), _XF).save(_sp, quality=JPEG_Q or 95)
+                    _si = Image.open(SELF).convert("RGB"); _sw = int(sw_ / IN * 400)   # 400 ppi at the strip's printed size
+                    _si = _si.resize((_sw, int(_sw * _si.height / _si.width)), Image.LANCZOS)
+                    ImageCms.applyTransform(_si, _XF).save(_sp, quality=JPEG_Q or 95)
                     c.drawImage(ImageReader(_sp), x, sy, width=sw_, height=sh, mask=None)
                 else:
                     c.setFillColor(SIG); c.rect(x, sy, sw_, sh, stroke=0, fill=1)
