@@ -102,6 +102,26 @@ The first man and woman. genesis-1 DECISION-5 and made-like-him p5-p11, matched 
   apart, partly hidden; one single-line gesture where the SCENE names it. Never by darkness, tears or faces.
 - Never in visual proximity to anything that could read as a depiction of God.
 
+## Human figures — first-couple-plain
+
+The first man and woman. genesis-1 DECISION-5 and made-like-him p5-p11, matched exactly:
+- Seen from behind or three-quarters behind, at a distance, small within a wide scene.
+- Faces entirely unseen. No frontal view, no profile, no facial features.
+- Doing something — walking, working, reaching, pointing, crouching. Never posed, never facing the viewer.
+- The man: short cropped hair, broader squarer build. The woman: long wavy hair past the
+  shoulder, slighter build. No other markers of any kind.
+- BEFORE the gift of garments (this treatment is for p3–p17 only): the man wears ONE plain simple
+  sleeveless tunic with BOTH shoulders covered and a STRAIGHT hem at the knee; the woman ONE plain
+  simple sleeveless knee-length dress with a STRAIGHT hem. Un-tailored — no collar, no buttons, no
+  wrap, no tie, no pattern. NEVER a one-shoulder tunic, NEVER an uneven or ragged hem, NEVER hide or
+  skins: those belong to p21 only (round 1 defect: the skins vocabulary bled from the reference).
+- Hands apart ALWAYS: a clear gap of white space between the two figures; NO hand-holding, NO touching.
+- Every arm and leg one single thin line; hands and feet plain closed ovals. One pointing
+  gesture is allowed where the SCENE names it.
+- Hiding, listening and naming shown by BODY LANGUAGE ONLY: turned away, heads lowered or lifted,
+  apart, partly hidden; one single-line gesture where the SCENE names it. Never by darkness, tears or faces.
+- Never in visual proximity to anything that could read as a depiction of God.
+
 ## Human figures — family
 
 The Deep Roots Kids family cast. Faces and fixed markers copied from the cast sheet

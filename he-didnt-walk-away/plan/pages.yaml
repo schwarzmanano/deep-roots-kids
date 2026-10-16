@@ -68,8 +68,9 @@ pages:
     title: "When We Ran"
     text: "We ran away, afraid and small.\nBut God stayed near through it all."
     teaching: "Last time, we talked about how we all turned away from God and how that broke the good world he made."
-    scene: "Eden in the cool of the day, exactly as Book Three p13 (continuity): wind lines through the treetops, leaves moving on the branches (none falling). The man and the woman FROM BEHIND, partly hidden behind two tree trunks in the middle distance, heads down, turned away from each other. Plain sleeveless garments with STRAIGHT hems (before 3:21). NOTHING ELSE: no figure, no footprints, no hand, no light-shape, nothing in the sky but simple clouds. Mood carried by posture, not by darkness."
-    figures: "first-couple"
+    scene: "Eden in the cool of the day, exactly as Book Three p13 (continuity): wind lines through the treetops, leaves moving on the branches (none falling). The man and the woman are HIDING: each stands BEHIND a different thick tree trunk in the middle distance so that the trunk covers half of the body — only one shoulder, one arm and one leg of each show beside the trunk; seen from behind, heads down, turned away from each other. Plain sleeveless garments with STRAIGHT hems (before 3:21). Wind shown ONLY by a few curved wind lines among the treetops — NO leaves in the air, NO falling leaves, NO leaves on the ground. NOTHING ELSE: no figure, no footprints, no hand, no light-shape, no sun, nothing in the sky but simple clouds. Mood carried by posture, not by darkness."
+    amended_r1: "2026-10-17 round 1: both attempts stood the couple in the open with leaves blowing (not hidden; falling leaves banned). Hiding behind trunks named; leaves banned."
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: dense
     alt: "A man and a woman hiding behind trees in a windy garden."
@@ -82,7 +83,7 @@ pages:
     text: "We turned away from God.\nWould God turn away from us?"
     teaching: "Adam and Eve hid, but God came looking for them. He came near before they had done anything to make things right."
     scene: "The same garden a moment later. The man and the woman FROM BEHIND, standing still side by side at the edge of an open clearing, hands apart, heads lifted a little (listening — the effect of being called). The clearing in front of them is EMPTY: no figure, no light-shape, no footprints, no rays. Same trees and wind lines as p3. Plain sleeveless garments, straight hems."
-    figures: "first-couple"
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man and a woman standing still at the edge of a clearing, listening."
@@ -97,8 +98,9 @@ pages:
     quote: true                # proposed: WEB quotation (see my-words.md for the verbatim text and the §8 added ”)
     quote_ref: "Genesis 3:14"
     teaching: "Yahweh is God’s own covenant name, given to his people. God spoke first—even judgment on the serpent began the promise of rescue."
-    scene: "The garden's edge, bare ground meeting the trees. The plain serpent — the SAME creature as Book Three p5/p21: smooth body, simple head in profile, one plain round dot eye, no mouth line, no fangs, no tongue — going DOWN onto its belly on the bare earth and moving AWAY from the couple (D3: diminished, retreating). The man and the woman FROM BEHIND at mid-distance, standing still, listening; the serpent is between them and the open ground. No figure, nothing in the sky, no voice-lines (DECISION-1: the speech is shown by its effect — the serpent going down, the couple listening). Plain sleeveless garments, straight hems."
-    figures: "first-couple"
+    scene: "The garden's edge, bare ground meeting the trees. The plain serpent — the SAME creature as Book Three p5/p21: smooth body, simple head in profile, one plain round dot eye, no mouth line, no fangs, no tongue — going DOWN onto its belly on the bare earth and moving AWAY from the couple (D3: diminished, retreating). The man and the woman FROM BEHIND at mid-distance, standing still, hands apart, listening; the serpent is between them and the open ground. Faces entirely unseen — NO profile, NO nose, NO chin line. No figure, NO sun, nothing in the sky but simple clouds, no voice-lines (DECISION-1: the speech is shown by its effect — the serpent going down, the couple listening). Plain sleeveless garments with STRAIGHT hems — NO one-shoulder tunic, NO ragged hem (before 3:21)."
+    amended_r1: "2026-10-17 round 1: a01 put the man in the one-shoulder skins tunic; a02 showed profiles with noses, muscular limbs and a sun. Plain treatment, faces, sun named."
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
@@ -113,8 +115,8 @@ pages:
     quote: true                # proposed: WEB 3:15a — "I will put hostility between you and the woman, and between your offspring and her offspring." (period in place of nothing: 3:15a ends mid-verse at a full stop in WEB — verbatim)
     quote_ref: "Genesis 3:15"
     teaching: "God set the woman’s family against the serpent. “Offspring” means children and family; God began this separation by his promise."
-    scene: "The woman FROM BEHIND at mid-distance, standing upright on the garden's edge; the man a step behind her, also from behind. On the far side of a WIDE band of bare, empty earth the serpent (as p7) moves away, low, its head turned from her. The empty ground between them is the picture of 'hostility' — separation, not a fight. No striking, no raised hands, no foot near the serpent, no fangs, no fear-posture. Nothing in the sky."
-    figures: "first-couple"
+    scene: "The woman FROM BEHIND at mid-distance, standing upright on the garden's edge; the man a step behind her, also from behind. On the far side of a WIDE band of bare, dry, empty EARTH — plain ground with at most a few small stones; NO water, NO river, NO waves, NO ripple lines, NO grass on it — the serpent (as p7, smaller) moves away, low, its head turned from her. The empty ground between them is the picture of 'hostility' — separation, not a fight. Plain sleeveless garments with STRAIGHT hems — NO one-shoulder tunic (before 3:21). No striking, no raised hands, no foot near the serpent, no fangs, no fear-posture. Nothing in the sky."
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
@@ -129,7 +131,8 @@ pages:
     quote: true                # proposed: WEB 3:15b — "He will bruise your head, and you will bruise his heel.” (the closing ” is WEB's own: the speech ends here)
     quote_ref: "Genesis 3:15"
     teaching: "God promised a Rescuer who would end the serpent’s power. The Rescuer would be hurt, but the serpent would not win."
-    scene: "BASELINE pending D2 — the serpent SMALL and far off, slipping away beneath the tree line at the garden's edge, head low to the ground, drawn smaller than on p7/p9 (diminished). In the foreground, in the bare earth where the serpent passed, the promise symbol (pending D1): a seed in a shallow furrow with its first green shoot breaking the soil — two simple leaves. NO foot, NO heel, NO figure, NO baby, NO crushed head, NO stone on the serpent. Nothing in the sky."
+    scene: "BASELINE pending D2 — the serpent SMALL and far off, slipping away beneath the tree line at the garden's edge, head low to the ground, drawn smaller than on p7/p9 (diminished). In the foreground, in the bare earth where the serpent passed, the promise symbol (D1): a seed in a shallow furrow with its first shoot breaking the soil — two simple round leaves, drawn in black outline only. BARE EARTH ONLY around it: NO path, NO road, NO track lines, NO garden rows, NO vegetables, NO pumpkins, NO cabbages, NO carrots, NO other plants of any kind. NO foot, NO heel, NO figure, NO baby, NO crushed head, NO stone on the serpent. NO sun; nothing in the sky but simple clouds."
+    amended_r1: "2026-10-17 round 1: a01 drew a path with the shoot on it (path is p31-only) and a mid-size serpent; a02 filled the page with the style lock's vegetables and pumpkins (D-14). Bare earth named; path and vegetables banned."
     figures: []
     serpent_ref: "kids/we-broke-it-all/art/p21.png"
     density: sparse
@@ -157,7 +160,7 @@ pages:
     quote_ref: "Genesis 3:20"
     teaching: "Adam named his wife Eve, a name connected with life. He trusted God’s promise that life and hope would continue."
     scene: "BASELINE pending D5 — the man and the woman seen THREE-QUARTERS FROM BEHIND at mid-distance, standing a little apart and turned toward each other; the man's ONE single-line arm raised slightly toward the woman (the one gesture — naming), the woman's hands apart. NO faces: no profile, no nose or chin line. The seedling (as p13) in the ground beside them, small. Still BEFORE 3:21: plain sleeveless garments with STRAIGHT hems. Nothing in the sky but simple clouds."
-    figures: "first-couple"
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     density: sparse
     alt: "A man turning toward a woman beside a small green shoot."
@@ -170,14 +173,15 @@ pages:
     quote: true                # proposed: WEB 3:21 verbatim (Book Three p29 printed this verse — F11 on repeating it)
     quote_ref: "Genesis 3:21"
     teaching: "Yahweh is God’s covenant name. God made clothes for Adam and Eve when their own covering was not enough; the gift came at a cost."
-    scene: "D6 Option B (ruled 2026-10-16) — the gift laid out, as Book Three p29: two plain garments folded on a flat rock in morning light (the sun a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND at mid-distance, approaching the rock, still in their plain sleeveless garments with STRAIGHT hems (the skins are not yet worn — they are worn from p21). The folded garments are Book Three's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1). Differs from Book Three p29 only in the seedling (as p13) small in the ground near the rock."
-    figures: "first-couple"
+    scene: "D6 Option B (ruled 2026-10-16) — the gift laid out, as Book Three p29: two plain garments folded on a flat rock in morning light (the sun a plain half-circle on the horizon, no rays shaped toward the rock). The man and the woman FROM BEHIND at mid-distance, walking toward the rock side by side with a clear gap between them, HANDS APART — NO hand-holding, NO touching — still in their plain sleeveless garments with STRAIGHT hems: the man's tunic covers BOTH shoulders (NO one-shoulder tunic; the skins are not yet worn — they are worn from p21). The folded garments are Book Three's plain tunic and dress shapes with only an uneven hem — no fur, no hide texture. NO animal anywhere, NO carcass, NO hide being cut or sewn, NO needle, NO tool, NO hands, NO light-shape (the giver is shown by the gift only — DECISION-1). Differs from Book Three p29 only in the seedling (as p13) small in the ground near the rock."
+    figures: "first-couple-plain"
     character_ref: "kids/_brand/p25-figures-ref.jpg"
     garments_ref: "kids/we-broke-it-all/art/p29.png"
     density: sparse
     alt: "Two folded garments on a rock, with a man and a woman walking toward them."
     ruling: "D6 Option B — laid out again (2026-10-16); no animal death"
     pending: "F11 (3:21 was printed in Book Three)"
+    amended_r1: "2026-10-17 round 1: a01 man in the skins tunic; a02 hand-holding and the skins tunic. Plain treatment, hands apart named."
 
   # ── SENT OUT, NOT ABANDONED ──────────────────────────────────────────────────────
 
@@ -214,7 +218,7 @@ pages:
     title: "When We Break Things"
     text: "We break things, and we do wrong.\nWe cannot fix sin on our own."
     teaching: "We still mess up today, and we cannot undo sin by ourselves. God stays with the people who belong to him."
-    scene: "D8d (i), F8 (b) — the backyard garden of Book Three's cover (continuity): a low wooden picket fence behind, low hedges at the sides, grass, and at ONE side a low back step (porch edge). Late afternoon. On the grass lies the SAME clay cup with a handle and ONE clear crack (Book Three p19 and cover). Son (4) stands beside it ALONE, head down, worried face (small downturned mouth line, no tears), both single-line arms held a little out from his body, NOT pointing. Nobody else on the page: no dog, no adult, no blame, no clean-up, no glue. No vases, no eggs."
+    scene: "D8d (i), F8 (b) — the backyard garden of Book Three's cover (continuity): a low wooden picket fence behind, low hedges at the sides, grass, and at the RIGHT side a low wooden back step (two plain steps, the porch edge) clearly drawn. Late afternoon, NO sun in the sky. On the grass lies the SAME clay cup with a handle and ONE clear crack (Book Three p19 and cover). Son (4) stands beside it ALONE, head down, worried face (small downturned mouth line, no tears), both single-line arms held a little out from his body, NOT pointing. Nobody else on the page: no dog, no adult, no blame, no clean-up, no glue. No vases, no eggs."
     figures: "family"
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
@@ -223,6 +227,7 @@ pages:
     alt: "A little boy standing alone beside a cracked cup on the grass."
     ruling: "D4b (i) (2026-10-16): no confession posture — head down, nothing said or done"
     ruling: "D8a ruled (2026-10-16); D8d (i) the same cup in the backyard of the cover; Gate 2 (2026-10-17): F8 b — a low back step at one side of the same garden"
+    amended_r1: "2026-10-17 round 1: a01 had no step (F8 b); a02 added the Father (not on this page). Step and NO adult named."
 
   - page: 25
     ref: "Romans 5:8; 1 John 4:19 (pointers); Track 4 teaching script line 66; lyric lines 157-158"
@@ -234,8 +239,9 @@ pages:
     character_ref: "kids/_brand/cast-sheet.jpg"
     outfits:
       Son: "sleeveless t-shirt and shorts"
-      Father: "short-sleeved collared shirt and knee-length shorts"   # tested LINE vocabulary; Stage 2 must prove it or fall back to sleeveless (and REPORT it)
+      Father: "short-sleeved collared shirt and knee-length shorts"   # tested LINE vocabulary (Gate 2 B2 c; father-shirt a02 = reference)
     density: sparse
+    thicken_thin_strokes: true   # QA 2026-10-17: 3 strokes at 1.68pt under the 2pt floor — post fix, as Book Three p19
     alt: "A father standing close beside a worried little boy, with a cracked cup on the grass."
     ruling: "D4 as planned; D4b (i) no confession scene (2026-10-16) — the Father is beside him before the boy looks up; nothing is said or done first"
     ruling: "D8 (2026-10-16): baseline staging stands — the Father beside him, cup untouched"

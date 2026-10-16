@@ -74,6 +74,7 @@ generation:               # BLOCKED until plan/theology-review.md Status reads S
   character_ref: kids/_brand/cast-sheet.jpg
   composition_refs:       # Gate 2 ruling 2026-10-17 (B5 confirmed, B2 c): COMPOSITION references only (REFERENCE D); line weight stays Book Two's lock
     first-couple: art/comp-ref-first-couple.jpg   # = gen/test-gate-outside/attempt-02.jpg
+    first-couple-plain: art/comp-ref-first-couple-plain.jpg   # = gen/p5/attempt-01.jpg (plain straight-hem garments, from behind) — round 2 amendment 2026-10-17 for p3–p17
     family: art/comp-ref-family.jpg               # = gen/test-father-shirt/attempt-02.jpg (B2 c: the Father's short-sleeved collared shirt in LINE vocabulary, for p25 and p29)
   count_ref_family_six: art/count-ref-family-six.jpg   # = gen/test-family-six/attempt-02.jpg — clean six-count, kept for QA comparison on p29 (not sent as a reference)
   first_couple_ref: kids/_brand/p25-figures-ref.jpg   # + we-broke-it-all art/p31.png (worn garments), p29.png (laid out)
