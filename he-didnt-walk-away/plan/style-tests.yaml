@@ -1,0 +1,77 @@
+# Stage 2 style-lock tests — he-didnt-walk-away (Gate 1 signed 2026-10-16).
+# Run: node scripts/kids/generate.mjs he-didnt-walk-away --test <name> --attempts 2
+# Same prompt assembly as pages (style.md + scene + figures + outfits), same Gate 1 check,
+# spend booked to this book's ledger. Output: gen/test-<name>/. Nothing here is printed.
+# Editor brief (§4): lock line weight to Book Three's reference; test-render the promise symbol,
+# the serpent as ruled in D3, the dawn/light treatment in outline form (must read in pure black
+# and white without grey), the mended vessel with its seam as a coloring-page object, the gate
+# (reused, D7 A), and any new family-cast outfits; REPORT any outfit that reintroduces tube limbs
+# rather than silently falling back to sleeveless; verify the promise symbol survives threshold
+# and vectorize at the smallest size it appears (p15, p17 — seedling small in the ground).
+tests:
+
+  - name: shoot-refrain
+    title: "D1 — the seed-and-shoot as the refrain at page scale, with the dawn (as p13)"
+    ref: "Genesis 3:15"
+    scene: "A close view of a shallow furrow in bare soil, a seed half-buried, and ONE green shoot rising from it with two round simple leaves, large in the frame. Behind, a flat horizon with the sun as a plain HALF-CIRCLE just rising, with a few SHORT STRAIGHT LIGHT-LINES close around it. Light from the horizon only, never from the shoot. No people, no serpent, no gate, no tree, no fruit, no figure on the horizon."
+    figures: []
+
+  - name: shoot-small
+    title: "D1 — the seedling at its SMALLEST size (as p15: beside the couple at the naming)"
+    ref: "Genesis 3:20"
+    scene: "The man and the woman seen THREE-QUARTERS FROM BEHIND at mid-distance, standing a little apart and turned toward each other; the man's ONE single-line arm raised slightly toward the woman, the woman's hands apart. NO faces. Plain sleeveless garments with STRAIGHT hems. In the ground beside them, SMALL — about a tenth of the page height — a seedling: one shoot with two round leaves rising from a little furrow in the soil. Nothing in the sky but simple clouds."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: serpent-away
+    title: "D2 A / D3 A+B — serpent small and far, retreating; the shoot where it passed (as p11)"
+    ref: "Genesis 3:15"
+    scene: "The garden's edge: bare earth meeting a line of rounded trees. The plain serpent — smooth simple body, simple head in profile, one plain round dot eye, no mouth line — SMALL and far off, slipping away beneath the tree line, head low to the ground, moving away from the viewer. In the foreground, in the bare earth where it passed, a seedling: a seed half-buried in a shallow furrow with one green shoot and two round leaves. NO foot, NO heel, NO figure, NO stone on the serpent. Nothing in the sky but simple clouds."
+    figures: []
+
+  - name: dawn-hills
+    title: "D1 secondary — dawn over outlined hills in pure black and white (as p19)"
+    ref: "Romans 5:8"
+    scene: "A wide, quiet landscape at the first light of morning: rolling hills drawn as plain OUTLINES only, the sun a plain half-circle on the horizon with a few short straight light-lines close around it. In the foreground a seedling with two round leaves in a little furrow. No people, no serpent, no gate, no figure on the horizon, no rays reaching anything, NO dark fill anywhere, NO night sky."
+    figures: []
+
+  - name: gate-outside
+    title: "D7 A — the guarded way behind them, the sunrise ahead: two light sources on one page (as p21)"
+    ref: "Genesis 3:23-24"
+    scene: "Seen from OUTSIDE the garden. The man and the woman FROM BEHIND in the middle ground, walking east toward the rising sun, hands apart, wearing the garments of skin: the man's plain sleeveless one-shoulder tunic, the woman's plain sleeveless knee-length dress, each with ONLY an uneven hem; every arm and leg ONE single thin line, oval hands and feet. Far behind them and SMALL, the garden's edge: a line of rounded trees with an opening and in it a single upright sword outline with a few short straight light-lines close around it — no figure, no wings, no flames. A small distant tree inside. Ahead of them open land and the sun as a plain half-circle on the horizon with a few short light-lines. They do not look back. No path."
+    figures: "first-couple"
+    character_ref: "kids/_brand/p25-figures-ref.jpg"
+
+  - name: mended-cup
+    title: "R3 / D8a A — the mended cup with its seam and the shoot, received, nobody holding it (as p27)"
+    ref: "Genesis 3:15 applied"
+    scene: "A backyard garden at first light: a low wooden picket fence behind, low hedges at the sides, grass. On the top of a low back step in the foreground stands a clay cup with a handle, set back together: ONE thin line runs along its old crack, and from soil inside the cup grows ONE green shoot with two round leaves. Son (4) and Daughter 3 (6) stand in front of the step LOOKING at the shoot, hands apart, faces calm (dot eyes, small mouth line). NOBODY holds the cup, NOBODY touches it: no glue, no tape, no tools, no hands on it. The small family dog sits beside them. The sun a plain half-circle above the fence with a few short light-lines. Light from the horizon only."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
+      Daughter3: "sleeveless sundress"
+
+  - name: father-shirt
+    title: "F23 — the Father in a short-sleeved collared shirt beside the Son, cup untouched (as p25) — REPORT tube limbs"
+    ref: "Romans 5:8"
+    scene: "A backyard garden at late afternoon: a low wooden picket fence behind, low hedges at the sides, grass. A clay cup with a handle lies on the grass with ONE clear crack across it, untouched. The Father stands BESIDE the Son (4), turned toward him, close, his arms held a little away from his body — NO hand on the shoulder, NO hug. The Son looks up at him, worried (small downturned mouth line). The small family dog sits nearby looking at the boy. Nobody is picking up or fixing anything."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Son: "sleeveless t-shirt and shorts"
+      Father: "short-sleeved collared shirt and knee-length shorts"
+
+  - name: family-six
+    title: "D8a A / D-10 — all six family members at sunrise around the mended cup (as p29) — count check"
+    ref: "Lyric lines 183-188"
+    scene: "A backyard garden at sunrise: a low wooden picket fence behind, low hedges at the sides, grass. The whole family faces the viewer, gathered loosely around a clay cup with a handle that stands on a low step in front of them, set back together with ONE thin line along its old crack and ONE green shoot with two round leaves growing from soil inside it — NOT held by anyone. EXACTLY six people: Father, Mother, Daughter 1, Daughter 2, Daughter 3, Son — and the small family dog. Every arm a single line held away from the body; no hand-holding, no hands on shoulders, no hugging. Faces: dot eyes and a small mouth line, calm. The sun a plain half-circle above the fence with a few short light-lines. Nothing else in the sky."
+    figures: "family"
+    character_ref: "kids/_brand/cast-sheet.jpg"
+    outfits:
+      Father: "short-sleeved collared shirt and knee-length shorts"
+      Mother: "sleeveless wrap-dress (head wrap, hair visible beneath)"
+      Daughter1: "sleeveless top and knee-length skirt"
+      Daughter2: "sleeveless A-line dress"
+      Daughter3: "sleeveless sundress"
+      Son: "sleeveless t-shirt and shorts"
