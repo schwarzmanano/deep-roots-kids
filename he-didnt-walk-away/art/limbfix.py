@@ -57,9 +57,12 @@ OPS = {
     5: [("erase", [(285, 78), (555, 78), (555, 236), (285, 236)]),
         ("erase", [(430, 258), (645, 258), (645, 322), (430, 322)]),
         ("erase", [(640, 274), (666, 274), (666, 290), (640, 290)]),
-        ("tubelegs", [(525, 932), (620, 932), (620, 1038), (525, 1038)], 2)],          # woman's legs
-    7: [("tubelegs", [(315, 945), (410, 945), (410, 1040), (315, 1040)], 2)],          # woman's legs
-    9: [("tubelegs", [(315, 945), (410, 945), (410, 1040), (315, 1040)], 2)],          # woman's legs
+        ("erase", [(520, 1035), (574, 1035), (574, 1074), (520, 1074)]), ("erase", [(582, 1035), (640, 1035), (640, 1074), (582, 1074)]),   # her open C-shaped feet
+        ("tubelegs", [(525, 932), (620, 932), (620, 1034), (525, 1034)], 2, (20, 10))],  # woman's legs + oval feet
+    7: [("erase", [(312, 1037), (362, 1037), (362, 1080), (312, 1080)]), ("erase", [(372, 1037), (426, 1037), (426, 1084), (372, 1084)]),   # her open C-shaped feet
+        ("tubelegs", [(315, 945), (410, 945), (410, 1036), (315, 1036)], 2, (20, 10))],  # woman's legs + oval feet
+    9: [("erase", [(312, 1037), (362, 1037), (362, 1080), (312, 1080)]), ("erase", [(372, 1037), (426, 1037), (426, 1084), (372, 1084)]),   # her open C-shaped feet
+        ("tubelegs", [(315, 945), (410, 945), (410, 1036), (315, 1036)], 2, (20, 10))],  # woman's legs + oval feet
     15: [("tubelegs", [(595, 886), (715, 886), (715, 1018), (595, 1018)], 2),        # woman's legs
          ("erase", [(572, 1021), (722, 1021), (722, 1071), (572, 1071)]),               # her open half-oval feet
          ("oval", (627, 1031, 16, 9)), ("oval", (690, 1031, 16, 9)),
@@ -69,7 +72,12 @@ OPS = {
          ("line", [(462, 572), (470, 556)]), ("oval", (478, 540, 12, 18)),
          ("erase", [(738, 712), (786, 712), (786, 782), (738, 782)]),                 # woman's right mitten
          ("line", [(752, 706), (756, 736)]), ("oval", (760, 754, 12, 18))],
-    21: [("tubelegs", [(525, 948), (620, 948), (620, 1038), (525, 1038)], 2)],         # woman's legs
+    21: [("erase", [(520, 1035), (574, 1035), (574, 1074), (520, 1074)]), ("erase", [(582, 1035), (640, 1035), (640, 1074), (582, 1074)]),   # her open C-shaped feet
+         # the ragged hem's points hang down to y 948 right above the old leg lines, so the stub walk is
+         # off here and the three free-standing stubs are erased by hand (the right leg's inner stub is a hem point)
+         ("erase", [(533, 929), (544, 929), (544, 949), (533, 949)]), ("erase", [(558, 929), (569, 929), (569, 949), (558, 949)]),
+         ("erase", [(604, 929), (615, 929), (615, 949), (604, 949)]),
+         ("tubelegs", [(525, 948), (620, 948), (620, 1034), (525, 1034)], 2, (20, 10), {"stubs": False})],
     # Measured on the processed pages (877 x 1135), 2026-10-17. The seam sits just off the cup's
     # centre line, inside the body, touching neither the rim nor the base outline.
     27: [("seam", (440, 790), (440, 848), 3)],
@@ -135,6 +143,7 @@ def apply(page):
             for x, y in (pts[0], pts[-1]): d.ellipse([x - r, y - r, x + r, y + r], fill=0)
         elif kind == "tubelegs":
             poly, n = op[1], op[2]; end = op[3] if len(op) > 3 else None
+            opts = op[4] if len(op) > 4 else {}
             y0, y1, limbs = tube_centres(ink, poly, n)
             d.polygon(S(poly), fill=255)
             # stubs: the old two-sided lines continue a few px past the zone (under the hem, above the
@@ -143,7 +152,7 @@ def apply(page):
             zys = np.where(zone.any(1))[0]
             # walk outward row by row and erase only narrow (≤ 9 px) runs — a vertical stroke — stopping
             # at the first wide run (the hem or the foot outline), so neither is nicked
-            for yy, dy in ((zys.min(), -1), (zys.max(), +1)):
+            for yy, dy in (((zys.min(), -1), (zys.max(), +1)) if opts.get("stubs", True) else ()):
                 xs = np.where(ink[yy] & zone[yy])[0]
                 for run in (np.split(xs, np.where(np.diff(xs) > 1)[0] + 1) if len(xs) else []):
                     cx = int(run.mean())
@@ -162,6 +171,14 @@ def apply(page):
                 (xc, yc), (xd, yd) = pts[-2], pts[-1]
                 top = (xa - (xb - xa) * 4 / max(yb - ya, 1), ya - 4)
                 bot = (xd + (xd - xc) * 4 / max(yd - yc, 1), yd + 4)
+                # run the line on upward until it meets the original ink (the hem), overlapping 3 px,
+                # so no gap is left where the first clean rows sat below the hem
+                ux, uy = (xa - xb), (ya - yb); L = max((ux * ux + uy * uy) ** 0.5, 1e-6); ux, uy = ux / L, uy / L
+                for k in range(4, 40):
+                    tx, ty = int(round(xa + ux * k)), int(round(ya + uy * k))
+                    if ty < 0 or tx < 1 or tx >= w - 1: break
+                    if ink[ty, tx - 1:tx + 2].any():
+                        top = (xa + ux * (k + 3), ya + uy * (k + 3)); break
                 P = S([top] + pts + [bot])
                 d.line(P, fill=0, width=W * SS, joint="curve")
                 for x, y in (P[0], P[-1]): d.ellipse([x - r, y - r, x + r, y + r], fill=0)

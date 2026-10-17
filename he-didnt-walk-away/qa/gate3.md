@@ -61,3 +61,13 @@ both editions, step 8 listing.
   single lines with oval feet/hand, the trunk edge untouched, old stubs erased.
 Re-run after the corrections: QA 15 pages 0 flagged; vectorized; both release interiors rebuilt;
 Lulu interior pure DeviceGray; preflights PASS; print_table PASS. Contact: `qa/limbfix-contact.jpg`.
+
+### Limb pass 2 (editor 2026-10-17: "some of them are broken")
+Causes found at high zoom: the women's feet were the model's open C-shapes that the new leg lines
+never met; the leg lines started a few px below the hem; on p21 the stub walk had eaten the
+ragged hem's hanging points. Fixes in `art/limbfix.py`: each refitted leg now runs up into the hem
+(walks to the original ink, 3 px overlap); the old feet on p5, p7, p9, p21 are erased and closed
+oval feet (20 × 10) are drawn at the leg ends; p21 keeps its hem points (stub walk off, three
+free-standing stubs erased by hand). p3 and p15 unchanged from pass 1. Re-run: QA 0 flagged,
+vectorized, release interiors rebuilt, Lulu DeviceGray, preflights + print_table PASS.
+Close-ups: `qa/limbfix-closeups.jpg`.
