@@ -59,3 +59,11 @@ Contact sheet: `qa/round3-contact.jpg`.
 Also in this round, in post (`art/limbfix.py`): p5's curly wind marks erased from the sky (three
 boxes); the texts corrected at the editor's instruction: p7 closing ” added (§8), p2 copyright
 holder → Deep Roots Publishing, p17's duplicate Yahweh sentence removed (nothing added).
+
+## Round 4 — 2026-10-18, p3 × 2 (a07/a08), $0.19 (book total $6.97 of $12)
+
+After four hand passes on p3 a06 the figures still read wrong (an arm emerging from behind the trunk,
+a lens across the woman's back, heavy outlines). Re-rolled with the limb construction named in the
+scene: both attempts came out with single-line limbs, oval hands and oval feet, the couple half
+behind the trunks. **a08 chosen** (no marks in the sky; unasked flowers along the bottom, as p7).
+a07 carries wind swirls across the treetops. The p3 hand corrections in art/limbfix.py are retired.

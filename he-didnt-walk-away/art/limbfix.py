@@ -36,6 +36,11 @@ OPS = {
     # Limb corrections (editor 2026-10-17, "correct all the limbs on pages 3, 5, 7, 9, 15, 21"):
     # the first couple's two-sided legs refitted as single lines; mitten/pointing hands → plain
     # ovals. Zones measured on the processed pages (927 x 1200) from ink-run scans.
+    # 3: retired 2026-10-18 — p3 re-rolled (round 4, attempt-08 chosen) with clean single-line limbs; no corrections needed.
+    # p5: the sky wind marks erased (editor 2026-10-17) — see the p5 entry below.
+    # Limb corrections (editor 2026-10-17, "correct all the limbs on pages 3, 5, 7, 9, 15, 21"):
+    # the first couple's two-sided legs refitted as single lines; mitten/pointing hands → plain
+    # ovals. Zones measured on the processed pages (927 x 1200) from ink-run scans.
     3: [  # the trunk edge runs into both the man's left leg and his arm, so these are drawn explicitly
         # woman's legs (right leg borders the trunk; the zone's right edge follows the trunk edge)
         ("erase", [(538, 886), (629, 886), (627, 935), (613, 965), (613, 1002), (538, 1002)]),
