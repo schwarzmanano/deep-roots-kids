@@ -85,3 +85,8 @@ restored. A bar of the old hand against the garment: cleared. The woman's right 
 across her back against the trunk: its inner line erased end to end, so her silhouette's right edge
 is the trunk (she stands half behind it), the edge smoothed where the lens met it. Rebuilt and
 verified as before.
+
+### All-pages limb check (editor 2026-10-18)
+Every figure on p17, p23, p27 and p29 scans as single-line limbs (ink-run scans across each leg
+and arm zone). The one remaining two-sided limb pair, the Father's legs below his shorts on p25,
+refitted as single lines. Rebuilt and verified as before.

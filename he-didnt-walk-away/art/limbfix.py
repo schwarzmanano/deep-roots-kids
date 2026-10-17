@@ -64,6 +64,7 @@ OPS = {
          ("tubelegs", [(525, 948), (620, 948), (620, 1034), (525, 1034)], 2, (20, 10), {"stubs": False})],
     # Measured on the processed pages (877 x 1135), 2026-10-17. The seam sits just off the cup's
     # centre line, inside the body, touching neither the rim nor the base outline.
+    25: [("tubelegs", [(178, 846), (330, 846), (330, 972), (178, 972)], 2)],        # the Father's two-sided legs below his shorts (editor's all-pages check 2026-10-18)
     27: [("seam", (440, 790), (440, 848), 3)],
     29: [("erase", [(425, 1037), (466, 1037), (466, 1102), (425, 1102)]),   # the model's wavy crack
          ("erase", [(436, 1100), (458, 1100), (458, 1106), (436, 1106)]),   # its curl at the base
