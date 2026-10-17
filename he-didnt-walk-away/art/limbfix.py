@@ -28,6 +28,7 @@ import sys
 from PIL import Image, ImageDraw
 
 W = 5            # outline stroke width of the figures at the processed size (measure at QA)
+WPAGE = {3: 8}   # pages whose figure outlines are heavier (measured 2026-10-17: p3 median 7-9 px)
 SS = 4           # supersample, then threshold back to bitonal
 
 OPS = {
@@ -47,8 +48,14 @@ OPS = {
         # man's left arm: the forearm hanging out from behind the trunk — two-sided + lens hand → one line + oval
         ("erase", [(236, 700), (276, 700), (276, 850), (236, 850)]),            # left of the trunk edge
         ("erase", [(289, 700), (300, 700), (300, 748), (289, 748)]),            # the inner arm line right of the edge
-        ("line", [(281, 735), (254, 810)]), ("oval", (252, 822, 9, 13)),
+        ("line", [(281, 735), (253, 808)]), ("oval", (251, 824, 12, 16)),
         ("erase", [(296, 712), (302, 712), (302, 726), (296, 726)]),            # spur of the old arm at the garment
+        # man's RIGHT arm: a two-sided contour hugging the garment's right edge → erased outside the edge, one line + oval
+        ("erase", [(425, 555), (452, 555), (452, 748), (424, 748), (426, 700), (427, 640)]),
+        ("line", [(424, 574), (453, 778)]), ("oval", (457, 795, 11, 15)),
+        # woman's LEFT arm: a lens drawn over the dress → the inner contour erased, one line outside the dress + oval
+        ("erase", [(531, 652), (556, 652), (556, 750), (531, 750)]),
+        ("line", [(523, 662), (489, 796)]), ("oval", (486, 812, 11, 15)),
         # stubs of the old two-sided legs just under the hems
         ("erase", [(309, 854), (320, 854), (320, 861), (309, 861)]), ("erase", [(344, 854), (355, 854), (355, 861), (344, 861)]),
         ("erase", [(367, 854), (378, 854), (378, 861), (367, 861)]), ("erase", [(403, 854), (414, 854), (414, 861), (403, 861)]),
@@ -67,11 +74,12 @@ OPS = {
          ("erase", [(572, 1021), (722, 1021), (722, 1071), (572, 1071)]),               # her open half-oval feet
          ("oval", (627, 1031, 16, 9)), ("oval", (690, 1031, 16, 9)),
          ("erase", [(150, 718), (198, 718), (198, 790), (150, 790)]),                 # man's left mitten
-         ("line", [(170, 712), (171, 742)]), ("oval", (172, 760, 12, 18)),
+         ("erase", [(158, 721), (166, 721), (166, 742), (158, 742)]), ("erase", [(175, 721), (183, 721), (183, 742), (175, 742)]),   # its ticks beside the arm
+         ("line", [(170, 712), (171, 744)]), ("oval", (172, 762, 12, 18)),
          ("erase", [(444, 498), (508, 498), (508, 578), (444, 578)]),                 # man's pointing hand
-         ("line", [(462, 572), (470, 556)]), ("oval", (478, 540, 12, 18)),
+         ("line", [(448, 582), (471, 552)]), ("oval", (482, 537, 12, 18)),           # continues the arm's own direction
          ("erase", [(738, 712), (786, 712), (786, 782), (738, 782)]),                 # woman's right mitten
-         ("line", [(752, 706), (756, 736)]), ("oval", (760, 754, 12, 18))],
+         ("line", [(758, 706), (759, 736)]), ("oval", (760, 754, 12, 18))],
     21: [("erase", [(520, 1035), (574, 1035), (574, 1074), (520, 1074)]), ("erase", [(582, 1035), (640, 1035), (640, 1074), (582, 1074)]),   # her open C-shaped feet
          # the ragged hem's points hang down to y 948 right above the old leg lines, so the stub walk is
          # off here and the three free-standing stubs are erased by hand (the right leg's inner stub is a hem point)
@@ -115,6 +123,8 @@ def tube_centres(ink, poly, n):
 def apply(page):
     import numpy as np
     from scipy import ndimage
+    global W
+    W = WPAGE.get(page, 5)
     src = Image.open(f"art/pre-limbfix/p{page}.png").convert("L")
     ink = np.asarray(src) < 128
     w, h = src.size

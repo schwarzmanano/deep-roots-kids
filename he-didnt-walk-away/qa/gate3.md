@@ -71,3 +71,10 @@ oval feet (20 × 10) are drawn at the leg ends; p21 keeps its hem points (stub w
 free-standing stubs erased by hand). p3 and p15 unchanged from pass 1. Re-run: QA 0 flagged,
 vectorized, release interiors rebuilt, Lulu DeviceGray, preflights + print_table PASS.
 Close-ups: `qa/limbfix-closeups.jpg`.
+
+### Limb pass 3 (editor 2026-10-17: "pages 3, 15 still not right")
+p3: the page's outlines are 7–9 px, so its corrections now use an 8 px stroke (per-page `WPAGE`);
+the man's RIGHT arm and the woman's LEFT arm were still two-sided contours hugging the garments —
+erased and redrawn as single lines hanging clear of the body with oval hands; hand ovals enlarged
+to the page's scale. p15: the pointing arm now runs in one line into its oval; the woman's right
+hand and the man's left hand are joined to their arms without a jog. Rebuilt and verified as before.
