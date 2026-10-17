@@ -37,42 +37,6 @@ OPS = {
     # the first couple's two-sided legs refitted as single lines; mitten/pointing hands → plain
     # ovals. Zones measured on the processed pages (927 x 1200) from ink-run scans.
     # 3: retired 2026-10-18 — p3 re-rolled (round 4, attempt-08 chosen) with clean single-line limbs; no corrections needed.
-    # p5: the sky wind marks erased (editor 2026-10-17) — see the p5 entry below.
-    # Limb corrections (editor 2026-10-17, "correct all the limbs on pages 3, 5, 7, 9, 15, 21"):
-    # the first couple's two-sided legs refitted as single lines; mitten/pointing hands → plain
-    # ovals. Zones measured on the processed pages (927 x 1200) from ink-run scans.
-    3: [  # the trunk edge runs into both the man's left leg and his arm, so these are drawn explicitly
-        # woman's legs (right leg borders the trunk; the zone's right edge follows the trunk edge)
-        ("erase", [(538, 886), (629, 886), (627, 935), (613, 965), (613, 1002), (538, 1002)]),
-        ("line", [(562, 880), (560, 990)]), ("oval", (560, 998, 16, 9)),
-        ("line", [(606, 880), (601, 988)]), ("oval", (600, 996, 13, 8)),
-        # man's legs (the zone's left edge follows the trunk edge + 6 px)
-        ("erase", [(296, 858), (430, 858), (430, 1002), (336, 1002), (326, 982), (312, 962), (304, 935), (298, 905)]),
-        ("line", [(331, 856), (334, 988)]), ("oval", (334, 996, 18, 10)),
-        ("line", [(390, 856), (393, 988)]), ("oval", (393, 996, 18, 10)),
-        # man's left arm: the forearm hanging out from behind the trunk — two-sided + lens hand → one line + oval
-        ("erase", [(236, 700), (276, 700), (276, 850), (236, 850)]),            # left of the trunk edge
-        ("erase", [(289, 700), (300, 700), (300, 748), (289, 748)]),            # the inner arm line right of the edge
-        ("line", [(277, 694), (282, 734)]),                                    # the trunk edge, restored where the old arm merged into it
-        ("erase", [(288, 775), (303, 775), (303, 793), (288, 793)]),            # bar of the old hand against the garment
-        ("line", [(281, 735), (253, 808)]), ("oval", (251, 824, 12, 16)),
-        # woman's RIGHT arm: a lens drawn across her back against the trunk → its inner contour erased (the arm is behind the trunk)
-        ("erase", [(596, 604), (612, 604), (645, 760), (632, 770)]),            # the lens's inner line, shoulder to where it meets the trunk
-        ("erase", [(630, 694), (642, 694), (642, 714), (630, 714)]),            # its elbow chunk
-        ("line", [(641, 746), (646, 774)]),                                    # the edge smoothed where the lens met it
-        ("erase", [(600, 592), (615, 592), (615, 618), (600, 618)]),            # the lens's tip beside the hair
-        ("erase", [(296, 712), (302, 712), (302, 726), (296, 726)]),            # spur of the old arm at the garment
-        # man's RIGHT arm: a two-sided contour hugging the garment's right edge → erased outside the edge, one line + oval
-        ("erase", [(425, 555), (452, 555), (452, 748), (424, 748), (426, 700), (427, 640)]),
-        ("line", [(424, 574), (453, 778)]), ("oval", (457, 795, 11, 15)),
-        # woman's LEFT arm: a lens drawn over the dress → the inner contour erased, one line outside the dress + oval
-        ("erase", [(531, 652), (556, 652), (556, 750), (531, 750)]),
-        ("line", [(523, 662), (489, 796)]), ("oval", (486, 812, 11, 15)),
-        # stubs of the old two-sided legs just under the hems
-        ("erase", [(309, 854), (320, 854), (320, 861), (309, 861)]), ("erase", [(344, 854), (355, 854), (355, 861), (344, 861)]),
-        ("erase", [(367, 854), (378, 854), (378, 861), (367, 861)]), ("erase", [(403, 854), (414, 854), (414, 861), (403, 861)]),
-        ("erase", [(542, 884), (553, 884), (553, 887), (542, 887)]), ("erase", [(573, 884), (584, 884), (584, 887), (573, 887)]),
-        ("erase", [(586, 884), (597, 884), (597, 887), (586, 887)]), ("erase", [(617, 884), (628, 884), (628, 887), (617, 887)])],
     5: [("erase", [(285, 78), (555, 78), (555, 236), (285, 236)]),
         ("erase", [(430, 258), (645, 258), (645, 322), (430, 322)]),
         ("erase", [(640, 274), (666, 274), (666, 290), (640, 290)]),
