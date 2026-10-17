@@ -52,7 +52,9 @@ OPS = {
         ("erase", [(288, 775), (303, 775), (303, 793), (288, 793)]),            # bar of the old hand against the garment
         ("line", [(281, 735), (253, 808)]), ("oval", (251, 824, 12, 16)),
         # woman's RIGHT arm: a lens drawn across her back against the trunk → its inner contour erased (the arm is behind the trunk)
-        ("erase", [(599, 596), (613, 596), (638, 696), (625, 707)]),
+        ("erase", [(596, 604), (612, 604), (645, 760), (632, 770)]),            # the lens's inner line, shoulder to where it meets the trunk
+        ("erase", [(630, 694), (642, 694), (642, 714), (630, 714)]),            # its elbow chunk
+        ("line", [(641, 746), (646, 774)]),                                    # the edge smoothed where the lens met it
         ("erase", [(600, 592), (615, 592), (615, 618), (600, 618)]),            # the lens's tip beside the hair
         ("erase", [(296, 712), (302, 712), (302, 726), (296, 726)]),            # spur of the old arm at the garment
         # man's RIGHT arm: a two-sided contour hugging the garment's right edge → erased outside the edge, one line + oval

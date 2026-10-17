@@ -78,3 +78,10 @@ the man's RIGHT arm and the woman's LEFT arm were still two-sided contours huggi
 erased and redrawn as single lines hanging clear of the body with oval hands; hand ovals enlarged
 to the page's scale. p15: the pointing arm now runs in one line into its oval; the woman's right
 hand and the man's left hand are joined to their arms without a jog. Rebuilt and verified as before.
+
+### Limb pass 4 (editor 2026-10-17: "p3 still off — man's left hand, woman's back")
+The trunk edge had been cut where the old arm merged into it (so the new arm began from nothing):
+restored. A bar of the old hand against the garment: cleared. The woman's right arm was a lens drawn
+across her back against the trunk: its inner line erased end to end, so her silhouette's right edge
+is the trunk (she stands half behind it), the edge smoothed where the lens met it. Rebuilt and
+verified as before.
