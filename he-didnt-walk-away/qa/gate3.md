@@ -48,3 +48,16 @@ The author's couplets print on two lines (layout.py now honours explicit line br
 **STOPPED AT GATE 3.** No cover work, no release build, until the editor approves this proof.
 Next after approval: step 6 cover "MENDED" (B&W stick reference first), step 7 print files for
 both editions, step 8 listing.
+
+## Limb corrections before upload (editor 2026-10-17: "correct all the limbs on pages 3, 5, 7, 9, 15, 21")
+
+`art/limbfix.py` now carries Book Three's tube-limb centre-fitting op and explicit line/oval ops:
+- p5, p7, p9, p21: the woman's two-sided legs refitted as single lines (feet kept); stubs under
+  the hem and above the feet walked out without nicking either.
+- p15: the woman's legs refitted; her open half-oval feet redrawn as plain ovals; the man's left
+  mitten and his pointing hand, and the woman's right mitten, redrawn as plain ovals on the arm
+  lines (first couple: plain ovals, one pointing gesture carried by the arm).
+- p3: the trunk edge runs into the man's left leg and arm, so legs and arm were drawn explicitly:
+  single lines with oval feet/hand, the trunk edge untouched, old stubs erased.
+Re-run after the corrections: QA 15 pages 0 flagged; vectorized; both release interiors rebuilt;
+Lulu interior pure DeviceGray; preflights PASS; print_table PASS. Contact: `qa/limbfix-contact.jpg`.
