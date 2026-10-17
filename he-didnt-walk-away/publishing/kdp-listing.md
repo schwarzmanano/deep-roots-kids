@@ -4,6 +4,8 @@ Book Four, Deep Roots Kids · Creation to Glorification. Figures marked **CONFIR
 from the built release files on 2026-10-17 (`scripts/print_table.py`, both preflights,
 `lulu_verify`). Items marked **YOUR CALL** are decisions, not facts. Nothing here is printed in the book.
 
+> **Release status (2026-10-18): RELEASE BUILDS FINAL** (limb corrections on p5, p7, p9, p15, p21; p3 re-rolled; all checks PASS). **Editor 2026-10-18: ready for proof orders and uploads — price $10.99, matte, free ISBNs, author Deep Roots.**
+>
 > **Release status (2026-10-17): RELEASE BUILDS DONE.** Four files built with `--release`
 > (no proof stamp): `out/interior.pdf`, `out/cover.pdf` (KDP); `out/interior-lulu.pdf` (pure
 > DeviceGray, Book One Lulu fixes applied), `out/cover-lulu.pdf` (Lulu). Interior + cover preflights
@@ -18,7 +20,7 @@ from the built release files on 2026-10-17 (`scripts/print_table.py`, both prefl
 | Title | He Didn't Walk Away | author (my-words, confirmed; straight apostrophe — F6) |
 | Subtitle | The Promise of a Rescuer • A Deep Roots Kids Coloring Book | author (my-words, confirmed) |
 | Series | Creation to Glorification, Book 4 | editor brief (numeral only in the platforms' series field; print says "Book Four") |
-| Author / contributor | **Deep Roots** — exactly as Books One to Three on KDP and Lulu. Schwarz is credited only through the About the Author page | editor ruling 2026-10-01 |
+| Author / contributor | **Deep Roots** — exactly as Books One to Three on KDP and Lulu (reconfirmed 2026-10-18). Schwarz is credited only through the About the Author page | editor ruling 2026-10-01 |
 | Publisher / imprint | **Deep Roots Publishing** (ruled 2026-10-16; Books One to Three list Deep Roots Kids) | editor ruling |
 | Copyright | © 2026 Deep Roots Publishing | author (p2, holder at the editor's instruction 2026-10-17) |
 | Edition | First edition, 2026 | author (p2) |
@@ -116,9 +118,9 @@ Note: Lulu's pages disagree on the cover safety margin (0.5 / 0.25 / 0.125 in); 
 | Bleed setting | No bleed (interior) |
 | Ink / paper | Black & white, white paper |
 | Barcode | "Cover includes barcode" stays **unticked** — KDP places it; 2.0 × 1.2 in box bottom-right of the back panel kept clear (CONFIRMED) |
-| Cover finish | **YOUR CALL** — Book Three is matte on both platforms |
-| ISBN | **YOUR CALL — own Deep Roots Publishing (MVB) ISBN** (ruled 2026-10-16): assign one to this KDP edition and enter it as "own ISBN" so the imprint reads Deep Roots Publishing. Never KDP's free ISBN. Record it in book.yaml `isbn.kdp` |
-| Price | **YOUR CALL** — Books One to Two at $9.99, Book Three at $10.99 / 10.99 EUR incl. VAT; stay at **$9.99 or above** for the full paperback royalty; verify in KDP's calculator |
+| Cover finish | **Matte** (editor ruling 2026-10-18) |
+| ISBN | **KDP free ISBN** (editor ruling 2026-10-18 — own Deep Roots Publishing ISBNs begin with the next project). Amazon-only; never reuse on Lulu. Record the assigned number in book.yaml `isbn.kdp` |
+| Price | **$10.99** (editor ruling 2026-10-18), Amazon.com; EU stores set so the shopper pays 10.99 EUR incl. VAT (pre-VAT as Book Three: BE 10.37, DE 10.27, ES 10.57, FR 10.42, IE 10.99, IT 10.57, NL 10.08); 60 % royalty |
 | QR code to Track 4 videos | **YOUR CALL** — only if the Track 4 videos are published on the channel; none is in the files now |
 
 Checklist:
@@ -140,9 +142,9 @@ Checklist:
 | Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine **0.1411 in** (36/444 + 0.06), Kindled Coral, no text; 0.5 in safety; CMYK; rasters 399–427 ppi — CONFIRMED |
 | Spine text | None — Lulu allows spine text only above 80 pages |
 | Barcode | 3.0 × 1.5 in box bottom-right of the back panel kept clear, 0.5 in from the trim (CONFIRMED; verify against Lulu's template) |
-| Cover finish | **YOUR CALL** — matte (as Book Three) or gloss |
-| ISBN | **YOUR CALL** — Lulu Direct store sales need none (Books One to Three); if Lulu retail distribution is enabled, a **separate** Deep Roots Publishing ISBN, never the KDP one. Record it in book.yaml `isbn.lulu` |
-| Price | **YOUR CALL** — Book Three is 10.99 EUR on deeprootsdr.com (Woo) |
+| Cover finish | **Matte** (editor ruling 2026-10-18) |
+| ISBN | **Lulu's free ISBN if offered, else none** (editor ruling 2026-10-18); Lulu Direct store sales need none, as Books One to Three. Never the KDP number |
+| Price | **10.99 EUR** on deeprootsdr.com via Lulu Direct (editor ruling 2026-10-18, as Book Three) |
 
 Checklist:
 - [x] Both Lulu files built with `--release`; preflight + Lulu-check emulation PASS (2026-10-17)
