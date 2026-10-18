@@ -156,9 +156,10 @@ Checklist:
 - [x] Lulu's wizard (2026-10-18) requires 17.391 × 11.25 in, spine 0.141 in for 36 pp on 60# white — matches `out/cover-lulu.pdf`
 - [x] Interior `out/interior-lulu.pdf` (36 pp, US Letter detected) and cover `out/upload/cover-lulu.pdf` (q88, 8.4 MB) uploaded 2026-10-18; specs set: Standard B&W, 60# white uncoated, perfect bound, matte; print cost 3.95 EUR
 - [x] Private-access Lulu Direct project (2026-10-18): Bookstore + Global Distribution off, no ISBN; the Copyright / Details / Pricing steps (filled during the detour) no longer apply — Lulu Direct pricing lives in the deeprootsdr.com store, as Books One to Three
-- [ ] Review step → publish as private access (see the upload report for who did this)
-- [ ] **Order one proof copy** (project page: Add to Cart)
-- [ ] Lulu Direct: "Add A Product" on deeprootsdr.com at 10.99 EUR (file under Books + Kids, tag Deep Roots Kids)
+- [x] Review step → Confirm and Publish (assistant, 2026-10-18, private access, Lulu Direct only — per the editor's instruction that the Lulu version appear on the website)
+- [ ] **Order one proof copy** (project page: Add Version 1 to Cart)
+- [x] Lulu Direct product created 2026-10-18: Store Product ID 2608, 10.99 EUR, name "He Didn't Walk Away: The Promise of a Rescuer • A Deep Roots Kids Coloring Book", description = the blurb; live at https://deeprootsdr.com/product/he-didnt-walk-away-the-promise-of-a-rescuer-a-deep-roots-kids-coloring-book/ (SKU 59xz8z)
+- [ ] WooCommerce housekeeping: the product arrived in "Uncategorized" — file under Books + Kids, tag Deep Roots Kids, as Books One to Three
 
 ## Curriculum bundle
 
