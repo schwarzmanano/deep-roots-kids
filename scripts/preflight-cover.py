@@ -53,9 +53,20 @@ else:
     clip=pymupdf.Rect(0.125*IN, EXP_H-band_h, 0.125*IN+8.5*IN, EXP_H)   # pymupdf y-down
 pix=pg.get_pixmap(dpi=150, clip=clip)
 a=np.array(Image.open(io.BytesIO(pix.tobytes("png"))).convert("L"))
-print(f"  barcode band: min luminance {a.min()}, mean {a.mean():.0f} "
-      f"({'clear + light' if a.min()>200 else 'HAS DARK CONTENT'})")
-if a.min()<=200: fails.append(f"barcode band not clear (min luminance {a.min()})")
+import re as _re2
+_isbn=_re2.sub(r"[^0-9]","",str((cfg.get("isbn") or {}).get(TARGET) or ""))
+OWN_BARCODE = (cfg.get("cover") or {}).get("layout")=="grid" and TARGET=="lulu" and len(_isbn)==13
+if OWN_BARCODE:   # Lulu Global Distribution: we place the EAN-13 ourselves (cover.py); the box must carry it
+    words=" ".join(w[4] for w in pg.get_text("words", clip=clip))
+    has_text=_isbn in _re2.sub(r"[^0-9]","",words)
+    print(f"  barcode box: min luminance {a.min()}, max {a.max()} "
+          f"({'BARS PRESENT' if a.min()<40 and a.max()>240 else 'NO BARCODE'}); ISBN text {'present' if has_text else 'MISSING'}")
+    if not (a.min()<40 and a.max()>240): fails.append(f"barcode box carries no barcode (min lum {a.min()}, max {a.max()})")
+    if not has_text: fails.append("ISBN text missing from the barcode box")
+else:
+    print(f"  barcode band: min luminance {a.min()}, mean {a.mean():.0f} "
+          f"({'clear + light' if a.min()>200 else 'HAS DARK CONTENT'})")
+    if a.min()<=200: fails.append(f"barcode band not clear (min luminance {a.min()})")
 
 # text safety: every text block inside the back or front panel's safe box (never on the spine)
 B0=0.125*IN; back=pymupdf.Rect(B0+SAFE, B0+SAFE, B0+8.5*IN-SAFE, EXP_H-B0-SAFE)

@@ -101,6 +101,23 @@ Scripture quotations are from the World English Bible (WEB), which is in the pub
 
 ---
 
+### `p2.copyright.lulu.1` — copyright-page · p2 (LULU EDITION ONLY)
+
+- **Pointer:** the ISBN line Lulu Global Distribution requires on the copyright page (Lulu wizard,
+  2026-10-18). Lulu's free ISBN 978-1-291-47817-4 (imprint Lulu.com), assigned when you switched
+  Global Distribution on 2026-10-18. Printed on the Lulu interior only; the KDP interior is unchanged
+  (KDP does not require its ISBN on the page). An identifier, not prose — handled like the website
+  line. Change the form here if you want "ISBN:" or the hyphenless number.
+- **Current status:** inserted at the editor's instruction 2026-10-18 ("switching on Global Distribution in lulu")
+
+**MY TEXT:**
+
+ISBN 978-1-291-47817-4
+
+**MY TEXT STATUS:** confirmed
+
+---
+
 ### `p3.text` — page-text · p3 (When We Ran)
 
 - **Scripture:** Gen 3:8-10 recalled (picture only — not quoted, F21)

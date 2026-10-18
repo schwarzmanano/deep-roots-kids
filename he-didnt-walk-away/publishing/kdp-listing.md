@@ -4,6 +4,8 @@ Book Four, Deep Roots Kids · Creation to Glorification. Figures marked **CONFIR
 from the built release files on 2026-10-17 (`scripts/print_table.py`, both preflights,
 `lulu_verify`). Items marked **YOUR CALL** are decisions, not facts. Nothing here is printed in the book.
 
+> **Upload status (2026-10-18): KDP paperback WPN6Z5KYTJZ saved as a DRAFT** (all three steps complete, previewer approved, free ISBN **9798163197446**) — the editor presses *Publish Your Paperback Book* himself after the proof. **Lulu project q6799kp: Global Distribution switched ON by the editor (chat, 2026-10-18)** → Lulu free ISBN **978-1-291-47817-4** (imprint Lulu.com) assigned; Lulu places no barcode on an uploaded cover, so the LULU files were rebuilt the same day: `ISBN 978-1-291-47817-4` on p2 (unit `p2.copyright.lulu.1`, Lulu edition only) and an EAN-13 in the back-cover barcode box (`cover.py`). Both Lulu preflights, `print_table` and `lulu_verify` PASS; Lulu's wizard confirmed the cover spec 17.391 × 11.25 in, spine 0.141 in (matches). The KDP files are unchanged.
+>
 > **Release status (2026-10-18): RELEASE BUILDS FINAL** (limb corrections on p5, p7, p9, p15, p21; p3 re-rolled; all checks PASS). **Editor 2026-10-18: ready for proof orders and uploads — price $10.99, matte, free ISBNs, author Deep Roots.**
 >
 > **Release status (2026-10-17): RELEASE BUILDS DONE.** Four files built with `--release`
@@ -119,7 +121,7 @@ Note: Lulu's pages disagree on the cover safety margin (0.5 / 0.25 / 0.125 in); 
 | Ink / paper | Black & white, white paper |
 | Barcode | "Cover includes barcode" stays **unticked** — KDP places it; 2.0 × 1.2 in box bottom-right of the back panel kept clear (CONFIRMED) |
 | Cover finish | **Matte** (editor ruling 2026-10-18) |
-| ISBN | **KDP free ISBN** (editor ruling 2026-10-18 — own Deep Roots Publishing ISBNs begin with the next project). Amazon-only; never reuse on Lulu. Record the assigned number in book.yaml `isbn.kdp` |
+| ISBN | **KDP free ISBN 9798163197446** (assigned 2026-10-18; editor ruling — own Deep Roots Publishing ISBNs begin with the next project). Amazon-only; never reused on Lulu. Recorded in book.yaml `isbn.kdp` |
 | Price | **$10.99** (editor ruling 2026-10-18), Amazon.com; EU stores set so the shopper pays 10.99 EUR incl. VAT (pre-VAT as Book Three: BE 10.37, DE 10.27, ES 10.57, FR 10.42, IE 10.99, IT 10.57, NL 10.08); 60 % royalty |
 | QR code to Track 4 videos | **YOUR CALL** — only if the Track 4 videos are published on the channel; none is in the files now |
 
@@ -141,15 +143,16 @@ Checklist:
 | Interior file | `out/interior-lulu.pdf` — **8.75 × 11.25 in, 0.125 in bleed all sides, 36 pp, pure DeviceGray, no transparency — CONFIRMED** (Lulu paperback minimum 32: met) |
 | Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine **0.1411 in** (36/444 + 0.06), Kindled Coral, no text; 0.5 in safety; CMYK; rasters 399–427 ppi — CONFIRMED |
 | Spine text | None — Lulu allows spine text only above 80 pages |
-| Barcode | 3.0 × 1.5 in box bottom-right of the back panel kept clear, 0.5 in from the trim (CONFIRMED; verify against Lulu's template) |
+| Barcode | **EAN-13 978-1-291-47817-4 drawn by `cover.py`** inside the 3.0 × 1.5 in box bottom-right of the back panel (0.5 in from the trim) on a paper-white panel, K only, ISBN text above — Lulu places no barcode on an uploaded cover (wizard, 2026-10-18). CONFIRMED by `preflight-cover.py` (bars present, ISBN text present) |
 | Cover finish | **Matte** (editor ruling 2026-10-18) |
-| ISBN | **Lulu's free ISBN if offered, else none** (editor ruling 2026-10-18); Lulu Direct store sales need none, as Books One to Three. Never the KDP number |
+| ISBN | **Lulu free ISBN 978-1-291-47817-4**, imprint Lulu.com (assigned 2026-10-18 when the editor switched **Global Distribution** on; reserved 6 months until the book is published and a proof approved). Printed on p2 of the Lulu interior only. Never the KDP number |
+| Global Distribution | **ON** (editor, chat 2026-10-18): Lulu Bookstore + Lulu Direct + 40,000+ retailers; one-time 4.99 EUR distribution fee at checkout; the retail price must clear Lulu's distribution minimum (set at the Pricing step) |
 | Price | **10.99 EUR** on deeprootsdr.com via Lulu Direct (editor ruling 2026-10-18, as Book Three) |
 
 Checklist:
 - [x] Both Lulu files built with `--release`; preflight + Lulu-check emulation PASS (2026-10-17)
-- [ ] After uploading the interior, download Lulu's **current cover template** and confirm its spine is 0.1411 in for 36 pp on 60# white; rebuild the cover if it differs
-- [ ] Upload cover (browser cap 10 MB — use `cover.py --jpeg-quality 88` into `out/upload/` if the file is larger); review Lulu's file-check report
+- [x] Lulu's wizard (2026-10-18) requires 17.391 × 11.25 in, spine 0.141 in for 36 pp on 60# white — matches `out/cover-lulu.pdf`
+- [x] Interior `out/interior-lulu.pdf` (36 pp, US Letter detected) and cover `out/upload/cover-lulu.pdf` (q88, 8.4 MB) uploaded 2026-10-18; specs set: Standard B&W, 60# white uncoated, perfect bound, matte; print cost 3.95 EUR
 - [ ] Author field "Deep Roots"; publisher Deep Roots Publishing
 - [ ] Lulu Direct: publish the project, then "Add A Product" on deeprootsdr.com (file under Books + Kids, tag Deep Roots Kids)
 - [ ] **Order one proof copy before publishing**

@@ -412,6 +412,42 @@ else:
     c.setFillColor(NAVY); c.setFont("LoraIt", 11)
     c.drawCentredString(BX, y, cfg["scripture_scope"])
 
+# ISBN barcode (he-didnt-walk-away 2026-10-18, Lulu Global Distribution): Lulu places NO barcode on
+# an uploaded cover ("place the barcode in the bottom-right corner of the back cover"), so when
+# book.yaml isbn.lulu is a 13-digit ISBN the EAN-13 is drawn inside the grid's barcode box, on a
+# paper-white panel, K only. KDP's box stays clear — KDP prints its own barcode there.
+import re as _re
+_ISBN = _re.sub(r"[^0-9]", "", str((cfg.get("isbn") or {}).get(TARGET) or ""))
+OWN_BARCODE = bool(GRID) and TARGET == "lulu" and len(_ISBN) == 13
+if OWN_BARCODE:
+    from reportlab.graphics.barcode.eanbc import Ean13BarcodeWidget
+    from reportlab.graphics.shapes import Rect as _Rect, String as _String
+    _K = CMYKColor(0, 0, 0, 1); _PAPER = CMYKColor(0, 0, 0, 0)
+    bx0, by0, bx1, by1 = BAR
+    # EAN-13 nominal is 1.469 x 1.02 in; drawn at ~1.9 in wide incl. quiet zones (≈130 %), bars 0.85 in.
+    # The widget's shapes are emitted straight onto the canvas (renderPDF would add an RGB
+    # Times-Roman state — unembedded font + rg operators, both preflight failures).
+    _wd = Ean13BarcodeWidget(_ISBN, barWidth=1.9 * IN / 113.0, barHeight=0.85 * IN, humanReadable=1,
+                             fontName="Lora", fontSize=9)
+    _b = _wd.getBounds(); _bw, _bh = _b[2] - _b[0], _b[3] - _b[1]
+    _pad = 0.08 * IN
+    _px0 = bx1 - _bw - 2 * _pad - 0.05 * IN; _py0 = by0 + 0.05 * IN
+    c.setFillColor(_PAPER); c.rect(_px0, _py0, _bw + 2 * _pad, _bh + 2 * _pad + 14, stroke=0, fill=1)
+    _ox, _oy = _px0 + _pad - _b[0], _py0 + _pad - _b[1]
+    c.setFillColor(_K)
+    def _emit(node):
+        for s in getattr(node, "contents", []):
+            if isinstance(s, _Rect) and s.fillColor is not None:
+                c.rect(_ox + s.x, _oy + s.y, s.width, s.height, stroke=0, fill=1)
+            elif isinstance(s, _String):
+                c.setFont(s.fontName, s.fontSize)
+                {"start": c.drawString, "middle": c.drawCentredString, "end": c.drawRightString}[s.textAnchor](_ox + s.x, _oy + s.y, s.text)
+            else:
+                _emit(s)
+    _emit(_wd.draw())
+    c.setFont("Lora", 8)
+    c.drawString(_px0 + _pad, _py0 + _pad + _bh + 4, f"ISBN {cfg['isbn'][TARGET]}")
+
 # --concept-png <path>: clean front-panel PREVIEW image for review (never a PDF; the PDF
 # written alongside is deleted). Proof PDFs always carry the stamp.
 CONCEPT = sys.argv[sys.argv.index("--concept-png") + 1] if "--concept-png" in sys.argv else None
@@ -429,6 +465,9 @@ if CONCEPT:
 print(f"  {os.path.basename(OUT)} [{TARGET}{'' if RELEASE else ', PROOF'}] — {W/IN:.3f} x {H/IN:.3f} in   spine {SPINE/IN:.4f} in ({PAGES}pp)")
 if GRID:
     print(f"  grid v{G['grid_version']}: banner {SIG_HEX} text {BANNER_HEX} (contrast " + ", ".join(f"{h} {v:.2f}" for h, v in _bcs.items()) + f"); {GRID_REPORT}")
-    print(f"  barcode box kept clear ({TARGET}): {(BAR[2]-BAR[0])/IN:.2f} x {(BAR[3]-BAR[1])/IN:.2f} in, bottom-right of the back panel")
+    if OWN_BARCODE:
+        print(f"  EAN-13 {_ISBN} drawn in the {TARGET} barcode box ({(BAR[2]-BAR[0])/IN:.2f} x {(BAR[3]-BAR[1])/IN:.2f} in, bottom-right of the back panel; {_bw/IN:.2f} x {_bh/IN:.2f} in)")
+    else:
+        print(f"  barcode box kept clear ({TARGET}): {(BAR[2]-BAR[0])/IN:.2f} x {(BAR[3]-BAR[1])/IN:.2f} in, bottom-right of the back panel")
 else:
     print(f"  barcode band kept clear: back panel, bottom {BAR_BAND_H/IN:.2f} in")

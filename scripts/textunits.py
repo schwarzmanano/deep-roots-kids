@@ -49,6 +49,11 @@ def units(book):
     add("book.scripture_scope", "p1, back cover", "scripture-reference", cfg.get("scripture_scope"))
     for i, line in enumerate(cfg.get("copyright_page") or []):
         add(f"p2.copyright.{i+1}", "p2", "copyright-page", line)
+    # printer-specific copyright lines (he-didnt-walk-away 2026-10-18: Lulu's ISBN line) — every
+    # target's lines are registered, whichever edition is being built
+    for tgt, lines in sorted((cfg.get("copyright_page_by_target") or {}).items()):
+        for i, line in enumerate(lines or []):
+            add(f"p2.copyright.{tgt}.{i+1}", "p2", "copyright-page", line)
 
     for pg in plan["pages"]:
         n = pg["page"]

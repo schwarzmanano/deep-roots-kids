@@ -209,6 +209,8 @@ for pno in range(1, cfg["print"]["page_count"] + 1):
         body = []
         for line in cfg.get("copyright_page") or []:
             body += [line, ""]
+        for line in (cfg.get("copyright_page_by_target") or {}).get(TARGET) or []:   # e.g. Lulu's ISBN line
+            body += [line, ""]
         c.setFont("Lora", 9)
         for para in body:
             if not para: y -= 10; continue

@@ -9,8 +9,8 @@ subtitle: "The Promise of a Rescuer • A Deep Roots Kids Coloring Book"   # aut
 author: "Deep Roots"      # KDP/Lulu author field — identical to Books One to Three (live listings, ruling 2026-10-01). Not printed on the cover.
 publisher: "Deep Roots Publishing"   # editor ruling 2026-10-16 (F16): Book Four moves to the Deep Roots Publishing imprint (Books One to Three: Deep Roots Kids). Listing + KDP imprint field; the p2 copyright line is the author's
 isbn:                     # editor ruling 2026-10-18: the printers' FREE ISBNs for this book (own Deep Roots Publishing ISBNs start with the next project); never shared between printers
-  kdp: "free (KDP-assigned at upload — record it here once assigned)"
-  lulu: "free (Lulu-assigned if offered; Lulu Direct store sales need none)"
+  kdp: "9798163197446"        # KDP free ISBN, assigned 2026-10-18 (imprint "Independently published"); Amazon only
+  lulu: "978-1-291-47817-4"    # Lulu free ISBN, assigned 2026-10-18 (imprint Lulu.com) — Global Distribution switched ON by the editor 2026-10-18; printed on p2 + EAN-13 on the Lulu back cover (Lulu places no barcode on an uploaded cover)
 price_usd: 10.99          # editor ruling 2026-10-18 (as Book Three); EU stores set so the shopper pays 10.99 EUR incl. VAT
 cover_finish: matte       # editor ruling 2026-10-18
 series_line: "Deep Roots Kids · Creation to Glorification · Book Four"   # author-supplied 2026-10-17, verbatim
@@ -24,6 +24,9 @@ print_ai_note: false      # series default — authorship-policy §3. No AI note
 copyright_page:           # author-supplied 2026-10-17; holder changed to the ruled imprint at the editor's instruction ("correct everything", 2026-10-17)
   - "© 2026 Deep Roots Publishing. All rights reserved. First edition, 2026."
   - "Scripture quotations are from the World English Bible (WEB), which is in the public domain."
+copyright_page_by_target:  # printer-specific lines appended to p2 (layout.py --target); registered units p2.copyright.<target>.N
+  lulu:                    # Lulu Global Distribution requires the ISBN on the copyright page (wizard, 2026-10-18) — a fact, not prose
+    - "ISBN 978-1-291-47817-4"
 cover:                    # text slots EMPTY until the author supplies them
   front_art: cover/front-art-01-retouched.png   # concept "MENDED" (R3): colour phase 2026-10-17 from ref-mended-b-02 (construction confirmed by the editor); retouched by cover/retouch_extend.py
   layout: grid            # series cover grid (kids/_brand/cover-grid.md)

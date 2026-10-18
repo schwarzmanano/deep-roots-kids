@@ -84,9 +84,15 @@ for target in ("kdp", "lulu"):
     lum = int(np.frombuffer(pix.samples, np.uint8).min())
     spine_rule = "blank required" if PAGES < SPINE_TEXT_MIN[target] else "text permitted"
     spine_ok = not sp_chars or spine_rule == "text permitted"
-    bc_ok = not bc_chars and not bc_marks and lum > 200
+    import re as _re
+    _isbn = _re.sub(r"[^0-9]", "", str((cfg.get("isbn") or {}).get(target) or ""))
+    own_bc = (cfg.get("cover") or {}).get("layout") == "grid" and target == "lulu" and len(_isbn) == 13
+    if own_bc:   # Lulu Global Distribution: the EAN-13 is ours to place (cover.py) — bars + ISBN text expected
+        bc_ok = bool(bc_marks) and lum < 40 and _isbn in _re.sub(r"[^0-9]", "", "".join(ch["text"] for ch in bc_chars))
+    else:
+        bc_ok = not bc_chars and not bc_marks and lum > 200
     if not spine_ok: fails.append(f"{target} spine carries {len(sp_chars)} chars at {PAGES} pp")
-    if not bc_ok: fails.append(f"{target} barcode band: {len(bc_chars)} chars, {len(bc_marks)} marks, min lum {lum}")
+    if not bc_ok: fails.append(f"{target} barcode band: {len(bc_chars)} chars, {len(bc_marks)} marks, min lum {lum}" + (" (EAN-13 + ISBN text expected)" if own_bc else ""))
     rows.append((f"{target} cover", d.page_count, " / ".join(f"{w}×{h}" for w, h in sizes),
                  f"{nf} fonts, {'all embedded' if not unemb else 'MISSING ' + str(sorted(unemb))}",
                  f"{min(ppi):.0f}" if ppi else "none",
