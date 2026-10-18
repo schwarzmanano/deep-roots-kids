@@ -68,16 +68,6 @@ text_units:
   source: author's own words, supplied in chat 2026-10-17 (worksheet returned with MY TEXT STATUS confirmed;
     authorship stated by the editor in chat); inserted verbatim
   recorded: '2026-10-17'
-- id: p2.copyright.lulu.1
-  page: p2
-  kind: copyright-page
-  author: human
-  draft: false
-  sha: cc761afb4194
-  source: Lulu's free ISBN, assigned by Lulu 2026-10-18 and printed on p2 of the LULU edition only, as
-    Lulu Global Distribution requires (switched on by the editor in chat 2026-10-18, 'switching on
-    Global Distribution in lulu'); an identifier, not prose — same treatment as cover.website_line
-  recorded: '2026-10-18'
 - id: p3.text
   page: p3
   kind: page-text

@@ -4,6 +4,8 @@ Book Four, Deep Roots Kids · Creation to Glorification. Figures marked **CONFIR
 from the built release files on 2026-10-17 (`scripts/print_table.py`, both preflights,
 `lulu_verify`). Items marked **YOUR CALL** are decisions, not facts. Nothing here is printed in the book.
 
+> **Lulu ruling (2026-10-18, later the same day): PRIVATE-ACCESS Lulu Direct project, like Books One to Three.** Global Distribution and Lulu Bookstore switched OFF, the reserved free ISBN 978-1-291-47817-4 REMOVED from the project (Copyright step → Remove ISBN), and the Lulu files rebuilt WITHOUT the ISBN line and barcode (p2 back to the two author lines; barcode box clear) and re-uploaded; all Lulu checks PASS again. The wizard is now Start / Design / Review only (no Copyright, Details or Pricing step; no payee needed). The paragraph below records the Global Distribution detour for the file history.
+>
 > **Upload status (2026-10-18): KDP paperback WPN6Z5KYTJZ saved as a DRAFT** (all three steps complete, previewer approved, free ISBN **9798163197446**) — the editor presses *Publish Your Paperback Book* himself after the proof. **Lulu project q6799kp: Global Distribution switched ON by the editor (chat, 2026-10-18)** → Lulu free ISBN **978-1-291-47817-4** (imprint Lulu.com) assigned; Lulu places no barcode on an uploaded cover, so the LULU files were rebuilt the same day: `ISBN 978-1-291-47817-4` on p2 (unit `p2.copyright.lulu.1`, Lulu edition only) and an EAN-13 in the back-cover barcode box (`cover.py`). Both Lulu preflights, `print_table` and `lulu_verify` PASS; Lulu's wizard confirmed the cover spec 17.391 × 11.25 in, spine 0.141 in (matches). The KDP files are unchanged.
 >
 > **Release status (2026-10-18): RELEASE BUILDS FINAL** (limb corrections on p5, p7, p9, p15, p21; p3 re-rolled; all checks PASS). **Editor 2026-10-18: ready for proof orders and uploads — price $10.99, matte, free ISBNs, author Deep Roots.**
@@ -143,23 +145,20 @@ Checklist:
 | Interior file | `out/interior-lulu.pdf` — **8.75 × 11.25 in, 0.125 in bleed all sides, 36 pp, pure DeviceGray, no transparency — CONFIRMED** (Lulu paperback minimum 32: met) |
 | Cover file | `out/cover-lulu.pdf` — **17.391 × 11.25 in**, spine **0.1411 in** (36/444 + 0.06), Kindled Coral, no text; 0.5 in safety; CMYK; rasters 399–427 ppi — CONFIRMED |
 | Spine text | None — Lulu allows spine text only above 80 pages |
-| Barcode | **EAN-13 978-1-291-47817-4 drawn by `cover.py`** inside the 3.0 × 1.5 in box bottom-right of the back panel (0.5 in from the trim) on a paper-white panel, K only, ISBN text above — Lulu places no barcode on an uploaded cover (wizard, 2026-10-18). CONFIRMED by `preflight-cover.py` (bars present, ISBN text present) |
+| Barcode | 3.0 × 1.5 in box bottom-right of the back panel kept clear (CONFIRMED; no ISBN under the private-access ruling). `cover.py` draws an EAN-13 there automatically if book.yaml `isbn.lulu` is ever set to a 13-digit number (Lulu places no barcode on an uploaded cover) |
 | Cover finish | **Matte** (editor ruling 2026-10-18) |
-| ISBN | **Lulu free ISBN 978-1-291-47817-4**, imprint Lulu.com (assigned 2026-10-18 when the editor switched **Global Distribution** on; reserved 6 months until the book is published and a proof approved). Printed on p2 of the Lulu interior only. Never the KDP number |
-| Global Distribution | **ON** (editor, chat 2026-10-18): Lulu Bookstore + Lulu Direct + 40,000+ retailers; one-time 4.99 EUR distribution fee at checkout; the retail price must clear Lulu's distribution minimum (set at the Pricing step) |
+| ISBN | **None** — private-access Lulu Direct project (editor ruling 2026-10-18, as Books One to Three). The free ISBN 978-1-291-47817-4 Lulu assigned during the brief Global Distribution detour was removed from the project the same day; it was never published, so it was never bound to the book |
+| Global Distribution / Bookstore | **OFF** (editor ruling 2026-10-18): Lulu Direct only, private access |
 | Price | **10.99 EUR** on deeprootsdr.com via Lulu Direct (editor ruling 2026-10-18, as Book Three) |
 
 Checklist:
 - [x] Both Lulu files built with `--release`; preflight + Lulu-check emulation PASS (2026-10-17)
 - [x] Lulu's wizard (2026-10-18) requires 17.391 × 11.25 in, spine 0.141 in for 36 pp on 60# white — matches `out/cover-lulu.pdf`
 - [x] Interior `out/interior-lulu.pdf` (36 pp, US Letter detected) and cover `out/upload/cover-lulu.pdf` (q88, 8.4 MB) uploaded 2026-10-18; specs set: Standard B&W, 60# white uncoated, perfect bound, matte; print cost 3.95 EUR
-- [x] Copyright step: By (author) Deep Roots; All Rights Reserved, Deep Roots Publishing, 2026; subtitle entered (2026-10-18)
-- [x] Details step: description = the author's blurb; Lulu category Children's; BISAC Juvenile Nonfiction › Activity Books › Coloring (main), › Religious › Christian › General, › Religion › Bible Stories › Old Testament; 8 keywords; audience Children/Juvenile; not explicit (2026-10-18)
-- [x] Pricing step: Fixed List Price USD 10.99, EUR 10.99 (Lulu minimums under Global Distribution: 7.10 USD / 7.90 EUR). GBP / AUD / CAD left blank — **YOUR CALL**
-- [ ] **PAYEE (blocks Final Review / publish)** — the Lulu account has no payee (Books One to Three were private-access Lulu Direct projects and never needed one). Creating one needs your payment and tax details: *Pricing & Payees → Create a New Payee*. Not something the assistant enters.
-- [ ] Final Review → Publish (you); Global Distribution adds a one-time 4.99 EUR fee at checkout; the ISBN becomes permanent once a proof is approved
-- [ ] **Order one proof copy** (the project page: Add to Cart) and approve it
-- [ ] Lulu Direct: "Add A Product" on deeprootsdr.com (file under Books + Kids, tag Deep Roots Kids) — the project must be published first
+- [x] Private-access Lulu Direct project (2026-10-18): Bookstore + Global Distribution off, no ISBN; the Copyright / Details / Pricing steps (filled during the detour) no longer apply — Lulu Direct pricing lives in the deeprootsdr.com store, as Books One to Three
+- [ ] Review step → publish as private access (see the upload report for who did this)
+- [ ] **Order one proof copy** (project page: Add to Cart)
+- [ ] Lulu Direct: "Add A Product" on deeprootsdr.com at 10.99 EUR (file under Books + Kids, tag Deep Roots Kids)
 
 ## Curriculum bundle
 
