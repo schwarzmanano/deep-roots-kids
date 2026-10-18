@@ -153,9 +153,13 @@ Checklist:
 - [x] Both Lulu files built with `--release`; preflight + Lulu-check emulation PASS (2026-10-17)
 - [x] Lulu's wizard (2026-10-18) requires 17.391 × 11.25 in, spine 0.141 in for 36 pp on 60# white — matches `out/cover-lulu.pdf`
 - [x] Interior `out/interior-lulu.pdf` (36 pp, US Letter detected) and cover `out/upload/cover-lulu.pdf` (q88, 8.4 MB) uploaded 2026-10-18; specs set: Standard B&W, 60# white uncoated, perfect bound, matte; print cost 3.95 EUR
-- [ ] Author field "Deep Roots"; publisher Deep Roots Publishing
-- [ ] Lulu Direct: publish the project, then "Add A Product" on deeprootsdr.com (file under Books + Kids, tag Deep Roots Kids)
-- [ ] **Order one proof copy before publishing**
+- [x] Copyright step: By (author) Deep Roots; All Rights Reserved, Deep Roots Publishing, 2026; subtitle entered (2026-10-18)
+- [x] Details step: description = the author's blurb; Lulu category Children's; BISAC Juvenile Nonfiction › Activity Books › Coloring (main), › Religious › Christian › General, › Religion › Bible Stories › Old Testament; 8 keywords; audience Children/Juvenile; not explicit (2026-10-18)
+- [x] Pricing step: Fixed List Price USD 10.99, EUR 10.99 (Lulu minimums under Global Distribution: 7.10 USD / 7.90 EUR). GBP / AUD / CAD left blank — **YOUR CALL**
+- [ ] **PAYEE (blocks Final Review / publish)** — the Lulu account has no payee (Books One to Three were private-access Lulu Direct projects and never needed one). Creating one needs your payment and tax details: *Pricing & Payees → Create a New Payee*. Not something the assistant enters.
+- [ ] Final Review → Publish (you); Global Distribution adds a one-time 4.99 EUR fee at checkout; the ISBN becomes permanent once a proof is approved
+- [ ] **Order one proof copy** (the project page: Add to Cart) and approve it
+- [ ] Lulu Direct: "Add A Product" on deeprootsdr.com (file under Books + Kids, tag Deep Roots Kids) — the project must be published first
 
 ## Curriculum bundle
 
