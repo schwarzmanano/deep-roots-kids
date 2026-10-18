@@ -386,3 +386,26 @@ No AI-drafted placeholder may survive into a release build.
 The purpose of this workflow is not to make AI-generated writing look human.
 The purpose is to ensure that the published prose is actually written by the stated human author, while AI remains a transparent production and quality-assurance assistant.
 When uncertain, stop and flag the issue rather than making an authorship assumption.
+
+---
+
+## Amendment A1 — 2026-10-19, ruled by the editor (recorded by the assistant, not the editor's prose)
+
+Occasion: the Creation to Glorification curriculum (Volume 1), whose questions, prayers, activities and
+front matter were assembled from the editor's own material — his Dad Teaching Script, his lyrics, his music
+brief, and his own planning document for the book (BLUEPRINT.md) — and placed under his approval.
+
+The editor's ruling, in his words: "The questions, prayers, activities and front matter all came from my
+material. They do not pass as AI."
+
+Effect on this policy:
+1. Text assembled from the editor's own supplied material — scripts, lyrics, briefs, and planning documents
+   he authored — and placed with his section-by-section approval is the editor's work. Its provenance is
+   recorded as his material (with the source named), and it is NOT tagged `ai-drafted`.
+2. `ai-drafted` continues to mean prose with no source in the editor's material. Section 4's "critical
+   provenance rule" still applies to that case unchanged.
+3. The marketplace text-disclosure answer follows from the provenance so recorded (Section 7): a book whose
+   every text unit is the editor's material, Scripture, or a documented permitted source discloses no
+   AI-generated text. Image disclosure is unaffected.
+4. The provenance file must still name the source of every unit (which script, which lyric, which planning
+   document), so that "who supplied the words?" (Section 15) can always be answered.
